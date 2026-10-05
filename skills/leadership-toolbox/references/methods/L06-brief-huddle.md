@@ -1,6 +1,6 @@
 # L06 · Brief and huddle
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Establish or reset a shared plan.
 
@@ -38,3 +38,9 @@ Original everyday application informed by AHRQ TeamSTEPPS briefs/huddles. Health
 ## Fictional example
 
 A delivery date changes. Run a short reset on what moved, who is affected and which commitments need the decision owner.
+
+## Counterexample and route change
+
+A huddle is used to decide whether an unsafe system is safe; technical clearance remains with the qualified process.
+
+Related alternatives: [L15](L15-team-charter.md), [L14](L14-handoff.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

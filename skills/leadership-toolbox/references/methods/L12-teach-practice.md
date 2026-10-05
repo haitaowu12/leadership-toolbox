@@ -1,6 +1,6 @@
 # L12 · Teach–Practice–Check-back
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Develop a missing task skill.
 
@@ -38,3 +38,9 @@ Original editorial synthesis informed by CDC training evaluation. Reaction, lear
 ## Fictional example
 
 Someone knows the goal but cannot use a new routine. Demonstrate one safe part and observe practice before increasing responsibility.
+
+## Counterexample and route change
+
+A missed deadline with no observed attempt is called incompetence; first establish expectations, capacity and actual task evidence.
+
+Related alternatives: [L02](L02-grow.md), [L28](L28-development-plan.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

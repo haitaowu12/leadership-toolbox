@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "kind": "editorial_situation_dimensions",
+  "not_a_validated_instrument": true,
+  "record_statuses": [
+    "grounded",
+    "provisional",
+    "contested",
+    "unknown",
+    "not_applicable"
+  ],
+  "dimensions": [
+    {
+      "id": "time_runway",
+      "type": "duration",
+      "description": "Actual time before a useful or mandatory decision, plus time available for preparation, participation and follow-through. A deadline is a constraint, not proof of authority.",
+      "values": []
+    },
+    {
+      "id": "consequence",
+      "type": "ordinal",
+      "description": "Plausible downside for this bounded action if wrong. Use the most consequential credible affected group and explain the basis; do not average harms.",
+      "values": [
+        {
+          "id": "0",
+          "label": "Minor",
+          "anchor": "Small local inconvenience; no material obligation or protection affected."
+        },
+        {
+          "id": "1",
+          "label": "Meaningful local",
+          "anchor": "Rework, missed local commitment or limited cost to an identifiable group; ordinary recovery is feasible."
+        },
+        {
+          "id": "2",
+          "label": "Material",
+          "anchor": "Substantial resources, multiple teams, important external commitments or lasting relationship consequences; explicit owner review matters."
+        },
+        {
+          "id": "3",
+          "label": "Severe or protected",
+          "anchor": "Credible safety, rights, livelihood, major irreversible loss or regulated consequence; appropriate qualified process and protections govern."
+        }
+      ]
+    },
+    {
+      "id": "reversibility",
+      "type": "ordinal",
+      "description": "Ability to stop and restore the proposed change, including downstream and human consequences. A nominal rollback is not evidence that all harms can be undone.",
+      "values": [
+        {
+          "id": "0",
+          "label": "Irreversible",
+          "anchor": "A meaningful consequence cannot be restored within an acceptable boundary."
+        },
+        {
+          "id": "1",
+          "label": "Partial or costly",
+          "anchor": "Some consequences can be undone, but important residue, delay or cost remains."
+        },
+        {
+          "id": "2",
+          "label": "Recoverable",
+          "anchor": "A credible named recovery route can restore the relevant boundary with an accepted cost/time; verify it before a live test."
+        },
+        {
+          "id": "3",
+          "label": "Easy and verified",
+          "anchor": "A small bounded action can be stopped promptly and restoration has been checked for the relevant scope, without unacceptable residual harm."
+        }
+      ]
+    },
+    {
+      "id": "knowledge_state",
+      "type": "categorical",
+      "description": "How the response could become knowable. Different subproblems can have different states; this is not a mandatory Cynefin classification.",
+      "values": [
+        {
+          "id": "established",
+          "label": "Established response",
+          "anchor": "Relevant procedure or demonstrated know-how exists and applies to this task."
+        },
+        {
+          "id": "expert_analysis",
+          "label": "Analysis required",
+          "anchor": "A qualified examination can evaluate the options or determine missing technical facts."
+        },
+        {
+          "id": "emergent",
+          "label": "Learning through bounded action",
+          "anchor": "Interactions or adaptation make the response context-dependent, with a specific reason beyond missing information; only an authorised safe bounded test may answer it."
+        },
+        {
+          "id": "mixed",
+          "label": "Mixed",
+          "anchor": "Different parts require different knowledge approaches; separate them before selecting a method."
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "categorical",
+      "description": "What kind of disagreement or shared purpose is evidenced. Multiple causes may coexist; do not infer hidden motives.",
+      "values": [
+        {
+          "id": "shared",
+          "label": "Shared intended result",
+          "anchor": "Relevant people explicitly agree on the desired result; implementation can still differ."
+        },
+        {
+          "id": "unclear",
+          "label": "Outcome or criteria unclear",
+          "anchor": "No adequately specified or shared result/criterion has been established."
+        },
+        {
+          "id": "different_interests",
+          "label": "Competing legitimate interests",
+          "anchor": "Parties state different priorities, costs or needs despite understanding the facts."
+        },
+        {
+          "id": "disputed_facts",
+          "label": "Facts or causal account disputed",
+          "anchor": "People disagree about observations, assumptions or explanations."
+        },
+        {
+          "id": "mixed",
+          "label": "Mixed disagreement",
+          "anchor": "Both purpose/interests and accounts are disputed; separate them rather than assume a single cause."
+        },
+        {
+          "id": "conflicting_priorities",
+          "label": "Conflicting priorities",
+          "anchor": "A broad aim may be shared but competing sequencing, deadlines or resource claims are stated."
+        },
+        {
+          "id": "disputed_goal",
+          "label": "Goal disputed",
+          "anchor": "Relevant people do not agree that the intended result should be pursued."
+        }
+      ]
+    },
+    {
+      "id": "coordination",
+      "type": "categorical",
+      "description": "Where dependencies relevant to the action lie. Record actual owners and dependencies alongside the category; size does not measure difficulty.",
+      "values": [
+        {
+          "id": "individual",
+          "label": "Individual",
+          "anchor": "The immediate preparation/action has no required joint decision."
+        },
+        {
+          "id": "pair",
+          "label": "Two-party",
+          "anchor": "Two people must coordinate or reach a bounded understanding."
+        },
+        {
+          "id": "team",
+          "label": "Within one team",
+          "anchor": "Several people work within a clear local decision boundary."
+        },
+        {
+          "id": "cross_boundary",
+          "label": "Across owners",
+          "anchor": "Separate teams, functions or parties control required inputs or decisions."
+        },
+        {
+          "id": "network",
+          "label": "Multiple interacting boundaries",
+          "anchor": "Several dependencies/decision centres must be mapped; no single local owner controls the full result."
+        }
+      ]
+    },
+    {
+      "id": "support_gaps",
+      "type": "multi_select",
+      "description": "Observed missing support for the particular task. Select only evidenced gaps; 'none' requires an affirmative account and cannot coexist with another selection.",
+      "values": [
+        {
+          "id": "none",
+          "label": "No demonstrated gap",
+          "anchor": "Relevant participants report and evidence adequate support for the bounded task."
+        },
+        {
+          "id": "skill",
+          "label": "Task skill or knowledge",
+          "anchor": "A relevant observed attempt or explained experience indicates instruction/practice is needed."
+        },
+        {
+          "id": "capacity",
+          "label": "Available effort",
+          "anchor": "Work demand exceeds stated time/energy allocation; do not infer laziness."
+        },
+        {
+          "id": "role_clarity",
+          "label": "Expectations or authority boundary",
+          "anchor": "The result, quality threshold, ownership or retained decisions are not understood."
+        },
+        {
+          "id": "resources",
+          "label": "Tools, access to expertise or materials",
+          "anchor": "Required practical support is missing despite skill and willingness."
+        },
+        {
+          "id": "access",
+          "label": "Participation access",
+          "anchor": "Format, schedule, language or access arrangements impede participation; ask preferences without requiring diagnosis."
+        },
+        {
+          "id": "information",
+          "label": "Relevant information",
+          "anchor": "Necessary task information is unavailable or unreliable."
+        },
+        {
+          "id": "authority",
+          "label": "Authority boundary",
+          "anchor": "The proposed decision is outside the user's known remit or the owner is unresolved; treat as a gate, never a compensable fit preference."
+        },
+        {
+          "id": "priority_clarity",
+          "label": "Priority clarity",
+          "anchor": "Conflicting assignments lack an authorised ordering or tradeoff."
+        }
+      ]
+    },
+    {
+      "id": "voice_conditions",
+      "type": "categorical",
+      "description": "Whether the proposed interaction allows meaningful participation and dissent. This is a contextual account, never a psychological-safety scale or proof of confidentiality.",
+      "values": [
+        {
+          "id": "no_specific_barrier_reported",
+          "label": "No specific barrier reported",
+          "anchor": "Current accounts identify no particular obstacle to this format. This is not proof of safety or an independent assessment; the manager's silence is not employee agreement."
+        },
+        {
+          "id": "constrained",
+          "label": "Power or access constraints",
+          "anchor": "Hierarchy, dependency, format or pressure could inhibit contribution; adapt or use a safer channel."
+        },
+        {
+          "id": "unsafe",
+          "label": "Credible protection concern",
+          "anchor": "Reported coercion, retaliation or serious harm makes the proposed joint interaction inappropriate pending a suitable protection/independent process."
+        }
+      ]
+    }
+  ]
+}

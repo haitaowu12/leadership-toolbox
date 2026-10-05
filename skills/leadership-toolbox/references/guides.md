@@ -1,4 +1,4 @@
-# Six everyday situations
+# Six everyday situations · expanded routes
 
 These guides are original fictional leadership applications. They are not a course transcript or an additional leadership theory. Use only the section relevant to the request, then read the selected full method.
 
@@ -27,3 +27,14 @@ Pause a heated reply long enough to distinguish the observed issue from the inte
 For a completed episode, [L07](methods/L07-debrief.md) turns differing observations into one owned change. Distinguish operational learning from compelled emotional recounting after trauma. For a process hypothesis, [L08](methods/L08-pdsa.md) records a prediction and bounded test. Compare outcomes with burden, quality and downstream effects. “No change,” refusal, mixed results, abandoned actions and no intervention are legitimate records. Repeated local observations can inform the next choice but do not prove a universal effect.
 
 [Workflow](workflow.md) · [Catalog](catalog.md) · [Source register](sources.md)
+
+## Additional routes by the output needed
+
+- **Direction:** [L26 framing](methods/L26-problem-framing.md) clarifies the problem; [L16 goals](methods/L16-goal-design.md) sets performance/learning expectations; [L29 alternatives](methods/L29-decision-analysis.md) prepares a decision.
+- **Development:** [L28 development plans](methods/L28-development-plan.md) coordinate supported experiences; [L23 if–then plans](methods/L23-if-then.md) help a chosen feasible action happen at a recurring cue; [L27 peer consultation](methods/L27-troika.md) adds voluntary perspectives.
+- **Communication:** [L30 listening](methods/L30-structured-listening.md) obtains and corrects an account; [L15 agreements](methods/L15-team-charter.md) establishes recurring norms; [L32 repair](methods/L32-accountable-repair.md) addresses one's established mistake without demanding forgiveness.
+- **Change:** [L17 stakeholders](methods/L17-stakeholders.md) finds missing affected voices; [L22 forces](methods/L22-force-field.md) examines present enablers/barriers; [L31 support](methods/L31-change-support.md) turns impacts into owned support.
+- **Learning:** [L21 process maps](methods/L21-process-map.md) describe actual work, [L20 fishbone](methods/L20-fishbone.md) organises possible causes, [L19 drivers](methods/L19-driver-diagram.md) links hypotheses to an aim, [L24 assumptions](methods/L24-assumptions.md) selects learning priorities and [L25 positive deviance](methods/L25-positive-deviance.md) examines comparable better outcomes.
+- **Group choice:** [L18 nominal group](methods/L18-nominal-group.md) makes preference ranking explicit; it cannot replace evidence, authority or protection requirements.
+
+Use the [comparison rules](matching.md) and [sequences](combinations.md), rather than prescribing every tool in a route.

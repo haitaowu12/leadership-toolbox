@@ -1,16 +1,16 @@
-# Leadership Toolbox docs · 0.1.0
+# Leadership Toolbox docs · 0.2.0
 
-This repository is the initial companion wiki. Markdown docs and skill resources are versioned together so an installed method can be traced to its release.
+The companion library and installable skill are versioned together. Use the version recorded in a practice entry when reviewing older decisions.
 
-| Need | Read |
-|---|---|
-| Start with a situation | [Skill entrypoint](../skills/leadership-toolbox/SKILL.md) and [workflow](../skills/leadership-toolbox/references/workflow.md) |
-| Look up a method | [Catalog](../skills/leadership-toolbox/references/catalog.md) |
-| Read practical scenarios | [Situation guides](../skills/leadership-toolbox/references/guides.md) and [author examples](../skills/leadership-toolbox/references/examples.md) |
-| Install or update | [Installation](installation.md) |
-| Choose observations and understand evidence | [Evidence and measurement](evidence-and-measurement.md) |
-| Understand origin and reuse | [Source register](../skills/leadership-toolbox/references/sources.md) and [notices](../THIRD_PARTY_NOTICES.md) |
-| Keep optional private history | [Personal data](personal-data.md) |
-| Assess verification limits | [Validation](validation.md) |
+- [Skill entrypoint](../skills/leadership-toolbox/SKILL.md): start here
+- [32-method catalog](../skills/leadership-toolbox/references/catalog.md): choose the immediate job
+- [Grill-me interview](../skills/leadership-toolbox/references/interview.md): adaptive questions, challenge and correction
+- [Situation dimensions](../skills/leadership-toolbox/references/dimensions.json) and [matching](../skills/leadership-toolbox/references/matching.md): profiles and explainable comparisons
+- [Guides](../skills/leadership-toolbox/references/guides.md), [sequences](../skills/leadership-toolbox/references/combinations.md) and [fictional examples](../skills/leadership-toolbox/references/examples.md)
+- [Installation](installation.md): reviewed source, update and restore
+- [Evidence and metrics](evidence-and-measurement.md): what the descriptors and observations mean
+- [Source register](../skills/leadership-toolbox/references/sources.md) and [reuse notices](../THIRD_PARTY_NOTICES.md)
+- [Private context](personal-data.md): optional, separate and explicit
+- [Validation](validation.md): executed checks and untested boundaries
 
-Use the matching version of these docs when reviewing an older practice record. This is a leadership aid for everyday work; it does not replace specialist incident, employment, legal or clinical processes.
+This is everyday leadership support. It does not replace qualified incident, employment, legal, clinical or other specialist processes.

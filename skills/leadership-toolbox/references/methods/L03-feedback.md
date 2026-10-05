@@ -1,6 +1,6 @@
 # L03 · Specific feedback with intent inquiry
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Discuss observed behaviour and its effect.
 
@@ -39,3 +39,9 @@ Informed by CCL’s SBI/SBII public explanation. A useful structure is not evide
 ## Fictional example
 
 A meeting ended without the agreed owner. Describe that meeting and its consequence, then ask how the other person understood the decision.
+
+## Counterexample and route change
+
+An unverified rumor becomes a public accusation; establish appropriate facts and process rather than improvising feedback.
+
+Related alternatives: [L11](L11-perspective.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

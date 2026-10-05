@@ -1,6 +1,6 @@
 # L14 · Closed-loop handoff
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Transfer live work with checked receipt.
 
@@ -38,3 +38,9 @@ Original everyday-leadership rendition informed by AHRQ handoff guidance. Clinic
 ## Fictional example
 
 A recurring support task moves to another colleague. Confirm the open issue, next action and escalation contact before treating the transfer as complete.
+
+## Counterexample and route change
+
+A sent message is treated as acceptance while the recipient is off duty; current ownership remains unresolved.
+
+Related alternatives: [L06](L06-brief-huddle.md), [L21](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

@@ -1,6 +1,6 @@
 # L13 · Premortem
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Surface failure risks before commitment.
 
@@ -39,3 +39,9 @@ Original summary informed by Gary Klein’s public premortem description. It is 
 ## Fictional example
 
 Before changing a recurring service, invite possible failure mechanisms and decide which need a small test or safeguard.
+
+## Counterexample and route change
+
+A premortem produces a risk list but nobody can change the plan; obtain an authorised disposition rather than claim assurance.
+
+Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

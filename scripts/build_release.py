@@ -6,7 +6,7 @@ from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 
 def paths():
     return [line.strip() for line in (ROOT / "RELEASE_FILES.txt").read_text().splitlines() if line.strip() and not line.startswith("#")]
