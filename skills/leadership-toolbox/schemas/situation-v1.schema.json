@@ -34,7 +34,9 @@
             "enum": [
               "met",
               "unmet",
-              "unknown"
+              "unknown",
+              "contested",
+              "not_applicable"
             ]
           },
           "basis": {
@@ -114,7 +116,8 @@
                       ]
                     }
                   },
-                  "additionalProperties": false
+                  "additionalProperties": false,
+                  "minProperties": 1
                 }
               ]
             },
@@ -128,10 +131,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -166,6 +171,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -209,10 +238,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -247,6 +278,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -290,10 +345,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -328,6 +385,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -371,10 +452,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -409,6 +492,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -455,10 +562,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -493,6 +602,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -537,10 +670,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -575,6 +710,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -620,7 +779,19 @@
                       "authority",
                       "priority_clarity"
                     ]
-                  }
+                  },
+                  "allOf": [
+                    {
+                      "if": {
+                        "contains": {
+                          "const": "none"
+                        }
+                      },
+                      "then": {
+                        "maxItems": 1
+                      }
+                    }
+                  ]
                 }
               ]
             },
@@ -634,10 +805,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -672,6 +845,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }
@@ -714,10 +911,12 @@
                 ],
                 "properties": {
                   "account": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "evidence": {
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                   },
                   "source": {
                     "type": "string"
@@ -752,6 +951,30 @@
                 "properties": {
                   "value": {
                     "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "grounded",
+                      "provisional"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "not": {
+                      "type": "null"
+                    }
+                  },
+                  "basis": {
+                    "minItems": 1
                   }
                 }
               }

@@ -1,6 +1,6 @@
 # Public source register · reviewed 2026-10-05
 
-These links support method origins or bounded claims. Source types are descriptive, may coexist and are not an ordered evidence ladder. The everyday renditions are editorial applications and have not been field-validated. Public access does not grant redistribution rights. Except L05, cards use original explanatory language, questions and fictional examples; no provider graphics, question banks or assessment instruments are included.
+These links support method origins or bounded claims. Source types are descriptive, may coexist and are not an ordered evidence ladder. The everyday renditions are editorial applications and have not been field-validated. Public access does not grant redistribution rights. Except the marked L05 and L27 procedural adaptations, cards use original explanatory language, questions and fictional examples; no provider graphics, question banks or assessment instruments are included.
 
 | ID | Public source and provenance | What it supports / important limit | Reuse boundary |
 |---|---|---|---|
@@ -62,3 +62,7 @@ The following primary sources were publicly reviewed on 2026-10-05. Full cards s
 | L32 | [Accountable repair after one's own mistake](https://ncmr.lps.library.cmu.edu/article/id/264/) | Research-informed; study context and moderators limit transfer. Original explanation only; no article or instrument reproduced. |
 
 Secondary sources and supporting context appear on their cards, including AHRQ for charters, CCL for supported development assignments, Strategyzer for test preparation and PON for negotiation/listening. Diagram sources express theories, possible causes or maps; they do not make those representations causal findings. Review the specific current source and any asset-specific licence before reusing new material.
+
+## Current provider notice
+
+Performance Consultants' current GROW page and terms assert licensing, reuse and AI-processing restrictions for its original model/materials. This toolbox uses independently authored commentary and does not reproduce its graphics, instruments or templates. This source review records the provider's notice; it does not determine enforceability or provide legal clearance. The [terms](https://www.performanceconsultants.com/terms-and-conditions/) and GROW source should be checked again before reproducing or acquiring provider materials. General source citation is not a claim of unrestricted rights.

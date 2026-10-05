@@ -44,3 +44,7 @@ An experienced colleague wants to prepare for a new meeting. Explore options and
 A manager already decided the answer and uses questions to extract apparent consent; state the directive and its real boundaries instead.
 
 Related alternatives: [L12](L12-teach-practice.md), [L09](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Current provider notice
+
+Performance Consultants' current GROW page and terms assert licensing, reuse and AI-processing restrictions for its original model/materials. This toolbox uses independently authored commentary and does not reproduce its graphics, instruments or templates. This source review records the provider's notice; it does not determine enforceability or provide legal clearance. See the [provider terms](https://www.performanceconsultants.com/terms-and-conditions/) before any proposed source-material reuse.

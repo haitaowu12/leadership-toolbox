@@ -14,7 +14,7 @@ Unknown, not applicable and conflicting evidence are different. Every important 
 
 ## Step 1: Gate the proposed action
 
-For each candidate, mark requirements **met**, **unmet** or **unknown** using the actual proposed action. Preparing a decision request may be authorised when committing the organisation is not. A failed gate cannot be offset by a high fit elsewhere.
+For each candidate, mark requirements **met**, **unmet** or **unknown** using the actual proposed action. Preparing a decision request may be authorised when committing the organisation is not. A failed gate cannot be offset by a high fit elsewhere. A contested gating fact remains unresolved; record both accounts. Use not applicable only with a reason, not to bypass a missing prerequisite.
 
 - **Eligible:** mandatory requirements are supported for this bounded action.
 - **Conditional:** a consequential requirement is unknown or a manageable prerequisite remains. Name what must be established and by whom before action.
@@ -67,3 +67,5 @@ Use [situation template](../templates/situation-profile.md) only when a reusable
 ## Evaluate the matcher, not people
 
 Test it with paired situations that change one fact: capacity, authority, recovery, willingness or an excluded risk. Check whether the recommendation appropriately changes, whether unknowns stay unknown, and how much interviewing was required. Compare against a simpler goal-and-constraints baseline. Neither agreement with an evaluator nor faster replies establish real-world effectiveness.
+
+For machine interchange, ordinal category IDs are strings (for example, "2"), while actual minute values are numbers. Interpret the documented anchor, not the storage type. The two ordinal dimensions have their own direction: higher consequence means more severe downside; higher reversibility means easier recovery. They are never added or treated as one shared intensity scale.

@@ -4,7 +4,15 @@
 
 This version expands the catalog to 32 methods, adds adaptive quick/deep interviewing, eight mixed-type context dimensions, explicit matching profiles and metric contracts, and removes the fixed 14-method implementation limit. It also moves installer staging/backups outside the immediate discovery root and adds regression coverage.
 
-At the time of this draft commit, the new 31-test suite and structural checks are authored but not yet executed for this revision. A pinned, read-only GitHub Actions workflow runs validation, tests and archive construction; an existing workflow file is not a passing run. Exact executed results will be recorded after the remote commit is checked. No local computer or assistant-host activation is claimed for this expansion.
+At [9f49b19](https://github.com/haitaowu12/leadership-toolbox/commit/9f49b19f7cf2b4b0bda7505e43e7b52a5a3d867d), GitHub Actions passed structural validation for 81 reviewed files and all 32 methods, all 31 standard-library tests, and construction of the 0.2.0 archive. The [push run](https://github.com/haitaowu12/leadership-toolbox/actions/runs/37352208205) tests that head directly; the [PR run](https://github.com/haitaowu12/leadership-toolbox/actions/runs/37352208427) tests its synthetic merge with the base. Inspected PR logs show Ubuntu 24.04.5, CPython 3.12.14 and read-only contents/metadata permissions. Official actions are pinned and credentials are not persisted; no release/deploy step runs.
+
+These checks cover package/data behavior, dynamic catalog/metric contracts, paths, allowlists, archive integrity and installer failure/restore behavior. They do not execute a conversational model or fully validate every JSON Schema instance. Later source changes require fresh checks; consult the current draft PR's exact-head results rather than treating this recorded run as a pass for arbitrary future revisions. No user-computer action or assistant-host activation is claimed for this expansion.
+
+## Fresh conversational checks
+
+A [three-turn correction dialogue](evaluations/forward-dialogue-2026-10-05.md) was actually executed against frozen 9f49b19 in a fresh model context, with full inputs/outputs and read provenance retained. It changed the next move after authority, prior-warning and voice facts were corrected and respected a request to stop questioning. The report also records leading-question and verbosity caveats. This is a narrow model execution, not evidence of human effectiveness or a calibrated matching score.
+
+A separate [six-case expansion review](evaluations/forward-expansion-2026-10-05.md) retains seven further generated responses against the same frozen revision, its read manifest and self-assessment. It found no unsafe recommendation in that limited sample, while identifying schema consistency gaps, stale PR metadata, a source-register omission and overly long quick answers. The follow-up revision tightens the optional schema, adds structural regression guards/label consistency checks, updates the notices/PR summary and instructs quick mode to compress its answer. These schema checks inspect declared constraints; they are not a complete JSON Schema validation engine. A changed instruction is not itself proof of improved behavior.
 
 ## Historical 0.1.0 evidence
 
@@ -14,7 +22,7 @@ The [eight-case report](evaluations/forward-2026-10-05.md) and [seven-case exten
 
 ## Sources and rights
 
-Public primary-source review supports method descriptions, source types and reuse cautions. The source register identifies bounded claims and editorial transfers. External URLs can change; structural local-link checks do not certify every current page, asset or licence. No provider assessment instrument, article, image or proprietary template is bundled. Source review is not comprehensive legal clearance.
+The [original-source audit](source-audit-2026-10-05.md) attempted all 34 unique URLs in the original source/framework register: 28 directly readable, 6 reader obstacles with official/institutional corroboration, and no confirmed dead links. It is explicit about abstract/index-only checks and asset/rights limits. The expansion sources were reviewed separately when the new cards were prepared; this audit does not claim an exhaustive check of every URL anywhere in the repository. Public primary-source review supports method descriptions, source types and reuse cautions. The source register identifies bounded claims and editorial transfers. External URLs can change; structural local-link checks do not certify every current page, asset or licence. No provider assessment instrument, article, image or proprietary template is bundled. Source review is not comprehensive legal clearance.
 
 ## Reproduce
 
