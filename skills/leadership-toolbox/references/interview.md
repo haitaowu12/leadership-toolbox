@@ -6,7 +6,7 @@ Use this only for a situation. Answer direct method questions directly. “Grill
 
 If the user already says “grill me”, start deep mode without another permission ritual: “I'll pressure-test the situation and our assumptions. You can skip anything or ask for a recommendation at any point.” Otherwise offer quick help or a deeper exploration when that choice matters. If they need immediate help, make the smallest safe useful move first.
 
-- **Quick:** establish the desired result and whichever one or two facts could change the next action. Reuse facts already provided. Give a conditional recommendation if important information remains unknown.
+- **Quick:** establish the desired result and whichever one or two facts could change the next action. Reuse facts already provided. Give a conditional recommendation if important information remains unknown. Keep the first answer to the primary action, decisive condition and checkpoint; do not unload the whole profile, interview menu or card. Respect the user's requested length.
 - **Deep:** work through short rounds of one to three related questions, reflecting what changed between rounds. Explore more only while answers could change the route or make action safer and more feasible.
 - **Pause/stop:** respect “enough”, a pass, uncertainty, distress, or a request to act on current information. Missing data stays missing. Immediate protection or an established specialist process takes precedence over either mode.
 

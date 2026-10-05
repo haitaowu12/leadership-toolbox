@@ -403,5 +403,45 @@ class PackageTests(unittest.TestCase):
             installer.install(dest, backup_dir=linked)
         self.assertFalse(dest.exists())
 
+    def test_situation_schema_retains_unknown_and_evidence_guards(self):
+        schema = json.loads((PACKAGE / "schemas/situation-v1.schema.json").read_text(encoding="utf-8"))
+        dimensions = schema["properties"]["dimensions"]["properties"]
+        for name, entry in dimensions.items():
+            with self.subTest(dimension=name):
+                guards = entry["allOf"]
+                unknown = next(guard for guard in guards if guard["if"]["properties"]["status"]["enum"] == ["unknown", "not_applicable"])
+                grounded = next(guard for guard in guards if guard["if"]["properties"]["status"]["enum"] == ["grounded", "provisional"])
+                self.assertEqual(unknown["then"]["properties"]["value"], {"type": "null"})
+                self.assertEqual(grounded["then"]["properties"]["value"], {"not": {"type": "null"}})
+                self.assertEqual(grounded["then"]["properties"]["basis"]["minItems"], 1)
+        support = dimensions["support_gaps"]["properties"]["value"]["anyOf"][1]
+        self.assertIn({"if": {"contains": {"const": "none"}}, "then": {"maxItems": 1}}, support["allOf"])
+        self.assertEqual(dimensions["time_runway"]["properties"]["value"]["anyOf"][1]["minProperties"], 1)
+
+    def test_situation_schema_labels_match_dimension_definitions(self):
+        schema = json.loads((PACKAGE / "schemas/situation-v1.schema.json").read_text(encoding="utf-8"))
+        definitions = json.loads((PACKAGE / "references/dimensions.json").read_text(encoding="utf-8"))["dimensions"]
+        properties = schema["properties"]["dimensions"]["properties"]
+        self.assertEqual(set(properties), {item["id"] for item in definitions})
+        for definition in definitions:
+            if definition["id"] == "time_runway":
+                continue
+            value = properties[definition["id"]]["properties"]["value"]
+            declared = value["anyOf"][1]["items"]["enum"] if definition["type"] == "multi_select" else [item for item in value["enum"] if item is not None]
+            self.assertEqual(declared, [item["id"] for item in definition["values"]])
+
+    def test_metric_contract_rejects_missing_or_empty_observations(self):
+        for change in ("missing", "empty", "unknown_key"):
+            with self.subTest(change=change):
+                catalog, dimensions, files = self.catalog_fixture()
+                contract = catalog["methods"][0]["profile"]["metric_contract"]
+                if change == "missing":
+                    del contract["balancing_indicator"]
+                elif change == "empty":
+                    contract["review_timing"] = ""
+                else:
+                    contract["success_probability"] = "invented"
+                self.assertTrue(validator.validate_catalog(catalog, dimensions, files))
+
 if __name__ == "__main__":
     unittest.main()

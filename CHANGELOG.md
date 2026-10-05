@@ -6,7 +6,8 @@
 - Add adaptive quick/deep “grill me” interviewing, user corrections, eight mixed-type dimensions and transparent prerequisite-first matching; no summed global scores or success probabilities.
 - Add structured profiles for every method, sensemaking/action distinctions, sequences and a private optional situation schema.
 - Strengthen no-agreement negotiation, supported development assignments and proxy cautions.
-- Replace source-specific privacy markers with generic checks, remove hardcoded catalog counts, move install staging/backups outside discovery and add 17 regression tests.
+- Replace source-specific privacy markers with generic checks, remove hardcoded catalog counts, move install staging/backups outside discovery and add 20 regression tests.
+- Record fresh dialogue and six-case model reviews, improve quick-mode brevity and schema consistency, and audit the original 34 source URLs with access limits.
 - Add minimal pinned read-only GitHub Actions; update source installation and historical evaluation provenance. Consult validation docs for actual execution status.
 
 ## 0.1.0 — 2026-10-05 (draft)

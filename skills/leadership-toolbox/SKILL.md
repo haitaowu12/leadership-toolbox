@@ -27,7 +27,7 @@ Use no intervention when no material problem warrants one. Use a sequence only w
 
 ## Make it usable
 
-For a situation, give a concise correction-friendly summary, consequential unknowns, a next action and reason, useful opening/questions, and an output/owner. Add one later outcome, one burden/harm guardrail, an agreed or proposed review trigger and a stop/switch condition. Use [measurement](references/measurement.md); distinguish output from outcome and prediction from observation. Never invent agreement, observed improvement or a scheduled review.
+For a situation, give a concise correction-friendly summary, consequential unknowns, a next action and reason, useful opening/questions, and an output/owner. In quick mode, compress this to the primary action, the decisive condition and a checkpoint; do not print a full profile or comparison table merely because one was considered. Respect any requested length. Add one later outcome, one burden/harm guardrail, an agreed or proposed review trigger and a stop/switch condition. Use [measurement](references/measurement.md); distinguish output from outcome and prediction from observation. Never invent agreement, observed improvement or a scheduled review.
 
 Cite the selected method's source and explain its evidence boundary. For specialist deferral, state the scope boundary without forcing a tangential citation. Use the appropriate process/qualified owner; do not adjudicate it with leadership methods.
 
