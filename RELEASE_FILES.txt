@@ -9,8 +9,10 @@ README.md
 RELEASE_FILES.txt
 THIRD_PARTY_NOTICES.md
 docs/evaluations/challenge-coverage.md
+docs/evaluations/completion-comparison-2026-10-05.md
 docs/evaluations/completion-inputs.json
 docs/evaluations/completion-protocol.json
+docs/evaluations/completion-results.json
 docs/evaluations/forward-2026-10-05.md
 docs/evaluations/forward-dialogue-2026-10-05.md
 docs/evaluations/forward-expansion-2026-10-05.md
