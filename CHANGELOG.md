@@ -3,7 +3,7 @@
 ## 0.2.0 · completion · 2026-10-05
 
 - Add a cloud-upload single-skill ZIP, deterministic archive metadata, checksums, downloadable CI artifacts and exact non-Codex use instructions.
-- Reject incomplete installations, unsafe catalog paths and environment files; exercise clean archive CLI install/update/restore on Python 3.10 and 3.12.
+- Reject incomplete incoming packages, unsafe paths and environment files, and repair damaged destinations while retaining their bytes; exercise clean archive CLI install/update/restore on Python 3.10 and 3.12.
 - Close four priority full-text access gaps while retaining E24's article-level limit and all causal/transfer boundaries.
 - Turn knowledge into discriminating observations; remove presumed blockages and specify opportunity-aware, proportionate observation.
 - Add a predeclared matched no-skill comparison with concise/probing controls; see validation for executed results and limitations.

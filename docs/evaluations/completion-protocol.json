@@ -60,5 +60,6 @@
     "reviewers independent of generation and first see shuffled unlabeled outputs, but may infer treatment from style",
     "artificial prompts and rubric are author-designed; no causal claim about workplace benefit",
     "first-turn probing is assessed as questions/safety, not as a completed action plan"
-  ]
+  ],
+  "generation_material": "Fresh scored generators receive only completion-inputs.json (prompts and mode controls), not criteria or prior outputs. An earlier rubric-exposed pilot was discarded before scoring."
 }

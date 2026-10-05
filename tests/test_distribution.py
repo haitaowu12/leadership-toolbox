@@ -247,6 +247,58 @@ class DistributionTests(unittest.TestCase):
             installer.check_tree(source)
 
 
+    def test_missing_runtime_dependencies_preserve_existing_install(self):
+        source = self.copy_source()
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        previous = snapshot(dest)
+        for name in ("dimensions.json", "matching.md", "interview.md",
+                     "measurement.md", "evidence-map.md", "sources.json"):
+            with self.subTest(name=name):
+                path = source / "references" / name
+                raw = path.read_bytes()
+                path.unlink()
+                try:
+                    with self.assertRaises(ValueError):
+                        installer.install(dest, source)
+                    self.assertEqual(snapshot(dest), previous)
+                finally:
+                    path.write_bytes(raw)
+
+    def test_missing_or_escaping_markdown_dependency_is_rejected(self):
+        source = self.copy_source()
+        skill = source / "SKILL.md"
+        original = skill.read_text(encoding="utf-8")
+        (self.base / "outside.md").write_text("fixture", encoding="utf-8")
+        for target in ("references/missing.md", "../outside.md"):
+            with self.subTest(target=target):
+                skill.write_text(original + "\n[Fixture](" + target + ")\n", encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    installer.check_tree(source)
+        skill.write_text(original, encoding="utf-8")
+        installer.check_tree(source)
+
+    def test_damaged_destination_can_be_reinstalled_and_restored(self):
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        original = snapshot(dest)
+        complete_backup = installer.install(dest)
+        (dest / "SKILL.md").unlink()
+        (dest / "references/methods/L01-delegation.md").unlink()
+        damaged = snapshot(dest)
+        damaged_backup = installer.install(dest)
+        self.assertEqual(snapshot(dest), original)
+        self.assertEqual(snapshot(damaged_backup), damaged)
+        with self.assertRaises(ValueError):
+            installer.install(dest, damaged_backup)
+        self.assertEqual(snapshot(dest), original)
+        (dest / "references/measurement.md").unlink()
+        damaged_again = snapshot(dest)
+        preserved = installer.install(dest, complete_backup)
+        self.assertEqual(snapshot(dest), original)
+        self.assertEqual(snapshot(preserved), damaged_again)
+
+
 if __name__ == "__main__":
     unittest.main()
 
