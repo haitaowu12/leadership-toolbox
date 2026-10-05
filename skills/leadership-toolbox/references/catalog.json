@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "package_version": "0.1.0",
+  "methods": [
+    {
+      "id": "L01",
+      "version": "0.1.0",
+      "title": "Outcome delegation agreement",
+      "job": "Transfer a bounded responsibility",
+      "file": "references/methods/L01-delegation.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L02",
+      "version": "0.1.0",
+      "title": "GROW coaching",
+      "job": "Help someone choose their own next step",
+      "file": "references/methods/L02-grow.md",
+      "source": "https://www.performanceconsultants.com/resources/the-grow-model/",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L03",
+      "version": "0.1.0",
+      "title": "Specific feedback with intent inquiry",
+      "job": "Discuss observed behaviour and its effect",
+      "file": "references/methods/L03-feedback.md",
+      "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L04",
+      "version": "0.1.0",
+      "title": "Interest-based negotiation",
+      "job": "Resolve incompatible demands",
+      "file": "references/methods/L04-negotiation.md",
+      "source": "https://www.pon.harvard.edu/tag/principled-negotiation/",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L05",
+      "version": "0.1.0",
+      "title": "1-2-4-All",
+      "job": "Hear ideas beyond dominant voices",
+      "file": "references/methods/L05-participation.md",
+      "source": "https://www.liberatingstructures.com/1-2-4-all",
+      "license": "CC-BY-SA-4.0",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L06",
+      "version": "0.1.0",
+      "title": "Brief and huddle",
+      "job": "Establish or reset a shared plan",
+      "file": "references/methods/L06-brief-huddle.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L07",
+      "version": "0.1.0",
+      "title": "Structured debrief",
+      "job": "Learn from a completed episode",
+      "file": "references/methods/L07-debrief.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L08",
+      "version": "0.1.0",
+      "title": "PDSA bounded test",
+      "job": "Test an uncertain process change",
+      "file": "references/methods/L08-pdsa.md",
+      "source": "https://www.ihi.org/library/model-for-improvement/testing-changes",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L09",
+      "version": "0.1.0",
+      "title": "Capacity tradeoff",
+      "job": "Resolve work that exceeds available capacity",
+      "file": "references/methods/L09-capacity.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L10",
+      "version": "0.1.0",
+      "title": "Evidence and consultation",
+      "job": "Obtain cooperation across boundaries",
+      "file": "references/methods/L10-consultation.md",
+      "source": "https://doi.org/10.1037/0021-9010.77.4.525",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L11",
+      "version": "0.1.0",
+      "title": "Perspective and evidence check",
+      "job": "Check a framing before acting",
+      "file": "references/methods/L11-perspective.md",
+      "source": "https://doi.org/10.1037/pspa0000115",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L12",
+      "version": "0.1.0",
+      "title": "Teach\u2013Practice\u2013Check-back",
+      "job": "Develop a missing task skill",
+      "file": "references/methods/L12-teach-practice.md",
+      "source": "https://www.cdc.gov/training-development/php/about/evaluate-training-measuring-effectiveness.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L13",
+      "version": "0.1.0",
+      "title": "Premortem",
+      "job": "Surface failure risks before commitment",
+      "file": "references/methods/L13-premortem.md",
+      "source": "https://www.gary-klein.com/premortem",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    },
+    {
+      "id": "L14",
+      "version": "0.1.0",
+      "title": "Closed-loop handoff",
+      "job": "Transfer live work with checked receipt",
+      "file": "references/methods/L14-handoff.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/handoff.html",
+      "license": "MIT",
+      "evidence": "source-informed; everyday application not field-validated"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# L06 · Brief and huddle
+
+Version: 0.1.0 · Licence: MIT
+
+**Job:** Establish or reset a shared plan.
+
+**Use when:** Work is about to start, or a changed condition has made the existing plan stale.
+
+**Avoid/stop when:** Immediate danger requires the established response first; do not create a meeting when an unchanged plan is already understood.
+
+**Prerequisites:** A current goal, people involved in the work and someone able to resolve or escalate changes.
+
+**Estimated time:** 5–15 minutes. This is an editorial planning estimate.
+
+**Participants/preparation:** A leader and the relevant person(s); use one concrete task or episode, relevant evidence and the stated prerequisites. Invite access needs and a way to raise concerns privately. Facilitation is required for group input; qualification remains with the task owner.
+
+## Try it
+
+1. State the current goal and relevant constraints.
+2. Check roles, resources, dependencies and likely difficulties.
+3. Ask each affected person what they understand or cannot meet.
+4. When conditions change, identify the delta, revise authorised commitments and confirm who needs the update.
+
+**Words to try:** “What changed, and which next action or constraint needs clarification?”
+
+**Immediate output:** A current plan with roles, unresolved constraints and checked understanding.
+
+**One outcome signal:** At the next work checkpoint, do affected people act from the same current plan? Agree the definition, baseline (or unknown), observation window and review date before acting.
+
+**Guardrail and stop/switch:** Watch excessive meeting burden or apparent agreement masking infeasible work. Resolve capacity and authority gaps before promising a plan.
+
+## Evidence and origin
+
+Original everyday application informed by AHRQ TeamSTEPPS briefs/huddles. Healthcare-specific evidence does not establish all-sector effects.
+
+[Public source](https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html). This card’s workplace wording, example and observation guidance are editorial applications, not claims by the source provider. No source article or figure is reproduced.
+
+## Fictional example
+
+A delivery date changes. Run a short reset on what moved, who is affected and which commitments need the decision owner.

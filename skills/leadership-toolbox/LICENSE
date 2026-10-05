@@ -20,7 +20,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: excludes skills/leadership-toolbox/references/methods/L05-participation.md
-and docs/evaluations/forward-extension-2026-10-05.md, which are licensed under
-CC BY-SA 4.0 as marked in those files. Referenced external
+Scope: excludes references/methods/L05-participation.md,
+which is licensed under CC BY-SA 4.0 as marked in that file. Referenced external
 works, names and trademarks are not licensed by this project.
