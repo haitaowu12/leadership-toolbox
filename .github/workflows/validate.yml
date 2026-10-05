@@ -1,0 +1,41 @@
+name: Validate leadership package
+on:
+  pull_request:
+  push:
+    branches: [feat/standalone-leadership-skill, main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: validate (Python ${{ matrix.python }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, verified 2026-10-05
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5, verified 2026-10-05
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validate reviewed files and contracts
+        run: python3 scripts/validate.py
+      - name: Exercise package and clean CLI lifecycle
+        run: python3 -m unittest discover -s tests -v
+      - name: Build source and single-skill archives
+        run: python3 scripts/build_release.py
+      - name: Upload checked packages
+        if: matrix.python == '3.12'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4, verified 2026-10-05
+        with:
+          name: leadership-toolbox-${{ github.sha }}
+          path: |
+            dist/leadership-toolbox-0.2.0.zip
+            dist/leadership-toolbox-skill-0.2.0.zip
+            dist/SHA256SUMS
+          if-no-files-found: error
+          retention-days: 30
+          compression-level: 0

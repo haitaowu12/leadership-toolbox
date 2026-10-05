@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private leadership profile v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "goals"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_name": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

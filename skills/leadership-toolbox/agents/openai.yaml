@@ -1,0 +1,6 @@
+interface:
+  display_name: "Leadership Toolbox"
+  short_description: "Choose useful actions for everyday leadership"
+  default_prompt: "Use $leadership-toolbox to help me prepare a useful next leadership action and a checkpoint."
+policy:
+  allow_implicit_invocation: true

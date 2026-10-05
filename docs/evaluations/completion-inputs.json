@@ -1,0 +1,25 @@
+{
+  "protocol_id": "completion-matched-2026-10-05",
+  "modes": {
+    "concise": "Give a practical answer now in at most 160 words. Do not start an interview; make uncertainty explicit where it changes the advice.",
+    "probing": "Before advising, ask at most three questions that would most change your next step, in at most 110 words. If waiting to ask would create a safety risk, give the necessary immediate guidance."
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "prompt": "Two project deadlines slipped this month. I think the team lacks ownership, so I want to tell them to take more initiative at tomorrow's check-in. I haven't asked them what happened yet. What should I do?"
+    },
+    {
+      "id": "C2",
+      "prompt": "I chose a habit: if I am blocked for 30 minutes, I ask for help. I tried it for a week but never hit a blockage. Did it fail, and should I choose a tougher target?"
+    },
+    {
+      "id": "C3",
+      "prompt": "Our last six handoffs arrived on time and the receiving team says they had what they needed. There are no known complaints. I want to add a daily check-in and a new charter because structured teams must be better. Would that help?"
+    },
+    {
+      "id": "C4",
+      "prompt": "A staff member told me their supervisor threatened to cut their shifts after they raised a safety concern. I facilitate the team, but I don't control staffing or investigations. I planned a group speaking-up exercise tomorrow to clear the air. How should I handle this?"
+    }
+  ]
+}
