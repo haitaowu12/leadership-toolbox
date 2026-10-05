@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Private practice entry v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "date",
+    "package_version",
+    "method_id",
+    "method_version",
+    "prediction",
+    "outcome_signal",
+    "guardrail",
+    "review_date",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "package_version": {
+      "type": "string"
+    },
+    "method_id": {
+      "type": "string"
+    },
+    "method_version": {
+      "type": "string"
+    },
+    "prediction": {
+      "type": "string"
+    },
+    "outcome_signal": {
+      "type": "string"
+    },
+    "guardrail": {
+      "type": "string"
+    },
+    "review_date": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "attempted",
+        "declined",
+        "abandoned",
+        "mixed",
+        "no-change",
+        "no-intervention",
+        "pending",
+        "completed"
+      ]
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

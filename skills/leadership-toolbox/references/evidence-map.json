@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-05",
+  "methods": [
+    {
+      "method_id": "L01",
+      "provenance_ids": [
+        "P01"
+      ],
+      "research_ids": [
+        "E02",
+        "E03",
+        "E06"
+      ],
+      "book_ids": [
+        "B60"
+      ],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "Autonomy-support and work-redesign research informs conditions; no direct test of this agreement.",
+      "application_limit": "Decision rights, useful support and actual work conditions must change; fewer questions alone is not improvement.",
+      "open_question": "Which delegation conditions improve delivery without suppressing necessary escalation in this setting?"
+    },
+    {
+      "method_id": "L02",
+      "provenance_ids": [
+        "P02"
+      ],
+      "research_ids": [
+        "E01",
+        "E02",
+        "E07"
+      ],
+      "book_ids": [
+        "B01",
+        "B02"
+      ],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "A randomized professional-coaching bundle included GROW; broader coaching studies often exclude managers/peers.",
+      "application_limit": "Neither the acronym alone nor this short manager-led rendition was isolated; chosen goals and evaluative power matter.",
+      "open_question": "Does this conversation support the person's goal better than instruction or a resource decision?"
+    },
+    {
+      "method_id": "L03",
+      "provenance_ids": [
+        "P03"
+      ],
+      "research_ids": [
+        "E20",
+        "E26"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Feedback meta-analysis includes benefits and negative effects; perceived listening supplies adjacent context.",
+      "application_limit": "The evidence does not validate SBI/SBII wording or predict benefit from delivering a message.",
+      "open_question": "Does the next attempt change the work outcome, or does feedback redirect attention into defensiveness?"
+    },
+    {
+      "method_id": "L04",
+      "provenance_ids": [
+        "P04"
+      ],
+      "research_ids": [
+        "E25",
+        "E26"
+      ],
+      "book_ids": [
+        "B20",
+        "B61"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Conflict synthesis, conceptual negotiation readings and a publisher book excerpt clarify tradeoffs.",
+      "application_limit": "Task conflict is not beneficial on average; these are not tests of this negotiation sequence.",
+      "open_question": "Which interests are genuinely tradable, and is agreement better than the realistic alternative?"
+    },
+    {
+      "method_id": "L05",
+      "provenance_ids": [
+        "P05"
+      ],
+      "research_ids": [
+        "E21",
+        "E22"
+      ],
+      "book_ids": [
+        "B62"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Safety research explains risks around voice; originator guidance describes the sequence.",
+      "application_limit": "No direct comparative effectiveness evidence for 1-2-4-All was established; participation is not safety.",
+      "open_question": "Can material concerns reach a legitimate owner without pressure or retaliation?"
+    },
+    {
+      "method_id": "L06",
+      "provenance_ids": [
+        "P01",
+        "P26"
+      ],
+      "research_ids": [
+        "E21",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "book_ids": [
+        "B20",
+        "B21",
+        "B60"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Team literature informs plan coherence; handoff/charter studies are adjacent evidence.",
+      "application_limit": "A five-minute workplace huddle is not the clinical handoff bundle or a charter intervention.",
+      "open_question": "Does resetting this plan reduce stale-plan errors enough to justify the burden?"
+    },
+    {
+      "method_id": "L07",
+      "provenance_ids": [
+        "P06"
+      ],
+      "research_ids": [
+        "E43",
+        "E44"
+      ],
+      "book_ids": [
+        "B60"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Full-text debrief review supports a bounded reflection intervention family with heterogeneous designs.",
+      "application_limit": "No promised local percentage gain or causal moderator ranking; sparse comparisons and hindsight limit interpretation.",
+      "open_question": "Does a specific adjustment carry into the next comparable episode?"
+    },
+    {
+      "method_id": "L08",
+      "provenance_ids": [
+        "P07"
+      ],
+      "research_ids": [
+        "E42",
+        "E45"
+      ],
+      "book_ids": [
+        "B40",
+        "B42"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "PDSA review appraises application/reporting; research-methods texts explain inference.",
+      "application_limit": "It does not establish that more faithful PDSA causes better outcomes; local before/after change is confounded.",
+      "open_question": "Was the change delivered, did its prediction hold, and what rival explanation remains?"
+    },
+    {
+      "method_id": "L09",
+      "provenance_ids": [
+        "P01",
+        "P27"
+      ],
+      "research_ids": [
+        "E03"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "Work-redesign review includes mixed and negative outcomes; HSE supplies work-design guidance.",
+      "application_limit": "Neither a brief tradeoff discussion nor reduced workload at one point establishes system improvement.",
+      "open_question": "Was a commitment actually changed without displacing hidden burden elsewhere?"
+    },
+    {
+      "method_id": "L10",
+      "provenance_ids": [
+        "E61"
+      ],
+      "research_ids": [
+        "E61"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "evidence_summary": "Inspected influence study links consultation and commitment observationally; adjusted results differ by direction.",
+      "application_limit": "Associations are not causal tactics or a universal ranking; outcome varies with authority relationship.",
+      "open_question": "Can genuine consultation alter the proposal, and is refusal preserved as a legitimate result?"
+    },
+    {
+      "method_id": "L11",
+      "provenance_ids": [
+        "E60"
+      ],
+      "research_ids": [
+        "E60"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "evidence_summary": "Inspected perspective-getting experiments support gathering specific new accounts, not imagined agreement.",
+      "application_limit": "No workplace-script validation or presumption that any account is complete or true.",
+      "open_question": "What new account or observation actually changes the interpretation?"
+    },
+    {
+      "method_id": "L12",
+      "provenance_ids": [
+        "P08",
+        "P28"
+      ],
+      "research_ids": [
+        "E04",
+        "E05"
+      ],
+      "book_ids": [
+        "B02"
+      ],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "Training/transfer meta-analyses and learning chapters distinguish acquisition, use and maintained performance.",
+      "application_limit": "Program-level moderator associations do not validate this short sequence or a universal practice schedule.",
+      "open_question": "Can the person demonstrate the task later where it is used, with support and an actual opportunity?"
+    },
+    {
+      "method_id": "L13",
+      "provenance_ids": [
+        "P09"
+      ],
+      "research_ids": [
+        "E44"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Original prospective-hindsight scenario studies concern explanation generation.",
+      "application_limit": "They do not establish superior forecasts or success of a full team premortem.",
+      "open_question": "Which plausible failure mechanism has evidence, an observable warning and an owned response?"
+    },
+    {
+      "method_id": "L14",
+      "provenance_ids": [
+        "P10"
+      ],
+      "research_ids": [
+        "E23"
+      ],
+      "book_ids": [
+        "B21",
+        "B60"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "I-PASS before/after study supports a clinical implementation bundle; team chapters add context.",
+      "application_limit": "Check-back alone was not isolated, and pediatric error reductions cannot be promised in office work.",
+      "open_question": "Does accepted transfer preserve the next action, contingencies and critical dependencies at an acceptable cost?"
+    },
+    {
+      "method_id": "L15",
+      "provenance_ids": [
+        "P11"
+      ],
+      "research_ids": [
+        "E21",
+        "E22",
+        "E24",
+        "E25"
+      ],
+      "book_ids": [
+        "B20",
+        "B21",
+        "B60",
+        "B62"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Charter/strategy study and newer scholarly synthesis distinguish team norms from task strategy.",
+      "application_limit": "Original study is abstract-only here and has a figure-label correction; simulations and limited evidence constrain transfer.",
+      "open_question": "Does the agreement work with the actual strategy, expertise, resources and changing membership?"
+    },
+    {
+      "method_id": "L16",
+      "provenance_ids": [
+        "E40"
+      ],
+      "research_ids": [
+        "E40",
+        "E41"
+      ],
+      "book_ids": [
+        "B41"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Goal-setting research explains mechanisms/moderators; implementation plans address a different gap.",
+      "application_limit": "Neither SMART phrasing nor uniformly harder targets is independently validated for this case.",
+      "open_question": "Is the missing ingredient a goal, a viable strategy, capability, feedback or opportunity?"
+    },
+    {
+      "method_id": "L17",
+      "provenance_ids": [
+        "P12"
+      ],
+      "research_ids": [
+        "E60"
+      ],
+      "book_ids": [
+        "B60"
+      ],
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "evidence_summary": "Perspective-getting and team knowledge synthesis explain why actual affected accounts matter.",
+      "application_limit": "No comparative validation of a stakeholder grid or power/interest classification was established.",
+      "open_question": "Whose consequential knowledge or burden is missing, and can they safely correct the map?"
+    },
+    {
+      "method_id": "L18",
+      "provenance_ids": [
+        "P13"
+      ],
+      "research_ids": [
+        "E21",
+        "E22"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "CDC describes nominal-group procedure; safety findings identify contextual constraints.",
+      "application_limit": "No direct outcome study of this rendition was established; preference rankings are not factual truth or population consensus.",
+      "open_question": "Are eligible options ranked on a shared criterion, with consequential minority concerns retained?"
+    },
+    {
+      "method_id": "L19",
+      "provenance_ids": [
+        "P14"
+      ],
+      "research_ids": [
+        "E42"
+      ],
+      "book_ids": [
+        "B40"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "PDSA reporting and measurement principles support a testable improvement theory.",
+      "application_limit": "No direct comparative efficacy evidence for the diagram was established; arrows are hypotheses.",
+      "open_question": "Which intermediate observation would challenge the key proposed link?"
+    },
+    {
+      "method_id": "L20",
+      "provenance_ids": [
+        "P15"
+      ],
+      "research_ids": [],
+      "book_ids": [
+        "B40"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "General research-methods explanation supports discriminating rival hypotheses.",
+      "application_limit": "No direct fishbone efficacy evidence was added; group agreement does not identify a cause.",
+      "open_question": "Which observation separates two plausible explanations and who will obtain it?"
+    },
+    {
+      "method_id": "L21",
+      "provenance_ids": [
+        "P16"
+      ],
+      "research_ids": [],
+      "book_ids": [
+        "B40",
+        "B42"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Measurement and positive-deviance readings inform observation and context.",
+      "application_limit": "No direct test of this mapping protocol was established; a map may omit exceptional work or shift waits.",
+      "open_question": "Does the map reflect actual cases and the entire affected process?"
+    },
+    {
+      "method_id": "L22",
+      "provenance_ids": [
+        "P17"
+      ],
+      "research_ids": [
+        "E47"
+      ],
+      "book_ids": [
+        "B41"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Review of change reactions supports separating actual conditions from deficit labels.",
+      "application_limit": "No causal validation of force-field scores or universal change stages was established.",
+      "open_question": "What observable barrier can change, by whose authority, and with what evidence of feasibility?"
+    },
+    {
+      "method_id": "L23",
+      "provenance_ids": [
+        "P29"
+      ],
+      "research_ids": [
+        "E40",
+        "E41"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Large experimental synthesis supports contingent plans with heterogeneous, bias-sensitive effects.",
+      "application_limit": "Effect estimates depend on correction method; workplace transfer and component moderators are uncertain.",
+      "open_question": "Was the cue encountered/noticed, was the action feasible, and did executing it help?"
+    },
+    {
+      "method_id": "L24",
+      "provenance_ids": [
+        "P18"
+      ],
+      "research_ids": [
+        "E42",
+        "E44"
+      ],
+      "book_ids": [
+        "B40"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Research design and PDSA principles support decision-relevant tests.",
+      "application_limit": "No direct efficacy test of an assumption-map workshop was established.",
+      "open_question": "Would either a confirming or contradicting observation change the decision?"
+    },
+    {
+      "method_id": "L25",
+      "provenance_ids": [
+        "P19"
+      ],
+      "research_ids": [
+        "E45"
+      ],
+      "book_ids": [
+        "B40",
+        "B42"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Systematic review and critical monograph examine exemplar selection, explanation and transfer.",
+      "application_limit": "Excellence can reflect case mix or resources; discovery does not demonstrate a transferable cause.",
+      "open_question": "Is exceptional performance real and repeatable, and does the proposed practice help under receiving conditions?"
+    },
+    {
+      "method_id": "L26",
+      "provenance_ids": [
+        "P20"
+      ],
+      "research_ids": [
+        "E46"
+      ],
+      "book_ids": [
+        "B41"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Framing experiments demonstrate some preference reversals; textbook concepts support diagnosis.",
+      "application_limit": "They do not validate an entire discovery workshop or justify persuasive reframing.",
+      "open_question": "Does the decision change when equivalent consequences are presented differently, or have the facts changed?"
+    },
+    {
+      "method_id": "L27",
+      "provenance_ids": [
+        "P21"
+      ],
+      "research_ids": [
+        "E01"
+      ],
+      "book_ids": [
+        "B01"
+      ],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "Coaching synthesis explicitly excludes peers; a scholarly comparison helps distinguish helping roles.",
+      "application_limit": "No direct Troika trial was established; peer agreement does not prove advice or substitute for expertise.",
+      "open_question": "Which proposed option is testable, which needs evidence, and which requires specialist help?"
+    },
+    {
+      "method_id": "L28",
+      "provenance_ids": [
+        "P22"
+      ],
+      "research_ids": [
+        "E02",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "book_ids": [
+        "B01",
+        "B02"
+      ],
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "evidence_summary": "Training transfer, developmental-experience studies and learning chapters support conditional development.",
+      "application_limit": "No IDP form or fixed stretch proportion is validated; observational challenge findings are not dose prescriptions.",
+      "open_question": "Was the promised experience available, and what learning transferred beyond successful delivery?"
+    },
+    {
+      "method_id": "L29",
+      "provenance_ids": [
+        "P23"
+      ],
+      "research_ids": [
+        "E46"
+      ],
+      "book_ids": [
+        "B40",
+        "B41"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Framing and research-design knowledge complements NASA decision guidance.",
+      "application_limit": "No comparative validation of this scoring/review template; natural-unit criteria and explicit values remain judgments.",
+      "open_question": "Which plausible new fact or value tradeoff would reverse the choice?"
+    },
+    {
+      "method_id": "L30",
+      "provenance_ids": [
+        "P24"
+      ],
+      "research_ids": [
+        "E21",
+        "E22",
+        "E26",
+        "E60"
+      ],
+      "book_ids": [
+        "B20"
+      ],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Perceived-listening synthesis and perspective-getting research inform receiving an account.",
+      "application_limit": "Predominantly observational listening associations do not prove this script improves performance.",
+      "open_question": "Are material corrections represented accurately later, separately from feeling heard or agreeing?"
+    },
+    {
+      "method_id": "L31",
+      "provenance_ids": [
+        "P25"
+      ],
+      "research_ids": [
+        "E47"
+      ],
+      "book_ids": [
+        "B41",
+        "B42"
+      ],
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "evidence_summary": "Change-reaction review and transfer explanations distinguish support, belief and ability.",
+      "application_limit": "No universal stage model or messaging script is established; self-reported support is not feasible execution.",
+      "open_question": "Can affected roles perform ordinary work under the actual new conditions?"
+    },
+    {
+      "method_id": "L32",
+      "provenance_ids": [
+        "E27"
+      ],
+      "research_ids": [
+        "E27"
+      ],
+      "book_ids": [],
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "evidence_summary": "Scenario experiments examine perceived apology effectiveness, including null contrasts.",
+      "application_limit": "Ratings of wording do not establish restored trust, fulfillment or forgiveness.",
+      "open_question": "Were repair commitments kept and recurring harm reduced without pressuring the other person?"
+    }
+  ]
+}

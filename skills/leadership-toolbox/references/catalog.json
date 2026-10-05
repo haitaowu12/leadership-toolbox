@@ -1,0 +1,2247 @@
+{
+  "schema_version": 2,
+  "package_version": "0.2.0",
+  "methods": [
+    {
+      "id": "L01",
+      "version": "0.2.0",
+      "title": "Outcome delegation agreement",
+      "job": "Transfer a bounded responsibility",
+      "file": "references/methods/L01-delegation.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "Autonomy-support and work-redesign research informs conditions; no direct test of this agreement. Decision rights, useful support and actual work conditions must change; fewer questions alone is not improvement.",
+      "profile": {
+        "jobs": [
+          "Transfer a bounded responsibility"
+        ],
+        "preconditions": [
+          "A willing recipient, authorised decision owner and a specific piece of work."
+        ],
+        "avoid": [
+          "You cannot transfer the decision, the recipient lacks time or qualification, or the risk has no assurance/recovery route."
+        ],
+        "time_minutes": [
+          15,
+          30
+        ],
+        "dimensions": {
+          "support_gaps": {
+            "fit": [
+              "role_clarity"
+            ],
+            "caution": [
+              "skill",
+              "capacity",
+              "resources"
+            ],
+            "reason": "Clarifies a bounded transfer; skill and capacity gaps require support first."
+          },
+          "coordination": {
+            "fit": [
+              "pair",
+              "team"
+            ],
+            "caution": [
+              "cross_boundary",
+              "network"
+            ],
+            "reason": "Agreement needs a legitimate delegator and recipient, not merely a cross-team wish."
+          }
+        },
+        "output": "A written agreement: result, decision rights, support, checkpoint and recovery owner.",
+        "outcome": "Delivery and decision quality within the boundary, distinguishing appropriate early escalation from avoidable rescue; fewer escalations alone is ambiguous.",
+        "guardrail": "Watch hidden overtime, rework and loss of necessary assurance. Pause if authority or capacity changes.",
+        "alternative_ids": [
+          "L09",
+          "L12"
+        ],
+        "metric_contract": {
+          "immediate_output": "A written agreement: result, decision rights, support, checkpoint and recovery owner.",
+          "later_outcome": "Delivery and decision quality within the boundary, distinguishing appropriate early escalation from avoidable rescue; fewer escalations alone is ambiguous.",
+          "balancing_indicator": "Watch hidden overtime, rework and loss of necessary assurance. Pause if authority or capacity changes.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "coordination",
+      "source_ids": [
+        "P01",
+        "E02",
+        "E03",
+        "E06",
+        "B60"
+      ],
+      "evidence_map": "references/evidence-map.md#l01",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L02",
+      "version": "0.2.0",
+      "title": "GROW coaching",
+      "job": "Help someone choose their own next step",
+      "file": "references/methods/L02-grow.md",
+      "source": "https://www.performanceconsultants.com/resources/the-grow-model/",
+      "license": "MIT",
+      "evidence": "A randomized professional-coaching bundle included GROW; broader coaching studies often exclude managers/peers. Neither the acronym alone nor this short manager-led rendition was isolated; chosen goals and evaluative power matter.",
+      "profile": {
+        "jobs": [
+          "Help someone choose their own next step"
+        ],
+        "preconditions": [
+          "Consent to a coaching conversation and a goal within their influence."
+        ],
+        "avoid": [
+          "Instruction, resources, a formal decision or protection is needed; do not coach someone into accepting overload."
+        ],
+        "time_minutes": [
+          15,
+          30
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "expert_analysis"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Coaching helps the person explore their own options; it is not instruction when task knowledge is absent."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported"
+            ],
+            "caution": [
+              "constrained",
+              "unsafe"
+            ],
+            "reason": "The person must be able to choose and decline; a predetermined directive is not open coaching."
+          }
+        },
+        "output": "A person-owned action and a review agreement, or an explicit decision not to act.",
+        "outcome": "At the agreed review, did the person attempt the chosen action and find it useful for their goal? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+        "guardrail": "Watch pressure to choose the leader’s preferred answer or an impossible commitment. Switch to instruction or a resource decision when needed.",
+        "alternative_ids": [
+          "L12",
+          "L09"
+        ],
+        "metric_contract": {
+          "immediate_output": "A person-owned action and a review agreement, or an explicit decision not to act.",
+          "later_outcome": "At the agreed review, did the person attempt the chosen action and find it useful for their goal? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+          "balancing_indicator": "Watch pressure to choose the leader’s preferred answer or an impossible commitment. Switch to instruction or a resource decision when needed.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P02",
+        "E01",
+        "E02",
+        "E07",
+        "B01",
+        "B02"
+      ],
+      "evidence_map": "references/evidence-map.md#l02",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L03",
+      "version": "0.2.0",
+      "title": "Specific feedback with intent inquiry",
+      "job": "Discuss observed behaviour and its effect",
+      "file": "references/methods/L03-feedback.md",
+      "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+      "license": "MIT",
+      "evidence": "Feedback meta-analysis includes benefits and negative effects; perceived listening supplies adjacent context. The evidence does not validate SBI/SBII wording or predict benefit from delivering a message.",
+      "profile": {
+        "jobs": [
+          "Discuss observed behaviour and its effect"
+        ],
+        "preconditions": [
+          "First-hand observations or clearly labelled reports, time to hear the other account and an appropriate relationship."
+        ],
+        "avoid": [
+          "There is only hearsay, a motive accusation, immediate danger or a formal conduct matter requiring another process."
+        ],
+        "time_minutes": [
+          10,
+          20
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "shared",
+              "disputed_facts"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Explore a specific observed episode and allow correction of facts and impact."
+          },
+          "coordination": {
+            "fit": [
+              "pair"
+            ],
+            "caution": [
+              "team"
+            ],
+            "reason": "A private bounded conversation usually avoids unnecessary exposure; group learning is a different job."
+          }
+        },
+        "output": "A checked or explicitly disputed account and a clear disposition.",
+        "outcome": "At the next comparable episode, observe attempted behavior and its task consequence separately from agreement or satisfaction.",
+        "guardrail": "Watch defensiveness caused by inaccurate claims, public embarrassment or power pressure. Stop treating an allegation as fact when the account is contested.",
+        "alternative_ids": [
+          "L11",
+          "L30"
+        ],
+        "metric_contract": {
+          "immediate_output": "A checked or explicitly disputed account and a clear disposition.",
+          "later_outcome": "At the next comparable episode, observe attempted behavior and its task consequence separately from agreement or satisfaction.",
+          "balancing_indicator": "Watch defensiveness caused by inaccurate claims, public embarrassment or power pressure. Stop treating an allegation as fact when the account is contested.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P03",
+        "E20",
+        "E26"
+      ],
+      "evidence_map": "references/evidence-map.md#l03",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L04",
+      "version": "0.2.0",
+      "title": "Interest-based negotiation",
+      "job": "Resolve incompatible demands",
+      "file": "references/methods/L04-negotiation.md",
+      "source": "https://www.pon.harvard.edu/tag/principled-negotiation/",
+      "license": "MIT",
+      "evidence": "Conflict synthesis, conceptual negotiation readings and a publisher book excerpt clarify tradeoffs. Task conflict is not beneficial on average; these are not tests of this negotiation sequence.",
+      "profile": {
+        "jobs": [
+          "Resolve incompatible demands"
+        ],
+        "preconditions": [
+          "Named decision owners, negotiable boundaries, relevant affected-party input and a realistic alternative if no agreement is reached."
+        ],
+        "avoid": [
+          "Safety or rights are being bargained away, participation is coerced, the user cannot authorise a commitment, or alleged misconduct needs an independent formal route."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "different_interests",
+              "conflicting_priorities"
+            ],
+            "caution": [
+              "disputed_facts",
+              "mixed"
+            ],
+            "reason": "Compare legitimate interests and realistic alternatives; disputed facts may require inquiry first."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported"
+            ],
+            "caution": [
+              "constrained",
+              "unsafe"
+            ],
+            "reason": "Consent and bargaining power matter; negotiation cannot waive protections."
+          }
+        },
+        "output": "An explicit disposition with rationale and responsibilities. A reasoned no-agreement outcome can be useful.",
+        "outcome": "At the agreed checkpoint, have the accepted commitments protected the named interests within their constraints? If no agreement, review whether the stated alternative remains feasible. Baseline, observer, period and review date are locally agreed.",
+        "guardrail": "Watch hidden losers, pressured assent and unconsulted dependencies. Stop if an option exceeds authority or trades away protections. Use L09 for an unresolved workload tradeoff, L11 for missing accounts, or a qualified independent route when negotiation is inappropriate.",
+        "alternative_ids": [
+          "L09",
+          "L11"
+        ],
+        "metric_contract": {
+          "immediate_output": "An explicit disposition with rationale and responsibilities. A reasoned no-agreement outcome can be useful.",
+          "later_outcome": "At the agreed checkpoint, have the accepted commitments protected the named interests within their constraints? If no agreement, review whether the stated alternative remains feasible. Baseline, observer, period and review date are locally agreed.",
+          "balancing_indicator": "Watch hidden losers, pressured assent and unconsulted dependencies. Stop if an option exceeds authority or trades away protections. Use L09 for an unresolved workload tradeoff, L11 for missing accounts, or a qualified independent route when negotiation is inappropriate.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "decision_support",
+      "source_ids": [
+        "P04",
+        "E25",
+        "E26",
+        "B20",
+        "B61"
+      ],
+      "evidence_map": "references/evidence-map.md#l04",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L05",
+      "version": "0.2.0",
+      "title": "1-2-4-All",
+      "job": "Hear ideas beyond dominant voices",
+      "file": "references/methods/L05-participation.md",
+      "source": "https://www.liberatingstructures.com/1-2-4-all",
+      "license": "CC-BY-SA-4.0",
+      "evidence": "Safety research explains risks around voice; originator guidance describes the sequence. No direct comparative effectiveness evidence for 1-2-4-All was established; participation is not safety.",
+      "profile": {
+        "jobs": [
+          "Hear ideas beyond dominant voices"
+        ],
+        "preconditions": [
+          "A clear invitation, accessible participation and an explicit explanation of how input will be used."
+        ],
+        "avoid": [
+          "Confidential matters cannot be shared, participation is coerced, or the decision has already been made without disclosure."
+        ],
+        "time_minutes": [
+          15,
+          20
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "Structured contributions broaden idea generation in a facilitated group."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported"
+            ],
+            "caution": [
+              "constrained",
+              "unsafe"
+            ],
+            "reason": "A speaking sequence does not remove hierarchy, access barriers or retaliation risks."
+          }
+        },
+        "output": "A set of ideas and unresolved concerns with a visible disposition route.",
+        "outcome": "Material concerns reaching the decision owner with an opportunity to correct their representation, without disclosure pressure or retaliation.",
+        "guardrail": "Watch forced disclosure, inaccessible timing and consultation with no influence. Offer a private/accessibility alternative and be honest about decision limits.",
+        "alternative_ids": [
+          "L18",
+          "L30"
+        ],
+        "metric_contract": {
+          "immediate_output": "A set of ideas and unresolved concerns with a visible disposition route.",
+          "later_outcome": "Material concerns reaching the decision owner with an opportunity to correct their representation, without disclosure pressure or retaliation.",
+          "balancing_indicator": "Watch forced disclosure, inaccessible timing and consultation with no influence. Offer a private/accessibility alternative and be honest about decision limits.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P05",
+        "E21",
+        "E22",
+        "B62"
+      ],
+      "evidence_map": "references/evidence-map.md#l05",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L06",
+      "version": "0.2.0",
+      "title": "Brief and huddle",
+      "job": "Establish or reset a shared plan",
+      "file": "references/methods/L06-brief-huddle.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "Team literature informs plan coherence; handoff/charter studies are adjacent evidence. A five-minute workplace huddle is not the clinical handoff bundle or a charter intervention.",
+      "profile": {
+        "jobs": [
+          "Establish or reset a shared plan"
+        ],
+        "preconditions": [
+          "A current goal, people involved in the work and someone able to resolve or escalate changes."
+        ],
+        "avoid": [
+          "Immediate danger requires the established response first; do not create a meeting when an unchanged plan is already understood."
+        ],
+        "time_minutes": [
+          5,
+          15
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "mixed"
+            ],
+            "caution": [
+              "expert_analysis"
+            ],
+            "reason": "Coordinates known work and changed conditions, but cannot resolve technical uncertainty by declaration."
+          },
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "Owners need a shared operational plan and relevant dependency information."
+          }
+        },
+        "output": "A current plan with roles, unresolved constraints and checked understanding.",
+        "outcome": "At the next checkpoint, inspect stale-plan incidents and use of the revised action, balanced against reset time.",
+        "guardrail": "Watch excessive meeting burden or apparent agreement masking infeasible work. Resolve capacity and authority gaps before promising a plan.",
+        "alternative_ids": [
+          "L15",
+          "L14"
+        ],
+        "metric_contract": {
+          "immediate_output": "A current plan with roles, unresolved constraints and checked understanding.",
+          "later_outcome": "At the next checkpoint, inspect stale-plan incidents and use of the revised action, balanced against reset time.",
+          "balancing_indicator": "Watch excessive meeting burden or apparent agreement masking infeasible work. Resolve capacity and authority gaps before promising a plan.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "coordination",
+      "source_ids": [
+        "P01",
+        "P26",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "B20",
+        "B21",
+        "B60"
+      ],
+      "evidence_map": "references/evidence-map.md#l06",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L07",
+      "version": "0.2.0",
+      "title": "Structured debrief",
+      "job": "Learn from a completed episode",
+      "file": "references/methods/L07-debrief.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html",
+      "license": "MIT",
+      "evidence": "Debrief meta-analysis supports an intervention family; only its abstract was inspected here. No promised local percentage improvement or detailed unread subgroup claim; hindsight can distort explanations.",
+      "profile": {
+        "jobs": [
+          "Learn from a completed episode"
+        ],
+        "preconditions": [
+          "A bounded episode, enough psychological safety for differing accounts and someone to own a feasible follow-up."
+        ],
+        "avoid": [
+          "It is being used to assign blame, compel disclosure or substitute for an independent investigation."
+        ],
+        "time_minutes": [
+          15,
+          30
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "mixed"
+            ],
+            "caution": [
+              "expert_analysis"
+            ],
+            "reason": "Learns from a completed episode; consequential causal claims may need further investigation."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported"
+            ],
+            "caution": [
+              "constrained",
+              "unsafe"
+            ],
+            "reason": "People need a usable way to give different accounts without compelled emotional disclosure."
+          }
+        },
+        "output": "One learning change, its rationale, owner and next check.",
+        "outcome": "In the next comparable episode, was the change used and did the targeted problem recur? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+        "guardrail": "Watch selective memory, blame and extra work without resources. Separate formal incident findings from the learning conversation.",
+        "alternative_ids": [
+          "L20",
+          "L08"
+        ],
+        "metric_contract": {
+          "immediate_output": "One learning change, its rationale, owner and next check.",
+          "later_outcome": "In the next comparable episode, was the change used and did the targeted problem recur? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+          "balancing_indicator": "Watch selective memory, blame and extra work without resources. Separate formal incident findings from the learning conversation.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P06",
+        "E43",
+        "E44",
+        "B60"
+      ],
+      "evidence_map": "references/evidence-map.md#l07",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L08",
+      "version": "0.2.0",
+      "title": "PDSA bounded test",
+      "job": "Test an uncertain process change",
+      "file": "references/methods/L08-pdsa.md",
+      "source": "https://www.ihi.org/library/model-for-improvement/testing-changes",
+      "license": "MIT",
+      "evidence": "PDSA review appraises application/reporting; research-methods texts explain inference. It does not establish that more faithful PDSA causes better outcomes; local before/after change is confounded.",
+      "profile": {
+        "jobs": [
+          "Test an uncertain process change"
+        ],
+        "preconditions": [
+          "A prediction, a feasible observation and an authorised stop/recovery route."
+        ],
+        "avoid": [
+          "Harm cannot be bounded, necessary authority is absent, or the test bypasses required assurance."
+        ],
+        "time_minutes": [
+          20,
+          40
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "emergent"
+            ],
+            "caution": [
+              "expert_analysis",
+              "mixed"
+            ],
+            "reason": "Tests a specific uncertainty in a bounded context; missing information alone is not a reason to experiment."
+          },
+          "reversibility": {
+            "fit": [
+              "2",
+              "3"
+            ],
+            "caution": [
+              "0",
+              "1"
+            ],
+            "reason": "A live test needs an evidenced acceptable recovery boundary, not just a small sample."
+          }
+        },
+        "output": "A prediction, bounded test record and a next decision.",
+        "outcome": "Compare time-ordered outcomes with consistent denominators and implementation fidelity; before/after change alone does not identify cause.",
+        "guardrail": "Watch shifted workload, quality loss and harm outside the test boundary. Stop when the guardrail is crossed; do not scale from one convenient observation.",
+        "alternative_ids": [
+          "L24",
+          "L29"
+        ],
+        "metric_contract": {
+          "immediate_output": "A prediction, bounded test record and a next decision.",
+          "later_outcome": "Compare time-ordered outcomes with consistent denominators and implementation fidelity; before/after change alone does not identify cause.",
+          "balancing_indicator": "Watch shifted workload, quality loss and harm outside the test boundary. Stop when the guardrail is crossed; do not scale from one convenient observation.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P07",
+        "E42",
+        "E45",
+        "B40",
+        "B42"
+      ],
+      "evidence_map": "references/evidence-map.md#l08",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L09",
+      "version": "0.2.0",
+      "title": "Capacity tradeoff",
+      "job": "Resolve work that exceeds available capacity",
+      "file": "references/methods/L09-capacity.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "license": "MIT",
+      "evidence": "Work-redesign review includes mixed and negative outcomes; HSE supplies work-design guidance. Neither a brief tradeoff discussion nor reduced workload at one point establishes system improvement.",
+      "profile": {
+        "jobs": [
+          "Resolve work that exceeds available capacity"
+        ],
+        "preconditions": [
+          "Visible work/constraints and access to the person who can reprioritise, resource or stop commitments."
+        ],
+        "avoid": [
+          "You are being asked to diagnose someone’s resilience, or formal unsafe-work issues need the established process."
+        ],
+        "time_minutes": [
+          15,
+          30
+        ],
+        "dimensions": {
+          "support_gaps": {
+            "fit": [
+              "capacity",
+              "resources"
+            ],
+            "caution": [
+              "skill"
+            ],
+            "reason": "Changes demand or resourcing instead of treating overload as a motivation problem."
+          },
+          "coordination": {
+            "fit": [
+              "pair",
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "The relevant priority owners must make and accept tradeoffs."
+          }
+        },
+        "output": "An authorised choice about what stops, moves, changes scope or gains resources.",
+        "outcome": "Check the authorized work change occurred and commitments remain feasible without hidden overtime, displaced burden or deteriorating quality.",
+        "guardrail": "Watch displaced work, hidden rescue and omitted statutory obligations. If none of the options is feasible, record and escalate the unresolved demand.",
+        "alternative_ids": [
+          "L04",
+          "L01"
+        ],
+        "metric_contract": {
+          "immediate_output": "An authorised choice about what stops, moves, changes scope or gains resources.",
+          "later_outcome": "Check the authorized work change occurred and commitments remain feasible without hidden overtime, displaced burden or deteriorating quality.",
+          "balancing_indicator": "Watch displaced work, hidden rescue and omitted statutory obligations. If none of the options is feasible, record and escalate the unresolved demand.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P01",
+        "P27",
+        "E03"
+      ],
+      "evidence_map": "references/evidence-map.md#l09",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L10",
+      "version": "0.2.0",
+      "title": "Evidence and consultation",
+      "job": "Obtain cooperation across boundaries",
+      "file": "references/methods/L10-consultation.md",
+      "source": "https://doi.org/10.1037/0021-9010.77.4.525",
+      "license": "MIT",
+      "evidence": "Observational influence-tactic study provides limited, abstract-inspected support for consultation. Associations are not causal tactics or a universal ranking; outcome varies with authority relationship.",
+      "profile": {
+        "jobs": [
+          "Obtain cooperation across boundaries"
+        ],
+        "preconditions": [
+          "A clear ask, relevant evidence and access to affected voices or an honest account of missing consultation."
+        ],
+        "avoid": [
+          "Consent is being manipulated, the request bypasses a required owner or evidence is being selectively presented."
+        ],
+        "time_minutes": [
+          20,
+          40
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "cross_boundary",
+              "network"
+            ],
+            "caution": [
+              "individual"
+            ],
+            "reason": "Obtains relevant input and cooperation across authority boundaries."
+          },
+          "alignment": {
+            "fit": [
+              "shared",
+              "different_interests",
+              "disputed_facts"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Evidence and genuine consultation address constraints without treating others as obstacles."
+          }
+        },
+        "output": "A decision request or decision record with evidence, concerns and follow-up.",
+        "outcome": "By the review date, is there an explicit decision/response and do affected people understand its consequences? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+        "guardrail": "Watch pressure, omitted objections and commitments outside your remit. A refusal or no decision is a real disposition, not a fabricated success.",
+        "alternative_ids": [
+          "L17",
+          "L29"
+        ],
+        "metric_contract": {
+          "immediate_output": "A decision request or decision record with evidence, concerns and follow-up.",
+          "later_outcome": "By the review date, is there an explicit decision/response and do affected people understand its consequences? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+          "balancing_indicator": "Watch pressure, omitted objections and commitments outside your remit. A refusal or no decision is a real disposition, not a fabricated success.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "E61"
+      ],
+      "evidence_map": "references/evidence-map.md#l10",
+      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "L11",
+      "version": "0.2.0",
+      "title": "Perspective and evidence check",
+      "job": "Check a framing before acting",
+      "file": "references/methods/L11-perspective.md",
+      "source": "https://doi.org/10.1037/pspa0000115",
+      "license": "MIT",
+      "evidence": "Perspective-getting experiments were checked at abstract level; direct accounts can supply new information. No workplace-script validation or presumption that any account is complete or true.",
+      "profile": {
+        "jobs": [
+          "Check a framing before acting"
+        ],
+        "preconditions": [
+          "A specific disagreement, distinguishable evidence and access to accounts or explicit acknowledgement they are missing."
+        ],
+        "avoid": [
+          "An imagined perspective is being treated as the person’s actual account, or delay would obstruct an urgent established response."
+        ],
+        "time_minutes": [
+          10,
+          25
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "disputed_facts",
+              "mixed"
+            ],
+            "caution": [
+              "different_interests"
+            ],
+            "reason": "Checks accounts and interpretations; different legitimate priorities may still remain."
+          },
+          "knowledge_state": {
+            "fit": [
+              "expert_analysis",
+              "mixed"
+            ],
+            "caution": [
+              "emergent"
+            ],
+            "reason": "Acquire relevant evidence before inferring motives or running experiments."
+          }
+        },
+        "output": "A corrected framing, explicit disputed facts or a targeted next inquiry.",
+        "outcome": "Before the decision, were consequential assumptions checked with evidence or the people concerned? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+        "guardrail": "Watch speculative empathy, endless delay or treating all claims as equally supported. Preserve unknowns and use the appropriate owner when accounts cannot be reconciled.",
+        "alternative_ids": [
+          "L30",
+          "L26"
+        ],
+        "metric_contract": {
+          "immediate_output": "A corrected framing, explicit disputed facts or a targeted next inquiry.",
+          "later_outcome": "Before the decision, were consequential assumptions checked with evidence or the people concerned? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+          "balancing_indicator": "Watch speculative empathy, endless delay or treating all claims as equally supported. Preserve unknowns and use the appropriate owner when accounts cannot be reconciled.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "E60"
+      ],
+      "evidence_map": "references/evidence-map.md#l11",
+      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "L12",
+      "version": "0.2.0",
+      "title": "Teach–Practice–Check-back",
+      "job": "Develop a missing task skill",
+      "file": "references/methods/L12-teach-practice.md",
+      "source": "https://www.cdc.gov/training-development/php/about/evaluate-training-measuring-effectiveness.html",
+      "license": "MIT",
+      "evidence": "Training/transfer meta-analyses and learning chapters distinguish acquisition, use and maintained performance. Program-level moderator associations do not validate this short sequence or a universal practice schedule.",
+      "profile": {
+        "jobs": [
+          "Develop a missing task skill"
+        ],
+        "preconditions": [
+          "A competent instructor, authorised practice conditions, adequate time and a visible performance criterion."
+        ],
+        "avoid": [
+          "The task requires qualification they do not hold, capacity is absent or unsafe practice cannot be supervised."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "support_gaps": {
+            "fit": [
+              "skill"
+            ],
+            "caution": [
+              "capacity",
+              "resources",
+              "access"
+            ],
+            "reason": "An observed task gap calls for instruction and supported practice; lack of opportunity is different."
+          },
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "expert_analysis"
+            ],
+            "caution": [
+              "emergent"
+            ],
+            "reason": "Teaching requires a suitable known procedure and qualified instructor, not an invented solution."
+          }
+        },
+        "output": "An observed attempt, known gaps and a support/check-back plan.",
+        "outcome": "At a later genuine work opportunity, observe criterion performance with planned support; use a new relevant case for adaptable skills.",
+        "guardrail": "Watch unsafe unsupervised work, embarrassment or satisfaction scores substituting for performance. Narrow the task or retain qualified ownership until ready.",
+        "alternative_ids": [
+          "L02",
+          "L28"
+        ],
+        "metric_contract": {
+          "immediate_output": "An observed attempt, known gaps and a support/check-back plan.",
+          "later_outcome": "At a later genuine work opportunity, observe criterion performance with planned support; use a new relevant case for adaptable skills.",
+          "balancing_indicator": "Watch unsafe unsupervised work, embarrassment or satisfaction scores substituting for performance. Narrow the task or retain qualified ownership until ready.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "development",
+      "source_ids": [
+        "P08",
+        "P28",
+        "E04",
+        "E05",
+        "B02"
+      ],
+      "evidence_map": "references/evidence-map.md#l12",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L13",
+      "version": "0.2.0",
+      "title": "Premortem",
+      "job": "Surface failure risks before commitment",
+      "file": "references/methods/L13-premortem.md",
+      "source": "https://www.gary-klein.com/premortem",
+      "license": "MIT",
+      "evidence": "Original prospective-hindsight scenario studies concern explanation generation. They do not establish superior forecasts or success of a full team premortem.",
+      "profile": {
+        "jobs": [
+          "Surface failure risks before commitment"
+        ],
+        "preconditions": [
+          "A candidate plan, participants with relevant knowledge and an owner for responses."
+        ],
+        "avoid": [
+          "It becomes a blame exercise, an exhaustive risk assessment is legally required or no owner can respond to findings."
+        ],
+        "time_minutes": [
+          20,
+          40
+        ],
+        "dimensions": {
+          "reversibility": {
+            "fit": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "caution": [],
+            "reason": "Discover failure mechanisms before commitment across risk levels; it never certifies safety."
+          },
+          "alignment": {
+            "fit": [
+              "shared"
+            ],
+            "caution": [
+              "unclear",
+              "mixed"
+            ],
+            "reason": "Participants must understand the proposed plan; hypotheses and dissent remain visible."
+          }
+        },
+        "output": "A short set of failure mechanisms with owners and responses.",
+        "outcome": "Before commitment, did the plan change to address a consequential plausible failure, and is its warning monitored? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+        "guardrail": "Watch pessimism without evidence, false reassurance or suppression of dissent. This supplements required risk processes and cannot certify safety.",
+        "alternative_ids": [
+          "L24",
+          "L29"
+        ],
+        "metric_contract": {
+          "immediate_output": "A short set of failure mechanisms with owners and responses.",
+          "later_outcome": "Before commitment, did the plan change to address a consequential plausible failure, and is its warning monitored? Agree the definition, baseline (or unknown), observation window and review date before acting.",
+          "balancing_indicator": "Watch pessimism without evidence, false reassurance or suppression of dissent. This supplements required risk processes and cannot certify safety.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P09",
+        "E44"
+      ],
+      "evidence_map": "references/evidence-map.md#l13",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L14",
+      "version": "0.2.0",
+      "title": "Closed-loop handoff",
+      "job": "Transfer live work with checked receipt",
+      "file": "references/methods/L14-handoff.md",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/handoff.html",
+      "license": "MIT",
+      "evidence": "I-PASS before/after study supports a clinical implementation bundle; team chapters add context. Check-back alone was not isolated, and pediatric error reductions cannot be promised in office work.",
+      "profile": {
+        "jobs": [
+          "Transfer live work with checked receipt"
+        ],
+        "preconditions": [
+          "An identified sender and recipient, current status and a clear acceptance/escalation boundary."
+        ],
+        "avoid": [
+          "The recipient cannot accept responsibility, qualification or authority is absent, or critical details cannot be verified."
+        ],
+        "time_minutes": [
+          5,
+          15
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "pair",
+              "cross_boundary",
+              "team"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "A live transfer requires an identified receiver and preserved dependencies."
+          },
+          "support_gaps": {
+            "fit": [
+              "role_clarity"
+            ],
+            "caution": [
+              "capacity",
+              "skill",
+              "resources"
+            ],
+            "reason": "Checked receipt and acceptance do not create qualification or available capacity."
+          }
+        },
+        "output": "A received handoff with current owner, next action, risks and confirmation.",
+        "outcome": "Observe critical omissions, acceptance gaps and dependency loss in a locally defined set of handoffs alongside handoff effort.",
+        "guardrail": "Watch silent assumptions of acceptance or a transfer that strands unresolved risk. Do not mark ownership transferred merely because a message was sent.",
+        "alternative_ids": [
+          "L06",
+          "L21"
+        ],
+        "metric_contract": {
+          "immediate_output": "A received handoff with current owner, next action, risks and confirmation.",
+          "later_outcome": "Observe critical omissions, acceptance gaps and dependency loss in a locally defined set of handoffs alongside handoff effort.",
+          "balancing_indicator": "Watch silent assumptions of acceptance or a transfer that strands unresolved risk. Do not mark ownership transferred merely because a message was sent.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "coordination",
+      "source_ids": [
+        "P10",
+        "E23",
+        "B21",
+        "B60"
+      ],
+      "evidence_map": "references/evidence-map.md#l14",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L15",
+      "version": "0.2.0",
+      "title": "Team charter and working agreements",
+      "job": "Agree ongoing team purpose and operating norms",
+      "file": "references/methods/L15-team-charter.md",
+      "source": "https://www.atlassian.com/team-playbook/plays/working-agreements",
+      "license": "MIT",
+      "evidence": "Charter/strategy study and newer scholarly synthesis distinguish team norms from task strategy. Original study is abstract-only here and has a figure-label correction; simulations and limited evidence constrain transfer.",
+      "profile": {
+        "jobs": [
+          "Agree ongoing team purpose and operating norms"
+        ],
+        "preconditions": [
+          "A team with a legitimate remit; members can change at least some working arrangements."
+        ],
+        "avoid": [
+          "A manager has already fixed all rules but stages a workshop to manufacture consent."
+        ],
+        "time_minutes": [
+          35,
+          60
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "unclear"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "A charter clarifies ongoing purpose and norms; deep interests conflicts need a legitimate decision first."
+          },
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "People who share ongoing work can agree interfaces; separate owners may need authority clarified."
+          }
+        },
+        "output": "A short charter with working norms and a revision date. This establishes the ongoing team's operating conditions; it does not replace the existing single-decision ownership or delegation methods.",
+        "outcome": "Observe one recurring friction and one task outcome; distinguish using an agreement, its usefulness and the need to revise it.",
+        "guardrail": "No unpaid availability expectations, coerced consensus or conflict with employment protections.",
+        "alternative_ids": [
+          "L01",
+          "L06"
+        ],
+        "metric_contract": {
+          "immediate_output": "A short charter with working norms and a revision date. This establishes the ongoing team's operating conditions; it does not replace the existing single-decision ownership or delegation methods.",
+          "later_outcome": "Observe one recurring friction and one task outcome; distinguish using an agreement, its usefulness and the need to revise it.",
+          "balancing_indicator": "No unpaid availability expectations, coerced consensus or conflict with employment protections.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "coordination",
+      "source_ids": [
+        "P11",
+        "E21",
+        "E22",
+        "E24",
+        "E25",
+        "B20",
+        "B21",
+        "B60",
+        "B62"
+      ],
+      "evidence_map": "references/evidence-map.md#l15",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L16",
+      "version": "0.2.0",
+      "title": "Performance and learning goal design",
+      "job": "Set a result or learning goal with feedback",
+      "file": "references/methods/L16-goal-design.md",
+      "source": "https://www-2.rotman.utoronto.ca/facbios/file/09%20-%20Locke%20%26%20Latham%202002%20AP.pdf",
+      "license": "MIT",
+      "evidence": "Goal-setting research explains mechanisms/moderators; implementation plans address a different gap. Neither SMART phrasing nor uniformly harder targets is independently validated for this case.",
+      "profile": {
+        "jobs": [
+          "Set a result or learning goal with feedback"
+        ],
+        "preconditions": [
+          "An owner who can discuss the goal, relevant constraints, feedback and realistic support."
+        ],
+        "avoid": [
+          "A quota is increased while staff lack a workable method or necessary resources."
+        ],
+        "time_minutes": [
+          15,
+          35
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "expert_analysis",
+              "emergent"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Choose performance goals where a strategy exists and learning goals where it must be developed."
+          },
+          "support_gaps": {
+            "fit": [
+              "role_clarity",
+              "skill"
+            ],
+            "caution": [
+              "capacity",
+              "resources"
+            ],
+            "reason": "Goal specificity or learning can help clarity/skill; wording cannot provide missing resources."
+          }
+        },
+        "output": "A goal, success evidence, feedback schedule, and learning requirements. The method designs the target and conditions for pursuit; GROW remains a conversation structure that can help explore them.",
+        "outcome": "At the checkpoint, compare the stated result or demonstrated strategy with the baseline and agreed criterion.",
+        "guardrail": "No gaming one target, ignoring quality, or imposing a performance demand without an effective strategy.",
+        "alternative_ids": [
+          "L02",
+          "L12"
+        ],
+        "metric_contract": {
+          "immediate_output": "A goal, success evidence, feedback schedule, and learning requirements. The method designs the target and conditions for pursuit; GROW remains a conversation structure that can help explore them.",
+          "later_outcome": "At the checkpoint, compare the stated result or demonstrated strategy with the baseline and agreed criterion.",
+          "balancing_indicator": "No gaming one target, ignoring quality, or imposing a performance demand without an effective strategy.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "E40",
+        "E41",
+        "B41"
+      ],
+      "evidence_map": "references/evidence-map.md#l16",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L17",
+      "version": "0.2.0",
+      "title": "Stakeholder map and listening round",
+      "job": "Find affected perspectives and plan meaningful involvement",
+      "file": "references/methods/L17-stakeholders.md",
+      "source": "https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf",
+      "license": "MIT",
+      "evidence": "Perspective-getting and team knowledge synthesis explain why actual affected accounts matter. No comparative validation of a stakeholder grid or power/interest classification was established.",
+      "profile": {
+        "jobs": [
+          "Find affected perspectives and plan meaningful involvement"
+        ],
+        "preconditions": [
+          "A bounded proposed change and permission for the planned listening; no implied mandate to contact anyone."
+        ],
+        "avoid": [
+          "A power-interest grid is used to dismiss people who cannot veto the project."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "cross_boundary",
+              "network"
+            ],
+            "caution": [],
+            "reason": "Finds missing owners and affected users across boundaries before consultation."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported",
+              "constrained"
+            ],
+            "caution": [
+              "unsafe"
+            ],
+            "reason": "Engagement must account for unequal influence and provide safe routes."
+          }
+        },
+        "output": "A stakeholder and engagement plan grounded in actual conversations. Unlike decision ownership, this finds whose experience and participation the change requires before defining consultation rights.",
+        "outcome": "Before commitment, check whether materially affected groups' concerns have a recorded disposition and responsible owner.",
+        "guardrail": "No profiling people's loyalty or ignoring low-power people with high impact; do not disclose private comments without permission.",
+        "alternative_ids": [
+          "L10",
+          "L11"
+        ],
+        "metric_contract": {
+          "immediate_output": "A stakeholder and engagement plan grounded in actual conversations. Unlike decision ownership, this finds whose experience and participation the change requires before defining consultation rights.",
+          "later_outcome": "Before commitment, check whether materially affected groups' concerns have a recorded disposition and responsible owner.",
+          "balancing_indicator": "No profiling people's loyalty or ignoring low-power people with high impact; do not disclose private comments without permission.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P12",
+        "E60",
+        "B60"
+      ],
+      "evidence_map": "references/evidence-map.md#l17",
+      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "L18",
+      "version": "0.2.0",
+      "title": "Nominal group prioritisation",
+      "job": "Produce a traceable group preference ranking",
+      "file": "references/methods/L18-nominal-group.md",
+      "source": "https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf",
+      "license": "MIT",
+      "evidence": "CDC describes nominal-group procedure; safety findings identify contextual constraints. No direct outcome study of this rendition was established; preference rankings are not factual truth or population consensus.",
+      "profile": {
+        "jobs": [
+          "Produce a traceable group preference ranking"
+        ],
+        "preconditions": [
+          "A clear question, accessible private ranking, common criteria and a legitimate decision owner."
+        ],
+        "avoid": [
+          "Participants vote on whether a safety requirement should be followed."
+        ],
+        "time_minutes": [
+          30,
+          60
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "shared",
+              "different_interests"
+            ],
+            "caution": [
+              "disputed_facts",
+              "unclear"
+            ],
+            "reason": "Ranking expresses informed preferences; unclear criteria or factual disputes need work first."
+          },
+          "coordination": {
+            "fit": [
+              "team"
+            ],
+            "caution": [
+              "network"
+            ],
+            "reason": "Structured small-group input is tractable; many boundaries require another engagement design."
+          }
+        },
+        "output": "A traceable prioritized list plus the criteria and dissent. Unlike 1-2-4-All or another participation structure, the defining product is independent ranking and aggregation, not simply broader contribution.",
+        "outcome": "After the decision, check whether selected actions address the agreed criterion and minority concerns have a disposition.",
+        "guardrail": "No vote replacing expertise, rights, safety or authority; disclose differences between the ranking and final choice.",
+        "alternative_ids": [
+          "L05",
+          "L29"
+        ],
+        "metric_contract": {
+          "immediate_output": "A traceable prioritized list plus the criteria and dissent. Unlike 1-2-4-All or another participation structure, the defining product is independent ranking and aggregation, not simply broader contribution.",
+          "later_outcome": "After the decision, check whether selected actions address the agreed criterion and minority concerns have a disposition.",
+          "balancing_indicator": "No vote replacing expertise, rights, safety or authority; disclose differences between the ranking and final choice.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "decision_support",
+      "source_ids": [
+        "P13",
+        "E21",
+        "E22"
+      ],
+      "evidence_map": "references/evidence-map.md#l18",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L19",
+      "version": "0.2.0",
+      "title": "Driver diagram",
+      "job": "Connect an aim to a testable improvement theory",
+      "file": "references/methods/L19-driver-diagram.md",
+      "source": "https://www.ihi.org/library/tools/driver-diagram",
+      "license": "MIT",
+      "evidence": "PDSA reporting and measurement principles support a testable improvement theory. No direct comparative efficacy evidence for the diagram was established; arrows are hypotheses.",
+      "profile": {
+        "jobs": [
+          "Connect an aim to a testable improvement theory"
+        ],
+        "preconditions": [
+          "A bounded aim, people who understand the work and willingness to mark causal links as hypotheses."
+        ],
+        "avoid": [
+          "A diagram is presented as proof that every planned initiative will improve the outcome."
+        ],
+        "time_minutes": [
+          25,
+          50
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "emergent",
+              "mixed"
+            ],
+            "caution": [
+              "established"
+            ],
+            "reason": "Makes a theory of improvement explicit before testing, rather than proving it."
+          },
+          "alignment": {
+            "fit": [
+              "shared"
+            ],
+            "caution": [
+              "unclear",
+              "different_interests"
+            ],
+            "reason": "A common bounded aim is needed before drivers can be meaningfully selected."
+          }
+        },
+        "output": "A one-page improvement theory connecting aim, drivers, and testable changes. This selects and explains the portfolio of changes; the existing PDSA method tests particular changes within it.",
+        "outcome": "During the next test cycle, check whether a chosen driver and the aim moved as predicted; preserve contradictory evidence.",
+        "guardrail": "No causal certainty from arrows, unmeasured aim, or activity portfolio detached from the result.",
+        "alternative_ids": [
+          "L08",
+          "L24"
+        ],
+        "metric_contract": {
+          "immediate_output": "A one-page improvement theory connecting aim, drivers, and testable changes. This selects and explains the portfolio of changes; the existing PDSA method tests particular changes within it.",
+          "later_outcome": "During the next test cycle, check whether a chosen driver and the aim moved as predicted; preserve contradictory evidence.",
+          "balancing_indicator": "No causal certainty from arrows, unmeasured aim, or activity portfolio detached from the result.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P14",
+        "E42",
+        "B40"
+      ],
+      "evidence_map": "references/evidence-map.md#l19",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L20",
+      "version": "0.2.0",
+      "title": "Fishbone causal-hypothesis map",
+      "job": "Organise and investigate possible contributors",
+      "file": "references/methods/L20-fishbone.md",
+      "source": "https://www.ihi.org/library/tools/cause-and-effect-diagram",
+      "license": "MIT",
+      "evidence": "General research-methods explanation supports discriminating rival hypotheses. No direct fishbone efficacy evidence was added; group agreement does not identify a cause.",
+      "profile": {
+        "jobs": [
+          "Organise and investigate possible contributors"
+        ],
+        "preconditions": [
+          "A specific observable recurring effect, relevant work knowledge and a way to verify hypotheses."
+        ],
+        "avoid": [
+          "The largest fishbone branch is called the proven root cause because it received the most discussion."
+        ],
+        "time_minutes": [
+          25,
+          50
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "expert_analysis",
+              "mixed"
+            ],
+            "caution": [
+              "emergent"
+            ],
+            "reason": "Organises alternative explanations; verification can require observation, expertise or a bounded test."
+          },
+          "alignment": {
+            "fit": [
+              "disputed_facts",
+              "shared"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Separates causal hypotheses from competing accounts instead of voting on truth."
+          }
+        },
+        "output": "A structured set of causal hypotheses and an investigation plan. A debrief examines an episode; a fishbone organizes alternative explanations for an effect, including recurring patterns.",
+        "outcome": "At the review, record which important explanations were supported, contradicted or remain unknown, and what decision this changes.",
+        "guardrail": "No labeling people as root causes or substituting brainstorming for a qualified serious-harm investigation.",
+        "alternative_ids": [
+          "L07",
+          "L21"
+        ],
+        "metric_contract": {
+          "immediate_output": "A structured set of causal hypotheses and an investigation plan. A debrief examines an episode; a fishbone organizes alternative explanations for an effect, including recurring patterns.",
+          "later_outcome": "At the review, record which important explanations were supported, contradicted or remain unknown, and what decision this changes.",
+          "balancing_indicator": "No labeling people as root causes or substituting brainstorming for a qualified serious-harm investigation.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P15",
+        "B40"
+      ],
+      "evidence_map": "references/evidence-map.md#l20",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L21",
+      "version": "0.2.0",
+      "title": "Current-state process map",
+      "job": "Understand actual steps, waits and rework loops",
+      "file": "references/methods/L21-process-map.md",
+      "source": "https://www.ihi.org/library/tools/flowchart",
+      "license": "MIT",
+      "evidence": "Measurement and positive-deviance readings inform observation and context. No direct test of this mapping protocol was established; a map may omit exceptional work or shift waits.",
+      "profile": {
+        "jobs": [
+          "Understand actual steps, waits and rework loops"
+        ],
+        "preconditions": [
+          "A bounded start/end, access to appropriate non-sensitive examples and participation from people who do the work."
+        ],
+        "avoid": [
+          "A leader copies the official procedure and calls it verified without asking the people performing it."
+        ],
+        "time_minutes": [
+          30,
+          60
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary",
+              "network"
+            ],
+            "caution": [],
+            "reason": "End-to-end transitions reveal where separate roles interact."
+          },
+          "knowledge_state": {
+            "fit": [
+              "expert_analysis",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Observation establishes the current sequence before proposing improvements."
+          }
+        },
+        "output": "A validated current-state process map with one focused improvement opportunity. Unlike a handoff protocol, this examines the end-to-end system and its loops rather than specifying one transfer.",
+        "outcome": "Observe end-to-end time and rework across ordinary/exception cases with a downstream burden check; local queue speed alone can mislead.",
+        "guardrail": "No unnecessary personal case data, pressure to follow the idealised map, or optimising one queue by shifting work elsewhere.",
+        "alternative_ids": [
+          "L14",
+          "L08"
+        ],
+        "metric_contract": {
+          "immediate_output": "A validated current-state process map with one focused improvement opportunity. Unlike a handoff protocol, this examines the end-to-end system and its loops rather than specifying one transfer.",
+          "later_outcome": "Observe end-to-end time and rework across ordinary/exception cases with a downstream burden check; local queue speed alone can mislead.",
+          "balancing_indicator": "No unnecessary personal case data, pressure to follow the idealised map, or optimising one queue by shifting work elsewhere.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P16",
+        "B40",
+        "B42"
+      ],
+      "evidence_map": "references/evidence-map.md#l21",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L22",
+      "version": "0.2.0",
+      "title": "Force-field change diagnosis",
+      "job": "Identify present enablers and constraints to change",
+      "file": "references/methods/L22-force-field.md",
+      "source": "https://www.cnwl.nhs.uk/ia/resources/force-field-analysis",
+      "license": "MIT",
+      "evidence": "Review of change reactions supports separating actual conditions from deficit labels. No causal validation of force-field scores or universal change stages was established.",
+      "profile": {
+        "jobs": [
+          "Identify present enablers and constraints to change"
+        ],
+        "preconditions": [
+          "A specific proposed change and affected perspectives; no assumption that the proposal must proceed."
+        ],
+        "avoid": [
+          "The sponsor treats high supporting-force scores as permission to override serious objections."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "shared",
+              "different_interests",
+              "mixed",
+              "conflicting_priorities"
+            ],
+            "caution": [
+              "disputed_facts"
+            ],
+            "reason": "Present enablers and constraints may include different interests; factual claims still need checking."
+          },
+          "support_gaps": {
+            "fit": [
+              "capacity",
+              "resources",
+              "role_clarity",
+              "access"
+            ],
+            "caution": [],
+            "reason": "Targets conditions that can be changed instead of treating resistance as a trait."
+          }
+        },
+        "output": "A change-readiness diagnosis and targeted enabling actions. Unlike a premortem, it examines forces operating now; unlike interest negotiation, it covers systemic constraints as well as stakeholder concerns.",
+        "outcome": "At review, check whether the selected barrier/enabler actually changed and whether the change became more feasible.",
+        "guardrail": "No sums predicting success, labeling people as enemies, or pressure to suppress legitimate objections.",
+        "alternative_ids": [
+          "L17",
+          "L09"
+        ],
+        "metric_contract": {
+          "immediate_output": "A change-readiness diagnosis and targeted enabling actions. Unlike a premortem, it examines forces operating now; unlike interest negotiation, it covers systemic constraints as well as stakeholder concerns.",
+          "later_outcome": "At review, check whether the selected barrier/enabler actually changed and whether the change became more feasible.",
+          "balancing_indicator": "No sums predicting success, labeling people as enemies, or pressure to suppress legitimate objections.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P17",
+        "E47",
+        "B41"
+      ],
+      "evidence_map": "references/evidence-map.md#l22",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L23",
+      "version": "0.2.0",
+      "title": "If–then implementation plan",
+      "job": "Link a chosen action to a predictable cue",
+      "file": "references/methods/L23-if-then.md",
+      "source": "https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf",
+      "license": "MIT",
+      "evidence": "Large experimental synthesis supports contingent plans with heterogeneous, bias-sensitive effects. Effect estimates depend on correction method; workplace transfer and component moderators are uncertain.",
+      "profile": {
+        "jobs": [
+          "Link a chosen action to a predictable cue"
+        ],
+        "preconditions": [
+          "A genuinely chosen goal, feasible action and observable cue under the person's control."
+        ],
+        "avoid": [
+          "A person is told to use willpower cues to meet work that cannot fit their available time."
+        ],
+        "time_minutes": [
+          5,
+          15
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established"
+            ],
+            "caution": [
+              "mixed",
+              "emergent"
+            ],
+            "reason": "Precommits a known useful response; uncertain work may need a learning strategy instead."
+          },
+          "support_gaps": {
+            "fit": [
+              "none"
+            ],
+            "caution": [
+              "skill",
+              "capacity",
+              "resources"
+            ],
+            "reason": "Bridges intention and action but cannot supply competence, time or tools."
+          }
+        },
+        "output": "A specific cue–action commitment and a review trigger. Goal setting chooses the destination; implementation intentions pre-decide a response at the moment action is needed.",
+        "outcome": "Observe the chosen response across eligible cue occurrences and its downstream usefulness, separating absent cues from blocked responses.",
+        "guardrail": "No rigid automatic response to a changing or unsafe context; stop if the goal is unwanted or resources are missing.",
+        "alternative_ids": [
+          "L16",
+          "L09"
+        ],
+        "metric_contract": {
+          "immediate_output": "A specific cue–action commitment and a review trigger. Goal setting chooses the destination; implementation intentions pre-decide a response at the moment action is needed.",
+          "later_outcome": "Observe the chosen response across eligible cue occurrences and its downstream usefulness, separating absent cues from blocked responses.",
+          "balancing_indicator": "No rigid automatic response to a changing or unsafe context; stop if the goal is unwanted or resources are missing.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P29",
+        "E40",
+        "E41"
+      ],
+      "evidence_map": "references/evidence-map.md#l23",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L24",
+      "version": "0.2.0",
+      "title": "Assumption map",
+      "job": "Prioritise consequential uncertainty before testing",
+      "file": "references/methods/L24-assumptions.md",
+      "source": "https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter",
+      "license": "MIT",
+      "evidence": "Research design and PDSA principles support decision-relevant tests. No direct efficacy test of an assumption-map workshop was established.",
+      "profile": {
+        "jobs": [
+          "Prioritise consequential uncertainty before testing"
+        ],
+        "preconditions": [
+          "An initiative with explicit assumptions, evidence to inspect and authority to prepare tests without committing them."
+        ],
+        "avoid": [
+          "A team chooses the easiest experiment while leaving its critical resource assumption unexamined."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "emergent",
+              "mixed"
+            ],
+            "caution": [
+              "established"
+            ],
+            "reason": "Chooses what needs learning before a test cycle; does not itself establish the answers."
+          },
+          "reversibility": {
+            "fit": [
+              "2",
+              "3"
+            ],
+            "caution": [
+              "0",
+              "1"
+            ],
+            "reason": "A map can precede any commitment, but proposed live tests must have an acceptable bounded recovery path."
+          }
+        },
+        "output": "A ranked uncertainty register and a test brief. Assumption mapping chooses what must be learned; PDSA supplies an iterative testing cycle. Neither a premortem nor a fishbone performs this importance-versus-evidence prioritization.",
+        "outcome": "After the next evidence step, record which critical assumption changed status and how that changes the decision.",
+        "guardrail": "No confidence-as-evidence, fake numerical precision or live exposure to unbounded harm.",
+        "alternative_ids": [
+          "L13",
+          "L08"
+        ],
+        "metric_contract": {
+          "immediate_output": "A ranked uncertainty register and a test brief. Assumption mapping chooses what must be learned; PDSA supplies an iterative testing cycle. Neither a premortem nor a fishbone performs this importance-versus-evidence prioritization.",
+          "later_outcome": "After the next evidence step, record which critical assumption changed status and how that changes the decision.",
+          "balancing_indicator": "No confidence-as-evidence, fake numerical precision or live exposure to unbounded harm.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P18",
+        "E42",
+        "E44",
+        "B40"
+      ],
+      "evidence_map": "references/evidence-map.md#l24",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L25",
+      "version": "0.2.0",
+      "title": "Positive deviance inquiry",
+      "job": "Learn from verified better outcomes under comparable constraints",
+      "file": "references/methods/L25-positive-deviance.md",
+      "source": "https://positivedeviance.org/s/FINALguide10072010.pdf",
+      "license": "MIT",
+      "evidence": "Systematic review and critical monograph examine exemplar selection, explanation and transfer. Excellence can reflect case mix or resources; discovery does not demonstrate a transferable cause.",
+      "profile": {
+        "jobs": [
+          "Learn from verified better outcomes under comparable constraints"
+        ],
+        "preconditions": [
+          "A persistent problem, credible outcome differences, comparable resources and participant-led inquiry."
+        ],
+        "avoid": [
+          "A high-output team quietly uses extra staff, making it an invalid resource-comparable exemplar."
+        ],
+        "time_minutes": [
+          45,
+          90
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "emergent",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Observed exceptions suggest practices to examine and test, not guaranteed transferable causes."
+          },
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [
+              "individual"
+            ],
+            "reason": "Affected people discover and adapt a local practice; individual imitation alone misses context."
+          }
+        },
+        "output": "A locally discovered practice and an adoption experiment with outcome monitoring. This starts from verified positive exceptions; ordinary teaching starts with known content, and general appreciative inquiry need not identify measured outperformers.",
+        "outcome": "Check implementation, outcomes and burden under receiving-team conditions, retaining comparator and case-mix limits.",
+        "guardrail": "No cherry-picked stars, hidden subsidies, unsafe shortcuts or assumption that association proves mechanism.",
+        "alternative_ids": [
+          "L12",
+          "L08"
+        ],
+        "metric_contract": {
+          "immediate_output": "A locally discovered practice and an adoption experiment with outcome monitoring. This starts from verified positive exceptions; ordinary teaching starts with known content, and general appreciative inquiry need not identify measured outperformers.",
+          "later_outcome": "Check implementation, outcomes and burden under receiving-team conditions, retaining comparator and case-mix limits.",
+          "balancing_indicator": "No cherry-picked stars, hidden subsidies, unsafe shortcuts or assumption that association proves mechanism.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "development",
+      "source_ids": [
+        "P19",
+        "E45",
+        "B40",
+        "B42"
+      ],
+      "evidence_map": "references/evidence-map.md#l25",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L26",
+      "version": "0.2.0",
+      "title": "Problem framing",
+      "job": "Turn a requested solution into a bounded evidence-based problem",
+      "file": "references/methods/L26-problem-framing.md",
+      "source": "https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works",
+      "license": "MIT",
+      "evidence": "Framing experiments demonstrate some preference reversals; textbook concepts support diagnosis. They do not validate an entire discovery workshop or justify persuasive reframing.",
+      "profile": {
+        "jobs": [
+          "Turn a requested solution into a bounded evidence-based problem"
+        ],
+        "preconditions": [
+          "A non-emergency brief with enough discretion to examine the intended outcome and affected users."
+        ],
+        "avoid": [
+          "A known hazardous condition is held open for a framing workshop instead of protective action."
+        ],
+        "time_minutes": [
+          15,
+          40
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "unclear"
+            ],
+            "caution": [
+              "mixed"
+            ],
+            "reason": "Clarifies the problem before method or solution selection."
+          },
+          "knowledge_state": {
+            "fit": [
+              "expert_analysis",
+              "emergent",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Finds what is known about the difficulty and what needs learning."
+          }
+        },
+        "output": "A bounded problem brief with affected users, evidence, success measure, constraints, and next learning question. A perspective check challenges one interpretation; problem framing establishes what work should be attempted before selecting a method or solution.",
+        "outcome": "At the decision checkpoint, can the owner explain the problem, evidence, boundaries and why the next investment or stop is justified?",
+        "guardrail": "No endless discovery, assumed user needs or delay of required protective action.",
+        "alternative_ids": [
+          "L11",
+          "L16"
+        ],
+        "metric_contract": {
+          "immediate_output": "A bounded problem brief with affected users, evidence, success measure, constraints, and next learning question. A perspective check challenges one interpretation; problem framing establishes what work should be attempted before selecting a method or solution.",
+          "later_outcome": "At the decision checkpoint, can the owner explain the problem, evidence, boundaries and why the next investment or stop is justified?",
+          "balancing_indicator": "No endless discovery, assumed user needs or delay of required protective action.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "sensemaking",
+      "source_ids": [
+        "P20",
+        "E46",
+        "B41"
+      ],
+      "evidence_map": "references/evidence-map.md#l26",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L27",
+      "version": "0.2.0",
+      "title": "Troika peer consultation",
+      "job": "Use rotating peer perspectives for owner-chosen action",
+      "file": "references/methods/L27-troika.md",
+      "source": "https://www.liberatingstructures.com/troika-consulting",
+      "license": "CC-BY-SA-4.0",
+      "evidence": "Coaching synthesis explicitly excludes peers; a scholarly comparison helps distinguish helping roles. No direct Troika trial was established; peer agreement does not prove advice or substitute for expertise.",
+      "profile": {
+        "jobs": [
+          "Use rotating peer perspectives for owner-chosen action"
+        ],
+        "preconditions": [
+          "Three willing participants, a shareable challenge, accessible participation and truthful privacy limits."
+        ],
+        "avoid": [
+          "A manager requires an employee to recount a confidential personnel allegation to peers."
+        ],
+        "time_minutes": [
+          25,
+          40
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary"
+            ],
+            "caution": [],
+            "reason": "Uses three-person rotating consultation rather than a collective group decision."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported"
+            ],
+            "caution": [
+              "constrained",
+              "unsafe"
+            ],
+            "reason": "Voluntary bounded disclosure and ability to decline advice are essential."
+          }
+        },
+        "output": "Three owner-chosen next actions and new perspectives. Unlike GROW, this is a rotating peer-consultation format; unlike 1-2-4-All, it does not build one collective answer.",
+        "outcome": "At the next agreed check, did each owner attempt a chosen useful step and what changed or remained uncertain?",
+        "guardrail": "No compelled disclosure, unqualified advice on specialist decisions or pressure to accept peer suggestions.",
+        "alternative_ids": [
+          "L02",
+          "L11"
+        ],
+        "metric_contract": {
+          "immediate_output": "Three owner-chosen next actions and new perspectives. Unlike GROW, this is a rotating peer-consultation format; unlike 1-2-4-All, it does not build one collective answer.",
+          "later_outcome": "At the next agreed check, did each owner attempt a chosen useful step and what changed or remained uncertain?",
+          "balancing_indicator": "No compelled disclosure, unqualified advice on specialist decisions or pressure to accept peer suggestions.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P21",
+        "E01",
+        "B01"
+      ],
+      "evidence_map": "references/evidence-map.md#l27",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L28",
+      "version": "0.2.0",
+      "title": "Individual development plan",
+      "job": "Coordinate a supported longer-term growth pathway",
+      "file": "references/methods/L28-development-plan.md",
+      "source": "https://www.opm.gov/policy-data-oversight/training-and-development/career-development/",
+      "license": "MIT",
+      "evidence": "Training transfer, developmental-experience studies and learning chapters support conditional development. No IDP form or fixed stretch proportion is validated; observational challenge findings are not dose prescriptions.",
+      "profile": {
+        "jobs": [
+          "Coordinate a supported longer-term growth pathway"
+        ],
+        "preconditions": [
+          "The person's aspirations, plausible opportunities, manager support and time/resources that can be genuinely committed."
+        ],
+        "avoid": [
+          "A development plan lists courses but no opportunity to practise or demonstrate the capability."
+        ],
+        "time_minutes": [
+          30,
+          60
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "established",
+              "expert_analysis",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Coordinates development objectives and demonstrated learning across experiences."
+          },
+          "support_gaps": {
+            "fit": [
+              "skill",
+              "resources",
+              "role_clarity"
+            ],
+            "caution": [
+              "capacity",
+              "access"
+            ],
+            "reason": "Development requires opportunities and protected support; do not assume time/access are available."
+          }
+        },
+        "output": "A jointly owned development plan with objectives, experiences, support, dates, and demonstration criteria. Teaching addresses a particular skill episode; this coordinates a longer development pathway and access to opportunities.",
+        "outcome": "Observe promised access and demonstrated learning separately; missing opportunity is not the person's failure to develop.",
+        "guardrail": "No promotion promises, disguised disciplinary process, inequitable opportunity access or unpaid stretch work.",
+        "alternative_ids": [
+          "L12",
+          "L16"
+        ],
+        "metric_contract": {
+          "immediate_output": "A jointly owned development plan with objectives, experiences, support, dates, and demonstration criteria. Teaching addresses a particular skill episode; this coordinates a longer development pathway and access to opportunities.",
+          "later_outcome": "Observe promised access and demonstrated learning separately; missing opportunity is not the person's failure to develop.",
+          "balancing_indicator": "No promotion promises, disguised disciplinary process, inequitable opportunity access or unpaid stretch work.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "development",
+      "source_ids": [
+        "P22",
+        "E02",
+        "E04",
+        "E05",
+        "E06",
+        "B01",
+        "B02"
+      ],
+      "evidence_map": "references/evidence-map.md#l28",
+      "knowledge_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "L29",
+      "version": "0.2.0",
+      "title": "Options and criteria trade-off review",
+      "job": "Compare feasible alternatives before a significant decision",
+      "file": "references/methods/L29-decision-analysis.md",
+      "source": "https://www.nasa.gov/reference/6-8-decision-analysis/",
+      "license": "MIT",
+      "evidence": "Framing and research-design knowledge complements NASA decision guidance. No comparative validation of this scoring/review template; natural-unit criteria and explicit values remain judgments.",
+      "profile": {
+        "jobs": [
+          "Compare feasible alternatives before a significant decision"
+        ],
+        "preconditions": [
+          "a bounded decision, legitimate owner, materially different alternatives, evidence or explicit uncertainty, and enough time for analysis. Avoid elaborate analysis for trivial choices; unresolved criteria call for framing rather than invented weights."
+        ],
+        "avoid": [
+          "a weighted score cannot compensate for violating a safety requirement."
+        ],
+        "time_minutes": [
+          50,
+          120
+        ],
+        "dimensions": {
+          "knowledge_state": {
+            "fit": [
+              "expert_analysis",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Compare decision-specific evidence and uncertainty; preserve incomparable tradeoffs."
+          },
+          "consequence": {
+            "fit": [
+              "1",
+              "2"
+            ],
+            "caution": [
+              "0",
+              "3"
+            ],
+            "reason": "A proportionate review helps meaningful decisions; trivial choices may not warrant it, severe cases need qualified process."
+          }
+        },
+        "output": "A decision brief with screened constraints, alternatives, evidence, uncertainty, owner and rationale.",
+        "outcome": "At the agreed trigger, review whether decisive assumptions and expected consequences held; distinguish new evidence from hindsight.",
+        "guardrail": "Watch analysis delay, false precision, omitted affected parties and violations hidden by weighted totals.",
+        "alternative_ids": [
+          "L18",
+          "L13"
+        ],
+        "metric_contract": {
+          "immediate_output": "A decision brief with screened constraints, alternatives, evidence, uncertainty, owner and rationale.",
+          "later_outcome": "At the agreed trigger, review whether decisive assumptions and expected consequences held; distinguish new evidence from hindsight.",
+          "balancing_indicator": "Watch analysis delay, false precision, omitted affected parties and violations hidden by weighted totals.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "decision_support",
+      "source_ids": [
+        "P23",
+        "E46",
+        "B40",
+        "B41"
+      ],
+      "evidence_map": "references/evidence-map.md#l29",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L30",
+      "version": "0.2.0",
+      "title": "Structured listening interview",
+      "job": "Understand and correct another person's account",
+      "file": "references/methods/L30-structured-listening.md",
+      "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/",
+      "license": "MIT",
+      "evidence": "Perceived-listening synthesis and perspective-getting research inform receiving an account. Predominantly observational listening associations do not prove this script improves performance.",
+      "profile": {
+        "jobs": [
+          "Understand and correct another person's account"
+        ],
+        "preconditions": [
+          "uncertainty about events or concerns, a willing participant, appropriate privacy, and capacity to listen without promising a predetermined outcome. Avoid delaying immediate protection or conducting an unauthorized investigation."
+        ],
+        "avoid": [
+          "“Listening” to a team after deciding every detail, while implying influence, misrepresents the process."
+        ],
+        "time_minutes": [
+          20,
+          40
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "unclear",
+              "disputed_facts",
+              "mixed"
+            ],
+            "caution": [],
+            "reason": "Gather an actual account before selecting a solution or assuming agreement."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported",
+              "constrained"
+            ],
+            "caution": [
+              "unsafe"
+            ],
+            "reason": "Use appropriate private/adapted routes; a listening exercise must not expose people or replace independent protection."
+          }
+        },
+        "output": "A correction-ready account distinguishing agreed observations, disputes, concerns and next questions.",
+        "outcome": "Check material corrections enter the later account/decision, separately from feeling heard, agreement and independent corroboration.",
+        "guardrail": "Avoid repeated extraction of sensitive stories, performative listening, unauthorised investigation and delayed protection.",
+        "alternative_ids": [
+          "L11",
+          "L03"
+        ],
+        "metric_contract": {
+          "immediate_output": "A correction-ready account distinguishing agreed observations, disputes, concerns and next questions.",
+          "later_outcome": "Check material corrections enter the later account/decision, separately from feeling heard, agreement and independent corroboration.",
+          "balancing_indicator": "Avoid repeated extraction of sensitive stories, performative listening, unauthorised investigation and delayed protection.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "P24",
+        "E21",
+        "E22",
+        "E26",
+        "E60",
+        "B20"
+      ],
+      "evidence_map": "references/evidence-map.md#l30",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "L31",
+      "version": "0.2.0",
+      "title": "Change impact and support planning",
+      "job": "Turn a defined change into a feasible transition",
+      "file": "references/methods/L31-change-support.md",
+      "source": "https://www.hse.gov.uk/stress/standards/change.htm",
+      "license": "MIT",
+      "evidence": "Change-reaction review and transfer explanations distinguish support, belief and ability. No universal stage model or messaging script is established; self-reported support is not feasible execution.",
+      "profile": {
+        "jobs": [
+          "Turn a defined change into a feasible transition"
+        ],
+        "preconditions": [
+          "a sufficiently defined proposal, named owner, known decision boundaries, affected groups who can contribute safely, and resources to address concerns. Do not pretend a fixed decision is negotiable or substitute communication for changing an unworkable proposal."
+        ],
+        "avoid": [
+          "sending more persuasive messages cannot fix inaccessible tooling."
+        ],
+        "time_minutes": [
+          50,
+          100
+        ],
+        "dimensions": {
+          "coordination": {
+            "fit": [
+              "team",
+              "cross_boundary",
+              "network"
+            ],
+            "caution": [],
+            "reason": "Plans changed tasks and dependencies for affected groups."
+          },
+          "support_gaps": {
+            "fit": [
+              "skill",
+              "capacity",
+              "resources",
+              "access",
+              "role_clarity"
+            ],
+            "caution": [],
+            "reason": "Named enabling commitments address concrete impacts; communication alone is insufficient."
+          }
+        },
+        "output": "An owned impact/support plan and honest communication/update commitments.",
+        "outcome": "Observe supported task completion and workload/error/access guardrails separately from approval of the change.",
+        "guardrail": "Watch hidden overtime, shifted overload, excluded voices, unresolved losses and unkept support commitments.",
+        "alternative_ids": [
+          "L22",
+          "L17"
+        ],
+        "metric_contract": {
+          "immediate_output": "An owned impact/support plan and honest communication/update commitments.",
+          "later_outcome": "Observe supported task completion and workload/error/access guardrails separately from approval of the change.",
+          "balancing_indicator": "Watch hidden overtime, shifted overload, excluded voices, unresolved losses and unkept support commitments.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "coordination",
+      "source_ids": [
+        "P25",
+        "E47",
+        "B41",
+        "B42"
+      ],
+      "evidence_map": "references/evidence-map.md#l31",
+      "knowledge_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "L32",
+      "version": "0.2.0",
+      "title": "Accountable repair after one's own mistake",
+      "job": "Acknowledge an established mistake and fulfil repair commitments",
+      "file": "references/methods/L32-accountable-repair.md",
+      "source": "https://ncmr.lps.library.cmu.edu/article/id/264/",
+      "license": "MIT",
+      "evidence": "Scenario experiments examine perceived apology effectiveness, including null contrasts. Ratings of wording do not establish restored trust, fulfillment or forgiveness.",
+      "profile": {
+        "jobs": [
+          "Acknowledge an established mistake and fulfil repair commitments"
+        ],
+        "preconditions": [
+          "a known action/omission one can honestly own, a suitable channel, and willingness/resources to change. Do not coach someone to confess disputed allegations, negotiate away reporting rights, or bypass formal accountability."
+        ],
+        "avoid": [
+          "apologizing repeatedly while retaining the same harmful practice is not repair."
+        ],
+        "time_minutes": [
+          20,
+          45
+        ],
+        "dimensions": {
+          "alignment": {
+            "fit": [
+              "shared",
+              "different_interests"
+            ],
+            "caution": [
+              "disputed_facts",
+              "mixed"
+            ],
+            "reason": "Own an established contribution; do not turn disputed allegations into an unsupported confession."
+          },
+          "voice_conditions": {
+            "fit": [
+              "no_specific_barrier_reported",
+              "constrained"
+            ],
+            "caution": [
+              "unsafe"
+            ],
+            "reason": "Respect the affected person's channel, space and reporting rights; never demand forgiveness."
+          }
+        },
+        "output": "A truthful acknowledgement of established responsibility plus feasible repair and prevention commitments.",
+        "outcome": "Check fulfilled corrective commitments and recurrence, without pressure for forgiveness or engagement.",
+        "guardrail": "No pressure to forgive, invented admission, performative apology, exposure or displacement of formal accountability.",
+        "alternative_ids": [
+          "L11",
+          "L30"
+        ],
+        "metric_contract": {
+          "immediate_output": "A truthful acknowledgement of established responsibility plus feasible repair and prevention commitments.",
+          "later_outcome": "Check fulfilled corrective commitments and recurrence, without pressure for forgiveness or engagement.",
+          "balancing_indicator": "No pressure to forgive, invented admission, performative apology, exposure or displacement of formal accountability.",
+          "baseline_or_proxy_caveat": "Agree a local definition, baseline or explicit unknown, observer and observation window. An output, attendance, vote, confidence rating or accepted apology is not proof of lasting improvement.",
+          "review_timing": "Agree a proportionate date or observable event before action; review sooner if a stop condition or material context change occurs."
+        }
+      },
+      "kind": "action_or_conversation",
+      "source_ids": [
+        "E27"
+      ],
+      "evidence_map": "references/evidence-map.md#l32",
+      "knowledge_file": "references/knowledge/teams-feedback.md"
+    }
+  ],
+  "matching_schema_version": 1,
+  "method_count": 32
+}
