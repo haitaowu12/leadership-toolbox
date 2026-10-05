@@ -13,6 +13,7 @@ docs/evaluations/forward-2026-10-05.md
 docs/evaluations/forward-dialogue-2026-10-05.md
 docs/evaluations/forward-expansion-2026-10-05.md
 docs/evaluations/forward-extension-2026-10-05.md
+docs/evaluations/knowledge-routing-2026-10-05.md
 docs/evidence-and-measurement.md
 docs/index.md
 docs/installation.md
