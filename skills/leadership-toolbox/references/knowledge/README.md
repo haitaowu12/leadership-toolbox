@@ -9,6 +9,14 @@ These are original, source-linked explanations of mechanisms, conditions, tensio
 - **What should we decide, test or change?** Read [decisions, goals and learning](decisions-learning.md). Separate a theory of the problem, a preferred option, a test of a prediction, and learning from an episode.
 - **Whose account or expertise is missing?** Read [inquiry and coordination](inquiry-coordination.md). Actual perspective, legitimate influence and shared planning are different jobs.
 
+## Turn reading into a decision
+
+Use a small contrast, not a theory label. Write the observed episode; name two plausible explanations only when the evidence leaves them open; identify the observation that separates them; choose the least burdensome safe way to obtain it. Then change the next action when the observation arrives. A blockage, skill deficit or unwillingness is a hypothesis until supported. A plausible mechanism is not permission to act.
+
+Example: two late deliveries could reflect an unresolved dependency, unclear acceptance criteria or a capability gap. Ask the owner to walk through the last episode. If waiting time dominated, inspect the interface and its owner; if a demonstrated task error dominated, consider supported practice; if neither appears, keep looking or make no change. Do not promise to remove one blockage before discovering whether any exists. This is original decision guidance, not a validated diagnostic test.
+
+Keep prerequisite status explicit where it changes advice: established, unknown or not met. Harmless preparation can proceed while execution waits for authority, consent, resources or a qualified process. A short answer can name only the decisive condition; a detailed answer can show the comparison.
+
 ## Use the library without overstating it
 
 1. Read the topic explanation for a plausible mechanism and a rival explanation.

@@ -75,8 +75,8 @@ Every card is an editorial workplace rendition. A linked study may concern a wid
 - Provenance: [P06](provenance.md#p06)
 - Research: [E43](knowledge/decisions-learning.md#e43), [E44](knowledge/decisions-learning.md#e44)
 - Book/chapters: [B60](knowledge/inquiry-coordination.md#b60)
-- **Supported scope:** Debrief meta-analysis supports an intervention family; only its abstract was inspected here.
-- **Limit:** No promised local percentage improvement or detailed unread subgroup claim; hindsight can distort explanations.
+- **Supported scope:** Full-text debrief review supports a bounded reflection intervention family with heterogeneous designs.
+- **Limit:** No promised local percentage gain or causal moderator ranking; sparse comparisons and hindsight limit interpretation.
 - **Open question:** Does a specific adjustment carry into the next comparable episode?
 
 ## L08
@@ -108,7 +108,7 @@ Every card is an editorial workplace rendition. A linked study may concern a wid
 - Provenance: [E61](knowledge/inquiry-coordination.md#e61)
 - Research: [E61](knowledge/inquiry-coordination.md#e61)
 - Book/chapters: None selected in this pass.
-- **Supported scope:** Observational influence-tactic study provides limited, abstract-inspected support for consultation.
+- **Supported scope:** Inspected influence study links consultation and commitment observationally; adjusted results differ by direction.
 - **Limit:** Associations are not causal tactics or a universal ranking; outcome varies with authority relationship.
 - **Open question:** Can genuine consultation alter the proposal, and is refusal preserved as a legitimate result?
 
@@ -119,7 +119,7 @@ Every card is an editorial workplace rendition. A linked study may concern a wid
 - Provenance: [E60](knowledge/inquiry-coordination.md#e60)
 - Research: [E60](knowledge/inquiry-coordination.md#e60)
 - Book/chapters: None selected in this pass.
-- **Supported scope:** Perspective-getting experiments were checked at abstract level; direct accounts can supply new information.
+- **Supported scope:** Inspected perspective-getting experiments support gathering specific new accounts, not imagined agreement.
 - **Limit:** No workplace-script validation or presumption that any account is complete or true.
 - **Open question:** What new account or observation actually changes the interpretation?
 

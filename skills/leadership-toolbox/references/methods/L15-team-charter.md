@@ -18,7 +18,7 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary sources.** Atlassian, [Working Agreements](https://www.atlassian.com/team-playbook/plays/working-agreements), documents collaborative behavioral agreements and revision. AHRQ, [Working Group Charter](https://digital.ahrq.gov/health-it-tools-and-resources/ahrq-funded-project-resources-archives/working-group-charter), supports explicit purpose and scope. **Limit:** practice guidance and vendor-reported employee perceptions do not establish a general causal performance effect.
 
-**Adapt the execution:** Pair agreements with the actual strategy, expertise, milestones, dependencies, resources and authority. Test a norm against real work. Reopen it after changes to membership/interfaces or repeated exceptions; document unresolved infeasibility.
+**Adapt the execution:** Check members' actual availability, expertise and authority; record unresolved mismatches for the legitimate owner rather than treating signatures as proof of feasibility. Pair agreements with the actual strategy, expertise, milestones, dependencies, resources and authority. Test a norm against real work. Reopen it after changes to membership/interfaces or repeated exceptions; document unresolved infeasibility.
 
 **Words to try:** “Which recurring misunderstanding should one observable agreement prevent?”
 

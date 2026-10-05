@@ -9,6 +9,7 @@ README.md
 RELEASE_FILES.txt
 THIRD_PARTY_NOTICES.md
 docs/evaluations/challenge-coverage.md
+docs/evaluations/completion-protocol.json
 docs/evaluations/forward-2026-10-05.md
 docs/evaluations/forward-dialogue-2026-10-05.md
 docs/evaluations/forward-expansion-2026-10-05.md
@@ -18,6 +19,7 @@ docs/evidence-and-measurement.md
 docs/index.md
 docs/installation.md
 docs/personal-data.md
+docs/quick-start.md
 docs/source-audit-2026-10-05.md
 docs/validation.md
 scripts/build_release.py
@@ -93,5 +95,6 @@ skills/leadership-toolbox/templates/method-card.md
 skills/leadership-toolbox/templates/practice-record.md
 skills/leadership-toolbox/templates/role-review.md
 skills/leadership-toolbox/templates/situation-profile.md
+tests/test_distribution.py
 tests/test_evidence.py
 tests/test_package.py

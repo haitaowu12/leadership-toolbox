@@ -22,7 +22,7 @@ Version: 0.2.0 · Licence: MIT
 4. Make a concrete authorised ask.
 5. Record the choice, rationale, owner and review trigger in a lightweight decision note.
 
-**Adapt the execution:** Disclose what is fixed and what consultation can change. Invite evidence that could alter the proposal, revise when warranted and preserve refusal as a legitimate decision.
+**Adapt the execution:** Distinguish a decision, authorized compliance and willing commitment; check the needed result separately from a favorable impression. Disclose what is fixed and what consultation can change. Invite evidence that could alter the proposal, revise when warranted and preserve refusal as a legitimate decision.
 
 **Words to try:** “What evidence or concern would change this decision?”
 

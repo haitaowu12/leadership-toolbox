@@ -25,7 +25,7 @@ These roles can coexist and are not an ordered evidence ladder. Judge a source a
 
 ## Research index
 
-Full text means relevant methods, findings and limitations were inspected in an accessible complete version; it does not mean every page or supplement was read. Partial text, abstract only and metadata only are deliberately separate. Exact scope, version and access barriers are in each record.
+Full text means relevant methods, findings and limitations were inspected in an accessible complete version; it does not mean every page or supplement was read. Partial text, abstract only and metadata only are deliberately separate. Exact scope, version and access barriers are in each record. Paper/review access: 24 full-text relevant-section inspections and one abstract-only record (E24). Books: nine partial chapter/excerpt inspections and one metadata-only record. Counts describe reading access, not quality.
 
 | ID | Work | Type | Inspection | Notes |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ Full text means relevant methods, findings and limitations were inspected in an 
 | E20 | [The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory](https://doi.org/10.1037/0033-2909.119.2.254) (1996) | meta analysis | full text | [scope, findings, limits](knowledge/teams-feedback.md#e20) |
 | E21 | [Psychological safety and learning behavior in work teams](https://doi.org/10.2307/2666999) (1999) | empirical study | full text | [scope, findings, limits](knowledge/teams-feedback.md#e21) |
 | E22 | [Psychological safety comes of age: Observed themes in an established literature](https://doi.org/10.1146/annurev-orgpsych-120920-055217) (2023) | systematic thematic review | full text | [scope, findings, limits](knowledge/teams-feedback.md#e22) |
-| E23 | [Changes in medical errors after implementation of a handoff program](https://www.nejm.org/doi/full/10.1056/NEJMsa1405556) (2014) | prospective before after study | partial text | [scope, findings, limits](knowledge/teams-feedback.md#e23) |
+| E23 | [Changes in medical errors after implementation of a handoff program](https://www.nejm.org/doi/full/10.1056/NEJMsa1405556) (2014) | prospective before after study | full text | [scope, findings, limits](knowledge/teams-feedback.md#e23) |
 | E24 | [Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies](https://pubmed.ncbi.nlm.nih.gov/19186898/) (2009) | longitudinal empirical study | abstract only | [scope, findings, limits](knowledge/teams-feedback.md#e24) |
 | E25 | [The paradox of intragroup conflict: A meta-analysis](https://doi.org/10.1037/a0024844) (2012) | meta analysis | full text | [scope, findings, limits](knowledge/teams-feedback.md#e25) |
 | E26 | [A meta-analytic systematic review and theory of the effects of perceived listening on work outcomes](https://doi.org/10.1007/s10869-023-09897-5) (2024) | registered systematic review and meta analysis | full text | [scope, findings, limits](knowledge/teams-feedback.md#e26) |
@@ -47,13 +47,13 @@ Full text means relevant methods, findings and limitations were inspected in an 
 | E40 | [Building a Practically Useful Theory of Goal Setting and Task Motivation: A 35-Year Odyssey](https://goal-lab.psych.umn.edu/orgPsych/2020/readings/5.%20Motivation/Locke%20%26%20Latham%20%282002%29.pdf) (2002) | theory review | full text | [scope, findings, limits](knowledge/decisions-learning.md#e40) |
 | E41 | [The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests](https://doi.org/10.1080/10463283.2024.2334563) (2025) | meta analysis | full text | [scope, findings, limits](knowledge/decisions-learning.md#e41) |
 | E42 | [Systematic review of the application of the plan–do–study–act method to improve quality in healthcare](https://pmc.ncbi.nlm.nih.gov/articles/PMC3963536/) (2014) | systematic review | full text | [scope, findings, limits](knowledge/decisions-learning.md#e42) |
-| E43 | [Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis](https://journals.sagepub.com/doi/10.1177/0018720812448394) (2013) | meta analysis | abstract only | [scope, findings, limits](knowledge/decisions-learning.md#e43) |
+| E43 | [Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis](https://journals.sagepub.com/doi/10.1177/0018720812448394) (2013) | meta analysis | full text | [scope, findings, limits](knowledge/decisions-learning.md#e43) |
 | E44 | [Back to the future: Temporal perspective in the explanation of events](https://www.researchgate.net/publication/227768493_Back_to_the_future_Temporal_perspective_in_the_explanation_of_events) (1989) | empirical study | full text | [scope, findings, limits](knowledge/decisions-learning.md#e44) |
 | E45 | [What methods are used to apply positive deviance within healthcare organisations? A systematic review](https://researchers.mq.edu.au/files/62251921/Publisher%20version%20%28open%20access%29.pdf) (2016) | systematic review | full text | [scope, findings, limits](knowledge/decisions-learning.md#e45) |
 | E46 | [The Framing of Decisions and the Psychology of Choice](https://cool.ntu.edu.tw/files/3801495/download?download_frd=1) (1981) | empirical study | full text | [scope, findings, limits](knowledge/decisions-learning.md#e46) |
 | E47 | [Change Recipients’ Reactions to Organizational Change: A 60-Year Review of Quantitative Studies](https://bschool-en.huji.ac.il/sites/default/files/businesshe/files/oreg_vakola_armenakis_2011.pdf) (2011) | integrative review of quantitative studies | full text | [scope, findings, limits](knowledge/decisions-learning.md#e47) |
-| E60 | [Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective](https://www.nicholasepley.com/publications) (2018) | empirical study | abstract only | [scope, findings, limits](knowledge/inquiry-coordination.md#e60) |
-| E61 | [Consequences of influence tactics used with subordinates, peers, and the boss](https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba) (1992) | empirical study | abstract only | [scope, findings, limits](knowledge/inquiry-coordination.md#e61) |
+| E60 | [Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective](https://www.nicholasepley.com/publications) (2018) | empirical study | full text | [scope, findings, limits](knowledge/inquiry-coordination.md#e60) |
+| E61 | [Consequences of influence tactics used with subordinates, peers, and the boss](https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba) (1992) | empirical study | full text | [scope, findings, limits](knowledge/inquiry-coordination.md#e61) |
 
 ## Knowledge acquisition and reuse policy
 

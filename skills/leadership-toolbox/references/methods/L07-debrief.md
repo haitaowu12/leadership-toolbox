@@ -17,7 +17,7 @@ Version: 0.2.0 · Licence: MIT
 ## Try it
 
 1. Recall the intended result and what actually happened.
-2. Invite differing observations before explanations.
+2. Invite differing observations before explanations. Compare accounts with a relevant record or observer where feasible; solitary recollection is self-reflection rather than the full reviewed debrief intervention.
 3. Identify what helped, what obstructed and what remains uncertain.
 4. Choose one feasible change and its owner.
 5. Decide when to check whether it helped.
@@ -50,4 +50,4 @@ Related alternatives: [L20](L20-fishbone.md), [L08](L08-pdsa.md). Use a sequence
 
 ## Deeper knowledge and evidence
 
-Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l07). No promised local percentage improvement or detailed unread subgroup claim; hindsight can distort explanations.
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l07). No promised local percentage gain or causal moderator ranking; sparse comparisons and hindsight limit interpretation.

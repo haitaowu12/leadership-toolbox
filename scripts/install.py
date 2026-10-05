@@ -2,7 +2,8 @@
 """Install a complete skill; keep staging/backups outside host skill discovery."""
 import argparse
 import os
-from pathlib import Path
+import json
+from pathlib import Path, PurePosixPath
 import shutil
 import tempfile
 import uuid
@@ -11,6 +12,15 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "skills" / "leadership-toolbox"
 PRIVATE_NAMES = {"profile.json", "practice.jsonl", ".user-data", "backups", ".git"}
 BACKUP_PREFIX = ".leadership-toolbox.backup-"
+CORE_FILES = {
+    "SKILL.md", "LICENSE", "THIRD_PARTY_NOTICES.md",
+    "references/catalog.json", "references/catalog.md",
+    "references/workflow.md", "references/user-data.md",
+    "scripts/state.py", "schemas/profile-v1.schema.json",
+    "schemas/profile-v2.schema.json", "schemas/practice-v1.schema.json",
+    "templates/conversation.md", "templates/practice-record.md",
+    "templates/role-review.md",
+}
 
 
 def real_path(value, label):
@@ -31,16 +41,41 @@ def backup_directory(dest, value=None):
     return directory
 
 
+def required_file(tree, name):
+    if not isinstance(name, str) or not name or "\\" in name or ":" in name:
+        raise ValueError("invalid skill file path")
+    relative = PurePosixPath(name)
+    if relative.is_absolute() or ".." in relative.parts or relative.as_posix() != name:
+        raise ValueError(f"unsafe skill file path: {name}")
+    path = tree / name
+    if (any(part.is_symlink() for part in [path, *path.parents])
+            or not path.is_file() or tree.resolve() not in path.resolve().parents):
+        raise ValueError(f"missing or unsafe required skill file: {name}")
+    return path
+
+
 def check_tree(tree):
     if tree.is_symlink() or not tree.is_dir() or not (tree / "SKILL.md").is_file():
         raise ValueError("source must be a real complete skill directory")
     for path in tree.rglob("*"):
         if path.is_symlink():
             raise ValueError("symlink in skill tree")
-        if path.name in PRIVATE_NAMES:
+        if path.name in PRIVATE_NAMES or path.name == ".env" or path.name.startswith(".env."):
             raise ValueError("private data or repository history inside skill; move it out before updating")
         if not path.is_dir() and not path.is_file():
             raise ValueError("unsupported entry in skill tree")
+
+    for name in CORE_FILES:
+        required_file(tree, name)
+    catalog = json.loads((tree / "references/catalog.json").read_text(encoding="utf-8"))
+    if not isinstance(catalog, dict) or not isinstance(catalog.get("methods"), list) or not catalog["methods"]:
+        raise ValueError("skill catalog must contain method entries")
+    for method in catalog["methods"]:
+        if not isinstance(method, dict):
+            raise ValueError("invalid method entry in skill catalog")
+        required_file(tree, method.get("file"))
+        if "knowledge_file" in method:
+            required_file(tree, method["knowledge_file"])
 
 
 def install(dest, source=SOURCE, backup_dir=None):
@@ -105,3 +140,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

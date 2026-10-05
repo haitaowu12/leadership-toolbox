@@ -13,18 +13,24 @@ This chapter separates an actual account, a persuasive request, and a shared ope
 ## E60
 
 ### Perspective getting and accuracy
+Eyal, Steffel & Epley (2018), *Journal of Personality and Social Psychology*, 114, 547–571. [DOI](https://doi.org/10.1037/pspa0000115); [author record](https://www.nicholasepley.com/publications); [inspected author-linked article](https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b5d1_Eyal_Steffel_Epley_2018_Perspective_Mistaking%20%281%29.pdf).
 
-Eyal, Steffel & Epley (2018), *Journal of Personality and Social Psychology*, 114(4), 547–571. [DOI](https://doi.org/10.1037/pspa0000115); [author record](https://www.nicholasepley.com/publications).
+**Read:** Experimental overview/methods, Experiment 25 methods/results and general limitations; not supplements or raw data.
 
-**Read:** abstract only; linked PDFs were unreadable in this review. Across 25 experiments, instructions to imagine another perspective did not consistently improve accuracy. A final experiment found greater accuracy from conversation. This concerns information acquisition, not the worth of empathy. Workplace transfer and truthful disclosure under power differences are untested here. Use new accounts as evidence to evaluate, not automatically as objective facts.
+Across 25 experiments, imagining another perspective did not consistently improve interpersonal accuracy. Experiment 25 randomized predictors from 104 romantic couples to five strategies. Discussion improved prediction of the partner's reported opinions; partial discussion helped on discussed items, not undisclosed items. Controls already considered another's mind, so this does not show that attending to others is useless. Reports can be inaccurate or change through conversation; workplace power-sensitive transfer is untested.
+
+**Application:** Record which specific account changed which belief. One person's stated concern does not establish their other concerns or a group's position.
 
 ## E61
 
 ### Influence across authority relationships
+Yukl & Tracey (1992), *Journal of Applied Psychology*, 77, 525–535. [DOI](https://doi.org/10.1037/0021-9010.77.4.525); [Cornell record](https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba); [inspected manuscript](https://ecommons.cornell.edu/server/api/core/bitstreams/df85402a-0c3b-435b-a8af-07176eb4bedb/content).
 
-Yukl & Tracey (1992), *Journal of Applied Psychology*, 77(4), 525–535. [DOI](https://doi.org/10.1037/0021-9010.77.4.525); [Cornell record](https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba).
+**Read:** Complete manuscript available; methods/measures, results and limitations, manuscript pp. 23–41. It is not the copy of record; use journal year 1992.
 
-**Read:** repository abstract and rights record, not manuscript methods. A questionnaire field study related nine influence tactics to task commitment and perceived managerial effectiveness. Rational persuasion, consultation and inspirational appeals had more favorable associations; results varied with direction of influence. It is observational evidence, not a universal tactic ranking or permission to manipulate. The repository date differs from the journal year; cite the journal year.
+The field study covered 128 managers at five companies. Managers selected peer/subordinate raters; tactic frequency and commitment came from the same respondents. Consultation correlated with commitment in every direction, but was not an independent upward-influence predictor controlling other tactics. Selection, reverse causality and respondent bias remain plausible. Commitment and boss-rated effectiveness were different criteria; simple compliance was not established.
+
+**Application:** Distinguish a decision, authorized compliance and willing commitment, and check the required result directly. This is not a causal tactic ranking. Cornell's hosting permission does not confer onward reproduction rights.
 
 ## B60
 

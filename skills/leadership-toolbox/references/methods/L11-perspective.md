@@ -22,7 +22,7 @@ Version: 0.2.0 · Licence: MIT
 4. Compare evidence and name unresolved differences.
 5. Choose the next inquiry or decision rather than forcing consensus.
 
-**Adapt the execution:** Record what new information corrected your view. Distinguish reported experience from corroborated fact, and preserve consequential unresolved differences rather than manufacturing consensus.
+**Adapt the execution:** Tag consequential beliefs with the specific account/source and date; one reported concern does not establish other concerns or a group's view. Record what new information corrected your view. Distinguish reported experience from corroborated fact, and preserve consequential unresolved differences rather than manufacturing consensus.
 
 **Words to try:** “What information did you have, and what assumption should we check?”
 

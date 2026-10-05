@@ -88,15 +88,16 @@ For each method, distinguish fidelity (did the proposed procedure happen?), imme
 
 ## E23
 
-### Structured handoffs: I-PASS multicenter study
+### Structured handoffs: a multicomponent clinical program
+Starmer et al. (2014), *New England Journal of Medicine*, 371, 1803–1812. [Publisher/DOI](https://www.nejm.org/doi/full/10.1056/NEJMsa1405556); [inspected author-uploaded full text](https://www.researchgate.net/publication/268524846_Changes_in_Medical_Errors_after_Implementation_of_a_Handoff_Program); [institutional record](https://digitalcommons.wustl.edu/open_access_pubs/3490/).
 
-**Bibliography:** Starmer, A. J., Spector, N. D., Srivastava, R., et al., for the I-PASS Study Group. (2014). Changes in medical errors after implementation of a handoff program. *New England Journal of Medicine, 371*(19), 1803–1812. [DOI/full publisher article](https://www.nejm.org/doi/full/10.1056/NEJMsa1405556); [PubMed record](https://pubmed.ncbi.nlm.nih.gov/25372088/).
+**Read:** Complete article OCR, relevant design/results/limitations, pp. 1804–1811. Supplements and complete PDF not inspected.
 
-**Access:** Partial text: publisher-indexed methods, results and discussion inspected; direct PDF fetch returned 403. No claim of complete PDF inspection.
+Nine pediatric programs contributed 10,740 admissions. Errors fell from 24.5 to 18.8 per 100 admissions; preventable adverse events from 4.7 to 3.3. Pre/post windows matched season. Incident adjudicators were blinded to period; collectors and handoff-quality assessors were not. Process measures improved across sites while three sites lacked significant error reductions. The nonrandomized bundle cannot isolate check-back or establish office-work effects.
 
-**Evidence note:** Prospective before/after study in nine pediatric residency programs, 10,740 admissions. The bundled intervention combined oral/written standardization, training, observation, faculty development and implementation support. Medical errors declined from 24.5 to 18.8 per 100 admissions (23% relative); preventable adverse events from 4.7 to 3.3 (30%). Nonpreventable events and handoff duration did not change significantly; three sites lacked a significant error reduction. No randomized concurrent control; components cannot be isolated; pediatric results do not establish general-office effects. L14 may borrow the principle of recipient synthesis and contingencies, but cannot promise a 23% reduction from its four steps. Track lost dependencies and receiver action alongside handoff burden.
+**Application:** Observe receiver understanding, downstream omissions and burden separately. Better documentation alone does not establish better outcomes. Keep qualified clinical processes in place.
 
-**Reuse:** Copyrighted source. No reproduced I-PASS materials or clinical protocol; regulated work retains its qualified local process.
+**Reuse:** Copyrighted source; no training materials, article or clinical protocol reproduced.
 
 ## E24
 
@@ -104,9 +105,11 @@ For each method, distinguish fidelity (did the proposed procedure happen?), imme
 
 **Bibliography:** Mathieu, J. E., & Rapp, T. L. (2009). Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies. *Journal of Applied Psychology, 94*(1), 90–103. [DOI](https://doi.org/10.1037/a0013257); [PubMed abstract](https://pubmed.ncbi.nlm.nih.gov/19186898/). Correction: (2010), *95*(4), 712, [DOI](https://doi.org/10.1037/a0019852); [correction abstract on author's publication record](https://www.researchgate.net/publication/238308368_Correction_to_Mathieu_and_Rapp_2009).
 
-**Access:** Abstract only, plus correction abstract. Full methods/results were not accessible; do not present this as a fully appraised experiment.
+**Access:** Abstract and correction only for the article. A related [APA PsycTests procedure description](https://doi.org/10.1037/t08708-000) was inspected through indexed publisher text; it is not journal methods/results. The author's [reprint route](https://uchuskypack.com/reprints/) requires a request, which was not submitted.
 
 **Evidence note:** Longitudinal business simulation with 32 MBA teams used growth modeling. Higher-quality task strategies predicted better performance, with the highest sustained performance for teams high on both charter and strategy quality. The sample and simulation constrain transfer; the abstract alone cannot settle causal assignment or all confounds. Importantly, the correction reverses two labels in Figure 1: high-charter/low-strategy and low-charter/high-strategy. Avoid copying the original graphic or deriving trajectory details from it. L15 should test an agreement against a real work plan and necessary resources, rather than treating a completed charter as an outcome.
+
+The related procedure record describes individual capacities/preferences and collective coordination arrangements. It adds procedural context, not evidence of random assignment or an isolated charter effect. Check feasibility against actual availability, expertise and authority.
 
 **Reuse:** Original bibliographic and abstract-based summary only.
 

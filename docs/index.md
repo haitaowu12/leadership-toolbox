@@ -21,3 +21,7 @@ This is everyday leadership support. It does not replace qualified incident, emp
 - [Source library](../skills/leadership-toolbox/references/sources.md): research separated from procedural provenance
 - [Books and scoped readings](../skills/leadership-toolbox/references/books.md): actual editions/sections inspected
 - [All-method evidence map](../skills/leadership-toolbox/references/evidence-map.md): relevant studies, application limits and open questions
+
+## Start a session
+
+[Quick start and worked prompts](quick-start.md) explains concise help, probing, direct lookups and proportionate observation. [Installation](installation.md) includes a cloud upload route, complete-folder installs, updates and restoration.
