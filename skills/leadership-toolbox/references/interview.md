@@ -55,3 +55,15 @@ Stop when there is enough context for a safe useful next step, additional answer
 Before switching modes say what you can now recommend and what still prevents commitment. Deliver one primary method, a serious alternative and the fact that would switch them. If several methods are needed, use an explicit sequence with an exit condition; do not prescribe a toolbox dump.
 
 After action, ask only the agreed output/outcome/guardrail questions. “Unknown”, “declined”, “mixed” and “nothing needed” are legitimate results. Save context or corrections only with explicit permission in a separate private location; otherwise keep them in the current conversation.
+
+## Deeper questions should change the route
+
+Use the [knowledge library](knowledge/README.md) to explain why a question matters. These are editorial diagnostic contrasts, not a validated questionnaire:
+
+- **Choice versus capability:** Can the person demonstrate the task, and is there a supported opportunity to use it? A self-chosen direction may call for L02; a demonstrated missing skill calls for L12; no practice opportunity calls for work-design changes before either.
+- **Information versus consequences of speaking:** Do people lack a turn, or expect harm if they use it? L05/L18 can change participation structure; they cannot neutralize retaliation. Ask what happened to the last person who disagreed, without soliciting identifying details.
+- **Shared understanding versus live transfer:** Are ongoing operating norms unclear (L15), has the current plan changed (L06), or has responsibility not been accepted at a boundary (L14)? These require different outputs.
+- **Learning versus performance:** Is a workable strategy known? If not, L16 should specify what to learn before demanding a harder output target. A diagram (L19/L20/L24) supplies hypotheses; only appropriate observation/testing can assess them.
+- **Intention versus opportunity:** Was the relevant cue encountered, was the chosen response feasible, and was it attempted? L23 addresses a cue–action link; it cannot fix a blocked system or an unchosen goal.
+
+Ask only the contrast that could change this recommendation. Return to a bounded action when sufficient; knowledge depth should improve judgment, not lengthen every conversation.

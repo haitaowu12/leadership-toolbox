@@ -14,3 +14,10 @@ The companion library and installable skill are versioned together. Use the vers
 - [Validation](validation.md): executed checks and untested boundaries
 
 This is everyday leadership support. It does not replace qualified incident, employment, legal, clinical or other specialist processes.
+
+## Deeper knowledge and reading
+
+- [Knowledge topics](../skills/leadership-toolbox/references/knowledge/README.md): mechanisms, rival explanations and conditional sequences
+- [Source library](../skills/leadership-toolbox/references/sources.md): research separated from procedural provenance
+- [Books and scoped readings](../skills/leadership-toolbox/references/books.md): actual editions/sections inspected
+- [All-method evidence map](../skills/leadership-toolbox/references/evidence-map.md): relevant studies, application limits and open questions

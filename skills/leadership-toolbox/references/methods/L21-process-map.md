@@ -18,9 +18,11 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Institute for Healthcare Improvement, [Flowchart](https://www.ihi.org/library/tools/flowchart). **Claim / limit:** distinguishes high-level and detailed maps and describes identifying complexity and non-value-adding steps. A map is a representation, not time-series evidence; observing a few cases can miss rare but consequential pathways.
 
+**Adapt the execution:** Label contested steps as observed case, system record, participant account or assumption. Inspect ordinary and exception paths. Separate touch time from waiting and look beyond a local queue to downstream rework.
+
 **Words to try:** “Where does work wait or come back, and how do you know that is the actual route?”
 
-**One outcome signal:** At the next review, check a selected waiting/rework loop against actual cases with start/end definitions and denominators. Agree a baseline (or unknown), observer, observation window and review date before action.
+**One outcome signal:** Observe end-to-end time and rework across ordinary/exception cases with a downstream burden check; local queue speed alone can mislead. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Balancing guardrail and stop/switch:** No unnecessary personal case data, pressure to follow the idealised map, or optimising one queue by shifting work elsewhere. If a prerequisite fails, prepare the missing evidence or use the appropriate owner/process before committing.
 
@@ -35,3 +37,7 @@ Counterexample: A leader copies the official procedure and calls it verified wit
 Related alternatives: [L14](L14-handoff.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l21). No direct test of this mapping protocol was established; a map may omit exceptional work or shift waits.

@@ -12,11 +12,15 @@ Try: “Use leadership-toolbox. Grill me about why my team keeps missing handoff
 - Adaptive quick/deep interviewing, user corrections and eight mixed-type situation dimensions
 - Structured method descriptors and explainable comparisons; no universal fit total, person rating or predicted success percentage
 - Situation guides, sequences and reusable templates, including optional private context stored outside the package
+- Four source-linked knowledge chapters explaining mechanisms, diagnostic distinctions, adaptation and failure modes
+- A research library with 25 paper/review records, 10 precisely scoped book/preview records, and evidence/gap mappings for all 32 methods
 - Standard-library installation, versioning, state migration, validation and release helpers; read-only GitHub Actions checks
 
 ## Install this draft
 
 Use the [reviewed-source installation route](docs/installation.md) from [draft PR #1](https://github.com/haitaowu12/leadership-toolbox/pull/1). A published release asset is not required or implied. Keep the complete `skills/leadership-toolbox` folder together. Hosts that discover `SKILL.md` can load it; other assistants can read it manually. Installation grants no permission to message people or change obligations.
+
+Start deeper reading in the [knowledge library](skills/leadership-toolbox/references/knowledge/README.md), [organized sources](skills/leadership-toolbox/references/sources.md), or [book register](skills/leadership-toolbox/references/books.md). Article/chapter access and inspection limits are explicit; metadata-only book entries are further reading, not evidence.
 
 [Matching and metrics](docs/evidence-and-measurement.md) explains the editorial judgments and evidence limits. [Validation](docs/validation.md) distinguishes checks that ran from planned tests and human effectiveness evidence. [Contributing](CONTRIBUTING.md) explains how to improve the repertoire without padding it with duplicate names.
 

@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Source/limit:** Lewicki, Polin and Lount (2016), [An Exploration of the Structure of Effective Apologies](https://ncmr.lps.library.cmu.edu/article/id/264/), studies scenario-based perceptions. It does not demonstrate guaranteed durable trust restoration. Do not reproduce the CC BY-NC article's protected expression as unrestricted material.
 
+**Adapt the execution:** Name the change you control, when it can be checked and what happens if you cannot deliver. Repair the process where needed; wording quality, forgiveness or a demanded response does not prove repair.
+
 **Words to try:** “Here is the part I own, and the concrete change I will make. Is there a safer way to discuss what repair is needed?”
 
 ## Fictional example
@@ -31,3 +33,9 @@ Stop or switch when the stated prerequisites fail, the user lacks authority for 
 Related alternatives: [L11](L11-perspective.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse:** Original explanatory wording, prompts and fictional example. No source article, instrument, diagram or worksheet is reproduced. The source supports the bounded claim stated above; the workplace application and matching descriptors are editorial, not a validated intervention or unrestricted licence to source material.
+
+**One outcome signal:** Check fulfilled corrective commitments and recurrence, without pressure for forgiveness or engagement. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l32). Ratings of wording do not establish restored trust, fulfillment or forgiveness.

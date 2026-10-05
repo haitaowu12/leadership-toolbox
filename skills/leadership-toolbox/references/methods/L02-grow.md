@@ -21,6 +21,8 @@ Version: 0.2.0 · Licence: MIT
 3. Invite several options and their tradeoffs.
 4. Ask which next step they choose, what support they need and when to review it.
 
+**Adapt the execution:** State which goals/actions are genuinely open and what you may later evaluate as their manager. Switch to instruction or a resource decision if exploration exposes that need. At review, separate trying the action from its usefulness.
+
 **Words to try:** “What would you choose to try next, and what might get in the way?”
 
 **Immediate output:** A person-owned action and a review agreement, or an explicit decision not to act.
@@ -48,3 +50,7 @@ Related alternatives: [L12](L12-teach-practice.md), [L09](L09-capacity.md). Use 
 ## Current provider notice
 
 Performance Consultants' current GROW page and terms assert licensing, reuse and AI-processing restrictions for its original model/materials. This toolbox uses independently authored commentary and does not reproduce its graphics, instruments or templates. This source review records the provider's notice; it does not determine enforceability or provide legal clearance. See the [provider terms](https://www.performanceconsultants.com/terms-and-conditions/) before any proposed source-material reuse.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/coaching-development.md) and [method-specific evidence map](../evidence-map.md#l02). Neither the acronym alone nor this short manager-led rendition was isolated; chosen goals and evaluative power matter.

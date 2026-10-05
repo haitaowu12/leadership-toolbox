@@ -21,11 +21,13 @@ Version: 0.2.0 · Licence: MIT
 3. Ask each affected person what they understand or cannot meet.
 4. When conditions change, identify the delta, revise authorised commitments and confirm who needs the update.
 
+**Adapt the execution:** Name the event triggering a reset and who can revise the plan. Have affected people restate only changed actions/constraints, and arrange updates for absent dependent colleagues. Leave unresolved resource gaps explicit.
+
 **Words to try:** “What changed, and which next action or constraint needs clarification?”
 
 **Immediate output:** A current plan with roles, unresolved constraints and checked understanding.
 
-**One outcome signal:** At the next work checkpoint, do affected people act from the same current plan? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** At the next checkpoint, inspect stale-plan incidents and use of the revised action, balanced against reset time. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch excessive meeting burden or apparent agreement masking infeasible work. Resolve capacity and authority gaps before promising a plan.
 
@@ -46,3 +48,7 @@ A huddle is used to decide whether an unsafe system is safe; technical clearance
 Related alternatives: [L15](L15-team-charter.md), [L14](L14-handoff.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 For changed conditions and resetting the current plan, [AHRQ Huddle guidance](https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/huddle.html) is the direct supporting source alongside Brief guidance for initial planning. Both originate in healthcare teamwork; the general-work application remains editorial.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l06). A five-minute workplace huddle is not the clinical handoff bundle or a charter intervention.

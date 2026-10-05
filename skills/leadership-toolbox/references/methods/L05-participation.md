@@ -21,11 +21,13 @@ Version: 0.2.0 · Licence: CC-BY-SA-4.0
 3. Bring selected ideas to the whole group.
 4. Record objections and explain which decision owner will use the input.
 
+**Adapt the execution:** Explain what input can influence and how dissent can be raised without public attribution; do not promise anonymity in a small group. Preserve consequential minority concerns not selected by pairs/quartets and arrange an owner's response.
+
 **Words to try:** “What could we change so this next step works better for everyone affected?”
 
 **Immediate output:** A set of ideas and unresolved concerns with a visible disposition route.
 
-**One outcome signal:** Can people who usually speak less point to an idea or concern that was heard and considered? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** Material concerns reaching the decision owner with an opportunity to correct their representation, without disclosure pressure or retaliation. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch forced disclosure, inaccessible timing and consultation with no influence. Offer a private/accessibility alternative and be honest about decision limits.
 
@@ -48,3 +50,7 @@ Adapted from **1-2-4-All**, Henri Lipmanowicz and Keith McCandless, Liberating S
 A group is asked to disclose allegations in public; use an appropriate private or independent route.
 
 Related alternatives: [L18](L18-nominal-group.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l05). No direct comparative effectiveness evidence for 1-2-4-All was established; participation is not safety.

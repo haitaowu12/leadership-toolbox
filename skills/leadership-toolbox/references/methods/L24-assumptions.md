@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary sources.** Strategyzer, [How Assumptions Mapping Can Focus Your Teams On Running Experiments That Matter](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter), and [Validate your ideas with The Test Card](https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card). **Claim / limit:** originator guidance supports prioritizing hypotheses and predefining tests, measures, and thresholds; small tests reduce uncertainty, not prove universal validity or safety.
 
+**Adapt the execution:** State how both supportive and contradictory results would change the decision. If neither changes it, reconsider the test's value. Check existing observations first; justified retention is a legitimate result.
+
 **Words to try:** “Which assumption would make this plan fail if false, and what evidence do we actually have for it?”
 
 **One outcome signal:** After the next evidence step, record which critical assumption changed status and how that changes the decision. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -35,3 +37,7 @@ Counterexample: A team chooses the easiest experiment while leaving its critical
 Related alternatives: [L13](L13-premortem.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l24). No direct efficacy test of an assumption-map workshop was established.

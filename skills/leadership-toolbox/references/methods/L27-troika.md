@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: CC-BY-SA-4.0
 
 **Primary source.** Henri Lipmanowicz and Keith McCandless, [Troika Consulting](https://www.liberatingstructures.com/troika-consulting). **Claim / limit:** the creators specify the roles, questioning, silent consultation, and rotation. The page supplies facilitation guidance, not comparative trial evidence. Its materials carry CC BY-SA 4.0; check attribution and share-alike duties before reproducing them.
 
+**Adapt the execution:** After consultation, distinguish an option to test, an assumption requiring evidence and a specialist question. Choose an action to review; agreement among peers does not establish accuracy.
+
 **Words to try:** “What help would be useful, and which parts of the situation are not appropriate to share here?”
 
 **One outcome signal:** At the next agreed check, did each owner attempt a chosen useful step and what changed or remained uncertain? Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -37,3 +39,7 @@ Related alternatives: [L02](L02-grow.md), [L11](L11-perspective.md). Use a seque
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
 
 This Troika adaptation is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original repertoire: Henri Lipmanowicz and Keith McCandless; 2026 Fieldbook: Keith McCandless and Nancy White. Changes: concise workplace wording, privacy/access safeguards, added outcome/guardrail and fictional examples. [Current source licence](https://www.liberatingstructures.com/cc-license). No endorsement is implied.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/coaching-development.md) and [method-specific evidence map](../evidence-map.md#l27). No direct Troika trial was established; peer agreement does not prove advice or substitute for expertise.

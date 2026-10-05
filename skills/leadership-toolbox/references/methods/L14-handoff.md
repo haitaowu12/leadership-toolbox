@@ -21,11 +21,13 @@ Version: 0.2.0 · Licence: MIT
 3. Ask the recipient to restate the critical action and clarify gaps.
 4. Obtain explicit acceptance within their remit, or keep/escalate ownership until an appropriate recipient accepts.
 
+**Adapt the execution:** Identify time-sensitive work and outstanding dependencies. Ask the receiver to explain their next action and response if a relevant condition changes; correct discrepancies before acceptance.
+
 **Words to try:** “What is your next action, and can you accept this responsibility with the available resources?”
 
 **Immediate output:** A received handoff with current owner, next action, risks and confirmation.
 
-**One outcome signal:** At the next checkpoint, did the recipient take the intended action without losing a critical dependency? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** Observe critical omissions, acceptance gaps and dependency loss in a locally defined set of handoffs alongside handoff effort. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch silent assumptions of acceptance or a transfer that strands unresolved risk. Do not mark ownership transferred merely because a message was sent.
 
@@ -44,3 +46,7 @@ A recurring support task moves to another colleague. Confirm the open issue, nex
 A sent message is treated as acceptance while the recipient is off duty; current ownership remains unresolved.
 
 Related alternatives: [L06](L06-brief-huddle.md), [L21](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l14). Check-back alone was not isolated, and pediatric error reductions cannot be promised in office work.

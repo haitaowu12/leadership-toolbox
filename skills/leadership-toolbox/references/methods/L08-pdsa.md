@@ -21,11 +21,13 @@ Version: 0.2.0 · Licence: MIT
 3. Study observations against the prediction and alternative explanations.
 4. Act: retain, adapt, stop or test again, based on what was learned.
 
+**Adapt the execution:** Link the previous observation to the current prediction, intervention actually delivered, result and next revision. Compare time-ordered observations with consistent denominators; record deviations/concurrent changes before interpreting results.
+
 **Words to try:** “What do we predict, what will we observe, and what would make us stop?”
 
 **Immediate output:** A prediction, bounded test record and a next decision.
 
-**One outcome signal:** Did the chosen observation improve relative to the stated baseline during the agreed window? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** Compare time-ordered outcomes with consistent denominators and implementation fidelity; before/after change alone does not identify cause. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch shifted workload, quality loss and harm outside the test boundary. Stop when the guardrail is crossed; do not scale from one convenient observation.
 
@@ -44,3 +46,7 @@ Try one small change to a recurring meeting for two sessions, recording decision
 A one-time test exposes information irreversibly; limiting its duration does not make the harm reversible.
 
 Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l08). It does not establish that more faithful PDSA causes better outcomes; local before/after change is confounded.

@@ -22,6 +22,8 @@ Version: 0.2.0 · Licence: MIT
 4. Choose the consequential preventable risks and assign a mitigation, early warning or further check.
 5. Update the plan and retain unresolved risks.
 
+**Adapt the execution:** For each shortlisted failure story, identify an observable intermediate event, current evidence and an action owner. Keep imaginative plausibility separate from likelihood; use qualified risk analysis where consequences require it.
+
 **Words to try:** “Imagine this plan has failed by the review date: what mechanism could have caused it?”
 
 **Immediate output:** A short set of failure mechanisms with owners and responses.
@@ -45,3 +47,7 @@ Before changing a recurring service, invite possible failure mechanisms and deci
 A premortem produces a risk list but nobody can change the plan; obtain an authorised disposition rather than claim assurance.
 
 Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l13). They do not establish superior forecasts or success of a full team premortem.

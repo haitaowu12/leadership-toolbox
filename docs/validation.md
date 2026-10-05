@@ -1,5 +1,11 @@
 # Validation and limits · 0.2.0 draft
 
+## Knowledge-library refinement
+
+The later knowledge-library revision adds 25 research records, 10 book/preview records and 29 retained procedure/operational references. Four explanatory topics feed the interview, routing, all 32 cards and 16 refined outcome contracts. Full text was inspected for relevant article methods/findings/limits where obtainable; book and abstract limits remain explicit. A targeted independent source check verified selected consequential claims and corrected the coaching sample description, book-access labels and the model-dependent interpretation of publication-bias adjustment. This was not an exhaustive literature search or independent replication.
+
+The new source-integrity tests check IDs, complete method coverage, cross-links, source scope/rights fields and rejection of metadata-only empirical support. They do not establish source truth, copyright clearance or intervention effectiveness. Refer to the current PR's exact-head CI; earlier reported passes below apply only to their stated revisions. Previous conversational evaluations do not validate the new knowledge instructions.
+
 ## Current expansion
 
 This version expands the catalog to 32 methods, adds adaptive quick/deep interviewing, eight mixed-type context dimensions, explicit matching profiles and metric contracts, and removes the fixed 14-method implementation limit. It also moves installer staging/backups outside the immediate discovery root and adds regression coverage.

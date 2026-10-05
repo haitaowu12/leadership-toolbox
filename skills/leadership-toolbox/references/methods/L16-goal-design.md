@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Locke and Latham, [Building a Practically Useful Theory of Goal Setting and Task Motivation: A 35-Year Odyssey](https://www-2.rotman.utoronto.ca/facbios/file/09%20-%20Locke%20%26%20Latham%202002%20AP.pdf), 2002, pp. 705–709. **Claim / limit:** supports specific challenging goals with moderators and learning goals for complex tasks; it does not show that SMART wording alone guarantees results.
 
+**Adapt the execution:** Check for a workable strategy before agreeing a harder target. If it is missing, specify a learning demonstration and a checkpoint for reconsidering performance demands. Goal acceptance, confidence and capability are different.
+
 **Words to try:** “Is the immediate problem knowing what good looks like, or learning how to achieve it?”
 
 **One outcome signal:** At the checkpoint, compare the stated result or demonstrated strategy with the baseline and agreed criterion. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -39,3 +41,7 @@ Related alternatives: [L02](L02-grow.md), [L12](L12-teach-practice.md). Use a se
 ## Check incentives and controllability
 
 Keep minimum safety and quality requirements even when outcome targets remain uncertain. Examine individual versus team incentives, actual control over the result, feedback, ability and resources. A learning goal is not automatically superior for every difficult task; explain the strategy gap it addresses. Review progress without treating confidence or course attendance as demonstrated capability.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l16). Neither SMART phrasing nor uniformly harder targets is independently validated for this case.

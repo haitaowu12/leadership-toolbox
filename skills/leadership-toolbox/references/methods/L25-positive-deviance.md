@@ -18,9 +18,11 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Positive Deviance Initiative, Tufts University, [Basic Field Guide to the Positive Deviance Approach](https://positivedeviance.org/s/FINALguide10072010.pdf), September 2010, especially pp. 2–7. **Claim / limit:** describes comparable-resource exceptions, community ownership, define–determine–discover–design, and continuous evaluation. This implementation guide does not establish that every apparent exception is causal or that practices transfer across settings.
 
+**Adapt the execution:** Validate exemplars: repeated success, comparable denominators/case mix/resources and no hidden harm. Include an ordinary-performing comparator. Record both practice and enabling context; test with the receiving team instead of copying visible behavior.
+
 **Words to try:** “What do comparable peers actually do differently, and can we observe it without explaining success by personality?”
 
-**One outcome signal:** Across a locally agreed adoption period, compare outcomes with baseline/case mix and record burden or harm. Agree a baseline (or unknown), observer, observation window and review date before action.
+**One outcome signal:** Check implementation, outcomes and burden under receiving-team conditions, retaining comparator and case-mix limits. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Balancing guardrail and stop/switch:** No cherry-picked stars, hidden subsidies, unsafe shortcuts or assumption that association proves mechanism. If a prerequisite fails, prepare the missing evidence or use the appropriate owner/process before committing.
 
@@ -35,3 +37,7 @@ Counterexample: A high-output team quietly uses extra staff, making it an invali
 Related alternatives: [L12](L12-teach-practice.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l25). Excellence can reflect case mix or resources; discovery does not demonstrate a transferable cause.

@@ -18,9 +18,11 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary sources.** Atlassian, [Working Agreements](https://www.atlassian.com/team-playbook/plays/working-agreements), documents collaborative behavioral agreements and revision. AHRQ, [Working Group Charter](https://digital.ahrq.gov/health-it-tools-and-resources/ahrq-funded-project-resources-archives/working-group-charter), supports explicit purpose and scope. **Limit:** practice guidance and vendor-reported employee perceptions do not establish a general causal performance effect.
 
+**Adapt the execution:** Pair agreements with the actual strategy, expertise, milestones, dependencies, resources and authority. Test a norm against real work. Reopen it after changes to membership/interfaces or repeated exceptions; document unresolved infeasibility.
+
 **Words to try:** “Which recurring misunderstanding should one observable agreement prevent?”
 
-**One outcome signal:** At the next review, inspect one recurring friction: whether the agreed channel or escalation route was used and what changed. Agree a baseline (or unknown), observer, observation window and review date before action.
+**One outcome signal:** Observe one recurring friction and one task outcome; distinguish using an agreement, its usefulness and the need to revise it. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Balancing guardrail and stop/switch:** No unpaid availability expectations, coerced consensus or conflict with employment protections. If a prerequisite fails, prepare the missing evidence or use the appropriate owner/process before committing.
 
@@ -35,3 +37,7 @@ Counterexample: A manager has already fixed all rules but stages a workshop to m
 Related alternatives: [L01](L01-delegation.md), [L06](L06-brief-huddle.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l15). Original study is abstract-only here and has a figure-label correction; simulations and limited evidence constrain transfer.

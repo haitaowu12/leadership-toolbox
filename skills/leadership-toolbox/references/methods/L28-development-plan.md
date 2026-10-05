@@ -18,9 +18,11 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** U.S. Office of Personnel Management, [Career Development](https://www.opm.gov/policy-data-oversight/training-and-development/career-development/). **Claim / limit:** describes employee–supervisor partnership, specific objectives, developmental activities, and continuous feedback; explicitly distinguishes IDPs from performance evaluation. This is practice guidance, not evidence that completing a form creates capability or career advancement.
 
+**Adapt the execution:** Track access to the promised experience separately from learning demonstrated. For stretch work, name a sign that challenge exceeds support and who can reduce scope or give feedback. Delivery success and learning can diverge.
+
 **Words to try:** “Which experience would let you demonstrate this capability, and what support do I need to secure?”
 
-**One outcome signal:** At agreed milestones, inspect demonstrated capability in relevant work and access to promised experiences; do not use course attendance as proof. Agree a baseline (or unknown), observer, observation window and review date before action.
+**One outcome signal:** Observe promised access and demonstrated learning separately; missing opportunity is not the person's failure to develop. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Balancing guardrail and stop/switch:** No promotion promises, disguised disciplinary process, inequitable opportunity access or unpaid stretch work. If a prerequisite fails, prepare the missing evidence or use the appropriate owner/process before committing.
 
@@ -39,3 +41,7 @@ Related alternatives: [L12](L12-teach-practice.md), [L16](L16-goal-design.md). U
 ## Design a bounded development assignment
 
 Separate the capability to develop from the work deliverable. Jointly check task difficulty, capacity, access and willingness. Agree the person's actual decision authority, mentoring, recovery limits and checkpoints before starting. Observe skill application in relevant work; completion alone is not proof of learning. Review hidden workload and fair access to opportunities. Do not disguise unsupported critical delivery or unpaid overwork as a stretch assignment. [CCL on on-the-job learning](https://www.ccl.org/articles/leading-effectively-articles/develop-strong-leaders-with-on-the-job-learning/) is practitioner guidance; do not turn a percentage mnemonic into a universal development allocation.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/coaching-development.md) and [method-specific evidence map](../evidence-map.md#l28). No IDP form or fixed stretch proportion is validated; observational challenge findings are not dose prescriptions.

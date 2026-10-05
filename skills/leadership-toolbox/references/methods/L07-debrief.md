@@ -22,6 +22,8 @@ Version: 0.2.0 · Licence: MIT
 4. Choose one feasible change and its owner.
 5. Decide when to check whether it helped.
 
+**Adapt the execution:** Reconstruct what people knew then, what they did, and what became known later. Distinguish skill, coordination and system conditions. Rehearse the selected next response or define a bounded test; link it to the next comparable episode.
+
 **Words to try:** “What actually happened, whose account differs, and what one change will we test?”
 
 **Immediate output:** One learning change, its rationale, owner and next check.
@@ -45,3 +47,7 @@ After a workshop, compare the intended decisions with the actual output and choo
 A traumatic event triggers mandatory emotional recounting; operational learning is not psychological treatment.
 
 Related alternatives: [L20](L20-fishbone.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l07). No promised local percentage improvement or detailed unread subgroup claim; hindsight can distort explanations.

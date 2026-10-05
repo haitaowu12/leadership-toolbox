@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Source/limit:** Harvard PON, [Negotiation Skills for Win-Win Negotiations](https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/), explains paraphrasing, inquiry and acknowledgement. Practitioner guidance does not guarantee conflict resolution or trust.
 
+**Adapt the execution:** Agree whether the purpose is understanding, factual clarification or considering next steps. Explain confidentiality/influence limits. Invite correction without imposing motives or rushing to advice; preserve uncorroborated claims as accounts.
+
 **Words to try:** “What have I misunderstood or left out?”
 
 ## Fictional example
@@ -31,3 +33,9 @@ Stop or switch when the stated prerequisites fail, the user lacks authority for 
 Related alternatives: [L11](L11-perspective.md), [L03](L03-feedback.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse:** Original explanatory wording, prompts and fictional example. No source article, instrument, diagram or worksheet is reproduced. The source supports the bounded claim stated above; the workplace application and matching descriptors are editorial, not a validated intervention or unrestricted licence to source material.
+
+**One outcome signal:** Check material corrections enter the later account/decision, separately from feeling heard, agreement and independent corroboration. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l30). Predominantly observational listening associations do not prove this script improves performance.
