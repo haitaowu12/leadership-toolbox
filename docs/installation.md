@@ -1,15 +1,15 @@
-# Install, update and restore · 0.2.0
+# Install, update and restore · 0.2.1
 
 ## Cloud upload without a local install
 
 A single-skill ZIP is provided separately from the full source archive. Claude web is a currently documented cloud-host route; no Claude upload or live activation was executed in this project. Host/account policy can still block upload.
 
 1. Open a successful direct-head run under [GitHub Actions](https://github.com/haitaowu12/leadership-toolbox/actions/workflows/validate.yml). Confirm its commit is the revision you reviewed. Under Artifacts, download `leadership-toolbox-<full commit SHA>`.
-2. Extract that outer Actions download. Keep `leadership-toolbox-0.2.0.zip` for source review. The file to upload is **`leadership-toolbox-skill-0.2.0.zip`**, containing `leadership-toolbox/SKILL.md` and all references, templates, scripts, schemas and notices.
+2. Extract that outer Actions download. Keep `leadership-toolbox-0.2.1.zip` for source review. The file to upload is **`leadership-toolbox-skill-0.2.1.zip`**, containing `leadership-toolbox/SKILL.md` and all references, templates, scripts, schemas and notices.
 3. In Claude web, enable Code execution and file creation under Settings → Capabilities. Organization settings and your role must permit custom skills.
 4. Go to Customize → Skills → + → Create skill → Upload a skill. Choose the single-skill ZIP and enable it.
-5. Start a new chat: “Use leadership-toolbox. Explain GROW using the bundled L02 card, include an underlying source link and one practical limitation.”
-6. Check the host's skill/file-use evidence for version 0.2.0 and the referenced card. Then try the [quick and probing examples](quick-start.md). A plausible answer or successful upload alone does not prove activation.
+5. Start a new chat: “Use leadership-toolbox. Explain GROW using the bundled L02 card, include the practical method guide and one limitation.”
+6. Check the host's skill/file-use evidence for version 0.2.1 and the referenced card. Then try the [quick and probing examples](quick-start.md). A plausible answer or successful upload alone does not prove activation.
 
 These steps were checked against current [Claude use guidance](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [custom-skill requirements](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills), and [cloud execution guidance](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude) on 2026-10-05. This route needs no API key, Python on your computer or Codex task. Cloud networking and persistent private state are not guaranteed. Enabled account skills may also sync to separately used Claude Code on the same account; consult the host's current controls.
 
@@ -21,7 +21,7 @@ Open the [repository](https://github.com/haitaowu12/leadership-toolbox), choose 
 
 `git clone https://github.com/haitaowu12/leadership-toolbox.git`
 
-Enter the repository and record `git rev-parse HEAD`. A branch can advance; keep the exact revision you reviewed. While a change is under review, [PR #1](https://github.com/haitaowu12/leadership-toolbox/pull/1) identifies the proposed branch rather than implying it is already on main.
+Enter the repository and record `git rev-parse HEAD`. A branch can advance; keep the exact revision you reviewed. Review a proposed change through its draft PR; a branch package is not proof that the change is on main.
 
 From the source root, with Python 3.10+:
 

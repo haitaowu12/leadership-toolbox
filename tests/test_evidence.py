@@ -110,6 +110,25 @@ class EvidenceLibraryTests(unittest.TestCase):
                 catalog["methods"][0][field] = value
                 self.assertTrue(validator.validate_evidence(library, mapping, catalog, files))
 
+    def test_rejects_practical_guide_url_drift(self):
+        for value in (None, "https://example.org/wiki/leadership", "https://github.com/haitaowu12/leadership-toolbox/wiki/GROW"):
+            with self.subTest(value=value):
+                _, _, catalog, files = self.fixture()
+                dimensions = json.loads((PACKAGE / "references/dimensions.json").read_text())
+                catalog["methods"][0]["guide_url"] = value
+                self.assertTrue(validator.validate_catalog(catalog, dimensions, files))
+
+    def test_practical_link_is_separate_from_original_evidence(self):
+        _, _, catalog, files = self.fixture()
+        for method in catalog["methods"]:
+            with self.subTest(method=method["id"]):
+                self.assertNotEqual(method["guide_url"], method["source"])
+                self.assertIn(method["source"], files[method["file"]])
+                self.assertTrue(method["source_ids"])
+                if method["id"] in ("L05", "L27"):
+                    self.assertEqual(method["license"], "CC-BY-SA-4.0")
+                    self.assertIn("creativecommons.org/licenses/by-sa/4.0", files[method["file"]])
+
     def test_malformed_top_level_is_reported(self):
         library, mapping, catalog, files = self.fixture()
         self.assertTrue(validator.validate_evidence([], mapping, catalog, files))

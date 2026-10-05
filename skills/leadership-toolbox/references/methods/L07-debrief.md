@@ -1,6 +1,6 @@
 # L07 · Structured debrief
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Learn from a completed episode.
 
@@ -46,7 +46,7 @@ After a workshop, compare the intended decisions with the actual output and choo
 
 A traumatic event triggers mandatory emotional recounting; operational learning is not psychological treatment.
 
-Related alternatives: [L20](L20-fishbone.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Fishbone causal-hypothesis map (L20)](L20-fishbone.md), [PDSA bounded test (L08)](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

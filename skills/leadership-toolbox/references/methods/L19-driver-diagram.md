@@ -1,6 +1,6 @@
 # L19 · Driver diagram
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Connect an aim to a testable improvement theory.
 
@@ -12,11 +12,17 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when many proposed activities lack a clear connection to the desired outcome. Avoid presenting the diagram as a proven causal model, organizational chart, or project schedule.
 
-**Run.** Write a measurable, bounded aim. Ask which few broad conditions must improve to achieve it; place these as primary drivers. Break each into more specific conditions that can be influenced. Connect concrete change ideas to those secondary drivers. For each important link, identify the evidence supporting it and what remains conjecture. Select an initial change and a measure that would show whether the relevant driver moved. Revise the diagram when experience contradicts the initial theory; remove attractive activities that have no plausible route to the aim.
+## Try it
+
+1. Write a measurable, bounded aim.
+2. Ask which few broad conditions must improve to achieve it; place these as primary drivers.
+3. Break each into more specific conditions that can be influenced.
+4. Connect concrete change ideas to those secondary drivers.
+5. For each important link, identify the evidence supporting it and what remains conjecture.
+6. Select an initial change and a measure that would show whether the relevant driver moved.
+7. Revise the diagram when experience contradicts the initial theory; remove attractive activities that have no plausible route to the aim.
 
 **Output / distinction.** A one-page improvement theory connecting aim, drivers, and testable changes. This selects and explains the portfolio of changes; the existing PDSA method tests particular changes within it.
-
-**Primary source.** Institute for Healthcare Improvement, [Driver Diagram](https://www.ihi.org/library/tools/driver-diagram). **Claim / limit:** explicitly describes a team's theory linking the aim, primary drivers, secondary drivers, and change ideas. The source is methodological guidance; a completed diagram neither verifies causation nor proves that its proposed changes will work locally.
 
 **Adapt the execution:** For each important arrow, state the proposed mechanism, required condition, observable intermediate sign and rival explanation. Keep change ideas distinct from drivers. If nothing can be observed, return to framing or assumption inquiry.
 
@@ -34,9 +40,13 @@ Counterexample: A diagram is presented as proof that every planned initiative wi
 
 ## Combinations and next move
 
-Related alternatives: [L08](L08-pdsa.md), [L24](L24-assumptions.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [PDSA bounded test (L08)](L08-pdsa.md), [Assumption map (L24)](L24-assumptions.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** Institute for Healthcare Improvement, [Driver Diagram](https://www.ihi.org/library/tools/driver-diagram). **Claim / limit:** explicitly describes a team's theory linking the aim, primary drivers, secondary drivers, and change ideas. The source is methodological guidance; a completed diagram neither verifies causation nor proves that its proposed changes will work locally.
 
 ## Deeper knowledge and evidence
 

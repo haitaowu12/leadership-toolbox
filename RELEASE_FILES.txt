@@ -101,3 +101,6 @@ skills/leadership-toolbox/templates/situation-profile.md
 tests/test_distribution.py
 tests/test_evidence.py
 tests/test_package.py
+skills/leadership-toolbox/references/reference-policy.md
+docs/evaluations/default-inquiry-2026-10-05.md
+docs/evaluations/default-inquiry-results-2026-10-05.json

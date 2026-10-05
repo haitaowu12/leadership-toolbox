@@ -1,6 +1,6 @@
 # L08 · PDSA bounded test
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Test an uncertain process change.
 
@@ -45,7 +45,7 @@ Try one small change to a recurring meeting for two sessions, recording decision
 
 A one-time test exposes information irreversibly; limiting its duration does not make the harm reversible.
 
-Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Assumption map (L24)](L24-assumptions.md), [Options and criteria trade-off review (L29)](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

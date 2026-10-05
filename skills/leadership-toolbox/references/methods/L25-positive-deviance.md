@@ -1,6 +1,6 @@
 # L25 · Positive deviance inquiry
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Learn from verified better outcomes under comparable constraints.
 
@@ -12,11 +12,16 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use for persistent behavioral or social problems when some comparable peers already obtain better outcomes with similar resources. Avoid celebrating apparent stars before checking case mix, hidden resources, selective measurement, or unsafe workarounds.
 
-**Run.** Let the affected group define a specific problem and credible outcome measure. Identify unusually successful peers facing genuinely comparable constraints. Observe what they actually do and invite colleagues to discover uncommon, repeatable practices; distinguish behaviors from personality stories. Check the practices for safety and feasibility. Co-design opportunities for others to practice them using resources they already have. Track outcomes and unintended consequences, preserving local ownership rather than imposing an outsider's recipe.
+## Try it
+
+1. Let the affected group define a specific problem and credible outcome measure.
+2. Identify unusually successful peers facing genuinely comparable constraints.
+3. Observe what they actually do and invite colleagues to discover uncommon, repeatable practices; distinguish behaviors from personality stories.
+4. Check the practices for safety and feasibility.
+5. Co-design opportunities for others to practice them using resources they already have.
+6. Track outcomes and unintended consequences, preserving local ownership rather than imposing an outsider's recipe.
 
 **Output / distinction.** A locally discovered practice and an adoption experiment with outcome monitoring. This starts from verified positive exceptions; ordinary teaching starts with known content, and general appreciative inquiry need not identify measured outperformers.
-
-**Primary source.** Positive Deviance Initiative, Tufts University, [Basic Field Guide to the Positive Deviance Approach](https://positivedeviance.org/s/FINALguide10072010.pdf), September 2010, especially pp. 2–7. **Claim / limit:** describes comparable-resource exceptions, community ownership, define–determine–discover–design, and continuous evaluation. This implementation guide does not establish that every apparent exception is causal or that practices transfer across settings.
 
 **Adapt the execution:** Validate exemplars: repeated success, comparable denominators/case mix/resources and no hidden harm. Include an ordinary-performing comparator. Record both practice and enabling context; test with the receiving team instead of copying visible behavior.
 
@@ -34,9 +39,13 @@ Counterexample: A high-output team quietly uses extra staff, making it an invali
 
 ## Combinations and next move
 
-Related alternatives: [L12](L12-teach-practice.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Teach–Practice–Check-back (L12)](L12-teach-practice.md), [PDSA bounded test (L08)](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** Positive Deviance Initiative, Tufts University, [Basic Field Guide to the Positive Deviance Approach](https://positivedeviance.org/s/FINALguide10072010.pdf), September 2010, especially pp. 2–7. **Claim / limit:** describes comparable-resource exceptions, community ownership, define–determine–discover–design, and continuous evaluation. This implementation guide does not establish that every apparent exception is causal or that practices transfer across settings.
 
 ## Deeper knowledge and evidence
 
