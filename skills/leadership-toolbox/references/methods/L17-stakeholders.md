@@ -18,7 +18,7 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** NHS England and NHS Improvement, [Stakeholder analysis](https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf), pp. 2–7, covers identification, power and impact, understanding, trust, and engagement. **Limit:** classifications are provisional judgments, not validated predictions of behavior; the guide is implementation guidance, not an effectiveness trial.
 
-**Adapt the execution:** Tag consequential perspectives as directly heard, reported by someone else or unknown. Find who bears a cost but lacks influence. Let affected people correct their entry; a stakeholder map is provisional planning, not an inferred motive.
+**Adapt the execution:** Tag consequential beliefs with the specific account/source and date; one person's account does not establish a whole group's position. Tag consequential perspectives as directly heard, reported by someone else or unknown. Find who bears a cost but lacks influence. Let affected people correct their entry; a stakeholder map is provisional planning, not an inferred motive.
 
 **Words to try:** “Who bears a cost here but has not yet had a usable way to influence the plan?”
 

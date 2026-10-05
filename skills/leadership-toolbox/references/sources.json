@@ -308,8 +308,8 @@
       "source_type": "prospective_before_after_study",
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa1405556",
       "doi": "10.1056/NEJMsa1405556",
-      "access": "partial_text",
-      "inspected_scope": "Publisher-indexed methods, results and discussion inspected through web retrieval; PubMed bibliographic record verified. Direct PDF fetch returned 403; complete PDF not inspected.",
+      "access": "full_text",
+      "inspected_scope": "Complete author-uploaded article OCR inspected: design/analysis pp. 1804–1806, results 1806–1808, discussion/limitations 1808–1811. https://www.researchgate.net/publication/268524846_Changes_in_Medical_Errors_after_Implementation_of_a_Handoff_Program . Supplements, training package and complete PDF not inspected.",
       "topics": [
         "structured handoff",
         "receiver synthesis",
@@ -320,7 +320,7 @@
         "L14",
         "L06"
       ],
-      "claim_limit": "Nine pediatric programs, 10,740 admissions: errors declined 23% relatively, preventable adverse events 30%; three sites lacked significant error reduction. Bundled, nonrandomized before/after design cannot isolate check-back or establish general-work huddle/handoff effects.",
+      "claim_limit": "Bundled nonrandomized before/after study in nine pediatric programs; no isolated check-back effect or established office-work transfer. Process improvement did not guarantee significant error reduction at each site.",
       "reuse": "Copyrighted source. No I-PASS training material, figure or clinical protocol reproduced.",
       "notes_file": "references/knowledge/teams-feedback.md"
     },
@@ -333,7 +333,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/19186898/",
       "doi": "10.1037/a0013257",
       "access": "abstract_only",
-      "inspected_scope": "PubMed abstract and author-publication correction abstract at https://www.researchgate.net/publication/238308368_Correction_to_Mathieu_and_Rapp_2009. Correction DOI 10.1037/a0019852 (2010) reverses two Figure 1 labels. Full methods/results not inspected.",
+      "inspected_scope": "PubMed abstract and correction abstract (DOI 10.1037/a0019852) inspected; correction reverses two Figure 1 labels. Related APA PsycTests procedure description at https://doi.org/10.1037/t08708-000 inspected through indexed publisher text. Journal methods/results remain unread. Author reprint request was not submitted.",
       "topics": [
         "team charters",
         "task strategy",
@@ -558,8 +558,8 @@
       "source_type": "meta_analysis",
       "url": "https://journals.sagepub.com/doi/10.1177/0018720812448394",
       "doi": "10.1177/0018720812448394",
-      "access": "abstract_only",
-      "inspected_scope": "Publisher abstract, publication details and reference list. Publisher explicitly marks restricted access; full methods, subgroup tables and risk-of-bias detail not available in inspected original. Published online 2012; issue 2013.",
+      "access": "full_text",
+      "inspected_scope": "Complete article at https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf : definitions pp. 232–233, search/coding/analysis 235–236, results/Tables 2–3 237–240, limitations 240–241. No study-by-study reappraisal. Online 2012; journal issue 2013.",
       "topics": [
         "debriefing",
         "experiential learning",
@@ -569,8 +569,8 @@
       "methods": [
         "L07"
       ],
-      "claim_limit": "Abstract reports 46 samples, N=2,136 and d=.67, with alignment important. Do not convert this into a guaranteed 25% improvement in local metrics or make detailed moderator claims not checked in full text.",
-      "reuse": "Publisher copyright; citation and brief original abstract-based note only.",
+      "claim_limit": "31 studies, 46 samples, reported N=2,136; d=.67, .54 excluding three outliers. Many quasi-experiments, possible publication bias and sparse facilitator/structure comparisons prohibit guaranteed local gains or causal moderator claims.",
+      "reuse": "Copyrighted source; original commentary and citation only; no article, figure or instrument reproduced.",
       "notes_file": "references/knowledge/decisions-learning.md"
     },
     {
@@ -766,8 +766,8 @@
       "source_type": "empirical_study",
       "url": "https://www.nicholasepley.com/publications",
       "doi": "10.1037/pspa0000115",
-      "access": "abstract_only",
-      "inspected_scope": "Author publication record and complete abstract; linked author PDF and older faculty PDF failed in the text reader. No full-text methods inspection claimed.",
+      "access": "full_text",
+      "inspected_scope": "Complete author-linked article: overview/methods for Experiments 1–24, Experiment 25 methods/results pp. 561–566, general discussion/limitations 566–569. https://cdn.prod.website-files.com/699728903166dd3429c6b4fd/699728903166dd3429c6b5d1_Eyal_Steffel_Epley_2018_Perspective_Mistaking%20%281%29.pdf . Supplements/raw data not inspected.",
       "topics": [
         "perspective",
         "inquiry"
@@ -777,7 +777,7 @@
         "L17",
         "L30"
       ],
-      "claim_limit": "Twenty-five experiments concern interpersonal accuracy; the final conversation experiment does not validate this workplace interview or establish that all reports are accurate.",
+      "claim_limit": "Twenty-five experiments concern interpersonal accuracy. Experiment 25 discussion benefit was specific to disclosed information; romantic-couple results do not validate a workplace interview or guarantee truthful/unchanging self-reports.",
       "reuse": "Original brief commentary and citation only; article remains copyrighted.",
       "notes_file": "references/knowledge/inquiry-coordination.md"
     },
@@ -789,8 +789,8 @@
       "source_type": "empirical_study",
       "url": "https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba",
       "doi": "10.1037/0021-9010.77.4.525",
-      "access": "abstract_only",
-      "inspected_scope": "Cornell repository abstract and rights record; linked manuscript PDF failed in the text reader. Use journal publication year 1992, not repository date 1995.",
+      "access": "full_text",
+      "inspected_scope": "Complete 51-page Cornell manuscript; methods/measures pp. 23–27, results 27–35, discussion/limitations 35–41. https://ecommons.cornell.edu/server/api/core/bitstreams/df85402a-0c3b-435b-a8af-07176eb4bedb/content . Not the copy of record; journal year 1992.",
       "topics": [
         "influence",
         "consultation"
@@ -798,7 +798,7 @@
       "methods": [
         "L10"
       ],
-      "claim_limit": "Questionnaire field associations do not establish that consultation causes commitment or that a tactic works across authority relationships.",
+      "claim_limit": "128 managers at five companies; manager-selected raters and shared respondents limit causal inference. Consultation correlated with commitment but was not an independent upward predictor controlling other tactics. No universal tactic ranking.",
       "reuse": "Cornell hosts with permission; no onward reproduction permission inferred. Original brief commentary only.",
       "notes_file": "references/knowledge/inquiry-coordination.md"
     },

@@ -124,8 +124,8 @@
         "B60"
       ],
       "knowledge_file": "references/knowledge/decisions-learning.md",
-      "evidence_summary": "Debrief meta-analysis supports an intervention family; only its abstract was inspected here.",
-      "application_limit": "No promised local percentage improvement or detailed unread subgroup claim; hindsight can distort explanations.",
+      "evidence_summary": "Full-text debrief review supports a bounded reflection intervention family with heterogeneous designs.",
+      "application_limit": "No promised local percentage gain or causal moderator ranking; sparse comparisons and hindsight limit interpretation.",
       "open_question": "Does a specific adjustment carry into the next comparable episode?"
     },
     {
@@ -171,7 +171,7 @@
       ],
       "book_ids": [],
       "knowledge_file": "references/knowledge/inquiry-coordination.md",
-      "evidence_summary": "Observational influence-tactic study provides limited, abstract-inspected support for consultation.",
+      "evidence_summary": "Inspected influence study links consultation and commitment observationally; adjusted results differ by direction.",
       "application_limit": "Associations are not causal tactics or a universal ranking; outcome varies with authority relationship.",
       "open_question": "Can genuine consultation alter the proposal, and is refusal preserved as a legitimate result?"
     },
@@ -185,7 +185,7 @@
       ],
       "book_ids": [],
       "knowledge_file": "references/knowledge/inquiry-coordination.md",
-      "evidence_summary": "Perspective-getting experiments were checked at abstract level; direct accounts can supply new information.",
+      "evidence_summary": "Inspected perspective-getting experiments support gathering specific new accounts, not imagined agreement.",
       "application_limit": "No workplace-script validation or presumption that any account is complete or true.",
       "open_question": "What new account or observation actually changes the interpretation?"
     },

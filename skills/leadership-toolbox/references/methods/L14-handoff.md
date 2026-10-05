@@ -21,7 +21,7 @@ Version: 0.2.0 · Licence: MIT
 3. Ask the recipient to restate the critical action and clarify gaps.
 4. Obtain explicit acceptance within their remit, or keep/escalate ownership until an appropriate recipient accepts.
 
-**Adapt the execution:** Identify time-sensitive work and outstanding dependencies. Ask the receiver to explain their next action and response if a relevant condition changes; correct discrepancies before acceptance.
+**Adapt the execution:** Pilot with sender and receiver on an actual transfer; review receipt quality, downstream omissions and workload separately. A completed form alone is not success. Identify time-sensitive work and outstanding dependencies. Ask the receiver to explain their next action and response if a relevant condition changes; correct discrepancies before acceptance.
 
 **Words to try:** “What is your next action, and can you accept this responsibility with the available resources?”
 

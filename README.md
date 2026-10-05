@@ -1,31 +1,39 @@
 # Leadership Toolbox
 
-Practical help for the next conversation, decision, handoff or team improvement. An installable, host-neutral skill and versioned companion reading library, with no mandatory API, database or service.
+Practical help for your next conversation, decision, handoff or team improvement. A portable skill with 32 methods, an original public-source knowledge library and no mandatory API or service.
 
-**Start:** [use the skill](skills/leadership-toolbox/SKILL.md), [browse 32 methods](skills/leadership-toolbox/references/catalog.md), or [read the docs](docs/index.md).
+## Start here
 
-Try: “Use leadership-toolbox. Grill me about why my team keeps missing handoffs; challenge my assumptions before suggesting a method.” For a quick question, ask “Explain GROW” and get a direct answer.
+- **Use it in a cloud assistant:** [download the single-skill ZIP and upload it](docs/installation.md#cloud-upload-without-a-local-install). Claude web is the documented non-Codex route; its live activation has not been tested here.
+- **Use another skill host:** [install the complete folder](docs/installation.md#install-the-complete-folder) in that host's documented directory.
+- **Read without installing:** open the [skill entrypoint](skills/leadership-toolbox/SKILL.md), [method catalog](skills/leadership-toolbox/references/catalog.md), or [worked examples](docs/quick-start.md). An assistant with repository-reading tools can load the entrypoint and its linked files manually. This does not register a skill automatically.
 
-## What is included
+Try: “Use leadership-toolbox. Help me prepare for a missed-deadline conversation. Keep it short.”
 
-- 32 distinct methods with prerequisites, executable guidance, prompts, examples/counterexamples, outcomes, guardrails, sources and reuse boundaries
-- Adaptive quick/deep interviewing, user corrections and eight mixed-type situation dimensions
-- Structured method descriptors and explainable comparisons; no universal fit total, person rating or predicted success percentage
-- Situation guides, sequences and reusable templates, including optional private context stored outside the package
-- Four source-linked knowledge chapters explaining mechanisms, diagnostic distinctions, adaptation and failure modes
-- A research library with 25 paper/review records, 10 precisely scoped book/preview records, and evidence/gap mappings for all 32 methods
-- Standard-library installation, versioning, state migration, validation and release helpers; read-only GitHub Actions checks
+For deeper help: “Use leadership-toolbox. Grill me about our recurring handoff problems. Challenge my explanation before choosing a method.”
 
-## Install this draft
+For a lookup: “Explain GROW, its practical limits, and what the evidence actually supports.”
 
-Use the [reviewed-source installation route](docs/installation.md) from [draft PR #1](https://github.com/haitaowu12/leadership-toolbox/pull/1). A published release asset is not required or implied. Keep the complete `skills/leadership-toolbox` folder together. Hosts that discover `SKILL.md` can load it; other assistants can read it manually. Installation grants no permission to message people or change obligations.
+## What you get
 
-Start deeper reading in the [knowledge library](skills/leadership-toolbox/references/knowledge/README.md), [organized sources](skills/leadership-toolbox/references/sources.md), or [book register](skills/leadership-toolbox/references/books.md). Article/chapter access and inspection limits are explicit; metadata-only book entries are further reading, not evidence.
+- 32 distinct methods with steps, words to try, examples, prerequisites, guardrails and sources
+- Quick advice or adaptive probing, with corrections and an explicit option to make no change
+- Eight situation dimensions for explainable comparisons, without scoring people or predicting success percentages
+- Four knowledge topics that distinguish plausible explanations and guide what to observe next
+- 25 paper/review records, 10 scoped book/preview records, and an evidence/gap map for every method
+- Templates and optional private records, kept outside the shared skill
+- Standard-library install/update/restore helpers, reproducible archives, checksums and read-only CI
 
-[Matching and metrics](docs/evidence-and-measurement.md) explains the editorial judgments and evidence limits. [Validation](docs/validation.md) distinguishes checks that ran from planned tests and human effectiveness evidence. [Contributing](CONTRIBUTING.md) explains how to improve the repertoire without padding it with duplicate names.
+## What is verified
 
-## Reuse
+See [validation](docs/validation.md) for exact revisions, automated package checks and matched model-output comparisons. File/installation checks and fictional model tests do not prove leadership effectiveness. Reading scopes and remaining gaps are explicit; book metadata is further reading, not evidence.
 
-Original project material is MIT except the explicitly marked 1-2-4-All and Troika adaptations, which are CC BY-SA 4.0. See [LICENSE](LICENSE) and [notices](THIRD_PARTY_NOTICES.md). Linked articles, books, instruments and assets retain their own rights. No endorsement by method originators is implied.
+[Installation](docs/installation.md) · [Examples](docs/quick-start.md) · [Knowledge library](skills/leadership-toolbox/references/knowledge/README.md) · [Sources](skills/leadership-toolbox/references/sources.md) · [All docs](docs/index.md)
 
-Version: 0.2.0, draft for review. No website or service is deployed.
+## Reuse and boundaries
+
+Original project material is MIT except explicitly marked CC BY-SA 4.0 adaptations. See [LICENSE](LICENSE) and [notices](THIRD_PARTY_NOTICES.md). Linked articles, books and instruments retain their own rights. No endorsement by their authors is implied.
+
+The skill cannot create authority or consent. It does not send messages, make staffing decisions, resolve serious allegations or replace qualified processes. Personal profiles are optional and are never required to begin.
+
+Version: 0.2.0. No website, background service or paid API is required.

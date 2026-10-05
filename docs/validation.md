@@ -1,4 +1,16 @@
-# Validation and limits · 0.2.0 draft
+# Validation and limits · 0.2.0
+
+## Completion checks
+
+The completion revision closes full-text reading gaps for E23, E43, E60 and E61. E24 remains abstract-only for the article; the related publisher procedure record does not substitute for its methods/results. Research access is now 24 full-text relevant-section inspections and one abstract-only record. Nine book/chapter excerpts are partially inspected; one book is metadata-only. Access counts do not rank quality.
+
+Runtime guidance now requires a distinguishing observation before presuming a blockage or deficit. Trial plans separate cue/opportunity, response and outcome; name a proposed observer and window; retain unknown baselines; and treat no opportunity as not tested. This is editorial guidance whose observed model behavior is evaluated separately.
+
+Packaging now includes a source ZIP, single-skill upload ZIP and checksums. Nine added tests cover archive layout/bytes, deterministic repeat builds in one runtime, metadata, unsafe paths, incomplete/environment-file rejection, and a real clean extracted-archive CLI install/update/restore with separate-state preservation. CI targets Python 3.10 and 3.12 with read-only permissions. Execution status must be read from the exact revision's checks; test code alone is not a pass.
+
+The [matched comparison protocol](evaluations/completion-protocol.json) fixes four fictional situations and concise/probing controls before generation. Fresh no-skill and skill-reading contexts are compared by reviewers independent of generation. Results and exact input revision are recorded when complete; no human-benefit or superiority claim is intended.
+
+The [cloud upload route](installation.md#cloud-upload-without-a-local-install) follows current official Claude web documentation. ZIP layout, metadata and resource checks do not establish account upload or live host activation. Manual native model loading of repository references is also different from automatic host discovery.
 
 ## Knowledge-library refinement
 
@@ -38,4 +50,4 @@ The [original-source audit](source-audit-2026-10-05.md) attempted all 34 unique 
 
 From repository root: `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, `python3 scripts/build_release.py`. Tests use only the standard library. The source/privacy scan is heuristic plus an explicit allowlist; it cannot identify every possible confidential sentence. A later fix does not remove earlier Git history.
 
-A structural pass does not establish method effectiveness, correct matching in all situations, universal host compatibility or safe deployment in regulated work. Workplace outcomes, live discovery across hosts, accessibility of actual platforms and the new interview's empirical usefulness remain unvalidated. Owner review is required before merge or release; no site/service is deployed.
+A structural pass does not establish method effectiveness, correct matching in all situations, universal host compatibility or safe deployment in regulated work. Workplace outcomes, live discovery across hosts, accessibility of actual platforms and the new interview's empirical usefulness remain unvalidated. Consult the reviewed PR and current branch for merge status; no site/service is deployed or GitHub Release implied.

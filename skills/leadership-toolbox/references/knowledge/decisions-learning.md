@@ -75,11 +75,14 @@ The review included 73 healthcare articles. Fourteen reported linked iterative c
 
 ## E43
 
-### Debrief evidence, with an access boundary
+### Debriefs: what the comparison includes
+Tannenbaum & Cerasoli (2013), *Human Factors*, 55, 231–245. [Publisher/DOI](https://journals.sagepub.com/doi/10.1177/0018720812448394); [inspected complete article](https://cebma.org/assets/Uploads/Tannenbaum-Cerasoli.pdf).
 
-Tannenbaum & Cerasoli (2013). [Publisher abstract](https://journals.sagepub.com/doi/10.1177/0018720812448394). Abstract only; full methods and moderator tables were not accessible.
+**Read:** Definitions, search/coding, results including Tables 2–3, and limitations, pp. 232–241; no study-by-study reappraisal.
 
-The abstract reports 46 samples, N=2,136 and d=.67, and emphasizes alignment among participants, learning focus and measurement. This supports structured reflection as an evidence-backed intervention family. It does not justify promising a local 25% improvement, equating satisfaction with performance, or claiming exact facilitator/structure subgroup effects from an unread table. Treat the detailed operational additions above as editorial design. Publisher copyright.
+The review pooled 46 independent samples from 31 studies, reported N=2,136. Overall d=.67 became .54 after removing three outliers. Included debriefs required active reflection, developmental intent, a specific episode and more than solitary recollection. Many studies were quasi-experimental; publication bias could not be excluded. Only two samples were explicitly unfacilitated and one unstructured. This supports a bounded intervention family, not guaranteed local percentage gains or a universal facilitator advantage.
+
+**Application:** Compare accounts with a relevant record or observer where feasible. Solitary recollection can be useful self-reflection but should not inherit the reviewed debrief effect claim. The workplace card is an editorial application. Copyrighted source; no article or instrument reproduced.
 
 ## E44
 
