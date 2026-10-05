@@ -6,6 +6,10 @@ The later knowledge-library revision adds 25 research records, 10 book/preview r
 
 The new source-integrity tests check IDs, complete method coverage, cross-links, source scope/rights fields and rejection of metadata-only empirical support. They do not establish source truth, copyright clearance or intervention effectiveness. Refer to the current PR's exact-head CI; earlier reported passes below apply only to their stated revisions. Previous conversational evaluations do not validate the new knowledge instructions.
 
+At [637a283](https://github.com/haitaowu12/leadership-toolbox/commit/637a283b9a64c9643ea859b8488497e339d7300c), the [direct-head run](https://github.com/haitaowu12/leadership-toolbox/actions/runs/37368929434) passed 95 reviewed files, 32 methods, all 45 tests and archive construction. The later preserved evaluation report adds one public file; consult its exact-head checks rather than extending this pass automatically.
+
+A [five-case/six-response check](evaluations/knowledge-routing-2026-10-05.md) at frozen 637a283 preserved concise mechanism-sensitive answers and an authority correction, but every output cited repository material instead of an underlying external source. The instruction now explicitly requires the original public source link and a concrete proposed observation checkpoint where practical. This is a narrow correction; editing an instruction alone does not demonstrate improved behavior. The complete report retains leading-prompt, single-context, measurement and self-assessment limitations.
+
 ## Current expansion
 
 This version expands the catalog to 32 methods, adds adaptive quick/deep interviewing, eight mixed-type context dimensions, explicit matching profiles and metric contracts, and removes the fixed 14-method implementation limit. It also moves installer staging/backups outside the immediate discovery root and adds regression coverage.
