@@ -22,6 +22,8 @@ Version: 0.2.0 · Licence: MIT
 4. Make a concrete authorised ask.
 5. Record the choice, rationale, owner and review trigger in a lightweight decision note.
 
+**Adapt the execution:** Disclose what is fixed and what consultation can change. Invite evidence that could alter the proposal, revise when warranted and preserve refusal as a legitimate decision.
+
 **Words to try:** “What evidence or concern would change this decision?”
 
 **Immediate output:** A decision request or decision record with evidence, concerns and follow-up.
@@ -47,3 +49,7 @@ Use the [decision record](../../templates/decision-record.md) for significant ch
 A request for input conceals an irreversible decision already made; disclose the actual scope for influence.
 
 Related alternatives: [L17](L17-stakeholders.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/inquiry-coordination.md) and [method-specific evidence map](../evidence-map.md#l10). Associations are not causal tactics or a universal ranking; outcome varies with authority relationship.

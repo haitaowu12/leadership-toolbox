@@ -168,6 +168,91 @@ def validate_catalog(catalog, dimensions, files):
     return errors
 
 
+def validate_evidence(library, mapping, catalog, files):
+    """Check source provenance and complete method mapping, not research truth."""
+    errors = []
+    if not isinstance(library, dict) or (type(library.get("schema_version")) is not int or library["schema_version"] != 1) or not isinstance(library.get("sources"), list):
+        return ["invalid source library schema"]
+    if not isinstance(mapping, dict) or (type(mapping.get("schema_version")) is not int or mapping["schema_version"] != 1) or not isinstance(mapping.get("methods"), list):
+        return ["invalid evidence map schema"]
+    if not isinstance(catalog, dict) or not isinstance(catalog.get("methods"), list):
+        return ["invalid catalog for evidence mapping"]
+    method_ids = {item["id"] for item in catalog["methods"] if isinstance(item, dict) and isinstance(item.get("id"), str)}
+    sources = {}
+    access_values = {"full_text", "partial_text", "abstract_only", "metadata_only", "prior_review"}
+    for source in library["sources"]:
+        if not isinstance(source, dict):
+            errors.append("source record must be an object")
+            continue
+        sid = source.get("id")
+        if not isinstance(sid, str) or not re.fullmatch(r"[EBP][0-9]{2,}", sid) or sid in sources:
+            errors.append("invalid/duplicate source ID")
+            continue
+        sources[sid] = source
+        for field in ("title", "authors", "source_type", "inspected_scope", "claim_limit", "reuse"):
+            if not isinstance(source.get(field), str) or not source[field].strip():
+                errors.append(f"missing source {field}: {sid}")
+        if source.get("access") not in access_values or (sid.startswith(("E", "B")) and source.get("access") == "prior_review"):
+            errors.append(f"invalid source access: {sid}")
+        if not https_url(source.get("url")):
+            errors.append(f"invalid source URL: {sid}")
+        if source.get("doi") is not None and (not isinstance(source["doi"], str) or not re.fullmatch(r"10\.\d{4,9}/\S+", source["doi"])):
+            errors.append(f"invalid DOI: {sid}")
+        if source.get("year") is not None and (type(source["year"]) is not int or not 1500 <= source["year"] <= 2100):
+            errors.append(f"invalid source year: {sid}")
+        if not strings(source.get("topics")) or not strings(source.get("methods")) or not set(source.get("methods", [])) <= method_ids:
+            errors.append(f"invalid source topics/methods: {sid}")
+        note = source.get("notes_file")
+        if not isinstance(note, str) or note not in files:
+            errors.append(f"missing source notes: {sid}")
+        elif not re.search(r"^## " + re.escape(sid) + r"(?:\s|$)", files[note], re.M):
+            errors.append(f"missing stable source heading: {sid}")
+    seen = set()
+    for entry in mapping["methods"]:
+        if not isinstance(entry, dict):
+            errors.append("evidence mapping must be an object")
+            continue
+        mid = entry.get("method_id")
+        if not isinstance(mid, str) or mid not in method_ids or mid in seen:
+            errors.append("invalid/duplicate method evidence mapping")
+            continue
+        seen.add(mid)
+        for field in ("evidence_summary", "application_limit", "open_question"):
+            if not isinstance(entry.get(field), str) or not entry[field].strip():
+                errors.append(f"missing evidence {field}: {mid}")
+        for field, prefixes in (("provenance_ids", ("P", "E")), ("research_ids", ("E",)), ("book_ids", ("B",))):
+            values = entry.get(field)
+            if not strings(values, allow_empty=field != "provenance_ids"):
+                errors.append(f"invalid evidence {field}: {mid}")
+                continue
+            for sid in values:
+                if sid not in sources or not sid.startswith(prefixes):
+                    errors.append(f"unknown/wrong-role evidence ID: {mid}: {sid}")
+                elif not isinstance(sources[sid].get("methods"), list) or mid not in sources[sid]["methods"]:
+                    errors.append(f"asymmetric method/source mapping: {mid}: {sid}")
+                elif field == "research_ids" and sources[sid].get("access") == "metadata_only":
+                    errors.append(f"metadata-only research cannot support a claim: {mid}: {sid}")
+        knowledge = entry.get("knowledge_file")
+        if not isinstance(knowledge, str) or not knowledge.startswith("references/knowledge/") or knowledge not in files:
+            errors.append(f"missing knowledge route: {mid}")
+        method = next((item for item in catalog["methods"] if item.get("id") == mid), {})
+        expected_ids = {sid for field in ("provenance_ids", "research_ids", "book_ids") for sid in entry.get(field, []) if isinstance(sid, str)} if all(isinstance(entry.get(field), list) for field in ("provenance_ids", "research_ids", "book_ids")) else set()
+        if not strings(method.get("source_ids")) or set(method.get("source_ids", [])) != expected_ids:
+            errors.append(f"catalog/source mapping mismatch: {mid}")
+        if method.get("knowledge_file") != knowledge or method.get("evidence_map") != "references/evidence-map.md#" + mid.lower():
+            errors.append(f"catalog evidence route mismatch: {mid}")
+        card = method.get("file")
+        if card not in files or "(../evidence-map.md#" + mid.lower() + ")" not in files[card]:
+            errors.append(f"card missing evidence map link: {mid}")
+        if not re.search(r"^## " + re.escape(mid) + r"(?:\s|$)", files.get("references/evidence-map.md", ""), re.M):
+            errors.append(f"missing readable evidence mapping: {mid}")
+    if seen != method_ids:
+        errors.append("method evidence coverage mismatch")
+    if not sources:
+        errors.append("empty source library")
+    return errors
+
+
 def validate(root=ROOT):
     root = Path(root).resolve()
     errors = []
@@ -212,6 +297,10 @@ def validate(root=ROOT):
         catalog = json.loads(package_files.get("references/catalog.json", "null"))
         dimensions = json.loads(package_files.get("references/dimensions.json", "null"))
         errors.extend(validate_catalog(catalog, dimensions, package_files))
+        if isinstance(catalog, dict):
+            library = json.loads(package_files.get("references/sources.json", "null"))
+            mapping = json.loads(package_files.get("references/evidence-map.json", "null"))
+            errors.extend(validate_evidence(library, mapping, catalog, package_files))
     except ValueError as error:
         errors.append(f"invalid catalog/dimension JSON: {error}")
         catalog = None

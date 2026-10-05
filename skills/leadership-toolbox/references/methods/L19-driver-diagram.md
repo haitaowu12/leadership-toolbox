@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Institute for Healthcare Improvement, [Driver Diagram](https://www.ihi.org/library/tools/driver-diagram). **Claim / limit:** explicitly describes a team's theory linking the aim, primary drivers, secondary drivers, and change ideas. The source is methodological guidance; a completed diagram neither verifies causation nor proves that its proposed changes will work locally.
 
+**Adapt the execution:** For each important arrow, state the proposed mechanism, required condition, observable intermediate sign and rival explanation. Keep change ideas distinct from drivers. If nothing can be observed, return to framing or assumption inquiry.
+
 **Words to try:** “What has to change for the aim to move, and which link is least supported?”
 
 **One outcome signal:** During the next test cycle, check whether a chosen driver and the aim moved as predicted; preserve contradictory evidence. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -35,3 +37,7 @@ Counterexample: A diagram is presented as proof that every planned initiative wi
 Related alternatives: [L08](L08-pdsa.md), [L24](L24-assumptions.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l19). No direct comparative efficacy evidence for the diagram was established; arrows are hypotheses.

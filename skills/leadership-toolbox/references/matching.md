@@ -69,3 +69,9 @@ Use [situation template](../templates/situation-profile.md) only when a reusable
 Test it with paired situations that change one fact: capacity, authority, recovery, willingness or an excluded risk. Check whether the recommendation appropriately changes, whether unknowns stay unknown, and how much interviewing was required. Compare against a simpler goal-and-constraints baseline. Neither agreement with an evaluator nor faster replies establish real-world effectiveness.
 
 For machine interchange, ordinal category IDs are strings (for example, "2"), while actual minute values are numbers. Interpret the documented anchor, not the storage type. The two ordinal dimensions have their own direction: higher consequence means more severe downside; higher reversibility means easier recovery. They are never added or treated as one shared intensity scale.
+
+## Use knowledge and evidence at the right level
+
+Consult [topic explanations](knowledge/README.md) for mechanisms, and the [evidence map](evidence-map.md) for each shortlisted method. A field association about empowerment is not an experimental test of a delegation agreement. A handoff program can include training, supervision and tools that a short script omits. A preference-ranking method can faithfully represent a group's votes without identifying a correct answer.
+
+Compare how the proposed action addresses the plausible mechanism, which ingredients are actually available, and what evidence would reveal a mistaken diagnosis. Keep direct tests, broader-construct evidence, descriptive guidance and explicit gaps visible. More citations do not compensate for a failed prerequisite or unknown account.

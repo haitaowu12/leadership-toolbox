@@ -17,3 +17,7 @@ Method names identify publicly documented ideas. Attribution and source-specific
 ## Troika Consulting adaptation
 
 `skills/leadership-toolbox/references/methods/L27-troika.md` adapts [Troika Consulting](https://www.liberatingstructures.com/troika-consulting), original repertoire by Henri Lipmanowicz and Keith McCandless; 2026 Fieldbook by Keith McCandless and Nancy White. It is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) per the [current licence page](https://www.liberatingstructures.com/cc-license). Changes: concise workplace wording, privacy/access safeguards, added observation/guardrail, fictional examples and method links. No images or older source assets are reproduced. Preserve attribution and modification notice; MIT does not override this file's licence.
+
+## Research-library commentary
+
+The source library contains independently written explanatory notes and bibliographic metadata, not third-party full texts. Linked scholarly books/articles and educational resources retain their own copyright and license conditions, including any NC, ND, SA or separately credited assets. The current OpenStax notices are recorded conservatively; no raw textbook corpus is bundled. Public access, a DOI or an institutional host does not imply onward permission or endorsement. Source-specific inspection/reuse notes are in the source records. Existing CC BY-SA adaptations remain explicitly marked.

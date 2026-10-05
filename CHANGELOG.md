@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0 draft · knowledge-library refinement · 2026-10-05
+
+- Organized sources into stable research, book/chapter and procedure-provenance records, with truthful inspection scopes and claim/reuse limits.
+- Added four reusable knowledge chapters, 25 research records and 10 book/preview records. Sources include null/adverse results, corrected figures, limited populations and model-dependent publication-bias estimates.
+- Mapped all 32 methods to sources and explicit unanswered questions; revised execution guidance across the catalog and 16 observation contracts.
+- Connected the adaptive interview and method selection to mechanisms/rival explanations; retained quick-mode stopping rules and no global quality scores.
+- Added source integrity and mapping regression tests; existing human-effectiveness and model-execution reports remain historical, not validation of this revision.
+
+
 ## 0.2.0 — 2026-10-05 (draft)
 
 - Expand from 14 to 32 distinct methods, with practical steps, source boundaries, prompts, examples, counterexamples and output/outcome/guardrail contracts.

@@ -22,11 +22,13 @@ Version: 0.2.0 · Licence: MIT
 4. Obtain an authorised choice.
 5. Update affected people and review hidden effort.
 
+**Adapt the execution:** Name the exact obligation changed, its implementation owner and affected dependencies. Check the change actually occurred. Ask receiving teams about displaced load, hidden effort and quality.
+
 **Words to try:** “Which commitment can change, and who can authorise that choice?”
 
 **Immediate output:** An authorised choice about what stops, moves, changes scope or gains resources.
 
-**One outcome signal:** At the next checkpoint, are agreed commitments feasible without unplanned overtime or declining quality? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** Check the authorized work change occurred and commitments remain feasible without hidden overtime, displaced burden or deteriorating quality. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch displaced work, hidden rescue and omitted statutory obligations. If none of the options is feasible, record and escalate the unresolved demand.
 
@@ -45,3 +47,7 @@ A colleague is capable but has three conflicting deadlines. Prepare tradeoffs fo
 The leader adds coaching while leaving three incompatible deadlines unchanged; actual obligations still exceed time.
 
 Related alternatives: [L04](L04-negotiation.md), [L01](L01-delegation.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/coaching-development.md) and [method-specific evidence map](../evidence-map.md#l09). Neither a brief tradeoff discussion nor reduced workload at one point establishes system improvement.

@@ -21,7 +21,7 @@ Screen the proposed action for immediate harm, retaliation/coercion, privacy, au
 
 Use [dimension anchors](references/dimensions.json) and [matching](references/matching.md), with the relevant entries in [structured catalog profiles](references/catalog.json). Keep factual time/constraints, categorical context, anchored consequence/reversibility, evidence provenance and unknowns separate. Do not sum scales, compute distance/success probabilities or score people. An absent account is unknown; a manager's account is not everyone's agreement.
 
-Choose a short candidate set by immediate job/output; read its full cards. Mark each eligible, conditional or excluded according to actual prerequisites. Compare the strongest two or three on job/output, context, feasibility, burden and the user's priorities. Explain one primary next move, the strongest alternative and a fact that would change the choice. When a correction changes a decisive fact, update the profile and recommendation, not just the notes.
+Before narrowing a difficult or unfamiliar situation, read the relevant [knowledge topic](references/knowledge/README.md) to distinguish plausible mechanisms and rival explanations. Treat theory as a hypothesis to check, not a label to impose. Choose a short candidate set by immediate job/output; read its full cards. Mark each eligible, conditional or excluded according to actual prerequisites. Compare the strongest two or three on job/output, context, feasibility, burden and the user's priorities. Explain one primary next move, the strongest alternative and a fact that would change the choice. When a correction changes a decisive fact, update the profile and recommendation, not just the notes.
 
 Use no intervention when no material problem warrants one. Use a sequence only when one method creates the next method's prerequisite, with an owner and transition condition. Sensemaking tools must lead to a useful decision, evidence step or action rather than only a diagram.
 
@@ -29,12 +29,12 @@ Use no intervention when no material problem warrants one. Use a sequence only w
 
 For a situation, give a concise correction-friendly summary, consequential unknowns, a next action and reason, useful opening/questions, and an output/owner. In quick mode, compress this to the primary action, the decisive condition and a checkpoint; do not print a full profile or comparison table merely because one was considered. Respect any requested length. Add one later outcome, one burden/harm guardrail, an agreed or proposed review trigger and a stop/switch condition. Use [measurement](references/measurement.md); distinguish output from outcome and prediction from observation. Never invent agreement, observed improvement or a scheduled review.
 
-Cite the selected method's source and explain its evidence boundary. For specialist deferral, state the scope boundary without forcing a tangential citation. Use the appropriate process/qualified owner; do not adjudicate it with leadership methods.
+Use the [method evidence map](references/evidence-map.md) and the selected source's inspected-scope record before making an empirical claim. Distinguish the named procedure from the broader construct or intervention bundle studied; never present an abstract or book catalog as a fully read work. Cite the selected method's source and explain its evidence boundary. For specialist deferral, state the scope boundary without forcing a tangential citation. Use the appropriate process/qualified owner; do not adjudicate it with leadership methods.
 
 ## Read only the supporting detail needed
 
 - [Guides](references/guides.md) for common situations; [combinations](references/combinations.md) for useful sequences and overuse warnings.
-- [Sources](references/sources.md) and [framework choices](references/framework-choices.md) for origin, reuse, study context and optional Cynefin.
+- [Knowledge library](references/knowledge/README.md), [source register](references/sources.md), [book reading register](references/books.md), and [framework choices](references/framework-choices.md) for origin, reuse, study context and optional Cynefin.
 - [Situation profile](templates/situation-profile.md), [conversation](templates/conversation.md), [decision record](templates/decision-record.md), [practice record](templates/practice-record.md) and [role review](templates/role-review.md) when a durable structure helps.
 - [Examples](references/examples.md) for fictional illustrations, not evidence of effectiveness.
 

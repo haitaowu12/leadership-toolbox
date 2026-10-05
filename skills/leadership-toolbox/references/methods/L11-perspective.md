@@ -22,6 +22,8 @@ Version: 0.2.0 · Licence: MIT
 4. Compare evidence and name unresolved differences.
 5. Choose the next inquiry or decision rather than forcing consensus.
 
+**Adapt the execution:** Record what new information corrected your view. Distinguish reported experience from corroborated fact, and preserve consequential unresolved differences rather than manufacturing consensus.
+
 **Words to try:** “What information did you have, and what assumption should we check?”
 
 **Immediate output:** A corrected framing, explicit disputed facts or a targeted next inquiry.
@@ -45,3 +47,7 @@ Two colleagues disagree about a delay. Compare what each knew when they made the
 The assistant imagines what another person must feel and calls it perspective-taking evidence; ask for an actual account.
 
 Related alternatives: [L30](L30-structured-listening.md), [L26](L26-problem-framing.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/inquiry-coordination.md) and [method-specific evidence map](../evidence-map.md#l11). No workplace-script validation or presumption that any account is complete or true.

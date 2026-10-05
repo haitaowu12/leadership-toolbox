@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** NHS England and NHS Improvement, [Stakeholder analysis](https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf), pp. 2–7, covers identification, power and impact, understanding, trust, and engagement. **Limit:** classifications are provisional judgments, not validated predictions of behavior; the guide is implementation guidance, not an effectiveness trial.
 
+**Adapt the execution:** Tag consequential perspectives as directly heard, reported by someone else or unknown. Find who bears a cost but lacks influence. Let affected people correct their entry; a stakeholder map is provisional planning, not an inferred motive.
+
 **Words to try:** “Who bears a cost here but has not yet had a usable way to influence the plan?”
 
 **One outcome signal:** Before commitment, check whether materially affected groups' concerns have a recorded disposition and responsible owner. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -35,3 +37,7 @@ Counterexample: A power-interest grid is used to dismiss people who cannot veto 
 Related alternatives: [L10](L10-consultation.md), [L11](L11-perspective.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/inquiry-coordination.md) and [method-specific evidence map](../evidence-map.md#l17). No comparative validation of a stakeholder grid or power/interest classification was established.

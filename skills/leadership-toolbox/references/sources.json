@@ -1,0 +1,1459 @@
+{
+  "schema_version": 1,
+  "reviewed": "2026-10-05",
+  "scope": "Purposeful public-source expansion, not a systematic review of all leadership research. Read level and inspected scope are separate from source type and study quality.",
+  "sources": [
+    {
+      "id": "E01",
+      "title": "The effectiveness of workplace coaching: A meta-analysis of learning and performance outcomes from coaching",
+      "authors": "Rebecca J. Jones; Stephen A. Woods; Yves R. F. Guillaume",
+      "year": 2016,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1111/joop.12119",
+      "doi": "10.1111/joop.12119",
+      "access": "full_text",
+      "inspected_scope": "Accepted manuscript: method/inclusion, outcome and practice-moderator analyses, limitations; https://publications.aston.ac.uk/id/document/16501",
+      "topics": [
+        "coaching",
+        "outcome measurement",
+        "transfer limits"
+      ],
+      "methods": [
+        "L02",
+        "L27"
+      ],
+      "claim_limit": "Workplace-coaching construct evidence; excludes supervisor and peer coaching and does not isolate GROW.",
+      "reuse": "Independent research commentary only; no text, scales, figures or templates reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E02",
+      "title": "Leader autonomy support in the workplace: A meta-analytic review",
+      "authors": "Gavin R. Slemp; Margaret L. Kern; Kent J. Patrick; Richard M. Ryan",
+      "year": 2018,
+      "source_type": "meta_analysis",
+      "url": "https://link.springer.com/article/10.1007/s11031-018-9698-y",
+      "doi": "10.1007/s11031-018-9698-y",
+      "access": "full_text",
+      "inspected_scope": "Full HTML article: construct definition, methods, outcomes and measurement moderation, discussion/limitations.",
+      "topics": [
+        "autonomy support",
+        "motivation",
+        "delegation",
+        "measurement bias"
+      ],
+      "methods": [
+        "L01",
+        "L02",
+        "L28"
+      ],
+      "claim_limit": "Mostly cross-sectional perceived leadership; cannot establish direction of causation or validate a delegation agreement.",
+      "reuse": "Source CC BY 4.0; independently written commentary with attribution; no scales or figures copied.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E03",
+      "title": "How work redesign interventions affect performance: An evidence-based model from a systematic review",
+      "authors": "Caroline Knight; Sharon K. Parker",
+      "year": 2021,
+      "source_type": "systematic_review",
+      "url": "https://doi.org/10.1177/0018726719865604",
+      "doi": "10.1177/0018726719865604",
+      "access": "full_text",
+      "inspected_scope": "Author manuscript via ResearchGate: selection/quality appraisal, mechanisms, boundary conditions, limitations; https://www.researchgate.net/publication/336193787_How_work_redesign_interventions_affect_performance_An_evidence-based_model_from_a_systematic_review",
+      "topics": [
+        "work redesign",
+        "capacity",
+        "workload",
+        "intervention implementation"
+      ],
+      "methods": [
+        "L01",
+        "L09"
+      ],
+      "claim_limit": "Heterogeneous top-down interventions and uneven evidence; not a test of a brief capacity discussion. Online first 2019, issue year 2021.",
+      "reuse": "Independent research commentary only; no source tables or figures reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E04",
+      "title": "Leadership training design, delivery, and implementation: A meta-analysis",
+      "authors": "Christina N. Lacerenza; Denise L. Reyes; Shannon L. Marlow; Dana L. Joseph; Eduardo Salas",
+      "year": 2017,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1037/apl0000241",
+      "doi": "10.1037/apl0000241",
+      "access": "full_text",
+      "inspected_scope": "University-hosted 33-page article: methods/coding, outcome-specific moderators, limitations; https://doerr.rice.edu/sites/g/files/bxs3016/files/2020-03/Leadership%20Training%20Design,%20Delivery,%20and%20Implementation.pdf",
+      "topics": [
+        "leadership training",
+        "practice",
+        "spacing",
+        "transfer",
+        "measurement"
+      ],
+      "methods": [
+        "L12",
+        "L28"
+      ],
+      "claim_limit": "Programs differ across study designs; between-program moderators are not randomized component tests or predictions of individual gains.",
+      "reuse": "Independent research commentary only; no copyrighted training content, assessments, or figures reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E05",
+      "title": "Transfer of training: A meta-analytic review",
+      "authors": "Brian D. Blume; J. Kevin Ford; Timothy T. Baldwin; Jason L. Huang",
+      "year": 2010,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1177/0149206309352880",
+      "doi": "10.1177/0149206309352880",
+      "access": "full_text",
+      "inspected_scope": "Author-uploaded complete article on ResearchGate: definition/methods, open versus closed skills, measurement, limitations; https://www.researchgate.net/publication/235975809_Transfer_of_Training_A_Meta-Analytic_Review",
+      "topics": [
+        "training transfer",
+        "open and closed skills",
+        "work environment",
+        "measurement bias"
+      ],
+      "methods": [
+        "L12",
+        "L28"
+      ],
+      "claim_limit": "Predictor associations and heterogeneous measurements; does not establish that an action plan causes workplace transfer.",
+      "reuse": "Independent research commentary only; no source tables, instruments, or passages reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E06",
+      "title": "Developing leaders via experience: The role of developmental challenge, learning orientation, and feedback availability",
+      "authors": "D. Scott DeRue; Ned Wellman",
+      "year": 2009,
+      "source_type": "empirical_study",
+      "url": "https://doi.org/10.1037/a0015317",
+      "doi": "10.1037/a0015317",
+      "access": "full_text",
+      "inspected_scope": "Complete 17-page article; pp. 863–868 methods/results, p. 871 limitations. Verified stable bibliographic record https://eric.ed.gov/?id=EJ912760; complete article inspected; no file redistributed.",
+      "topics": [
+        "experiential learning",
+        "developmental assignments",
+        "challenge",
+        "feedback"
+      ],
+      "methods": [
+        "L28",
+        "L01"
+      ],
+      "claim_limit": "Retrospective observational study of 60 working MBA managers; neither causal stretch-dose evidence nor validation of an IDP form.",
+      "reuse": "Independent research commentary only; no figures, scales, or source examples reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E07",
+      "title": "Executive coaching enhances goal attainment, resilience and workplace well-being: A randomised controlled study",
+      "authors": "Anthony M. Grant; Linley Curtayne; Geraldine Burton",
+      "year": 2009,
+      "source_type": "empirical_study",
+      "url": "https://doi.org/10.1080/17439760902992456",
+      "doi": "10.1080/17439760902992456",
+      "access": "full_text",
+      "inspected_scope": "Author-uploaded complete article: intervention, initial randomized waitlist comparison, separate outcome tests, limitations; https://www.researchgate.net/publication/247520307_Executive_coaching_enhances_goal_attainment_resilience_and_workplace_well-being_A_randomised_controlled_study",
+      "topics": [
+        "coaching",
+        "GROW",
+        "self-regulation",
+        "goal attainment",
+        "null findings"
+      ],
+      "methods": [
+        "L02"
+      ],
+      "claim_limit": "GROW was embedded in a professional-coaching package; cannot isolate GROW or transfer directly to short manager-led conversations.",
+      "reuse": "Independent research commentary only; no GROW table, diagram, source scripts, or clinical measures reproduced.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "B01",
+      "title": "The Future of Coaching: Building Bridges Between Science and Practice",
+      "authors": "Siegfried Greif",
+      "year": 2025,
+      "source_type": "scholarly_book_chapters",
+      "url": "https://link.springer.com/book/10.1007/978-3-031-96192-2",
+      "doi": "10.1007/978-3-031-96192-2",
+      "access": "partial_text",
+      "inspected_scope": "1st edition, Springer, XI+300 pp., eISBN 978-3-031-96192-2. Public full chapters 3 (pp. 39–50) and 7 (pp. 185–202), focused inspection §§3.5–3.6 and §§7.1–7.2; not whole book.",
+      "topics": [
+        "helping roles",
+        "managerial coaching",
+        "mentoring",
+        "coaching evaluation"
+      ],
+      "methods": [
+        "L02",
+        "L27",
+        "L28"
+      ],
+      "claim_limit": "Author-led scholarly synthesis; role distinctions are useful but not proof of coaching superiority. No whole-book review claimed.",
+      "reuse": "Chapters CC BY-NC-ND 4.0: link and independently discuss ideas, do not import/adapt source text, tables or questionnaires.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "B02",
+      "title": "How People Learn II: Learners, Contexts, and Cultures",
+      "authors": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2018,
+      "source_type": "scholarly_consensus_book",
+      "url": "https://doi.org/10.17226/24783",
+      "doi": "10.17226/24783",
+      "access": "partial_text",
+      "inspected_scope": "2018 report edition. Public full chapters 5 Knowledge and Reasoning (pp. 85–108) and 6 Motivation to Learn (pp. 109–134); close inspection of practice, explanation, prior knowledge and motivation sections; not whole book.",
+      "topics": [
+        "learning mechanisms",
+        "prior knowledge",
+        "practice",
+        "motivation",
+        "transfer"
+      ],
+      "methods": [
+        "L12",
+        "L28",
+        "L02"
+      ],
+      "claim_limit": "Consensus synthesis largely drawing on education/laboratory research; specific workplace renditions require evaluation.",
+      "reuse": "Publicly readable chapters; independent notes only, with no copied prose, figures or instruments.",
+      "notes_file": "references/knowledge/coaching-development.md"
+    },
+    {
+      "id": "E20",
+      "title": "The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory",
+      "authors": "Avraham N. Kluger; Angelo DeNisi",
+      "year": 1996,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1037/0033-2909.119.2.254",
+      "doi": "10.1037/0033-2909.119.2.254",
+      "access": "full_text",
+      "inspected_scope": "Primary article PDF hosted at https://mrbartonmaths.com/resourcesnew/8.%20Research/Marking%20and%20Feedback/The%20effects%20of%20feedback%20interventions.pdf; construct boundaries, methods/results pp. 254–258 and theory/limitations pp. 275–277 inspected.",
+      "topics": [
+        "feedback",
+        "attention",
+        "task learning",
+        "adverse intervention effects"
+      ],
+      "methods": [
+        "L03"
+      ],
+      "claim_limit": "Mean d=.41 across 607 effects; over 38% of effects negative. Effects are not employees harmed. Heterogeneous interventions and preliminary moderator theory do not validate SBI/SBII or predict this card's effect.",
+      "reuse": "Original summary and citation only; copyrighted paper, figures and instruments not bundled.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E21",
+      "title": "Psychological safety and learning behavior in work teams",
+      "authors": "Amy Edmondson",
+      "year": 1999,
+      "source_type": "empirical_study",
+      "url": "https://doi.org/10.2307/2666999",
+      "doi": "10.2307/2666999",
+      "access": "full_text",
+      "inspected_scope": "Primary PDF at https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Organizational_Learning_and_Change/Edmondson_1999_Psychological_safety.pdf; definitions, methods, results and pp. 378–379 limitations inspected; Harvard repository record verified.",
+      "topics": [
+        "psychological safety",
+        "team learning",
+        "interpersonal risk",
+        "voice"
+      ],
+      "methods": [
+        "L05",
+        "L06",
+        "L15",
+        "L18",
+        "L30"
+      ],
+      "claim_limit": "Multimethod study of 51 teams in one company found safety associated with learning. Cross-sectional survey prevents causal inference; does not test participation, huddle or listening scripts.",
+      "reuse": "Original summary only; no copied survey items or unrestricted redistribution claim.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E22",
+      "title": "Psychological safety comes of age: Observed themes in an established literature",
+      "authors": "Amy C. Edmondson; Derrick P. Bransby",
+      "year": 2023,
+      "source_type": "systematic_thematic_review",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-120920-055217",
+      "doi": "10.1146/annurev-orgpsych-120920-055217",
+      "access": "full_text",
+      "inspected_scope": "Publisher PDF https://www.annualreviews.org/doi/pdf/10.1146/annurev-orgpsych-120920-055217; search/coding methods, pp. 64–65 learning/voice, pp. 71–73 research gaps/practice inspected.",
+      "topics": [
+        "psychological safety",
+        "voice and silence",
+        "learning",
+        "intervention evidence gaps"
+      ],
+      "methods": [
+        "L05",
+        "L06",
+        "L15",
+        "L18",
+        "L30"
+      ],
+      "claim_limit": "Review of 185 empirical articles from 2013–2021, not a pooled-effect meta-analysis. Many cross-sectional studies; causal tests of concrete safety-building interventions remain scarce; contextual exceptions prevent universal claims.",
+      "reuse": "Publisher declares CC BY 4.0 with separate third-party-material caveats. Deliverable contains original summaries, no copied material.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E23",
+      "title": "Changes in medical errors after implementation of a handoff program",
+      "authors": "Amy J. Starmer; Nancy D. Spector; Rajendu Srivastava; et al.; I-PASS Study Group",
+      "year": 2014,
+      "source_type": "prospective_before_after_study",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa1405556",
+      "doi": "10.1056/NEJMsa1405556",
+      "access": "partial_text",
+      "inspected_scope": "Publisher-indexed methods, results and discussion inspected through web retrieval; PubMed bibliographic record verified. Direct PDF fetch returned 403; complete PDF not inspected.",
+      "topics": [
+        "structured handoff",
+        "receiver synthesis",
+        "contingencies",
+        "implementation bundles"
+      ],
+      "methods": [
+        "L14",
+        "L06"
+      ],
+      "claim_limit": "Nine pediatric programs, 10,740 admissions: errors declined 23% relatively, preventable adverse events 30%; three sites lacked significant error reduction. Bundled, nonrandomized before/after design cannot isolate check-back or establish general-work huddle/handoff effects.",
+      "reuse": "Copyrighted source. No I-PASS training material, figure or clinical protocol reproduced.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E24",
+      "title": "Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies",
+      "authors": "John E. Mathieu; Tammy L. Rapp",
+      "year": 2009,
+      "source_type": "longitudinal_empirical_study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19186898/",
+      "doi": "10.1037/a0013257",
+      "access": "abstract_only",
+      "inspected_scope": "PubMed abstract and author-publication correction abstract at https://www.researchgate.net/publication/238308368_Correction_to_Mathieu_and_Rapp_2009. Correction DOI 10.1037/a0019852 (2010) reverses two Figure 1 labels. Full methods/results not inspected.",
+      "topics": [
+        "team charters",
+        "task strategy",
+        "performance trajectories",
+        "coordination"
+      ],
+      "methods": [
+        "L15",
+        "L06"
+      ],
+      "claim_limit": "32 MBA simulation teams; highest sustained performance when charter and strategy quality were both high. Abstract-only inspection and simulation context preclude strong causal or all-sector claims; original figure requires the 2010 correction.",
+      "reuse": "Original abstract-based summary and bibliography only; no figure or intervention form reproduced.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E25",
+      "title": "The paradox of intragroup conflict: A meta-analysis",
+      "authors": "Frank R. C. de Wit; Lindred L. Greer; Karen A. Jehn",
+      "year": 2012,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1037/a0024844",
+      "doi": "10.1037/a0024844",
+      "access": "full_text",
+      "inspected_scope": "Publisher-provided article preview text at https://www.researchgate.net/publication/51572721_The_Paradox_of_Intragroup_Conflict_A_Meta-Analysis; inclusion/coding, results, discussion and limitations inspected; PubMed metadata verified.",
+      "topics": [
+        "task conflict",
+        "relationship conflict",
+        "process conflict",
+        "contingency"
+      ],
+      "methods": [
+        "L04",
+        "L15"
+      ],
+      "claim_limit": "116 studies and 8,880 groups; task conflict had essentially zero overall performance association, with negative relationship/process conflict associations. Study-level moderators are noncausal and cannot directly diagnose individual teams; not a principled-negotiation trial.",
+      "reuse": "Original summary; no source table or pooled-data reproduction.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E26",
+      "title": "A meta-analytic systematic review and theory of the effects of perceived listening on work outcomes",
+      "authors": "Avraham N. Kluger; Michal Lehmann; Herman Aguinis; Guy Itzchakov; Galit Gordoni; Jetmir Zyberaj; Cafer Bakaç",
+      "year": 2024,
+      "source_type": "registered_systematic_review_and_meta_analysis",
+      "url": "https://doi.org/10.1007/s10869-023-09897-5",
+      "doi": "10.1007/s10869-023-09897-5",
+      "access": "full_text",
+      "inspected_scope": "Publisher full text; conceptual definition, methods, results and limitations inspected. Published online 17 July 2023; journal volume 39 (2024), pp. 295–344.",
+      "topics": [
+        "perceived listening",
+        "relationship quality",
+        "work outcomes",
+        "common-method bias"
+      ],
+      "methods": [
+        "L30",
+        "L03",
+        "L04"
+      ],
+      "claim_limit": "664 effects, 400,020 observations. Listening-performance r=.36 dropped to .21 excluding solely self-report data; predominantly observational studies, heterogeneity and discriminant-validity concerns. Does not validate the card's interview or predict a causal performance gain.",
+      "reuse": "Open-access primary source; original summary and attribution, no item bank, scale or figure reproduced.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E27",
+      "title": "An exploration of the structure of effective apologies",
+      "authors": "Roy J. Lewicki; Beth Polin; Robert B. Lount Jr.",
+      "year": 2016,
+      "source_type": "scenario_experiments",
+      "url": "https://ncmr.lps.library.cmu.edu/article/id/264/",
+      "doi": "10.1111/ncmr.12073",
+      "access": "full_text",
+      "inspected_scope": "Journal PDF https://ncmr.lps.library.cmu.edu/article/264/galley/267/view/; both studies and pp. 190–193 discussion/limitations inspected. Current journal host additionally assigns DOI 10.34891/9awp-8644.",
+      "topics": [
+        "apology",
+        "responsibility",
+        "repair",
+        "trust violation"
+      ],
+      "methods": [
+        "L32"
+      ],
+      "claim_limit": "Two US wording/scenario experiments measured perceived effectiveness, not sustained relationship repair. Component rankings varied; some contrasts null; text length and missing tone limit inference. No mandatory checklist or guaranteed forgiveness.",
+      "reuse": "Journal host declares CC BY-NC 4.0. Original summary only; no protected scenarios, apology wording, tables or figures imported into MIT material.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "B20",
+      "title": "Organizational Behavior: selected sections on team design, management and conflict",
+      "authors": "J. Stewart Black; David S. Bright",
+      "year": 2019,
+      "source_type": "open_textbook",
+      "url": "https://openstax.org/books/organizational-behavior/pages/9-3-managing-effective-work-groups",
+      "doi": null,
+      "access": "partial_text",
+      "inspected_scope": "Current online edition, publication date 5 June 2019; sections 9.3 Managing Effective Work Groups, 10.3 Things to Consider When Managing Teams, 14.2 Causes of Conflict in Organizations, and 14.4 Negotiation Behavior read on 5 October 2026. No numbered edition inferred and no whole-book reading claimed. Direct section URLs are in the linked topic notes.",
+      "topics": [
+        "team design",
+        "task strategy",
+        "incentives",
+        "interdependence",
+        "conflict",
+        "integrative bargaining"
+      ],
+      "methods": [
+        "L04",
+        "L06",
+        "L15",
+        "L30"
+      ],
+      "claim_limit": "Explanatory teaching synthesis, not causal validation of these methods. Broad/dated cultural examples must not become individual predictions. Structural conflict should be checked before assuming poor intent.",
+      "reuse": "Current footers state CC BY-NC-SA and additional AI-use restrictions despite legacy in-page CC BY 4.0 figure credits. Short original analysis and links only; do not import prose, diagrams, cases, exercises or tables into the MIT skill.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "B21",
+      "title": "The Science and Practice of Team Science: Chapter 3, Best Practices",
+      "authors": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2025,
+      "source_type": "scholarly_consensus_book_chapter",
+      "url": "https://www.nationalacademies.org/read/29043/chapter/5",
+      "doi": "10.17226/29043",
+      "access": "partial_text",
+      "inspected_scope": "Public full chapter available. Selected inspected sections: taskwork/teamwork competencies pp. 41–43; charters pp. 60–62; adapting configurations and leadership pp. 85–88; best-practice/research-gap summary. 2025 National Academies Press publication; complete 248-page book not read.",
+      "topics": [
+        "team development",
+        "team charters",
+        "taskwork and teamwork",
+        "team leadership",
+        "adaptive coordination"
+      ],
+      "methods": [
+        "L06",
+        "L14",
+        "L15"
+      ],
+      "claim_limit": "Consensus synthesis combines evidence and expert judgment; charter evidence limited and often student-based, with performance benefits depending on task strategy, expertise or intervening processes. Team-science emphasis limits generalization.",
+      "reuse": "Public reading is not a permissive redistribution license. Original synthesis and citation only; no book text or figures bundled.",
+      "notes_file": "references/knowledge/teams-feedback.md"
+    },
+    {
+      "id": "E40",
+      "title": "Building a Practically Useful Theory of Goal Setting and Task Motivation: A 35-Year Odyssey",
+      "authors": "Edwin A. Locke; Gary P. Latham",
+      "year": 2002,
+      "source_type": "theory_review",
+      "url": "https://goal-lab.psych.umn.edu/orgPsych/2020/readings/5.%20Motivation/Locke%20%26%20Latham%20%282002%29.pdf",
+      "doi": "10.1037/0003-066X.57.9.705",
+      "access": "full_text",
+      "inspected_scope": "Original 13-page American Psychologist article; core findings, goal mechanisms, commitment, feedback, task complexity, proximal goals, applications, goal conflict, learning/performance goals, limitations and conclusion (especially pp. 705–709, 711–714). References not independently replicated.",
+      "topics": [
+        "goal mechanisms",
+        "learning versus performance goals",
+        "feedback",
+        "commitment",
+        "task complexity"
+      ],
+      "methods": [
+        "L16",
+        "L23"
+      ],
+      "claim_limit": "Research-program review explains attention, effort, persistence and strategy mechanisms with moderators; not a fresh meta-analysis, proof of SMART wording, or a universal case for raising targets.",
+      "reuse": "APA copyright 2002; public university-hosted reading copy is not an open-content licence. Link and original synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E41",
+      "title": "The when and how of planning: Meta-analysis of the scope and components of implementation intentions in 642 tests",
+      "authors": "Paschal Sheeran; Olivia Listrom; Peter M. Gollwitzer",
+      "year": 2025,
+      "source_type": "meta_analysis",
+      "url": "https://doi.org/10.1080/10463283.2024.2334563",
+      "doi": "10.1080/10463283.2024.2334563",
+      "access": "full_text",
+      "inspected_scope": "Author-posted accepted manuscript on ResearchGate, 14 pages: scope/components, search and inclusion criteria, analysis, pooled and publication-bias-adjusted estimates, moderators, discussion and limitations; publisher record verified online publication 27 March 2024 and final issue 36(1), 162–194 (2025). Final typeset full text and supplements not inspected.",
+      "topics": [
+        "implementation intentions",
+        "cue response",
+        "rehearsal",
+        "publication bias",
+        "heterogeneity"
+      ],
+      "methods": [
+        "L23",
+        "L16"
+      ],
+      "claim_limit": "642 experimental tests; pooled d=.36. Bias sensitivity differed: trim-and-fill d=.35 versus robust Bayesian model averaging d=.15 (interval .08–.22). Search ended September 2019; heterogeneous effects and sparse workplace evidence. Component moderators are not isolated causal tests.",
+      "reuse": "Accepted manuscript says it is not the copy of record. No open reuse licence verified. Link and short original synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E42",
+      "title": "Systematic review of the application of the plan–do–study–act method to improve quality in healthcare",
+      "authors": "Michael J. Taylor; Chris McNicholas; Chris Nicolay; Ara Darzi; Derek Bell; Julie E. Reed",
+      "year": 2014,
+      "source_type": "systematic_review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3963536/",
+      "doi": "10.1136/bmjqs-2013-001862",
+      "access": "full_text",
+      "inspected_scope": "PMC full article, main methods, theoretical framework/Table 2, application results, discussion and limitations; supplements not inspected. Online 2013, issue 2014.",
+      "topics": [
+        "PDSA",
+        "iterative learning",
+        "prediction",
+        "implementation fidelity",
+        "data over time"
+      ],
+      "methods": [
+        "L08",
+        "L19",
+        "L24"
+      ],
+      "claim_limit": "Reviews reporting/application of PDSA in 73 healthcare articles, not comparative effectiveness of PDSA or whether better fidelity causes better outcomes. Reporting omissions can conceal actual practice.",
+      "reuse": "CC BY-NC 3.0 explicitly stated. Do not put source text/figures under MIT; retain link and original summary.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E43",
+      "title": "Do Team and Individual Debriefs Enhance Performance? A Meta-Analysis",
+      "authors": "Scott I. Tannenbaum; Christopher P. Cerasoli",
+      "year": 2013,
+      "source_type": "meta_analysis",
+      "url": "https://journals.sagepub.com/doi/10.1177/0018720812448394",
+      "doi": "10.1177/0018720812448394",
+      "access": "abstract_only",
+      "inspected_scope": "Publisher abstract, publication details and reference list. Publisher explicitly marks restricted access; full methods, subgroup tables and risk-of-bias detail not available in inspected original. Published online 2012; issue 2013.",
+      "topics": [
+        "debriefing",
+        "experiential learning",
+        "alignment",
+        "reflection"
+      ],
+      "methods": [
+        "L07"
+      ],
+      "claim_limit": "Abstract reports 46 samples, N=2,136 and d=.67, with alignment important. Do not convert this into a guaranteed 25% improvement in local metrics or make detailed moderator claims not checked in full text.",
+      "reuse": "Publisher copyright; citation and brief original abstract-based note only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E44",
+      "title": "Back to the future: Temporal perspective in the explanation of events",
+      "authors": "Deborah J. Mitchell; J. Edward Russo; Nancy Pennington",
+      "year": 1989,
+      "source_type": "empirical_study",
+      "url": "https://www.researchgate.net/publication/227768493_Back_to_the_future_Temporal_perspective_in_the_explanation_of_events",
+      "doi": "10.1002/bdm.3960020103",
+      "access": "full_text",
+      "inspected_scope": "Original article author-uploaded by J. Edward Russo, full-text OCR; experimental design, Experiment 1 methods, Experiment 2 methods/results, discussion and Aiding decisions section (pp. 25–38). Publisher DOI verified original 1989 date; ResearchGate metadata incorrectly displays August 2006.",
+      "topics": [
+        "prospective hindsight",
+        "outcome certainty",
+        "explanation generation",
+        "premortem limits"
+      ],
+      "methods": [
+        "L13",
+        "L07",
+        "L24"
+      ],
+      "claim_limit": "Two scenario experiments found outcome certainty more influential than temporal perspective for amount/type of explanations. Authors explicitly do not establish superior explanations or better forecasting. Not a field test of Klein’s complete group premortem.",
+      "reuse": "Wiley copyright 1989; author access does not grant an open-content licence. Link and original synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E45",
+      "title": "What methods are used to apply positive deviance within healthcare organisations? A systematic review",
+      "authors": "Ruth Baxter; Natalie Taylor; Ian Kellar; Rebecca Lawton",
+      "year": 2016,
+      "source_type": "systematic_review",
+      "url": "https://researchers.mq.edu.au/files/62251921/Publisher%20version%20%28open%20access%29.pdf",
+      "doi": "10.1136/bmjqs-2015-004386",
+      "access": "full_text",
+      "inspected_scope": "Published article through Macquarie institutional repository, 14-page file: methods/selection and quality assessment, results including four stages and community involvement, discussion, limitations, recommendations and licence. Supplements not inspected.",
+      "topics": [
+        "positive deviance",
+        "comparison groups",
+        "community participation",
+        "hypothesis generation",
+        "implementation evidence"
+      ],
+      "methods": [
+        "L25",
+        "L08"
+      ],
+      "claim_limit": "37 articles representing 22 projects; low-quality/incomplete reporting and rare later-stage testing/dissemination. Heterogeneity prevented pooled efficacy conclusions. Do not infer that identifying high performers establishes a transferable cause.",
+      "reuse": "CC BY-NC 4.0 stated in article. Repository additionally specifies private/noncommercial archive use. Link and original summary; no relicensing of source under MIT.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E46",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "authors": "Amos Tversky; Daniel Kahneman",
+      "year": 1981,
+      "source_type": "empirical_study",
+      "url": "https://cool.ntu.edu.tw/files/3801495/download?download_frd=1",
+      "doi": "10.1126/science.7455683",
+      "access": "full_text",
+      "inspected_scope": "Original Science article, university-hosted 7-page PDF including cover; gain/loss problem experiments, framing of acts, contingencies and outcomes, discussion and limits (pp. 453–458). Publisher/PubMed DOI metadata verified.",
+      "topics": [
+        "framing",
+        "reference points",
+        "risk preferences",
+        "decision consistency"
+      ],
+      "methods": [
+        "L26",
+        "L29"
+      ],
+      "claim_limit": "Demonstrates systematic but non-universal preference shifts in selected tasks, many classroom samples. Does not validate the complete problem-framing card, establish a universal loss-aversion constant, or prove that alternative wording alone improves decisions.",
+      "reuse": "AAAS copyright 1981; university reading copy includes JSTOR notice. Link and original synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E47",
+      "title": "Change Recipients’ Reactions to Organizational Change: A 60-Year Review of Quantitative Studies",
+      "authors": "Shaul Oreg; Maria Vakola; Achilles Armenakis",
+      "year": 2011,
+      "source_type": "integrative_review_of_quantitative_studies",
+      "url": "https://bschool-en.huji.ac.il/sites/default/files/businesshe/files/oreg_vakola_armenakis_2011.pdf",
+      "doi": "10.1177/0021886310396550",
+      "access": "full_text",
+      "inspected_scope": "Original 64-page published PDF: selection/coding and tripartite model (pp. 461–466), context and change-process/benefit-harm findings (pp. 490–495), research-context table and theoretical/practical implications (pp. 507–517). Selected substantive sections, not every study row/reference.",
+      "topics": [
+        "change reactions",
+        "affect cognition behavior",
+        "participation",
+        "fairness",
+        "trust",
+        "change consequences"
+      ],
+      "methods": [
+        "L22",
+        "L31"
+      ],
+      "claim_limit": "Integrates 79 quantitative studies from 1948–2007 without pooled effect estimation. Majority cross-sectional and almost all single-source self-report. Supports richer diagnosis, not a causal ranking of change models or personality screening.",
+      "reuse": "NTL Institute copyright 2011; public author-institution PDF is not an open-content licence. Link and original synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "B40",
+      "title": "Research Methods in Psychology, 4th edition",
+      "authors": "Rajiv S. Jhangiani; I-Chant A. Chiang; Carrie Cuttler; Dana C. Leighton",
+      "year": 2019,
+      "source_type": "open_textbook",
+      "url": "https://kpu.pressbooks.pub/psychmethods4e/",
+      "doi": null,
+      "access": "partial_text",
+      "inspected_scope": "Full chapter 20 Reliability and Validity of Measurement and chapter 23 Experiment Basics, plus About this Book/licence. Indexed excerpts only for Quasi-Experimental Research and Single-Subject Research Designs; direct One-Group Designs returned 403 and is not claimed as read.",
+      "topics": [
+        "measurement validity",
+        "reliability",
+        "confounding",
+        "causal inference",
+        "experimental comparison"
+      ],
+      "methods": [
+        "L08",
+        "L19",
+        "L20",
+        "L21",
+        "L24",
+        "L25",
+        "L29"
+      ],
+      "claim_limit": "General explanatory textbook for measurement and research design; not empirical validation of these leadership cards. Translating laboratory controls to workplaces requires ethical and operational adaptation.",
+      "reuse": "CC BY-NC-SA 4.0 except noted third-party content; licence verified on inspected chapters. Use linked readings and independently written synthesis, not source prose/assets relicensed MIT.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "B41",
+      "title": "Principles of Management",
+      "authors": "David S. Bright; Anastasia H. Cortes",
+      "year": 2019,
+      "source_type": "open_textbook",
+      "url": "https://openstax.org/books/principles-management/pages/1-introduction",
+      "doi": null,
+      "access": "partial_text",
+      "inspected_scope": "Sections 2.4 Barriers to Effective Decision-Making, 2.5 Improving the Quality of Decision-Making, 10.2 Organizational Change, 10.3 Managing Change, 17.6 Employees’ Responses to Planning; current preface/footer licence and reuse notices. Selected general explanatory text; corporate case boxes are not the evidence base.",
+      "topics": [
+        "bounded rationality",
+        "decision process",
+        "change assumptions",
+        "planned and emergent change",
+        "goal feedback"
+      ],
+      "methods": [
+        "L16",
+        "L22",
+        "L26",
+        "L29",
+        "L31"
+      ],
+      "claim_limit": "Useful conceptual contrasts and teaching explanations, not comparative intervention trials. Simplified change models should not be treated as universal stage laws.",
+      "reuse": "Current OpenStax pages (2026 footer) state CC BY-NC-SA 4.0 and separately prohibit LLM training/ingestion without permission. Older figure credits still say CC BY 4.0; do not assume they license the current book. Link-only human reading recommendation; do not add raw text to an ingestion corpus or relicense it MIT.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "B42",
+      "title": "The Positive Deviance Approach",
+      "authors": "Ruth Baxter; Rebecca Lawton",
+      "year": 2022,
+      "source_type": "open_scholarly_monograph",
+      "url": "https://www.cambridge.org/core/elements/positive-deviance-approach/506CA2D446210E1FE76740B7F835D87C",
+      "doi": "10.1017/9781009237130",
+      "access": "partial_text",
+      "inspected_scope": "Cambridge Element complete HTML available; inspected definitions/origins, sections 2.1–2.4 (identification, inquiry, testing, dissemination), 3.1–3.5 critiques, conclusion, licence and publication details.",
+      "topics": [
+        "positive deviance mechanisms",
+        "comparator selection",
+        "context transfer",
+        "balancing measures",
+        "research versus improvement"
+      ],
+      "methods": [
+        "L25",
+        "L21",
+        "L08",
+        "L31"
+      ],
+      "claim_limit": "Substantial critical explanation with research examples; healthcare setting remains a transfer boundary. Open questions include measurement quality, causal direction, rigour versus participation and what can transfer across contexts.",
+      "reuse": "CC BY-NC-ND 4.0; acknowledge THIS Institute for permitted reuse. No derivative source text, commercial reuse or third-party figures without appropriate permission. Link and short independent synthesis only.",
+      "notes_file": "references/knowledge/decisions-learning.md"
+    },
+    {
+      "id": "E60",
+      "title": "Perspective mistaking: Accurately understanding the mind of another requires getting perspective, not taking perspective",
+      "authors": "Eyal, T.; Steffel, M.; Epley, N.",
+      "year": 2018,
+      "source_type": "empirical_study",
+      "url": "https://www.nicholasepley.com/publications",
+      "doi": "10.1037/pspa0000115",
+      "access": "abstract_only",
+      "inspected_scope": "Author publication record and complete abstract; linked author PDF and older faculty PDF failed in the text reader. No full-text methods inspection claimed.",
+      "topics": [
+        "perspective",
+        "inquiry"
+      ],
+      "methods": [
+        "L11",
+        "L17",
+        "L30"
+      ],
+      "claim_limit": "Twenty-five experiments concern interpersonal accuracy; the final conversation experiment does not validate this workplace interview or establish that all reports are accurate.",
+      "reuse": "Original brief commentary and citation only; article remains copyrighted.",
+      "notes_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "E61",
+      "title": "Consequences of influence tactics used with subordinates, peers, and the boss",
+      "authors": "Yukl, G.; Tracey, J. B.",
+      "year": 1992,
+      "source_type": "empirical_study",
+      "url": "https://ecommons.cornell.edu/entities/publication/dac8058b-4d90-464e-86ed-e6178b6533ba",
+      "doi": "10.1037/0021-9010.77.4.525",
+      "access": "abstract_only",
+      "inspected_scope": "Cornell repository abstract and rights record; linked manuscript PDF failed in the text reader. Use journal publication year 1992, not repository date 1995.",
+      "topics": [
+        "influence",
+        "consultation"
+      ],
+      "methods": [
+        "L10"
+      ],
+      "claim_limit": "Questionnaire field associations do not establish that consultation causes commitment or that a tactic works across authority relationships.",
+      "reuse": "Cornell hosts with permission; no onward reproduction permission inferred. Original brief commentary only.",
+      "notes_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "B60",
+      "title": "Enhancing the Effectiveness of Team Science",
+      "authors": "National Research Council; Cooke, N. J., and Hilton, M. L. (editors)",
+      "year": 2015,
+      "source_type": "scholarly_book",
+      "url": "https://www.nationalacademies.org/read/19007/chapter/7",
+      "doi": "10.17226/19007",
+      "access": "partial_text",
+      "inspected_scope": "2015 consensus report, Chapter 3: sections on multilevel/dynamic team effectiveness, shared mental models and transactive memory, psychological safety, conflict, team phases, measurement, and conclusions (pp. 59–80); not the entire book.",
+      "topics": [
+        "team_coordination",
+        "inquiry",
+        "leadership"
+      ],
+      "methods": [
+        "L01",
+        "L06",
+        "L07",
+        "L14",
+        "L15",
+        "L17"
+      ],
+      "claim_limit": "A research synthesis applying much non-science evidence to science teams; much underlying research concerns small teams, and transfer to other settings remains conditional.",
+      "reuse": "Publicly readable, copyrighted National Academy of Sciences. Links and original concise analysis only; no chapters, figures, tables or instruments bundled.",
+      "notes_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "B61",
+      "title": "Getting to Yes: Negotiating Agreement Without Giving In",
+      "authors": "Fisher, R.; Ury, W.; Patton, B.",
+      "year": 2011,
+      "source_type": "book_preview",
+      "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9781101539545",
+      "doi": null,
+      "access": "partial_text",
+      "inspected_scope": "Penguin 2011 revised edition public publisher record (ebook ISBN 9781101539545; paperback 9780143118756) and displayed Chapter 4 excerpt on inventing options. Preview bears 1991 copyright; do not assume it demonstrates all 2011 revisions or a whole-book read.",
+      "topics": [
+        "negotiation",
+        "option_generation"
+      ],
+      "methods": [
+        "L04"
+      ],
+      "claim_limit": "Foundational practitioner explanation of option generation; a publisher excerpt is not an independent efficacy test or evidence of universal win-win outcomes.",
+      "reuse": "Copyrighted publisher excerpt; citation and short original discussion only, no copied prose, examples or exercises.",
+      "notes_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "B62",
+      "title": "The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth",
+      "authors": "Edmondson, A. C.",
+      "year": 2018,
+      "source_type": "bibliographic_record",
+      "url": "https://www.wiley-vch.de/en/areas-interest/finance-economics-law/the-fearless-organization-978-1-119-47724-2",
+      "doi": null,
+      "access": "metadata_only",
+      "inspected_scope": "Wiley publisher record: first edition December 2018, 256 pages, ISBN 978-1-119-47724-2; book text/sample not inspected.",
+      "topics": [
+        "psychological_safety",
+        "leadership"
+      ],
+      "methods": [
+        "L05",
+        "L15"
+      ],
+      "claim_limit": "Further-reading and edition identification only. No book-content claims or empirical support derived from this record.",
+      "reuse": "Bibliographic metadata and publisher link only; no book content bundled.",
+      "notes_file": "references/knowledge/inquiry-coordination.md"
+    },
+    {
+      "id": "P01",
+      "title": "AHRQ TeamSTEPPS briefs",
+      "authors": "ahrq.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "coaching_development",
+        "teams_feedback"
+      ],
+      "methods": [
+        "L01",
+        "L06",
+        "L09"
+      ],
+      "claim_limit": "AHRQ TeamSTEPPS briefs: shared goals, roles and resources in healthcare; delegation/capacity transfer is editorial.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P02",
+      "title": "Performance Consultants GROW",
+      "authors": "performanceconsultants.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.performanceconsultants.com/resources/the-grow-model/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "coaching_development"
+      ],
+      "methods": [
+        "L02"
+      ],
+      "claim_limit": "Performance Consultants GROW: descriptive provenance, not independent evaluation of the acronym.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P03",
+      "title": "Center for Creative Leadership SBI/SBII",
+      "authors": "ccl.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-vs-impact-sbii/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L03"
+      ],
+      "claim_limit": "Center for Creative Leadership SBI/SBII: feedback structure and intent inquiry, not an independent causal test.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P04",
+      "title": "Program on Negotiation",
+      "authors": "pon.harvard.edu",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.pon.harvard.edu/tag/principled-negotiation/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L04"
+      ],
+      "claim_limit": "Program on Negotiation: interests, options, criteria and alternatives. Educational guidance; inspect actual alternatives and absent stakeholders.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P05",
+      "title": "Liberating Structures 1-2-4-All",
+      "authors": "liberatingstructures.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.liberatingstructures.com/1-2-4-all",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L05"
+      ],
+      "claim_limit": "Liberating Structures 1-2-4-All: participation procedure and attribution; participation counts do not demonstrate safety.",
+      "reuse": "Marked procedural adaptation on the card under CC BY-SA 4.0; no source assets bundled.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P06",
+      "title": "AHRQ TeamSTEPPS debrief",
+      "authors": "ahrq.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/debrief.html",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L07"
+      ],
+      "claim_limit": "AHRQ TeamSTEPPS debrief: operational healthcare learning guidance, distinct from efficacy evidence.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P07",
+      "title": "IHI Model for Improvement",
+      "authors": "ihi.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ihi.org/library/model-for-improvement/testing-changes",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L08"
+      ],
+      "claim_limit": "IHI Model for Improvement: small-cycle testing guidance; a cycle label does not establish effectiveness.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P08",
+      "title": "CDC training evaluation",
+      "authors": "cdc.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.cdc.gov/training-development/php/about/evaluate-training-measuring-effectiveness.html",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "coaching_development"
+      ],
+      "methods": [
+        "L12"
+      ],
+      "claim_limit": "CDC training evaluation: learning and later transfer are different observations.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P09",
+      "title": "Gary Klein premortem",
+      "authors": "gary-klein.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.gary-klein.com/premortem",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L13"
+      ],
+      "claim_limit": "Gary Klein premortem: technique provenance; outcome success-rate claims need separate evidence.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P10",
+      "title": "AHRQ TeamSTEPPS handoff",
+      "authors": "ahrq.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/handoff.html",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L14"
+      ],
+      "claim_limit": "AHRQ TeamSTEPPS handoff: operational healthcare transfer and checked receipt; workplace transfer is editorial.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P11",
+      "title": "Atlassian working agreements",
+      "authors": "atlassian.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.atlassian.com/team-playbook/plays/working-agreements",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L15"
+      ],
+      "claim_limit": "Atlassian working agreements: operating-norm procedure, not evidence that writing a charter alone improves performance.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P12",
+      "title": "Aqua/NHS stakeholder analysis",
+      "authors": "aqua.nhs.uk",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "inquiry_coordination"
+      ],
+      "methods": [
+        "L17"
+      ],
+      "claim_limit": "Aqua/NHS stakeholder analysis: identification and involvement guidance, not a license to infer absent interests.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P13",
+      "title": "CDC nominal group technique",
+      "authors": "cdc.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L18"
+      ],
+      "claim_limit": "CDC nominal group technique: independent generation, clarification and private ranking; votes represent participants' preferences.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P14",
+      "title": "IHI driver diagram",
+      "authors": "ihi.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ihi.org/library/tools/driver-diagram",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L19"
+      ],
+      "claim_limit": "IHI driver diagram: visualize an improvement theory; not an established causal model.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P15",
+      "title": "IHI cause-and-effect diagram",
+      "authors": "ihi.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ihi.org/library/tools/cause-and-effect-diagram",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L20"
+      ],
+      "claim_limit": "IHI cause-and-effect diagram: organize candidate contributors; categories and agreement do not prove root causes.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P16",
+      "title": "IHI flowchart",
+      "authors": "ihi.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.ihi.org/library/tools/flowchart",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L21"
+      ],
+      "claim_limit": "IHI flowchart: describe steps/decisions; observe actual work before calling a map accurate.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P17",
+      "title": "NHS force-field analysis",
+      "authors": "cnwl.nhs.uk",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.cnwl.nhs.uk/ia/resources/force-field-analysis",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L22"
+      ],
+      "claim_limit": "NHS force-field analysis: enabling and restraining conditions; uncalibrated scores are not causal estimates.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P18",
+      "title": "Strategyzer assumptions mapping",
+      "authors": "strategyzer.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L24"
+      ],
+      "claim_limit": "Strategyzer assumptions mapping: prioritize uncertainty; no validated success prediction.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P19",
+      "title": "Positive Deviance Initiative field guide",
+      "authors": "positivedeviance.org",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://positivedeviance.org/s/FINALguide10072010.pdf",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L25"
+      ],
+      "claim_limit": "Positive Deviance Initiative field guide: procedure provenance; candidate selection/comparison need scrutiny.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P20",
+      "title": "UK Government discovery",
+      "authors": "gov.uk",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L26"
+      ],
+      "claim_limit": "UK Government discovery: understand a problem before committing to a solution; public-service guidance transferred editorially.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P21",
+      "title": "Liberating Structures Troika",
+      "authors": "liberatingstructures.com",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.liberatingstructures.com/troika-consulting",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "coaching_development"
+      ],
+      "methods": [
+        "L27"
+      ],
+      "claim_limit": "Liberating Structures Troika: rotating peer consultation with attribution; not equivalent to professional coaching trials.",
+      "reuse": "Marked procedural adaptation on the card under CC BY-SA 4.0; no source assets bundled.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P22",
+      "title": "U.S. OPM career development",
+      "authors": "opm.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.opm.gov/policy-data-oversight/training-and-development/career-development/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "coaching_development"
+      ],
+      "methods": [
+        "L28"
+      ],
+      "claim_limit": "U.S. OPM career development: responsibilities and planning; form completion is not capability growth.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P23",
+      "title": "NASA decision analysis",
+      "authors": "nasa.gov",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.nasa.gov/reference/6-8-decision-analysis/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L29"
+      ],
+      "claim_limit": "NASA decision analysis: technical alternatives/criteria/rationale; transfer requires context and expertise.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P24",
+      "title": "Program on Negotiation listening",
+      "authors": "pon.harvard.edu",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "teams_feedback"
+      ],
+      "methods": [
+        "L30"
+      ],
+      "claim_limit": "Program on Negotiation listening: practical inquiry; listening does not establish an account's truth.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P25",
+      "title": "UK HSE change standard",
+      "authors": "hse.gov.uk",
+      "year": null,
+      "source_type": "method_guidance",
+      "url": "https://www.hse.gov.uk/stress/standards/change.htm",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained from the pre-expansion method review. Not re-read as empirical evidence here; historical audit documents access limits for its original subset.",
+      "topics": [
+        "decisions_learning"
+      ],
+      "methods": [
+        "L31"
+      ],
+      "claim_limit": "UK HSE change standard: work-design communication/support guidance; jurisdiction-specific obligations are not generalized.",
+      "reuse": "Original commentary and link only; no source assets bundled or onward rights inferred.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "title": "AHRQ TeamSTEPPS huddle",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/huddle.html",
+      "methods": [
+        "L06"
+      ],
+      "topics": [
+        "teams_feedback"
+      ],
+      "claim_limit": "Plan reset in healthcare; not a controlled all-sector test.",
+      "id": "P26",
+      "authors": "www.ahrq.gov",
+      "year": null,
+      "source_type": "institutional_guidance",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained supporting operational source from the earlier register; not new empirical evidence.",
+      "reuse": "Original commentary and link only; no source assets bundled or blanket public-domain claim.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "title": "HSE management standards overview",
+      "url": "https://www.hse.gov.uk/stress/standards/overview.htm",
+      "methods": [
+        "L09"
+      ],
+      "topics": [
+        "coaching_development"
+      ],
+      "claim_limit": "Work-design demands, control and support; do not generalize UK legal obligations.",
+      "id": "P27",
+      "authors": "www.hse.gov.uk",
+      "year": null,
+      "source_type": "institutional_guidance",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained supporting operational source from the earlier register; not new empirical evidence.",
+      "reuse": "Original commentary and link only; no source assets bundled or blanket public-domain claim.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "title": "AHRQ TeamSTEPPS teach-back",
+      "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/teachback.html",
+      "methods": [
+        "L12"
+      ],
+      "topics": [
+        "coaching_development"
+      ],
+      "claim_limit": "Check understanding; this alone does not establish demonstrated skill or later transfer.",
+      "id": "P28",
+      "authors": "www.ahrq.gov",
+      "year": null,
+      "source_type": "institutional_guidance",
+      "doi": null,
+      "access": "prior_review",
+      "inspected_scope": "Retained supporting operational source from the earlier register; not new empirical evidence.",
+      "reuse": "Original commentary and link only; no source assets bundled or blanket public-domain claim.",
+      "notes_file": "references/provenance.md"
+    },
+    {
+      "id": "P29",
+      "title": "Implementation intentions: Strong effects of simple plans",
+      "authors": "Gollwitzer, P. M.",
+      "year": 1999,
+      "source_type": "theory_review",
+      "url": "https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf",
+      "doi": "10.1037/0003-066X.54.7.493",
+      "access": "prior_review",
+      "inspected_scope": "Foundational publication retained from L23's earlier review; newer full-text synthesis E41 supplies this expansion's evidence appraisal.",
+      "topics": [
+        "implementation_intentions"
+      ],
+      "methods": [
+        "L23"
+      ],
+      "claim_limit": "Original theory and research explanation, not a workplace success guarantee; do not reuse historical effect claims as current universal forecasts.",
+      "reuse": "Original citation and commentary only; no article or figure copied.",
+      "notes_file": "references/provenance.md"
+    }
+  ]
+}

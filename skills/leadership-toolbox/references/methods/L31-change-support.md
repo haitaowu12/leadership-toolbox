@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Source/limit:** HSE, [Management Standards: Change](https://www.hse.gov.uk/stress/standards/change.htm), supports timely information, consultation, impact awareness, training, timetable and support. This is guidance, not proof of a branded change model.
 
+**Adapt the execution:** Check an ordinary task for each affected role under actual new conditions: access, understanding, affordable time and a usable exception route. If performance is infeasible, revise support or the proposal rather than intensify messaging.
+
 **Words to try:** “What will become harder, and what support would actually help?”
 
 ## Fictional example
@@ -31,3 +33,9 @@ Stop or switch when the stated prerequisites fail, the user lacks authority for 
 Related alternatives: [L22](L22-force-field.md), [L17](L17-stakeholders.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse:** Original explanatory wording, prompts and fictional example. No source article, instrument, diagram or worksheet is reproduced. The source supports the bounded claim stated above; the workplace application and matching descriptors are editorial, not a validated intervention or unrestricted licence to source material.
+
+**One outcome signal:** Observe supported task completion and workload/error/access guardrails separately from approval of the change. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l31). No universal stage model or messaging script is established; self-reported support is not feasible execution.

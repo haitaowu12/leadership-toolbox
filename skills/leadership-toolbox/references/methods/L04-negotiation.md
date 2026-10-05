@@ -23,6 +23,8 @@ Version: 0.2.0 · Licence: MIT
 5. Check authority and voluntary acceptance. Record either a bounded agreement, a request to the authorised owner, or a reasoned decision not to agree.
 6. For an agreement, specify owner, resources, checkpoint and conditions for reopening. A promise unsupported by capacity remains unresolved.
 
+**Adapt the execution:** Separate facts to verify, interests to negotiate, authority to clarify and protections that cannot be traded. Generate possibilities before evaluating them. Compare packages when priorities differ; disclose a genuinely fixed tradeoff. Ask about process preferences rather than inferring them from culture.
+
 **Words to try:** “What must this option protect for you? If we cannot agree, what realistically happens, and is this proposal actually better?”
 
 **Immediate output:** An explicit disposition with rationale and responsibilities. A reasoned no-agreement outcome can be useful.
@@ -42,3 +44,7 @@ No source article, diagram, exercise or simulation is reproduced. Workplace prom
 Two departments need the same specialist on Friday. One requires an external deadline; the other's date is convenient. They consider a split, reduced scope and a later slot, then compare these against the resource owner's fallback. If every option creates unsafe hours, they decline the proposed deal and escalate the unresolved priority.
 
 A complaint involving retaliation is a counterexample: do not arrange a joint “win-win” conversation in place of an independent reporting and protection process.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l04). Task conflict is not beneficial on average; these are not tests of this negotiation sequence.

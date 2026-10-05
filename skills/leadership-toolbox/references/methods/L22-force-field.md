@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Central and North West London NHS Foundation Trust, [Force Field Analysis](https://www.cnwl.nhs.uk/ia/resources/force-field-analysis). **Claim / limit:** documents supportive and opposing forces, relative weighting, and removing barriers. Ratings structure discussion; they are not measurements whose totals validly establish a probability of success or an automatic go/no-go decision.
 
+**Adapt the execution:** Replace labels such as staff resistance with a specific condition and whose account supports it. Identify an authorized response and what would show that work is now possible. Do not total forces into readiness probabilities.
+
 **Words to try:** “Which constraint can we actually reduce, rather than simply push harder against?”
 
 **One outcome signal:** At review, check whether the selected barrier/enabler actually changed and whether the change became more feasible. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -35,3 +37,7 @@ Counterexample: The sponsor treats high supporting-force scores as permission to
 Related alternatives: [L17](L17-stakeholders.md), [L09](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l22). No causal validation of force-field scores or universal change stages was established.

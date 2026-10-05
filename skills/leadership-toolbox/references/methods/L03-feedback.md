@@ -22,11 +22,13 @@ Version: 0.2.0 · Licence: MIT
 4. Ask what the other person intended and what you missed.
 5. Agree a next action, a disputed account or further inquiry.
 
+**Adapt the execution:** Check the work standard and whether authority, skill and resources make it feasible. Invite the recipient to describe a possible next attempt and support needed. Contested facts require inquiry; repeated feedback cannot remove an unchanged constraint.
+
 **Words to try:** “What were you trying to achieve, and what did I miss?”
 
 **Immediate output:** A checked or explicitly disputed account and a clear disposition.
 
-**One outcome signal:** At the next relevant episode, is the agreed behaviour different, and does the other person understand the request? Agree the definition, baseline (or unknown), observation window and review date before acting.
+**One outcome signal:** At the next comparable episode, observe attempted behavior and its task consequence separately from agreement or satisfaction. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Guardrail and stop/switch:** Watch defensiveness caused by inaccurate claims, public embarrassment or power pressure. Stop treating an allegation as fact when the account is contested.
 
@@ -45,3 +47,7 @@ A meeting ended without the agreed owner. Describe that meeting and its conseque
 An unverified rumor becomes a public accusation; establish appropriate facts and process rather than improvising feedback.
 
 Related alternatives: [L11](L11-perspective.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l03). The evidence does not validate SBI/SBII wording or predict benefit from delivering a message.

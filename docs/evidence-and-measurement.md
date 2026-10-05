@@ -12,3 +12,9 @@ Every method links its source and states its limits. Source types may coexist: o
 The [adaptive interview](../skills/leadership-toolbox/references/interview.md) gathers only context that could change the next action. The [optional profile schema](../skills/leadership-toolbox/schemas/situation-v1.schema.json) supports provenance and typed unknowns without requiring saved records. A blank profile and a direct question remain valid.
 
 Structural tests inspect files and contracts. Functional tests exercise installation/state behavior. Fresh model executions can reveal conversational defects. Human use is needed to judge usefulness, burden, acceptability and situated outcomes. See [validation](validation.md) before interpreting any reported pass.
+
+## Knowledge-library refinement
+
+The [organized library](../skills/leadership-toolbox/references/sources.md) combines research, explanatory chapters and retained method provenance. The [map](../skills/leadership-toolbox/references/evidence-map.md) distinguishes a studied construct or bundled intervention from a toolbox technique. Read access is recorded independently: full article, partial sections, abstract, metadata, or inherited operational review. Neither an abstract nor a publisher's catalog is silently promoted to an inspected book/article.
+
+The additional knowledge changes observation as well as citation: look for opportunity before judging transfer, actual workload displacement after a tradeoff, receiver action after a handoff, cue exposure before judging an if–then plan, and fulfilled commitments after an apology. These are editorial measurement choices, not newly validated instruments. Specific statistical findings belong to their original designs/populations; no percentage gain is promised for a workplace card.

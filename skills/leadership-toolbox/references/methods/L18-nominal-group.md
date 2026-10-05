@@ -18,6 +18,8 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** CDC, [Gaining Consensus Among Stakeholders Through the Nominal Group Technique](https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf), Evaluation Briefs No. 7, updated August 2018. **Claim / limit:** describes silent generation, round-robin recording, clarification, and private ranking; it notes preparation demands and restricted discussion. Votes represent these participants' preferences, not objective truth or population consensus.
 
+**Adapt the execution:** Check that options are eligible and participants understand the same criterion. Separate factual uncertainty from preference. Preserve consequential minority concerns and record the decision owner's response.
+
 **Words to try:** “Are we choosing by legitimate preference, or do we need evidence that voting cannot supply?”
 
 **One outcome signal:** After the decision, check whether selected actions address the agreed criterion and minority concerns have a disposition. Agree a baseline (or unknown), observer, observation window and review date before action.
@@ -35,3 +37,7 @@ Counterexample: Participants vote on whether a safety requirement should be foll
 Related alternatives: [L05](L05-participation.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/teams-feedback.md) and [method-specific evidence map](../evidence-map.md#l18). No direct outcome study of this rendition was established; preference rankings are not factual truth or population consensus.

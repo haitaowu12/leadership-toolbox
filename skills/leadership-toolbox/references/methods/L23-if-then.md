@@ -18,9 +18,11 @@ Version: 0.2.0 · Licence: MIT
 
 **Primary source.** Peter M. Gollwitzer, [Implementation Intentions: Strong Effects of Simple Plans](https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf), 1999. **Claim / limit:** reviews cue-linked planning and underlying processes; it does not establish one universal effect size for workplace leadership or make every repeated behavior appropriate to automate.
 
+**Adapt the execution:** Trace whether the cue arose, was noticed, the response was possible, it occurred and it helped. Missing cues suggest cue revision; impossible responses require authority/resources, rather than more reminders.
+
 **Words to try:** “When exactly is the opportunity likely to appear, and what small action will you take then?”
 
-**One outcome signal:** Across the next few cue occurrences, count whether the cue appeared, the action followed and the intended result improved. Agree a baseline (or unknown), observer, observation window and review date before action.
+**One outcome signal:** Observe the chosen response across eligible cue occurrences and its downstream usefulness, separating absent cues from blocked responses. Agree the definition, baseline (or unknown), observer, observation window and review trigger before action.
 
 **Balancing guardrail and stop/switch:** No rigid automatic response to a changing or unsafe context; stop if the goal is unwanted or resources are missing. If a prerequisite fails, prepare the missing evidence or use the appropriate owner/process before committing.
 
@@ -35,3 +37,7 @@ Counterexample: A person is told to use willpower cues to meet work that cannot 
 Related alternatives: [L16](L16-goal-design.md), [L09](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Deeper knowledge and evidence
+
+Read the [topic explanation](../knowledge/decisions-learning.md) and [method-specific evidence map](../evidence-map.md#l23). Effect estimates depend on correction method; workplace transfer and component moderators are uncertain.
