@@ -43,7 +43,7 @@ Verify that the host discovers the intended name/version once and can read a ref
 
 ## Update and restore
 
-Install the new complete package to the same destination; do not overlay a partial folder. The helper validates baseline files and catalog references, stages the incoming package, retains the previous complete skill, then replaces it. It rejects symlinks, unsafe referenced paths, known private-state names and environment files. This is a bounded completeness/privacy check, not a full security audit.
+Install the new complete package to the same destination; do not overlay a partial folder. The helper validates incoming baseline files, catalog references and local Markdown dependencies, stages the incoming package, retains the previous skill, then replaces it. A damaged existing installation can be repaired after safety checks; its outgoing bytes are retained, but an incomplete backup is not accepted as a restore source. It rejects symlinks, unsafe referenced paths, known private-state names and environment files. This is a bounded completeness/privacy check, not a full security audit.
 
 Backups and staging are outside the immediate discovery directory. For destination `/your/host/skills/leadership-toolbox`, the default is `/your/host/.leadership-toolbox-backups`. If another discovery root includes that location, use `--backup-dir /your/separate-package-backups`, outside every discovery root and on the same filesystem. The helper cannot inspect all host configurations.
 

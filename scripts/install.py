@@ -3,6 +3,8 @@
 import argparse
 import os
 import json
+import re
+from urllib.parse import unquote, urlsplit
 from pathlib import Path, PurePosixPath
 import shutil
 import tempfile
@@ -54,8 +56,8 @@ def required_file(tree, name):
     return path
 
 
-def check_tree(tree):
-    if tree.is_symlink() or not tree.is_dir() or not (tree / "SKILL.md").is_file():
+def check_tree(tree, *, complete=True):
+    if tree.is_symlink() or not tree.is_dir():
         raise ValueError("source must be a real complete skill directory")
     for path in tree.rglob("*"):
         if path.is_symlink():
@@ -65,6 +67,8 @@ def check_tree(tree):
         if not path.is_dir() and not path.is_file():
             raise ValueError("unsupported entry in skill tree")
 
+    if not complete:
+        return
     for name in CORE_FILES:
         required_file(tree, name)
     catalog = json.loads((tree / "references/catalog.json").read_text(encoding="utf-8"))
@@ -76,6 +80,16 @@ def check_tree(tree):
         required_file(tree, method.get("file"))
         if "knowledge_file" in method:
             required_file(tree, method["knowledge_file"])
+
+    # Follow this version's actual dependencies, including older complete layouts.
+    for document in tree.rglob("*.md"):
+        for link in re.findall(r"\[[^\]]*\]\(([^)]+)\)", document.read_text(encoding="utf-8")):
+            parts = urlsplit(link.strip("<>"))
+            if parts.scheme or parts.netloc:
+                continue
+            target = (document.parent / unquote(parts.path)).resolve() if parts.path else document.resolve()
+            if tree.resolve() not in target.parents or not target.is_file():
+                raise ValueError(f"missing or outside skill dependency: {document.name}: {link}")
 
 
 def install(dest, source=SOURCE, backup_dir=None):
@@ -90,7 +104,7 @@ def install(dest, source=SOURCE, backup_dir=None):
         raise ValueError("backup directory must not be inside the source skill")
     check_tree(source)
     if dest.exists():
-        check_tree(dest)
+        check_tree(dest, complete=False)
     dest.parent.mkdir(parents=True, exist_ok=True)
     backup_root.mkdir(parents=True, exist_ok=True)
     staging = Path(tempfile.mkdtemp(prefix=".leadership-stage-", dir=backup_root))
