@@ -194,7 +194,7 @@ class PackageTests(unittest.TestCase):
         self.assertGreater(files, 30)
         self.assertEqual(methods, len(catalog["methods"]))
         self.assertEqual(methods, catalog["method_count"])
-        self.assertEqual(catalog["package_version"], "0.2.0")
+        self.assertEqual(catalog["package_version"], "0.2.1")
     def catalog_fixture(self):
         catalog = json.loads((PACKAGE / "references/catalog.json").read_text(encoding="utf-8"))
         dimensions = json.loads((PACKAGE / "references/dimensions.json").read_text(encoding="utf-8"))
@@ -207,6 +207,7 @@ class PackageTests(unittest.TestCase):
         previous_id, previous_file = method["id"], method["file"]
         method["id"] = f"L{max(int(item['id'][1:]) for item in catalog['methods']) + 1:02}"
         method["file"] = f"references/methods/{method['id']}-fixture.md"
+        method["guide_url"] = "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/" + method["file"] + "#try-it"
         files[method["file"]] = files[previous_file].replace(f"# {previous_id} · ", f"# {method['id']} · ", 1)
         files["references/catalog.md"] += f"\n[Fixture](methods/{method['id']}-fixture.md)\n"
         catalog["methods"].append(method)

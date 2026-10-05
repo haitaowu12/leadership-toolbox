@@ -1,6 +1,6 @@
 # L10 · Evidence and consultation
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Obtain cooperation across boundaries.
 
@@ -48,7 +48,7 @@ Use the [decision record](../../templates/decision-record.md) for significant ch
 
 A request for input conceals an irreversible decision already made; disclose the actual scope for influence.
 
-Related alternatives: [L17](L17-stakeholders.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Stakeholder map and listening round (L17)](L17-stakeholders.md), [Options and criteria trade-off review (L29)](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

@@ -1,6 +1,19 @@
-# Choose the immediate job · 0.2.0
+# Method wiki: choose the immediate job · 0.2.1
 
-32 distinct tools, grouped by the output needed. Stable IDs identify methods across versions. Use [interview](interview.md) for adaptive context gathering and [matching](matching.md) for a correction-friendly comparison. [Structured profiles](catalog.json) link each method to relevant [dimensions](dimensions.json), concrete requirements and a metric contract. These are editorial descriptors, not validated rankings.
+32 distinct tools, with task-based starting points and a stable-ID index. These plain-language cards form the practical method wiki; use each structured record’s exact `guide_url` as the user-facing link. Keep deeper source/provenance links available under the [reference policy](reference-policy.md). Stable IDs identify methods across versions. Use [interview](interview.md) for adaptive context gathering and [matching](matching.md) for a correction-friendly comparison. [Structured profiles](catalog.json) link each method to relevant [dimensions](dimensions.json), concrete requirements and a metric contract. These are editorial descriptors, not validated rankings.
+
+## Start from the job
+
+- **Too much work:** [Capacity tradeoff (L09)](methods/L09-capacity.md)
+- **Hand over responsibility or live work:** [Delegation agreement (L01)](methods/L01-delegation.md) or [Closed-loop handoff (L14)](methods/L14-handoff.md)
+- **Understand before addressing behavior:** [Structured listening (L30)](methods/L30-structured-listening.md), then [Specific feedback (L03)](methods/L03-feedback.md) when an episode is established
+- **Help someone develop:** [GROW coaching (L02)](methods/L02-grow.md) for person-owned choices; [Teach–Practice–Check-back (L12)](methods/L12-teach-practice.md) for a demonstrated task-skill gap
+- **Choose or test a direction:** [Decision alternatives (L29)](methods/L29-decision-analysis.md) or [Bounded process test (L08)](methods/L08-pdsa.md)
+- **Learn together:** [Structured debrief (L07)](methods/L07-debrief.md) after an episode; [1-2-4-All (L05)](methods/L05-participation.md) when broader input is safe and useful
+
+These are starting points, not diagnoses. Check prerequisites and the strongest alternative; no intervention can be the right answer.
+
+## Complete method index
 
 | ID and method | Immediate job | Type |
 |---|---|---|

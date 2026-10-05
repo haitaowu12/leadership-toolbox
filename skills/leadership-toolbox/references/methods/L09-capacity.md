@@ -1,6 +1,6 @@
 # L09 · Capacity tradeoff
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Resolve work that exceeds available capacity.
 
@@ -46,7 +46,7 @@ A colleague is capable but has three conflicting deadlines. Prepare tradeoffs fo
 
 The leader adds coaching while leaving three incompatible deadlines unchanged; actual obligations still exceed time.
 
-Related alternatives: [L04](L04-negotiation.md), [L01](L01-delegation.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Interest-based negotiation (L04)](L04-negotiation.md), [Outcome delegation agreement (L01)](L01-delegation.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

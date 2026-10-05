@@ -1,6 +1,12 @@
-# Validation and limits · 0.2.0
+# Validation and limits · 0.2.1 draft
 
-## Completion checks
+## Default inquiry and practical references
+
+The [nine-response check](evaluations/default-inquiry-2026-10-05.md) records native-model behavior for unprompted clarification, correction and stop requests, direct practical explanations, research claims, sufficient context and protection boundaries. Inputs and outputs are preserved with snapshot hashes. Navigation formatting was subsequently checked structurally. This is repository-first work: no new Copilot ZIP or tenant validation is claimed.
+
+Automated checks now also reject practical-guide URL drift and verify that primary-source links and the L05/L27 licence boundaries remain separate from practical guide links. These are structural assertions, not proof of citation correctness or assistant behavior. Consult this change's exact-head CI for final counts and results.
+
+## Historical 0.2.0 completion checks
 
 The completion revision closes full-text reading gaps for E23, E43, E60 and E61. E24 remains abstract-only for the article; the related publisher procedure record does not substitute for its methods/results. Research access is now 24 full-text relevant-section inspections and one abstract-only record. Nine book/chapter excerpts are partially inspected; one book is metadata-only. Access counts do not rank quality.
 
@@ -20,7 +26,7 @@ The new source-integrity tests check IDs, complete method coverage, cross-links,
 
 At [637a283](https://github.com/haitaowu12/leadership-toolbox/commit/637a283b9a64c9643ea859b8488497e339d7300c), the [direct-head run](https://github.com/haitaowu12/leadership-toolbox/actions/runs/37368929434) passed 95 reviewed files, 32 methods, all 45 tests and archive construction. The later preserved evaluation report adds one public file; consult its exact-head checks rather than extending this pass automatically.
 
-A [five-case/six-response check](evaluations/knowledge-routing-2026-10-05.md) at frozen 637a283 preserved concise mechanism-sensitive answers and an authority correction, but every output cited repository material instead of an underlying external source. The instruction now explicitly requires the original public source link and a concrete proposed observation checkpoint where practical. This is a narrow correction; editing an instruction alone does not demonstrate improved behavior. The complete report retains leading-prompt, single-context, measurement and self-assessment limitations.
+A [five-case/six-response check](evaluations/knowledge-routing-2026-10-05.md) at frozen 637a283 preserved concise mechanism-sensitive answers and an authority correction, but every output cited repository material instead of an underlying external source. That historical revision required an original public source link for every explanation. Version 0.2.1 supersedes that rule: practical explanations use the method wiki, while empirical claims and evidence requests retain primary-source citation and scope limits. The concrete proposed observation checkpoint remains relevant where practical. This is a narrow correction; editing an instruction alone does not demonstrate improved behavior. The complete report retains leading-prompt, single-context, measurement and self-assessment limitations.
 
 ## Current expansion
 

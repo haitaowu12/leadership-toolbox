@@ -10,13 +10,13 @@ Prompt:
 
 A useful answer should separate the missed dates from an explanation such as low ownership. It can propose asking for a walkthrough of the latest episode before choosing between workload, decision-rights, coordination or skill remedies. It should not invent a blockage or promise to remove one.
 
-## 2. Ask for probing when the framing is uncertain
+## 2. Get probing without asking for it
 
 Prompt:
 
-> Use leadership-toolbox. Grill me about recurring handoff problems. Ask no more than three questions at a time, and tell me what would change your recommendation.
+> We keep missing handoffs and I think people do not take ownership. What should I do?
 
-Expect a few consequential questions, a correction-friendly summary and a change in advice when your facts change. You can say “skip that,” “stop questioning,” or “give me a provisional answer.” The skill should honor that choice.
+Expect one to three consequential questions, preferably one, before a full recommendation. Answer with a concrete episode, then correct an important fact and check that the advice changes. No special “grill me” wording is needed. “Keep it short” should shorten the question, not eliminate it. You can still ask for deeper challenge. You can say “skip that,” “stop questioning,” or “give me a provisional answer.” The skill should honor that choice.
 
 ## 3. Request a direct explanation
 
@@ -24,7 +24,9 @@ Prompt:
 
 > Explain GROW with an example and a source. What does the research not establish?
 
-Expect a direct explanation and an underlying public source, with a distinction between the named procedure, broader coaching research and evidence from multicomponent programs. A method lookup should not force an intake form or a practice log.
+This prompt explicitly asks about research: expect a direct explanation and an underlying primary source, with a distinction between the named procedure, broader coaching research and evidence from multicomponent programs. A method lookup should not force an intake form or a practice log.
+
+For an ordinary lookup such as “Explain a closed-loop handoff”, expect a plain-language explanation and normally just the practical method-wiki link. Healthcare and safety references should not be its front door.
 
 ## 4. Make any trial observable
 
@@ -40,7 +42,7 @@ Ask:
 
 > Which version of leadership-toolbox did you load? Open its L14 handoff card and describe one prerequisite and one limit.
 
-Confirm version 0.2.0 and an actual reference read. A confident answer alone is insufficient; use the host's file/tool activity when available. If the assistant cannot access linked files, provide the complete folder through the host's supported route rather than pretending the entrypoint alone contains the library.
+Confirm version 0.2.1 and an actual reference read. A confident answer alone is insufficient; use the host's file/tool activity when available. If the assistant cannot access linked files, provide the complete folder through the host's supported route rather than pretending the entrypoint alone contains the library.
 
 ## Keep it proportionate
 
