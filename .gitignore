@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+.user-data/
+profile.json
+practice.jsonl
+backups/
+.DS_Store
+node_modules/
+.codex/
+.openai/
+output/playwright/
+test-results/
+playwright-report/
