@@ -1,6 +1,6 @@
 # Feedback that helps the next decision
 
-Choose observations with the people affected. Use plain definitions and modest collection effort. Never convert these fields into a person score, success probability or cross-method ranking.
+Choose observations with the people affected. Use plain definitions and modest collection effort. Keep these after-action observations separate from the editorial context comparison in [matching](matching.md). Never convert them into a person score, success probability or universal ranking.
 
 | Field | Record |
 |---|---|
@@ -16,3 +16,9 @@ For counts, define the denominator and period. For timing, define start/end even
 **Example (fictional):** A trial reduces meeting length from a locally observed 40 minutes to 25 across two meetings, but support preparation rises from 10 to 35 minutes. The output is a shorter meeting; the burden guardrail suggests adapting or stopping. Two observations do not establish causality or justify automatic scale-up.
 
 Card signals are prompts to define locally. Their wording and thresholds are editorial, not validated instruments. Read [sources](sources.md) for what the source actually supports. [Practice template](../templates/practice-record.md) keeps prediction, observation and decision separate.
+
+## Avoid attractive but invalid proxies
+
+A top vote in L18 reflects these participants' preferences, not correctness or authority. A driver/fishbone diagram reflects a theory or hypothesis set, not causation. Supporting-force totals do not establish readiness. A copied positive-deviance practice does not prove improvement. An accepted apology is not restored trust. A completed course or assignment is not demonstrated capability. Ask which later observation would actually bear on the intended outcome, and who bears a balancing cost.
+
+Every catalog profile includes immediate output, later outcome, balancing indicator, baseline/proxy caveat and review timing. Define numeric measures locally in their natural units where useful; do not collect more information than the decision needs.

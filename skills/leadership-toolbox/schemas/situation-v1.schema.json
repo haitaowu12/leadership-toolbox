@@ -1,0 +1,767 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Optional private situation profile v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "goal",
+    "dimensions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "goal": {
+      "type": "string"
+    },
+    "proposed_action": {
+      "type": "string"
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status",
+          "basis"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "met",
+              "unmet",
+              "unknown"
+            ]
+          },
+          "basis": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "prior_attempts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "priorities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "time_runway": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "decision_by": {
+                      "type": "string"
+                    },
+                    "available_minutes": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "preparation_minutes": {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    "notes": {
+                      "type": "string"
+                    },
+                    "latest_useful_action": {
+                      "type": "string"
+                    },
+                    "delay_consequence": {
+                      "type": "string"
+                    },
+                    "delay_negotiable": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "consequence": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "0",
+                "1",
+                "2",
+                "3"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "reversibility": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "0",
+                "1",
+                "2",
+                "3"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "knowledge_state": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "established",
+                "expert_analysis",
+                "emergent",
+                "mixed"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "alignment": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "shared",
+                "unclear",
+                "different_interests",
+                "disputed_facts",
+                "mixed",
+                "conflicting_priorities",
+                "disputed_goal"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "coordination": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "individual",
+                "pair",
+                "team",
+                "cross_boundary",
+                "network"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "support_gaps": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "enum": [
+                      "none",
+                      "skill",
+                      "capacity",
+                      "role_clarity",
+                      "resources",
+                      "access",
+                      "information",
+                      "authority",
+                      "priority_clarity"
+                    ]
+                  }
+                }
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        "voice_conditions": {
+          "type": "object",
+          "required": [
+            "status",
+            "value",
+            "basis"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "grounded",
+                "provisional",
+                "contested",
+                "unknown",
+                "not_applicable"
+              ]
+            },
+            "value": {
+              "enum": [
+                null,
+                "no_specific_barrier_reported",
+                "constrained",
+                "unsafe"
+              ]
+            },
+            "basis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "account",
+                  "evidence"
+                ],
+                "properties": {
+                  "account": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "string"
+                  },
+                  "source": {
+                    "type": "string"
+                  },
+                  "observed_at": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "limitation": {
+              "type": "string"
+            },
+            "correction": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "unknown",
+                      "not_applicable"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,23 +1,23 @@
-# Validation and limits · 2026-10-05
+# Validation and limits · 0.2.0 draft
 
-Official skill metadata validation: passed. Local structural validation: 56 reviewed files and 14 method IDs passed. Standard-library functional tests: 14 passed.
+## Current expansion
 
-## Evidence levels
+This version expands the catalog to 32 methods, adds adaptive quick/deep interviewing, eight mixed-type context dimensions, explicit matching profiles and metric contracts, and removes the fixed 14-method implementation limit. It also moves installer staging/backups outside the immediate discovery root and adds regression coverage.
 
-- Structural checks: skill metadata, JSON, complete catalog, local Markdown targets and an explicit public release allowlist.
-- Functional checks: fresh extracted install, replacement/restoration, separate state preservation, v1→v2 migration and guarded rollback; symlink, invalid/unsupported state and misplaced-private-data refusals.
-- Model-executed forward evaluation: [eight fresh requests and actual responses](evaluations/forward-2026-10-05.md), generated and executed by an evaluator who did not read author examples or private context. Two pairs vary one consequential fact. The [extension](evaluations/forward-extension-2026-10-05.md) adds seven executions; 15 written cases passed their applicable textual inspection with no demonstrated routing/safety defect. Lookup-format and specialist-source boundaries were clarified. The [eight-area challenge coverage](evaluations/challenge-coverage.md) records what was exercised and exact-prompt/configuration gaps.
+At the time of this draft commit, the new 31-test suite and structural checks are authored but not yet executed for this revision. A pinned, read-only GitHub Actions workflow runs validation, tests and archive construction; an existing workflow file is not a passing run. Exact executed results will be recorded after the remote commit is checked. No local computer or assistant-host activation is claimed for this expansion.
 
-The evaluator both produced and assessed responses, so this is not blinded scoring or an independent replication. The report retains all cases and limitations rather than presenting a percentage as a success probability. A separate model generation is not human field evidence.
+## Historical 0.1.0 evidence
 
-## Tested-host boundary
+The earlier package snapshot at [c11e9f8](https://github.com/haitaowu12/leadership-toolbox/commit/c11e9f80154542ba3bdcdccdd6b86cf801f984ee) recorded 56 reviewed files, 14 methods and 14 passing functional tests in an isolated Mac filesystem using Python 3.13.5. Those results do not validate the later expansion.
 
-The standard-library helpers and package operate in isolated Mac filesystem folders using Python 3.13.5, including a fresh release extraction and actual install/state/update CLI invocations. Live host discovery/activation, other assistant hosts, actual conversations and lasting workplace improvements have not been tested. No UI/website was created or deployed.
+The [eight-case report](evaluations/forward-2026-10-05.md) and [seven-case extension](evaluations/forward-extension-2026-10-05.md) retain 15 model-generated prompt/response executions. The evaluator also assessed its outputs, so these are not blinded independent scoring or human research. [Challenge coverage](evaluations/challenge-coverage.md) records gaps. These reports are historical artifacts; exact generating model/settings and pre-generation package hashes were not retained in a reproducible manifest. Their presence in c11e9f8 identifies the published snapshot, not proof of the exact model input bytes. Do not imply stronger provenance.
 
-Source and licence decisions incorporate separately supplied public research and primary-source checks. External URLs are references, not bundled content; local-link checks do not certify every external site’s future availability. The Mac in-app browser was unavailable for a separate final live link audit. No provider assessment instrument, image or article is bundled.
+## Sources and rights
+
+Public primary-source review supports method descriptions, source types and reuse cautions. The source register identifies bounded claims and editorial transfers. External URLs can change; structural local-link checks do not certify every current page, asset or licence. No provider assessment instrument, article, image or proprietary template is bundled. Source review is not comprehensive legal clearance.
 
 ## Reproduce
 
-From repository root: `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, `python3 scripts/build_release.py`. The official skill-creator validator may use its own development dependency (PyYAML); consuming this skill does not. Run results and commit identifiers accompany the draft PR.
+From repository root: `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, `python3 scripts/build_release.py`. Tests use only the standard library. The source/privacy scan is heuristic plus an explicit allowlist; it cannot identify every possible confidential sentence. A later fix does not remove earlier Git history.
 
-No human effectiveness, universal host compatibility or complete legal clearance is claimed. Review and merge/release approval remain with the owner.
+A structural pass does not establish method effectiveness, correct matching in all situations, universal host compatibility or safe deployment in regulated work. Workplace outcomes, live discovery across hosts, accessibility of actual platforms and the new interview's empirical usefulness remain unvalidated. Owner review is required before merge or release; no site/service is deployed.

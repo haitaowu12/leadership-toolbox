@@ -1,6 +1,6 @@
 # L01 · Outcome delegation agreement
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Transfer a bounded responsibility.
 
@@ -38,3 +38,9 @@ This is an original editorial synthesis of shared planning and explicit responsi
 ## Fictional example
 
 A team member has time and relevant expertise but keeps asking permission on a small recurring task. Agree which choices they can make and when to check back.
+
+## Counterexample and route change
+
+A capable colleague has no available hours: clarify priorities and release capacity before transferring work.
+
+Related alternatives: [L09](L09-capacity.md), [L12](L12-teach-practice.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

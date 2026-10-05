@@ -1,6 +1,6 @@
 # L07 · Structured debrief
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Learn from a completed episode.
 
@@ -39,3 +39,9 @@ Informed by AHRQ debriefs; research on debriefing reports average effects in stu
 ## Fictional example
 
 After a workshop, compare the intended decisions with the actual output and choose one change to the next agenda.
+
+## Counterexample and route change
+
+A traumatic event triggers mandatory emotional recounting; operational learning is not psychological treatment.
+
+Related alternatives: [L20](L20-fishbone.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

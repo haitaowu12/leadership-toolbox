@@ -1,23 +1,37 @@
-# Install, update and roll back · 0.1.0
+# Install, update and restore · 0.2.0
 
-## Complete package
+## Obtain reviewed source
 
-Download the archive from the reviewed PR/release, extract it and inspect `RELEASE_MANIFEST.json` and licence notices. From the extracted root, run `python3 scripts/validate.py`. The archive contains only paths in `RELEASE_FILES.txt`; it excludes repository history and private user data. The generated checksum manifest is for byte-integrity checks, not evidence of privacy or content quality.
+This draft is available in [PR #1](https://github.com/haitaowu12/leadership-toolbox/pull/1), on [feat/standalone-leadership-skill](https://github.com/haitaowu12/leadership-toolbox/tree/feat/standalone-leadership-skill). It does not promise a published release archive. Inspect the PR and its checks before installing. Record the exact commit you reviewed; a branch can advance.
 
-Run `python3 scripts/install.py --dest /your/host/skills/leadership-toolbox`, replacing the placeholder with your host's documented local skill directory. The helper requires Python 3.10+ and uses only the standard library. Manual installation is also supported: copy the entire `skills/leadership-toolbox` folder, including references, templates, schemas, scripts and notices. Reading the skill needs no Python or runtime service.
+To obtain that branch with Git:
 
-For Codex, a user-level skill directory is commonly `~/.codex/skills/leadership-toolbox`; confirm your configured host path rather than assuming every host uses it. Hosts with `SKILL.md` discovery should discover the name/description; reload as required by that host. Other assistants can read the file manually. Host-neutral means no mandatory connector, provider or absolute path, not that every host was tested.
+`git clone --branch feat/standalone-leadership-skill --single-branch https://github.com/haitaowu12/leadership-toolbox.git`
 
-## Update
+Then enter the repository and run `git rev-parse HEAD` to record the source revision. Alternatively, open the verified branch page and use GitHub's Code → Download ZIP, then extract it. A GitHub source ZIP has no generated release manifest yet.
 
-Install the reviewed new complete package using the same explicit destination. The helper stages the incoming folder and moves the old skill to a unique adjacent backup before replacing it. It refuses symlinks and private profile/history inside the old package; move misplaced data to a private location rather than losing it. Never overlay a partial folder onto an older version.
+From the source root run `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, and `python3 scripts/build_release.py`. The last command creates `dist/leadership-toolbox-0.2.0.zip` with only reviewed paths from `RELEASE_FILES.txt` and a SHA-256 manifest. Validate the extracted archive before installation. Checksums establish byte integrity, not privacy, source accuracy or real-world effectiveness.
 
-Updates replace only the shared skill. Your separately stored profile and practice history are untouched; migration is an explicit independent action described in [personal data](personal-data.md).
+## Install the complete folder
 
-## Restore the earlier skill
+Run `python3 scripts/install.py --dest /your/host/skills/leadership-toolbox`, replacing the placeholder with the host's documented skill directory. The helper needs Python 3.10+ and only the standard library. Manual installation is also supported: copy the entire `skills/leadership-toolbox` folder, including references, templates, schemas, scripts and notices. Reading the skill itself requires no Python.
 
-Use the previous path printed by the helper: `python3 scripts/install.py --dest /your/host/skills/leadership-toolbox --restore /your/host/skills/.leadership-toolbox.backup-REPLACE`. The restore stages a complete backup and preserves the replaced skill as another backup. It does not roll back practice records. Review/reconcile profile schema compatibility before using an older helper.
+Use your host's current documented discovery path. Host-neutral means no mandatory provider, connector or hardcoded personal path; it does not mean every host was tested. After installation, verify that the host discovers the intended name/version once and can load a referenced card. If the host does not support discovery, give it the entrypoint and relevant references manually. Do not claim activation from a successful file copy alone.
 
-## Tested boundary
+## Updates and backup location
 
-Fresh extraction, standard-library helper execution, complete folder replacement/restoration, local links and preservation of separate user state are tested in isolated local folders. Live host discovery/restart, non-Codex hosts, platform-specific access controls and human effectiveness are not certified by those tests. See [validation](validation.md).
+Install the new complete package to the same explicit destination; never overlay a partial folder. The helper checks and stages the incoming package, moves the previous complete skill to a unique backup, then replaces it. It refuses symlinks and misplaced private profile/history. Separately stored user state is untouched; migration is an independent explicit action in [personal data](personal-data.md).
+
+Staging and retained backups are outside the destination's discovery directory. The default is a sibling `.leadership-toolbox-backups` directory: for destination `/your/host/skills/leadership-toolbox`, use `/your/host/.leadership-toolbox-backups`. If that location falls inside another discovery root configured by your host, supply `--backup-dir /your/separate-package-backups` outside every discovery root, on the same filesystem. The installer cannot inspect all host configurations. Cross-filesystem rename failure is surfaced rather than silently replacing data.
+
+## Restore
+
+Use the exact backup path printed by the helper:
+
+`python3 scripts/install.py --dest /your/host/skills/leadership-toolbox --restore /your/host/.leadership-toolbox-backups/.leadership-toolbox.backup-REPLACE`
+
+For a custom location, pass the same `--backup-dir` when restoring. Restoration copies a complete backup and preserves the replaced version as another backup; it does not roll back practice history. Review schema compatibility before using an older helper. Legacy adjacent backups are accepted as restore sources but no new ones are created there. Move any legacy backups outside discovery after review; do not assume hidden folders are ignored by every host.
+
+## Verification boundary
+
+[Validation](validation.md) records exact revision/check evidence. Filesystem and archive tests cannot establish every host's discovery semantics, accessibility or workplace effectiveness. No installation, update or source download grants permission for external actions.

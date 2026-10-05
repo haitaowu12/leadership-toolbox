@@ -1,6 +1,6 @@
 # L08 · PDSA bounded test
 
-Version: 0.1.0 · Licence: MIT
+Version: 0.2.0 · Licence: MIT
 
 **Job:** Test an uncertain process change.
 
@@ -38,3 +38,9 @@ Informed by IHI’s Model for Improvement. Published implementation quality vari
 ## Fictional example
 
 Try one small change to a recurring meeting for two sessions, recording decision completion and preparation burden before expanding it.
+
+## Counterexample and route change
+
+A one-time test exposes information irreversibly; limiting its duration does not make the harm reversible.
+
+Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

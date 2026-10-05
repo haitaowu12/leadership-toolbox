@@ -1,17 +1,17 @@
-# A short route from situation to action
+# From situation to action
 
-1. **Gate:** Is there immediate danger, coercion, misconduct or a formal specialist decision? Use the relevant established process and owner. Do not run a coaching exercise in place of protection or qualified advice. Who can authorise the proposed action? If unknown, establish the boundary before commitment.
-2. **Result:** What observable change is wanted, by when? Separate the event from interpretations and ask whose account is missing. If the user wants a definition, answer it directly.
-3. **Knowledge and reversibility:** Is the response already known, does expert analysis resolve it, or must people learn through a bounded trial? Can a trial be stopped/reversed without unacceptable harm? Uncertainty alone is not permission to experiment.
-4. **Readiness and capacity:** Do people have the skill, time, support and willingness for the proposed action? Unknown stays unknown. Missing capability calls for instruction/support; missing capacity calls for tradeoffs, not encouragement.
-5. **Action and feedback:** Use the [catalog](catalog.md) to choose one primary method. Name the alternative and the fact that would change the route. Agree a small output, owner, review time and stop/switch condition. Use [measurement](measurement.md) for feedback.
-
-These are conversational checks, not a mandatory questionnaire or numerical classifier. Skip resolved questions. When a needed fact is unknown, offer a safe preparatory step and say what must be established before acting. Timing estimates are planning ranges, not research-backed dosage.
+1. **Understand the request.** Direct lookup: answer. Situation: clarify the desired observable change and latest useful time. Use quick help by default when sufficient; “grill me” invokes [adaptive deep inquiry](interview.md), not a fixed questionnaire.
+2. **Screen the proposed action.** Establish safety, protection/retaliation, authority, privacy, expertise, access and essential acceptance. Urgent danger and specialist decisions interrupt the interview. Unresolved prerequisites block the dependent action, not harmless preparation.
+3. **Differentiate explanations.** Separate observations, accounts, interpretations, prior attempts and missing evidence. Ask what would change your initial interpretation. A missed deadline does not establish low skill, low motivation or unwillingness.
+4. **Profile only what matters.** Use the eight [mixed-type dimensions](dimensions.json); retain provenance, uncertainty and disagreement. Actual time is not an arbitrary urgency score. Consequence is not likelihood. Reversibility applies to the proposed action, including downstream effects. Missing facts do not prove emergence or authorise experimentation.
+5. **Check and compare.** Give the user a correction opportunity. Use [matching](matching.md) to compare relevant [catalog](catalog.md) methods by eligibility, intended output, fit, feasibility and burden. Recompute the choice when decisive facts change. Do not sum ordinal values or force a method.
+6. **Plan a bounded next move.** State primary method, alternative and switching fact; specify output/owner, words to try and necessary prerequisites. A sequence needs an exit condition between cards. Include no intervention where appropriate.
+7. **Review outcomes and costs.** Define a later signal, balancing guardrail and proportionate review date/event with the people affected. [Measurement](measurement.md) distinguishes output, desired outcome and harm. Change the route when evidence, authority, risk or constraints change.
 
 ## Optional context lens
 
-Cynefin can help distinguish familiar/clear work, complicated work requiring analysis, complex work requiring probes, and chaotic conditions requiring stabilisation. Do not assign a domain from a few adjectives or treat disagreement as proof of complexity. People may face different contexts in the same situation. The everyday gate above is sufficient when the lens adds no clarity. Read [framework choices](framework-choices.md) when explanation of the alternatives matters.
+Cynefin can support sense-making about established practice, expert analysis and context-dependent learning. Do not diagnose a domain from adjectives, disagreement or a few missing facts. Different parts of one situation may need different approaches. The workflow above is sufficient without a framework label. Read [framework choices](framework-choices.md) only when this comparison helps.
 
-## No intervention and scope
+## Stop collecting context
 
-If commitments are clear, work is progressing and no material harm is observed, maintain the agreement and check at the existing review. Extra meetings and coaching can add burden. If the request concerns emergency response, employment sanctions, legal disputes or a clinical decision, support factual preparation and identification of the qualified owner; do not make the specialist determination.
+Stop when a safe useful next step is available, further questions will not materially change the shortlist, the user wants a recommendation, or information cannot be obtained. Explain remaining conditions rather than pretending certainty. Respect a skipped question. If one essential unknown prevents action, ask that one question and continue only independent preparation.

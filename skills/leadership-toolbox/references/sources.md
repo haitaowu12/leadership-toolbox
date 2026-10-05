@@ -35,3 +35,30 @@ These links support method origins or bounded claims. Source types are descripti
 - [Copyright Office on methods and expression](https://www.copyright.gov/circs/circ33.pdf): public ideas/methods and protected expression are different. Original commentary does not license third-party articles, figures or trademarks.
 
 [Framework comparison](framework-choices.md) holds Cynefin/situational-leadership sources. Source review informs this release; publishers may later change pages/terms. Before adding any new copied material, examine that specific asset and preserve its actual licence/attribution. Do not call all source material cleared.
+
+## Expansion sources · 0.2.0
+
+The following primary sources were publicly reviewed on 2026-10-05. Full cards state the supported practice/claim and its limit. Original workplace wording is used; public accessibility is not blanket permission to reproduce source assets. These sources do not validate the situation scales or matching rules.
+
+| ID | Method and primary source | Evidence and reuse limit |
+|---|---|---|
+| L15 | [Team charter and working agreements](https://www.atlassian.com/team-playbook/plays/working-agreements) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L16 | [Performance and learning goal design](https://www-2.rotman.utoronto.ca/facbios/file/09%20-%20Locke%20%26%20Latham%202002%20AP.pdf) | Research-informed; study context and moderators limit transfer. Original explanation only; no article or instrument reproduced. |
+| L17 | [Stakeholder map and listening round](https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L18 | [Nominal group prioritisation](https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L19 | [Driver diagram](https://www.ihi.org/library/tools/driver-diagram) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L20 | [Fishbone causal-hypothesis map](https://www.ihi.org/library/tools/cause-and-effect-diagram) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L21 | [Current-state process map](https://www.ihi.org/library/tools/flowchart) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L22 | [Force-field change diagnosis](https://www.cnwl.nhs.uk/ia/resources/force-field-analysis) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L23 | [If–then implementation plan](https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf) | Research-informed; study context and moderators limit transfer. Original explanation only; no article or instrument reproduced. |
+| L24 | [Assumption map](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L25 | [Positive deviance inquiry](https://positivedeviance.org/s/FINALguide10072010.pdf) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L26 | [Problem framing](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L27 | [Troika peer consultation](https://www.liberatingstructures.com/troika-consulting) | Creator facilitation guidance; this procedural adaptation is CC BY-SA 4.0 with attribution/changes in the card. |
+| L28 | [Individual development plan](https://www.opm.gov/policy-data-oversight/training-and-development/career-development/) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L29 | [Options and criteria trade-off review](https://www.nasa.gov/reference/6-8-decision-analysis/) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L30 | [Structured listening interview](https://www.pon.harvard.edu/daily/negotiation-skills-daily/listening-skills-for-maximum-success/) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L31 | [Change impact and support planning](https://www.hse.gov.uk/stress/standards/change.htm) | Institutional or originator practice guidance; card-specific workplace transfer is editorial. No source assets reproduced. |
+| L32 | [Accountable repair after one's own mistake](https://ncmr.lps.library.cmu.edu/article/id/264/) | Research-informed; study context and moderators limit transfer. Original explanation only; no article or instrument reproduced. |
+
+Secondary sources and supporting context appear on their cards, including AHRQ for charters, CCL for supported development assignments, Strategyzer for test preparation and PON for negotiation/listening. Diagram sources express theories, possible causes or maps; they do not make those representations causal findings. Review the specific current source and any asset-specific licence before reusing new material.

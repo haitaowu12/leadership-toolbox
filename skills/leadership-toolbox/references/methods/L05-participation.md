@@ -1,6 +1,6 @@
 # L05 · 1-2-4-All
 
-Version: 0.1.0 · Licence: CC-BY-SA-4.0
+Version: 0.2.0 · Licence: CC-BY-SA-4.0
 
 **Job:** Hear ideas beyond dominant voices.
 
@@ -42,3 +42,9 @@ A team is choosing improvements to a routine meeting. Use a concrete question, t
 ## Attribution and reuse
 
 Adapted from **1-2-4-All**, Henri Lipmanowicz and Keith McCandless, Liberating Structures, [current public source](https://www.liberatingstructures.com/1-2-4-all). This procedural adaptation is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Changes: condensed leadership instructions; new example, limitations and feedback guidance. No source images reproduced. Retain this attribution and licence for reuse and apply the same licence to further adaptations. The package’s MIT notice does not override this file’s licence.
+
+## Counterexample and route change
+
+A group is asked to disclose allegations in public; use an appropriate private or independent route.
+
+Related alternatives: [L18](L18-nominal-group.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.

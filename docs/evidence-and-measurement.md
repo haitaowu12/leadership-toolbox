@@ -1,9 +1,14 @@
-# Evidence and measurement
+# Context metrics, method matching and outcome evidence
 
-Use the [measurement guide](../skills/leadership-toolbox/references/measurement.md) to define one output, one later signal, one balancing guardrail and a review point. These observations support everyday decisions; they are not ratings of employees or a scoring system for methods.
+The package has two different uses of measurement:
 
-Each [method](../skills/leadership-toolbox/references/catalog.md) distinguishes originator/operational guidance, research and the project's editorial application. [Sources](../skills/leadership-toolbox/references/sources.md) state context and limitations. Time estimates are planning estimates. Association, a practice-level synthesis, a developer claim and a local result support different conclusions.
+1. **Before action:** [eight situation dimensions](../skills/leadership-toolbox/references/dimensions.json) describe the task, and [method profiles](../skills/leadership-toolbox/references/catalog.json) identify relevant conditions, requirements, demands and outputs. Time is factual; consequence/reversibility are anchored ordinal descriptors; the other dimensions are categorical or multi-select. These are an editorial, correction-friendly navigation aid.
+2. **After action:** the [measurement guide](../skills/leadership-toolbox/references/measurement.md) defines immediate output, later outcome, balancing cost, baseline/proxy caveat and review timing. Observe useful change and burden locally; do not assume completing the procedure caused success.
 
-The front door is an original goal/constraints route. [Framework comparison](../skills/leadership-toolbox/references/framework-choices.md) keeps Cynefin optional and treats situational-leadership evidence as mixed/conditional. No framework classifies people, invents missing facts or grants authority.
+[Matching](../skills/leadership-toolbox/references/matching.md) checks non-compensable prerequisites first, compares a small set by the user's actual job and constraints, and names what would change the recommendation. Unknowns, disputed accounts and user corrections stay visible. There is no universal situation score, method quality score, personality category or calibrated success probability. Do not sum ordinal descriptors or calculate a distance to a supposedly ideal leader.
 
-Structural tests can verify files, schema safety and links. Model-executed requests can reveal usability/routing failures. Field use with real participants can supply situated feedback. None alone establishes universal effectiveness; this draft has no field evidence.
+Every method links its source and states its limits. Source types may coexist: originator/practitioner guidance, institutional operating guidance, research, editorial transfer and local observation support different claims. A cited study does not validate the matching engine. A before/after difference does not establish causality. No field effectiveness has been established for this package.
+
+The [adaptive interview](../skills/leadership-toolbox/references/interview.md) gathers only context that could change the next action. The [optional profile schema](../skills/leadership-toolbox/schemas/situation-v1.schema.json) supports provenance and typed unknowns without requiring saved records. A blank profile and a direct question remain valid.
+
+Structural tests inspect files and contracts. Functional tests exercise installation/state behavior. Fresh model executions can reveal conversational defects. Human use is needed to judge usefulness, burden, acceptability and situated outcomes. See [validation](validation.md) before interpreting any reported pass.

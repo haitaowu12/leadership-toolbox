@@ -1,37 +1,41 @@
 ---
 name: leadership-toolbox
-description: Help leaders prepare everyday conversations, decisions, delegation, team learning and bounded change using public methods; choose a practical next action or answer a direct method question.
+description: Help with everyday leadership situations, difficult conversations, delegation, decisions, team learning and change. Use adaptive quick or grill-me inquiry, explainable context matching and public-source methods; also answer direct method questions.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Leadership Toolbox
 
-Help the user get a useful next action, words to try and a checkpoint. Use original leadership applications of the public methods in this bundle. No external service, paid model, database or personal profile is required.
+Help the user understand the situation, choose a useful next action, prepare words to try and review what happened. This host-neutral bundle needs no paid model, connector, personal profile or running service. It contains 32 distinct public-source methods and original workplace applications.
 
-## Start with the request
+## Route the request
 
-For a direct lookup, answer from the relevant [catalog entry](references/catalog.md) and method card. Do not require a situation interview to explain GROW, a debrief or another named method.
+For a direct lookup, read the relevant [catalog entry](references/catalog.md) and full card, then answer directly with a practical limit and source. Do not impose an interview, invented baseline or review date.
 
-For a situation, read the [workflow](references/workflow.md). Preserve unknown authority, competence, capacity, risk and other people's accounts. Ask only questions whose answers could change the next action. Give a conditional first step when a safe step is already possible. Separate observation from interpretation; do not diagnose motives or personality.
+For a situation, use the [workflow](references/workflow.md). If the user asks to be challenged or says “grill me”, use the [adaptive interview](references/interview.md): ask one to three decision-relevant questions at a time, challenge interpretations with concrete episodes and alternatives, and reflect corrections. Otherwise give quick help or offer deeper exploration when it would change the recommendation. Respect skip, stop and requests for a provisional answer; never require disclosure or a complete questionnaire.
 
-Choose one primary method, explain the strongest plausible alternative and what fact would change the choice. A method's fit does not create authority or resources. Offer no intervention when the current arrangement works; use the relevant specialist process for immediate danger, misconduct or formal regulated decisions. Preparation does not authorise sending messages or changing obligations.
+Screen the proposed action for immediate harm, retaliation/coercion, privacy, authority, required expertise and method-specific prerequisites. Use the established qualified process for urgent danger, serious allegations and formal regulated decisions. A method or numerical descriptor cannot create authority, consent, skill or resources. Preparation does not authorise sending, assignment or system changes.
 
-## Read only what helps
+## Build a defensible match
 
-- [Catalog](references/catalog.md): route to a stable method ID and its full card.
-- [Situation guides](references/guides.md): direction, development, communication, influence, pressure and learning.
-- [Measurement](references/measurement.md): one locally defined outcome signal, one burden/harm guardrail and a review date; do not calculate universal scores or success probabilities.
-- [Sources](references/sources.md): origin, public links, reuse and evidence boundaries.
-- [Templates](templates/conversation.md), [practice record](templates/practice-record.md), [role review](templates/role-review.md): use only the template requested or useful to the immediate job.
-- [Author examples](references/examples.md): fictional illustrations, not effectiveness or evaluation evidence.
+Use [dimension anchors](references/dimensions.json) and [matching](references/matching.md), with the relevant entries in [structured catalog profiles](references/catalog.json). Keep factual time/constraints, categorical context, anchored consequence/reversibility, evidence provenance and unknowns separate. Do not sum scales, compute distance/success probabilities or score people. An absent account is unknown; a manager's account is not everyone's agreement.
 
-## Respond
+Choose a short candidate set by immediate job/output; read its full cards. Mark each eligible, conditional or excluded according to actual prerequisites. Compare the strongest two or three on job/output, context, feasibility, burden and the user's priorities. Explain one primary next move, the strongest alternative and a fact that would change the choice. When a correction changes a decisive fact, update the profile and recommendation, not just the notes.
 
-For a lookup, give the requested explanation, its practical limits and a source. Omit invented situation fields, baselines and review dates.
+Use no intervention when no material problem warrants one. Use a sequence only when one method creates the next method's prerequisite, with an owner and transition condition. Sensemaking tools must lead to a useful decision, evidence step or action rather than only a diagram.
 
-For a specialist deferral, state the editorial scope boundary and the appropriate established process/qualified owner. Do not force a tangential method citation or imply that this bundle validates the specialist determination.
+## Make it usable
 
-Give a concise situation summary with consequential unknowns, one next step and why, a short opening/two useful questions where relevant, an output/owner, and an outcome signal, guardrail, review date and stop/switch condition. Cite the selected public source and distinguish an established method from this project's editorial application. Do not invent participant agreement or observed results.
+For a situation, give a concise correction-friendly summary, consequential unknowns, a next action and reason, useful opening/questions, and an output/owner. Add one later outcome, one burden/harm guardrail, an agreed or proposed review trigger and a stop/switch condition. Use [measurement](references/measurement.md); distinguish output from outcome and prediction from observation. Never invent agreement, observed improvement or a scheduled review.
 
-For optional private memory, read [user-data guidance](references/user-data.md). Never write personal context or practice history inside this skill folder. Save only with user authorisation to an explicit private location. A blank profile works; absence of data must not become a capability, capacity or risk judgement. Use historical outcomes as local context, not universal evidence.
+Cite the selected method's source and explain its evidence boundary. For specialist deferral, state the scope boundary without forcing a tangential citation. Use the appropriate process/qualified owner; do not adjudicate it with leadership methods.
+
+## Read only the supporting detail needed
+
+- [Guides](references/guides.md) for common situations; [combinations](references/combinations.md) for useful sequences and overuse warnings.
+- [Sources](references/sources.md) and [framework choices](references/framework-choices.md) for origin, reuse, study context and optional Cynefin.
+- [Situation profile](templates/situation-profile.md), [conversation](templates/conversation.md), [decision record](templates/decision-record.md), [practice record](templates/practice-record.md) and [role review](templates/role-review.md) when a durable structure helps.
+- [Examples](references/examples.md) for fictional illustrations, not evidence of effectiveness.
+
+For optional private context, read [user-data](references/user-data.md). Save only with explicit authorisation to a separate private location; do not auto-discover other records or write cases into the skill. A blank profile works. Keep current task observations distinct from lasting preferences, and historical local outcomes distinct from universal evidence.
