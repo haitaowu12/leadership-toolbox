@@ -2,6 +2,9 @@
 
 ## 0.2.1 draft · inquiry, practical references and correctable models · 2026-10-05
 
+- Audit the frozen candidate against matched no-toolbox conversations; retain selective benefits, verbosity/loading costs and explicit rollout limits.
+- Repair optional-state concurrent helper mutations and intervening-edit detection, nested copied-skill privacy paths, non-object profile errors, and incoming installer entrypoint validation. Add non-destructive regression tests and document the cooperative-lock boundary.
+
 - Ask decision-relevant questions by default for underspecified leadership situations, wait before prescribing, and preserve direct lookup, sufficient-context, explicit quick/skip and urgent-protection routes.
 - Use the existing plain-language method pages as the practical wiki front door; retain primary citations for empirical claims, research requests, attribution and healthcare/regulatory transfer limits.
 - Keep normal recommendations compact; reserve candidate matrices and measurement contracts for decisions/trials that need them. Add task-based navigation, descriptive method links and scannable steps before deeper provenance.

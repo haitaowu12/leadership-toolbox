@@ -58,3 +58,7 @@ Caught replacement failures restore the old package where possible. The two rena
 ## Verification boundary
 
 [Validation](validation.md) records package checks and model-output tests separately. Clean archive installation, update and restore in CI do not establish cloud-account upload, host discovery, every operating system, or workplace benefit. No installation grants permission to message people, change obligations or collect private records.
+
+## Installer entrypoint validation
+
+Before replacement, the installer requires a complete SKILL.md frontmatter header with `name: leadership-toolbox`, a nonempty description of at most 200 characters, and `metadata.version` matching `references/catalog.json`. Its standard-library reader supports the package's single-line plain/quoted string fields and indented metadata mapping. Unsupported YAML collections, aliases, tags, multiline strings and inline comments fail closed. Repair or restore a supported complete package rather than bypassing validation; a rejected incoming package leaves the current installation in place.

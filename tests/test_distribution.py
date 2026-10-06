@@ -15,6 +15,11 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = ROOT / "skills" / "leadership-toolbox"
+IMPLICIT_YAML_SCALARS = (
+    "2026-10-06", "2026-10-06T17:59:00Z", "2026-10-06t17:59:00+05:30",
+    "2026-10-6 7:59:00.5 -5", "2026-10-06 17:59:00",
+    "1:20", "-1:20", "+1:20", "1:20:30", "1:20.5", "-1:20:30.5",
+)
 
 
 def load(name, path):
@@ -184,6 +189,153 @@ class DistributionTests(unittest.TestCase):
             installer.install(dest, partial)
         self.assertEqual(snapshot(dest), previous)
 
+    def test_invalid_skill_entrypoint_preserves_existing_install(self):
+        source = self.copy_source()
+        skill = source / "SKILL.md"
+        original = skill.read_text(encoding="utf-8")
+        front, body = original.split("\n---\n", 1)
+        description = re.search(r"^description: .+$", front, re.M)[0]
+        version_line = re.search(r"^  version: .+$", front, re.M)[0]
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        previous = snapshot(dest)
+        backup_root = installer.backup_directory(dest)
+        backups = snapshot(backup_root)
+        invalid = {
+            "empty file": "",
+            "plain Markdown": "# Leadership Toolbox\nNo frontmatter.\n",
+            "missing opening delimiter": original.removeprefix("---\n"),
+            "missing closing delimiter": front + "\n" + body,
+            "malformed closing delimiter": front + "\n--\n" + body,
+            "missing name": original.replace("name: leadership-toolbox\n", "", 1),
+            "wrong name": original.replace("name: leadership-toolbox", "name: wrong-skill", 1),
+            "missing description": original.replace(description + "\n", "", 1),
+            "blank description": original.replace(description, "description:   ", 1),
+            "empty quoted description": original.replace(description, 'description: ""', 1),
+            "whitespace quoted description": original.replace(description, 'description: "   "', 1),
+            "boolean description": original.replace(description, "description: true", 1),
+            "numeric description": original.replace(description, "description: 123", 1),
+            "list description": original.replace(description, "description: [leadership]", 1),
+            "long description": original.replace(description, "description: " + "x" * 201, 1),
+            "missing version": original.replace(version_line + "\n", "", 1),
+            "wrong version": original.replace(version_line, '  version: "9.9.9"', 1),
+            "unclosed quote": original.replace(version_line, '  version: "0.2.1', 1),
+            "mismatched quotes": original.replace(version_line, "  version: \"0.2.1'", 1),
+            "duplicate name": original.replace("metadata:", "name: leadership-toolbox\nmetadata:", 1),
+            "duplicate description": original.replace("metadata:", description + "\nmetadata:", 1),
+            "duplicate version": original.replace(version_line, version_line + "\n" + version_line, 1),
+            "duplicate metadata": original.replace("\n---\n", "\nmetadata:\n" + version_line + "\n---\n", 1),
+            "wrong parent": original.replace("metadata:", "other:", 1),
+            "unindented version": original.replace("  version:", "version:", 1),
+            "wrong indentation": original.replace("  version:", "    version:", 1),
+            "tab indentation": original.replace("  version:", "\tversion:", 1),
+            "metadata scalar": original.replace("metadata:", "metadata: text", 1),
+            "malformed field": original.replace("metadata:", "invalid syntax\nmetadata:", 1),
+            "unquoted mapping": original.replace(description, "description: nested: value", 1),
+            "unsupported alias": original.replace(description, "description: *alias", 1),
+            "unsupported multiline": original.replace(description, "description: >\n  Some text", 1),
+            "control character": original.replace(description, "description: text\x00", 1),
+        }
+        invalid.update({
+            "implicit YAML scalar " + value:
+                original.replace(description, "description: " + value, 1)
+            for value in IMPLICIT_YAML_SCALARS
+        })
+        for label, contents in invalid.items():
+            with self.subTest(label=label):
+                skill.write_text(contents, encoding="utf-8")
+                with mock.patch.object(installer.os, "replace") as replace:
+                    with self.assertRaises(ValueError):
+                        installer.install(dest, source)
+                    replace.assert_not_called()
+                self.assertEqual(snapshot(dest), previous)
+                self.assertEqual(snapshot(backup_root), backups)
+                self.assertEqual(list(dest.parent.iterdir()), [dest])
+                self.assertFalse(list(backup_root.glob(".leadership-stage-*")))
+
+    def test_invalid_catalog_version_preserves_existing_install(self):
+        source = self.copy_source()
+        path = source / "references/catalog.json"
+        catalog = json.loads(path.read_text(encoding="utf-8"))
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        previous = snapshot(dest)
+        for version in (None, "", 0.2, [], {}, True, "v0.2.1", "9.9.9"):
+            with self.subTest(version=version):
+                catalog["package_version"] = version
+                path.write_text(json.dumps(catalog), encoding="utf-8")
+                with self.assertRaises(ValueError):
+                    installer.install(dest, source)
+                self.assertEqual(snapshot(dest), previous)
+        del catalog["package_version"]
+        path.write_text(json.dumps(catalog), encoding="utf-8")
+        with self.assertRaises(ValueError):
+            installer.install(dest, source)
+        self.assertEqual(snapshot(dest), previous)
+
+    def test_supported_entrypoint_strings_and_older_package_versions(self):
+        source = self.copy_source()
+        skill = source / "SKILL.md"
+        original = skill.read_text(encoding="utf-8")
+        catalog_path = source / "references/catalog.json"
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        current_version = catalog["package_version"]
+        version_line = re.search(r"^  version: .+$", original, re.M)[0]
+        for version in ("0.1.0", "0.2.0", current_version):
+            catalog["package_version"] = version
+            catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
+            for quote in ("", "'", '"'):
+                with self.subTest(version=version, quote=quote):
+                    contents = original.replace(version_line, f"  version: {quote}{version}{quote}", 1)
+                    skill.write_text(contents, encoding="utf-8")
+                    installer.check_tree(source)
+        header = ('---\n# Supported single-line scalar forms\n'
+                  'name: "leadership-toolbox"\n'
+                  "description: 'Help with a leader''s decisions: practical support.'\n"
+                  f'\nmetadata:\n  version: "{current_version}"\n---\n')
+        skill.write_bytes((header + original.split("\n---\n", 1)[1]).replace("\n", "\r\n").encode("utf-8"))
+        installer.check_tree(source)
+
+    def test_quoted_dates_timestamps_and_sexagesimal_values_are_strings(self):
+        for value in IMPLICIT_YAML_SCALARS:
+            for quote in ("'", '"'):
+                with self.subTest(value=value, quote=quote):
+                    self.assertEqual(installer.frontmatter_string(quote + value + quote), value)
+
+    def test_staged_entrypoint_is_checked_before_destination_replacement(self):
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        previous = snapshot(dest)
+        copytree = shutil.copytree
+
+        def damaged_copy(source, target, *args, **kwargs):
+            result = copytree(source, target, *args, **kwargs)
+            if Path(target).name == "leadership-toolbox":
+                (Path(target) / "SKILL.md").write_text("# Damaged staged skill\n", encoding="utf-8")
+            return result
+
+        with mock.patch.object(installer.shutil, "copytree", side_effect=damaged_copy):
+            with mock.patch.object(installer.os, "replace") as replace:
+                with self.assertRaises(ValueError):
+                    installer.install(dest)
+                replace.assert_not_called()
+        self.assertEqual(snapshot(dest), previous)
+        self.assertFalse(list(installer.backup_directory(dest).iterdir()))
+
+    def test_malformed_existing_entrypoint_can_be_repaired_but_not_restored(self):
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        installer.install(dest)
+        original = snapshot(dest)
+        (dest / "SKILL.md").write_bytes(b"malformed old package\n")
+        damaged = snapshot(dest)
+        backup = installer.install(dest)
+        self.assertEqual(snapshot(dest), original)
+        self.assertEqual(snapshot(backup), damaged)
+        with self.assertRaises(ValueError):
+            installer.install(dest, backup)
+        self.assertEqual(snapshot(dest), original)
+        self.assertEqual(snapshot(backup), damaged)
+
     def test_missing_core_or_catalog_card_is_rejected_before_replacement(self):
         source = self.copy_source()
         dest = self.base / "host" / "skills" / "leadership-toolbox"
@@ -301,4 +453,3 @@ class DistributionTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
