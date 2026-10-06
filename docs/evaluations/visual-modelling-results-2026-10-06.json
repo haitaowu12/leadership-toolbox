@@ -1,0 +1,200 @@
+{
+  "record_type": "fictional_response_execution",
+  "schema_version": 1,
+  "skill_package": "leadership-toolbox",
+  "skill_version_in_frontmatter": "0.2.1",
+  "path_basis": "All recorded skill paths are relative to the leadership-toolbox skill root.",
+  "self_scoring_performed": false,
+  "external_services_mutated": false,
+  "prohibited_material_read": false,
+  "execution_notes": [
+    "The first response is preserved unchanged.",
+    "A and B are separate scenario requests in the same generating context; launch case facts were not carried into them.",
+    "File hashes were captured after the second launch response was composed and before A/B. They were rechecked while saving this record.",
+    "After these responses were generated, the correction guidance received an explicit downstream-inference withdrawal sentence during review. The recorded input hashes refer to the earlier wording; responses were not regenerated."
+  ],
+  "skill_versions": {
+    "initial": {
+      "description": "Help with leadership conversations, delegation, decisions and team learning. Probe unclear situations, use correctable situation diagrams, and answer method lookups with practical guides and evidence limits.",
+      "sha256": "9e4d2e51ab0fc271de34bdab3a83ee577066c7f1c00e49befa737fc53412bcfb",
+      "hash_basis": "Reconstructed from the subsequently read SKILL.md bytes by replacing only the description line with the exact originally read line. The implementer reported that only the description was shortened and the body was unchanged. No direct byte hash was captured at the first read."
+    },
+    "subsequent": {
+      "description": "Help with leadership conversations, delegation, decisions and learning. Probe unclear situations, create correctable diagrams, and answer method lookups with practical guides and evidence limits.",
+      "sha256": "aa7817d46cf91ce24cadacb25f5d321175f36079b0794dc67735089b86d74d60",
+      "hash_basis": "Direct SHA-256 of current bytes; description inspected during hash capture. Original body instructions remained in context."
+    }
+  },
+  "all_skill_file_hashes_at_record_creation": {
+    "SKILL.md": "aa7817d46cf91ce24cadacb25f5d321175f36079b0794dc67735089b86d74d60",
+    "references/visual-modelling.md": "bfcbaf244de7c7f339218827ba3f95df0caf93ec64c1f63fb6a2d584965cfd4e",
+    "templates/situation-model.md": "a580ca172776e1148aecac6b71a8406d3455d2a570c2d303c2c95bcbb01bd930",
+    "references/interview.md": "4d6194c949775421f6c2877d55357bea0fb91d54c049aae4a98b9fe3e78612d3",
+    "references/workflow.md": "dd3028b48aef909277872620125f849861442be60e9ebf529b99b85b18ad25bc",
+    "references/knowledge/README.md": "0726d551c0996729fd4f44e7c12c579f7452848b30b849695ae8d77e509591b0",
+    "references/dimensions.json": "2092737fc8099d12b77b9ce2820f6e392cd148be76cc563be1b7249d8a45674c",
+    "references/matching.md": "62dc5735e2800d8400c20c74f9d653f801b50b427ac7403e529d4feb6843fcda",
+    "references/knowledge/inquiry-coordination.md": "b9bc28e324798b677bc037adbda41c19d6a5d943ec2cd198d122a5ccc13ceacb",
+    "references/methods/L21-process-map.md": "5aa281f93b65347816fb9305a12fd28eecedd5626028461077954a3a7aa9771b",
+    "references/methods/L14-handoff.md": "bf6cd39898f17fef10c15d8766d3fcb77fa2e86e0bc8aa8fc1ed69e4a9524884",
+    "references/measurement.md": "d4fa3a8802a631f2aa4f10f676ad1617e801df4eae5b4277d37df860a3196c54",
+    "references/catalog.json": "9dfcfc159068ee9ecdb7110ee207fb0b30dfad41826d44438d22b2a5b4888c09",
+    "references/methods/L06-brief-huddle.md": "6b2e7bde066edbf245ed79c9c59cfec761f58b7a944355fe92f8e9fc0ec75d21",
+    "references/knowledge/teams-feedback.md": "09c7f4676696188a587a35b8bca603c6e3df85f14fb058b137c0851d2b9fe07c",
+    "references/knowledge/decisions-learning.md": "8de39e60da09726465bf60995b79c4d30dcd038a99aca390e06260fd254ef6f8",
+    "references/evidence-map.md": "3bbfaadc989eae4bcd7c8ab1efe122f7d40752dcba14179aa24b2480540ef956"
+  },
+  "turns": [
+    {
+      "id": "launch_1",
+      "prompt": "Our designer sends launch assets to marketing. Marketing approves, then the web team publishes. Last time assets waited two days before approval. I coordinate the launch; it is due next Thursday. Show me how you understand this situation before suggesting fixes. A small diagram is fine.",
+      "response": "Here’s my provisional understanding, before suggesting changes.\n\nLaunch flow · M1, revision 1\nScope: asset handoff through web publication. Desired outcome: the launch is published by next Thursday, your stated deadline.\n\nE1: your account. Every role and arrow below is reported by you, rather than independently verified.\n\nN1 Designer\n  → R1: sends launch assets → N2 Marketing\n  → from N2, R2: approval precedes publication → N3 Web team\n  → from N3, R3: publishes → N5 Launch\n\nN4 You → R4: coordinate → N5 Launch\n\nIn words: you coordinate a launch whose reported sequence runs from design, through marketing approval, to web publication. Coordination doesn’t yet tell me which decisions you can authorize.\n\nP1, reported in E1: last time, assets waited two days before approval. That locates a wait in the sequence; it doesn’t establish its cause or whether it will recur.\n\nU1: whether marketing approval is the final permission to publish.\nU2: why the previous wait happened and where this launch currently stands. The other teams’ accounts are still absent.\n\nDoes marketing’s approval authorize the web team to publish, or is another approval required?",
+      "prompt_sha256": "4035e3e233b9895b30254dd108bf892aa1678101926bbdc39b9690791595c0aa",
+      "response_sha256": "f39b2e51d5617843aa6dae4f08fd2d3b532dfa795210465000cdf5b64f43c13c",
+      "newly_read_skill_files": [
+        "SKILL.md",
+        "references/visual-modelling.md",
+        "templates/situation-model.md",
+        "references/interview.md",
+        "references/workflow.md"
+      ],
+      "skill_input_hashes": {
+        "SKILL.md": "9e4d2e51ab0fc271de34bdab3a83ee577066c7f1c00e49befa737fc53412bcfb",
+        "references/visual-modelling.md": "bfcbaf244de7c7f339218827ba3f95df0caf93ec64c1f63fb6a2d584965cfd4e",
+        "templates/situation-model.md": "a580ca172776e1148aecac6b71a8406d3455d2a570c2d303c2c95bcbb01bd930",
+        "references/interview.md": "4d6194c949775421f6c2877d55357bea0fb91d54c049aae4a98b9fe3e78612d3",
+        "references/workflow.md": "dd3028b48aef909277872620125f849861442be60e9ebf529b99b85b18ad25bc"
+      },
+      "retains_launch_facts": true
+    },
+    {
+      "id": "launch_2",
+      "prompt": "Correction: legal gives the final approval. Marketing only checks the wording and passes the assets to legal. Legal tells the web team when they may publish. I cannot delegate legal’s approval. We have no agreed submission cutoff. Update your diagram and show the problem space and a few possible solution directions; keep facts and hypotheses separate. No more questions for now.",
+      "response": "Legal holds final approval. That changes both the workflow and which changes you can authorize.\n\nLaunch flow · M1, revision 2\nScope: asset submission through publication; target: next Thursday.\nE1 = your first account; E2 = your correction. All current-state claims below are reported, not independently verified.\n\nN1 Designer\n  → R1: sends assets [E1] → N2 Marketing, which checks wording [E2]\nN2 Marketing\n  → R5: passes assets [E2] → N6 Legal, the final approver [E2]\nN6 Legal\n  → R6: authorizes publication [E2] → N3 Web team\nN3 Web team\n  → R3: publishes [E1] → N5 Launch\nN4 You\n  → R4: coordinate [E1] → N5 Launch\n\nConstraints: you cannot delegate legal’s approval; no submission cutoff is agreed [E2].\n\nCorrection record: R2, the marketing-approval-to-web relationship, is retired. R5 and R6 replace it; the other IDs remain unchanged. The practical consequence is that coordinating submissions is a possible direction, while transferring legal’s approval to marketing or yourself is excluded.\n\nProblem space\n\n- P1, reported: assets waited two days before approval last time [E1]. The exact interval and where it occurred remain unknown; I’m no longer locating it at marketing’s approval step.\n- P2, reported: there is no agreed submission cutoff [E2]. This is a planning gap, but it does not establish the cause of P1.\n- H1, hypothesis: submission timing left too little review time. Distinguishing evidence: when a complete package reached legal compared with the review time legal actually needed.\n- H2, hypothesis: a complete package waited in a review queue. Distinguishing evidence: receipt and review-start times, plus legal’s account of availability.\n- H3, hypothesis: clarification or rework accounted for the interval. Distinguishing evidence: return requests, version changes and the periods spent resolving them.\n\nThese explanations can coexist. Current asset status, available review time and the other teams’ accounts are still unknown, so the diagram does not establish whether Thursday is currently at risk.\n\nPossible directions, all proposed\n\n- O1: Locate the actual wait. Eligible as preparation using records already available to you; a checked account is conditional on the relevant teams’ input. You could coordinate a short reconstruction of the last handoff, using only timestamps and return reasons. Next check: can the two days be separated into waiting, review and rework? Keep this bounded to the launch; avoid collecting unnecessary case detail.\n- O2: Agree this launch’s submission and review timing. Conditional on marketing, legal and web confirming feasible commitments. You could coordinate; each owner accepts their part, with legal retaining approval. Next check: an accepted submission time, review expectation and publication window. A cutoff alone cannot guarantee clearance; avoid creating a deadline that merely shifts pressure onto legal.\n- O3: Make the marketing-to-legal handoff explicit. Conditional on an identified legal recipient accepting the review task and confirming what is needed. Marketing and legal would own that interface. Next check: receipt, outstanding items and the next action are explicit. Receipt of the task is not approval to publish; keep any added tracking proportionate.\n- O0: Keep the current process if checking this launch shows sufficient time and clear ownership. One past wait does not by itself justify a permanent redesign.\n\nI’d begin with O1’s evidence check because the location of the wait changes the remedy. O2 is the strongest alternative if this launch needs an immediate scheduling decision and the owners can establish feasible timings now. Neither direction changes legal’s decision rights.",
+      "prompt_sha256": "48b32635853e3a3d35c9a613ac6b4d882f0e64a73e195fa624cb5c819c500050",
+      "response_sha256": "c7253e66b9d0218077c9475cc55794beb16d2cdeb54d4521e34419c75cb9ef91",
+      "newly_read_skill_files": [
+        "references/knowledge/README.md",
+        "references/dimensions.json",
+        "references/matching.md",
+        "references/knowledge/inquiry-coordination.md",
+        "references/methods/L21-process-map.md",
+        "references/methods/L14-handoff.md",
+        "references/measurement.md",
+        "references/catalog.json",
+        "references/methods/L06-brief-huddle.md",
+        "references/knowledge/teams-feedback.md",
+        "references/knowledge/decisions-learning.md",
+        "references/evidence-map.md"
+      ],
+      "skill_input_hashes": {
+        "SKILL.md": "9e4d2e51ab0fc271de34bdab3a83ee577066c7f1c00e49befa737fc53412bcfb",
+        "references/visual-modelling.md": "bfcbaf244de7c7f339218827ba3f95df0caf93ec64c1f63fb6a2d584965cfd4e",
+        "templates/situation-model.md": "a580ca172776e1148aecac6b71a8406d3455d2a570c2d303c2c95bcbb01bd930",
+        "references/interview.md": "4d6194c949775421f6c2877d55357bea0fb91d54c049aae4a98b9fe3e78612d3",
+        "references/workflow.md": "dd3028b48aef909277872620125f849861442be60e9ebf529b99b85b18ad25bc",
+        "references/knowledge/README.md": "0726d551c0996729fd4f44e7c12c579f7452848b30b849695ae8d77e509591b0",
+        "references/dimensions.json": "2092737fc8099d12b77b9ce2820f6e392cd148be76cc563be1b7249d8a45674c",
+        "references/matching.md": "62dc5735e2800d8400c20c74f9d653f801b50b427ac7403e529d4feb6843fcda",
+        "references/knowledge/inquiry-coordination.md": "b9bc28e324798b677bc037adbda41c19d6a5d943ec2cd198d122a5ccc13ceacb",
+        "references/methods/L21-process-map.md": "5aa281f93b65347816fb9305a12fd28eecedd5626028461077954a3a7aa9771b",
+        "references/methods/L14-handoff.md": "bf6cd39898f17fef10c15d8766d3fcb77fa2e86e0bc8aa8fc1ed69e4a9524884",
+        "references/measurement.md": "d4fa3a8802a631f2aa4f10f676ad1617e801df4eae5b4277d37df860a3196c54",
+        "references/catalog.json": "9dfcfc159068ee9ecdb7110ee207fb0b30dfad41826d44438d22b2a5b4888c09",
+        "references/methods/L06-brief-huddle.md": "6b2e7bde066edbf245ed79c9c59cfec761f58b7a944355fe92f8e9fc0ec75d21",
+        "references/knowledge/teams-feedback.md": "09c7f4676696188a587a35b8bca603c6e3df85f14fb058b137c0851d2b9fe07c",
+        "references/knowledge/decisions-learning.md": "8de39e60da09726465bf60995b79c4d30dcd038a99aca390e06260fd254ef6f8",
+        "references/evidence-map.md": "3bbfaadc989eae4bcd7c8ab1efe122f7d40752dcba14179aa24b2480540ef956"
+      },
+      "retains_launch_facts": true,
+      "additional_read_activity": {
+        "metadata_reread": [
+          "SKILL.md"
+        ],
+        "hash_only_reads": [
+          "SKILL.md",
+          "references/visual-modelling.md",
+          "templates/situation-model.md",
+          "references/interview.md",
+          "references/workflow.md",
+          "references/knowledge/README.md",
+          "references/dimensions.json",
+          "references/matching.md",
+          "references/knowledge/inquiry-coordination.md",
+          "references/methods/L21-process-map.md",
+          "references/methods/L14-handoff.md",
+          "references/measurement.md",
+          "references/catalog.json",
+          "references/methods/L06-brief-huddle.md",
+          "references/knowledge/teams-feedback.md",
+          "references/knowledge/decisions-learning.md",
+          "references/evidence-map.md"
+        ],
+        "failed_read_attempts": [
+          "references/methods/L06-huddle.md"
+        ]
+      },
+      "read_scope_notes": {
+        "references/catalog.json": "The file was parsed; only L06, L14 and L21 entries were displayed.",
+        "references/evidence-map.md": "The file was parsed; only L06, L14 and L21 sections were displayed.",
+        "references/knowledge/teams-feedback.md": "The combined tool output was partly truncated; the coordination synthesis and other displayed sections were available. No empirical-effect claim from an omitted section was made."
+      }
+    },
+    {
+      "id": "A",
+      "prompt": "Give me one opening sentence for an ordinary check-in about a missed date. No questions or diagram.",
+      "response": "I’d like to understand what happened with the missed date and agree on a realistic next step.",
+      "prompt_sha256": "26a0a78353da0cabc1603fc926f112e4a647b0f45f25173d1cb559f08aff2b51",
+      "response_sha256": "e2ba615bb40cf0fd8eab968b9b0c56f0d152375c0fc1c258d5890d729ad59c11",
+      "newly_read_skill_files": [],
+      "skill_input_hashes": {
+        "SKILL.md": "9e4d2e51ab0fc271de34bdab3a83ee577066c7f1c00e49befa737fc53412bcfb",
+        "references/visual-modelling.md": "bfcbaf244de7c7f339218827ba3f95df0caf93ec64c1f63fb6a2d584965cfd4e",
+        "templates/situation-model.md": "a580ca172776e1148aecac6b71a8406d3455d2a570c2d303c2c95bcbb01bd930",
+        "references/interview.md": "4d6194c949775421f6c2877d55357bea0fb91d54c049aae4a98b9fe3e78612d3",
+        "references/workflow.md": "dd3028b48aef909277872620125f849861442be60e9ebf529b99b85b18ad25bc",
+        "references/knowledge/README.md": "0726d551c0996729fd4f44e7c12c579f7452848b30b849695ae8d77e509591b0",
+        "references/dimensions.json": "2092737fc8099d12b77b9ce2820f6e392cd148be76cc563be1b7249d8a45674c",
+        "references/matching.md": "62dc5735e2800d8400c20c74f9d653f801b50b427ac7403e529d4feb6843fcda",
+        "references/knowledge/inquiry-coordination.md": "b9bc28e324798b677bc037adbda41c19d6a5d943ec2cd198d122a5ccc13ceacb",
+        "references/methods/L21-process-map.md": "5aa281f93b65347816fb9305a12fd28eecedd5626028461077954a3a7aa9771b",
+        "references/methods/L14-handoff.md": "bf6cd39898f17fef10c15d8766d3fcb77fa2e86e0bc8aa8fc1ed69e4a9524884",
+        "references/measurement.md": "d4fa3a8802a631f2aa4f10f676ad1617e801df4eae5b4277d37df860a3196c54",
+        "references/catalog.json": "9dfcfc159068ee9ecdb7110ee207fb0b30dfad41826d44438d22b2a5b4888c09",
+        "references/methods/L06-brief-huddle.md": "6b2e7bde066edbf245ed79c9c59cfec761f58b7a944355fe92f8e9fc0ec75d21",
+        "references/knowledge/teams-feedback.md": "09c7f4676696188a587a35b8bca603c6e3df85f14fb058b137c0851d2b9fe07c",
+        "references/knowledge/decisions-learning.md": "8de39e60da09726465bf60995b79c4d30dcd038a99aca390e06260fd254ef6f8",
+        "references/evidence-map.md": "3bbfaadc989eae4bcd7c8ab1efe122f7d40752dcba14179aa24b2480540ef956"
+      },
+      "retains_launch_facts": false
+    },
+    {
+      "id": "B",
+      "prompt": "Show a small decision-rights map. The director says operations owns release approval. Operations says finance owns it. I only coordinate; I have not seen the written policy. Please show the disagreement and what it leaves unresolved, without deciding whose story is true.",
+      "response": "Decision rights · D1, revision 1\nScope: who may authorize a release. Timing is unspecified. The aim is to make the disagreement visible; neither account is treated as settled authority.\n\nSources, all reported through you:\n- E1: the director says operations owns release approval.\n- E2: operations says finance owns release approval.\n- E3: you coordinate and have not seen the written policy.\n\nN1 Operations\n  → R1: owns approval [contested; E1, director’s account] → N3 Release approval\nN2 Finance\n  → R2: owns approval [contested; E2, operations’ account] → N3 Release approval\nN4 You\n  → R3: coordinate [reported; E3] → N5 Release process\n\nC1: R1 and R2 are competing accounts of the same decision right. The arrows show claims, not verified grants of authority. The director’s seniority does not resolve the disagreement in this map, and operations’ statement is not finance’s acceptance.\n\nWhat remains unresolved:\n- U1: who actually holds final release approval.\n- U2: which written policy or other authoritative decision governs, and whether it distinguishes different kinds of release.\n- U3: finance’s own account and any authorized escalation route.\n\nYour coordination role is represented separately from approval authority. This map provides no basis for you to approve a release or choose which account governs.",
+      "prompt_sha256": "612b8a27e39b120c3ea66af5f9090d3d85af964880e0836ba5bd0e150fb144f2",
+      "response_sha256": "e848192ae9ae2203bf7cc3869acb304dc467fbf257d6a2987322ce92a257dcba",
+      "newly_read_skill_files": [],
+      "skill_input_hashes": {
+        "SKILL.md": "9e4d2e51ab0fc271de34bdab3a83ee577066c7f1c00e49befa737fc53412bcfb",
+        "references/visual-modelling.md": "bfcbaf244de7c7f339218827ba3f95df0caf93ec64c1f63fb6a2d584965cfd4e",
+        "templates/situation-model.md": "a580ca172776e1148aecac6b71a8406d3455d2a570c2d303c2c95bcbb01bd930",
+        "references/interview.md": "4d6194c949775421f6c2877d55357bea0fb91d54c049aae4a98b9fe3e78612d3",
+        "references/workflow.md": "dd3028b48aef909277872620125f849861442be60e9ebf529b99b85b18ad25bc",
+        "references/knowledge/README.md": "0726d551c0996729fd4f44e7c12c579f7452848b30b849695ae8d77e509591b0",
+        "references/dimensions.json": "2092737fc8099d12b77b9ce2820f6e392cd148be76cc563be1b7249d8a45674c",
+        "references/matching.md": "62dc5735e2800d8400c20c74f9d653f801b50b427ac7403e529d4feb6843fcda",
+        "references/knowledge/inquiry-coordination.md": "b9bc28e324798b677bc037adbda41c19d6a5d943ec2cd198d122a5ccc13ceacb",
+        "references/methods/L21-process-map.md": "5aa281f93b65347816fb9305a12fd28eecedd5626028461077954a3a7aa9771b",
+        "references/methods/L14-handoff.md": "bf6cd39898f17fef10c15d8766d3fcb77fa2e86e0bc8aa8fc1ed69e4a9524884",
+        "references/measurement.md": "d4fa3a8802a631f2aa4f10f676ad1617e801df4eae5b4277d37df860a3196c54",
+        "references/catalog.json": "9dfcfc159068ee9ecdb7110ee207fb0b30dfad41826d44438d22b2a5b4888c09",
+        "references/methods/L06-brief-huddle.md": "6b2e7bde066edbf245ed79c9c59cfec761f58b7a944355fe92f8e9fc0ec75d21",
+        "references/knowledge/teams-feedback.md": "09c7f4676696188a587a35b8bca603c6e3df85f14fb058b137c0851d2b9fe07c",
+        "references/knowledge/decisions-learning.md": "8de39e60da09726465bf60995b79c4d30dcd038a99aca390e06260fd254ef6f8",
+        "references/evidence-map.md": "3bbfaadc989eae4bcd7c8ab1efe122f7d40752dcba14179aa24b2480540ef956"
+      },
+      "retains_launch_facts": false
+    }
+  ]
+}

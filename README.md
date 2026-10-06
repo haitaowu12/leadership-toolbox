@@ -14,12 +14,15 @@ Questions come first when a missing fact could change the advice, even without a
 
 For deeper help: “Use leadership-toolbox. Grill me about our recurring handoff problems. Challenge my explanation before choosing a method.”
 
+To make understanding visible: “Show your current understanding as a small context diagram. Mark assumptions and unknowns so I can correct it before we explore options.” See the [visual examples](skills/leadership-toolbox/references/visual-examples.md).
+
 For a lookup: “Explain GROW, its practical limits, and what the evidence actually supports.”
 
 ## What you get
 
 - 32 distinct methods with steps, words to try, examples, prerequisites, guardrails and sources
 - Adaptive probing by default for unclear situations, with explicit quick-answer and direct-lookup routes
+- Correctable situation models: context, stakeholders/authority, process/dependencies, problem hypotheses and conditional options, with a portable text fallback
 - A practical method wiki as the first link; primary evidence and sector limits when the claim needs them
 - Eight situation dimensions for explainable comparisons, without scoring people or predicting success percentages
 - Four knowledge topics that distinguish plausible explanations and guide what to observe next

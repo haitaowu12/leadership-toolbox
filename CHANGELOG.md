@@ -1,11 +1,13 @@
 # Changelog
 
-## 0.2.1 draft · default inquiry and practical references · 2026-10-05
+## 0.2.1 draft · inquiry, practical references and correctable models · 2026-10-05
 
 - Ask decision-relevant questions by default for underspecified leadership situations, wait before prescribing, and preserve direct lookup, sufficient-context, explicit quick/skip and urgent-protection routes.
 - Use the existing plain-language method pages as the practical wiki front door; retain primary citations for empirical claims, research requests, attribution and healthcare/regulatory transfer limits.
 - Keep normal recommendations compact; reserve candidate matrices and measurement contracts for decisions/trials that need them. Add task-based navigation, descriptive method links and scannable steps before deeper provenance.
 - Add exact public guide links and routing/citation regression cases. Keep new conversational checks separate from actual tenant behavior; no new Copilot package or tenant validation is claimed.
+
+- Add optional visual situation modelling with context/authority, process/dependency, problem-hypothesis and solution-option views; stable IDs, evidence statuses, unknown/conflicting accounts, and correction propagation to narrative and method choice. Include portable text templates and original fictional examples; Mermaid remains optional and host rendering is not assumed.
 
 ## 0.2.0 · completion · 2026-10-05
 

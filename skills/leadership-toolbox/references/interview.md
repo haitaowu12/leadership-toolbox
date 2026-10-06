@@ -43,6 +43,8 @@ After a useful round, provide a brief correction-friendly synthesis:
 
 Example: “You have observed repeated approval requests. We do not yet know whether the cause is unclear authority, missing skill or an unrealistic workload. What happened the last time you explicitly handed over that decision?”
 
+If a diagram is requested or would clarify several interfaces, use [visual modelling](visual-modelling.md) for one small provisional context/process view. A request to show understanding does not bypass inquiry or authorise a full solution. Let the user correct the visible relationships, and update the model and advice together. Keep a plain-text equivalent when rendering is unavailable.
+
 Ask the user to correct consequential interpretations. You need not ask them to approve every ordinary summary. When accounts conflict, retain both and their sources; do not average them into false certainty.
 
 ## Build only the needed situation profile

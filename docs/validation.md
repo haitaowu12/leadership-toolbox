@@ -57,3 +57,7 @@ The [original-source audit](source-audit-2026-10-05.md) attempted all 34 unique 
 From repository root: `python3 scripts/validate.py`, `python3 -m unittest discover -s tests -v`, `python3 scripts/build_release.py`. Tests use only the standard library. The source/privacy scan is heuristic plus an explicit allowlist; it cannot identify every possible confidential sentence. A later fix does not remove earlier Git history.
 
 A structural pass does not establish method effectiveness, correct matching in all situations, universal host compatibility or safe deployment in regulated work. Workplace outcomes, live discovery across hosts, accessibility of actual platforms and the new interview's empirical usefulness remain unvalidated. Consult the reviewed PR and current branch for merge status; no site/service is deployed or GitHub Release implied.
+
+## Correctable situation models, 0.2.1 draft
+
+The [visual-modelling evaluation](evaluations/visual-modelling-2026-10-06.md) retains four actual responses with source hashes: initial understanding, authority correction plus problem/options, no diagram, and contested decision rights. It distinguishes text-model behavior and four new static consistency tests from untested Mermaid/Copilot rendering, automatic discovery and human outcomes. The capability adds no method IDs, renderer or dependencies. Use the exact-head CI for the current draft rather than extending an earlier test pass.
