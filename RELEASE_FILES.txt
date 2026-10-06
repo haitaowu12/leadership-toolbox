@@ -110,3 +110,8 @@ skills/leadership-toolbox/templates/situation-model.md
 tests/test_visual_contract.py
 docs/evaluations/visual-modelling-2026-10-06.md
 docs/evaluations/visual-modelling-results-2026-10-06.json
+docs/evaluations/robustness-audit-2026-10-06.md
+docs/evaluations/matched-native-results-2026-10-06.json
+docs/evaluations/matched-native-protocol-2026-10-06.json
+docs/evaluations/matched-native-review-2026-10-06.json
+docs/evaluations/matched-native-label-key-2026-10-06.json

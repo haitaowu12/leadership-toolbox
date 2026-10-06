@@ -1,5 +1,9 @@
 # Validation and limits · 0.2.1 draft
 
+## Robustness audit and matched native comparison
+
+The [6 October audit](evaluations/robustness-audit-2026-10-06.md) separates the frozen 32-reply comparison at ca672dd from subsequent state/installer repairs and their regression tests. It finds selective conversational benefits, a compact-map disadvantage, unknown token/latency/cash costs, and four reproducible software gaps. It does not clear broad rollout or imply that the requested separate Pro review or a live target-tenant test completed. Follow PR 2 for exact-head CI rather than extending historical passes.
+
 ## Default inquiry and practical references
 
 The [nine-response check](evaluations/default-inquiry-2026-10-05.md) records native-model behavior for unprompted clarification, correction and stop requests, direct practical explanations, research claims, sufficient context and protection boundaries. Inputs and outputs are preserved with snapshot hashes. Navigation formatting was subsequently checked structurally. This is repository-first work: no new Copilot ZIP or tenant validation is claimed.

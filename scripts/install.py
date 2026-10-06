@@ -56,6 +56,95 @@ def required_file(tree, name):
     return path
 
 
+def frontmatter_string(value):
+    """Read the single-line string subset used by this package's YAML header.
+
+    This is deliberately not a general YAML parser. Block/flow collections,
+    aliases, tags, multiline strings and inline comments are rejected rather
+    than guessed at; quoted strings and plain text cover the shipped layouts.
+    """
+    value = value.strip()
+    if not value:
+        raise ValueError("SKILL.md frontmatter requires nonempty strings")
+    if value.startswith('"'):
+        try:
+            result = json.loads(value)
+        except ValueError as error:
+            raise ValueError("invalid quoted SKILL.md frontmatter string") from error
+    elif value.startswith("'"):
+        if not re.fullmatch(r"'(?:[^']|'')*'", value):
+            raise ValueError("invalid quoted SKILL.md frontmatter string")
+        result = value[1:-1].replace("''", "'")
+    else:
+        # Some hosts use YAML 1.1 implicit dates and sexagesimal numbers.
+        # Require quotes for those forms so every accepted value is a string.
+        if (value[0] in "!&*{}[],#|>@`%\"'"
+                or re.search(r"(?:^[-?:]|:)(?:\s|$)|\s#", value)
+                or value.lower() in {"null", "~", "true", "false", "yes", "no", "on", "off"}
+                or re.fullmatch(
+                    r"[0-9]{4}-[0-9]{2}-[0-9]{2}|"
+                    r"[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}(?:t| +)"
+                    r"[0-9]{1,2}:[0-9]{2}:[0-9]{2}(?:\.[0-9]*)?"
+                    r"(?: *(?:z|[-+][0-9]{1,2}(?::[0-9]{2})?))?", value, re.I)
+                or re.fullmatch(
+                    r"[-+]?(?:0x[0-9a-f_]+|0o[0-7_]+|0b[01_]+|"
+                    r"[0-9][0-9_]*(?::[0-5]?[0-9])+(?:\.[0-9_]*)?|"
+                    r"(?:[0-9][0-9_]*(?:\.[0-9_]*)?|\.[0-9_]+)"
+                    r"(?:e[-+]?[0-9]+)?|\.(?:inf|nan))", value, re.I)):
+            raise ValueError("unsupported SKILL.md frontmatter string syntax")
+        result = value
+    if (not isinstance(result, str) or not result.strip()
+            or any(ord(char) < 32 or ord(char) == 127 for char in result)):
+        raise ValueError("SKILL.md frontmatter requires nonempty single-line strings")
+    return result
+
+
+def check_entrypoint(tree, catalog):
+    """Validate the shipped header shape without pinning a release version."""
+    skill = (tree / "SKILL.md").read_text(encoding="utf-8")
+    front = re.match(r"\A---\n(.*?)\n---(?:\n|\Z)", skill, re.S)
+    if not front:
+        raise ValueError("SKILL.md must begin with complete YAML frontmatter")
+    fields = {}
+    metadata = None
+    section = None
+    for line in front[1].split("\n"):
+        if any(ord(char) < 32 or ord(char) == 127 for char in line):
+            raise ValueError("invalid control character in SKILL.md frontmatter")
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        field = re.fullmatch(r"( {2})?([a-z][a-z0-9_-]*):(?: +(.*))?", line)
+        if not field:
+            raise ValueError("unsupported or malformed SKILL.md frontmatter")
+        indent, key, value = field.groups()
+        if indent:
+            if section != "metadata" or metadata is None:
+                raise ValueError("SKILL.md frontmatter has unexpected indentation")
+            target = metadata
+        else:
+            section = key
+            target = fields
+        if key in target:
+            raise ValueError(f"duplicate SKILL.md frontmatter field: {key}")
+        if not indent and key == "metadata":
+            if value and value.strip():
+                raise ValueError("SKILL.md metadata must be an indented mapping")
+            metadata = {}
+            fields[key] = metadata
+        else:
+            target[key] = frontmatter_string(value or "")
+    if fields.get("name") != "leadership-toolbox":
+        raise ValueError("SKILL.md name must match leadership-toolbox")
+    description = fields.get("description")
+    if not isinstance(description, str) or not 1 <= len(description) <= 200:
+        raise ValueError("SKILL.md requires a description of 1 to 200 characters")
+    version = catalog.get("package_version")
+    if not isinstance(version, str) or not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", version):
+        raise ValueError("skill catalog must contain a valid package_version")
+    if metadata is None or metadata.get("version") != version:
+        raise ValueError("SKILL.md metadata.version must match the skill catalog")
+
+
 def check_tree(tree, *, complete=True):
     if tree.is_symlink() or not tree.is_dir():
         raise ValueError("source must be a real complete skill directory")
@@ -74,6 +163,7 @@ def check_tree(tree, *, complete=True):
     catalog = json.loads((tree / "references/catalog.json").read_text(encoding="utf-8"))
     if not isinstance(catalog, dict) or not isinstance(catalog.get("methods"), list) or not catalog["methods"]:
         raise ValueError("skill catalog must contain method entries")
+    check_entrypoint(tree, catalog)
     for method in catalog["methods"]:
         if not isinstance(method, dict):
             raise ValueError("invalid method entry in skill catalog")
@@ -154,4 +244,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
