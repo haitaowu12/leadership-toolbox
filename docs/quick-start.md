@@ -36,6 +36,20 @@ Prompt:
 
 A useful plan defines the next actual opportunity, what would be observed, a proposed observer, a comparison or unknown baseline, a review point and a burden guardrail. No opportunity means **not tested**. A completed conversation does not establish later improvement.
 
+## 5. Make the situation visible and correct it
+
+Prompt:
+
+> Show your current understanding as a small context diagram before advising. Mark what I reported, what you assumed and what is unknown. Ask me to correct the most important relationship.
+
+Then correct an actor, edge or boundary:
+
+> Correction: finance owns approval, not me. I coordinate the project and cannot delegate its decision. Update your map, then show the problem hypotheses and conditional solution space. No more questions for now.
+
+Expect stable IDs for unchanged actors, removal of the stale authority edge, a short change record, and revised narrative/method eligibility. Current facts, hypotheses and proposed options should stay distinct. A delegation recommendation must change when the user lacks that authority. Read the [worked example](../skills/leadership-toolbox/references/visual-examples.md) and [optional model template](../skills/leadership-toolbox/templates/situation-model.md).
+
+The complete text node/relationship list works without a diagram renderer. Mermaid is optional; this skill does not install a renderer, code interpreter or tenant capability. Ask for one or two useful views rather than a wall of diagrams. A simple request can still receive no diagram.
+
 ## Check that it loaded
 
 Ask:

@@ -1,6 +1,6 @@
 ---
 name: leadership-toolbox
-description: Help with leadership conversations, delegation, decisions and team learning. Probe unclear situations before advising; answer method lookups directly with practical guides and evidence limits.
+description: Help with leadership conversations, delegation, decisions and learning. Probe unclear situations, create correctable diagrams, and answer method lookups with practical guides and evidence limits.
 metadata:
   version: "0.2.1"
 ---
@@ -18,6 +18,12 @@ For situational advice, default to the [adaptive interview](references/interview
 Answer directly when context is already sufficient or the user explicitly asks for a quick/provisional answer, skips questions or says stop. State decisive assumptions and limits; brevity alone does not mean skip needed probing. “Grill me” invites deeper challenge, not a prerequisite for any questions. Never demand disclosure or complete a questionnaire. Immediate protection takes precedence over waiting for answers.
 
 Screen the proposed action for immediate harm, retaliation/coercion, privacy, authority, required expertise and method-specific prerequisites. Use the established qualified process for urgent danger, serious allegations and formal regulated decisions. A method or numerical descriptor cannot create authority, consent, skill or resources. Preparation does not authorise sending, assignment or system changes.
+
+## Show a correctable situation model when useful
+
+For a requested diagram/model, context view, “show your understanding”, problem space or solution space, read [visual modelling](references/visual-modelling.md) and use the [portable template](templates/situation-model.md). Also use a small view when multiple actors or dependencies genuinely make the situation easier to check; do not force it into every answer. Start with one provisional view (normally at most two), explain its boundary and desired outcome, and label facts by source, reports, assumptions, hypotheses, unknowns and proposed changes. Keep current understanding separate from solution options. Give the user a consequential correction opportunity before narrowing solutions, unless context is sufficient or they explicitly request provisional options/skip questions. Never invent relationships, authority, causal proof, other accounts or psychological labels.
+
+Maintain stable entity/relationship IDs and a short correction record. When corrected, replace stale edges in every affected view and its text equivalent, then update the narrative, situation profile, method eligibility, proposed owner and prerequisites. Diagrams are sensemaking aids, not formal validation. Use accessible text nodes/labelled edges as the host-neutral baseline; Mermaid or file rendering is optional and only claim a render after checking it in available tools. No external renderer, code interpreter or host capability is assumed. Keep private details minimal; saving/sharing is separately authorised. See [worked visual examples](references/visual-examples.md).
 
 ## Build a defensible match
 

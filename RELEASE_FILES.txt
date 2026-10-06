@@ -104,3 +104,9 @@ tests/test_package.py
 skills/leadership-toolbox/references/reference-policy.md
 docs/evaluations/default-inquiry-2026-10-05.md
 docs/evaluations/default-inquiry-results-2026-10-05.json
+skills/leadership-toolbox/references/visual-modelling.md
+skills/leadership-toolbox/references/visual-examples.md
+skills/leadership-toolbox/templates/situation-model.md
+tests/test_visual_contract.py
+docs/evaluations/visual-modelling-2026-10-06.md
+docs/evaluations/visual-modelling-results-2026-10-06.json

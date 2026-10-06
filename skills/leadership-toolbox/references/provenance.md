@@ -241,3 +241,7 @@ Performance Consultants' current GROW page and terms assert licensing, reuse and
 ## P29
 
 **Gollwitzer (1999), Implementation intentions: Strong effects of simple plans.** [Original author-hosted publication](https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf). Foundational reference for L23 retained from the earlier review. For the expanded evidence appraisal use E41; neither older averages nor a named format supplies a local success probability. Original citation/commentary only; article and figures not redistributed.
+
+## Correctable visual situation models
+
+The visual-modelling reference, portable situation-model template and fictional visual examples are original MIT editorial material. They combine source-labelled text nodes/relationships with optional familiar diagram syntax; no proprietary diagram, assessment instrument or provider worksheet is reproduced. They add a way to inspect and correct understanding, not a new evidence-backed intervention or a new method ID. Existing L17/L19/L20/L21/L24/L26/L29 cards retain their own provenance and limits. No formal modelling-standard conformance, causal validity, host renderer support or workplace benefit is claimed.
