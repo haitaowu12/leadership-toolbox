@@ -1,6 +1,6 @@
 # L26 · Problem framing
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Turn a requested solution into a bounded evidence-based problem.
 
@@ -12,11 +12,18 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when the initial brief already prescribes a solution, such as “build a dashboard,” but the intended benefit is unclear. Avoid endless discovery where an understood hazard already calls for action.
 
-**Run.** Write the requested solution without endorsing it. Ask whose difficulty it addresses, what they are trying to accomplish, and what happens today. Gather direct evidence from affected people and existing operational records. State the problem in outcome language, with its scale and consequences. Define what is outside scope. Separate hard constraints from changeable habits. Describe at least two materially different ways of improving the outcome, including a nontechnical option when relevant. Specify what evidence would justify further investment or stopping.
+## Try it
+
+1. Write the requested solution without endorsing it.
+2. Ask whose difficulty it addresses, what they are trying to accomplish, and what happens today.
+3. Gather direct evidence from affected people and existing operational records.
+4. State the problem in outcome language, with its scale and consequences.
+5. Define what is outside scope.
+6. Separate hard constraints from changeable habits.
+7. Describe at least two materially different ways of improving the outcome, including a nontechnical option when relevant.
+8. Specify what evidence would justify further investment or stopping.
 
 **Output / distinction.** A bounded problem brief with affected users, evidence, success measure, constraints, and next learning question. A perspective check challenges one interpretation; problem framing establishes what work should be attempted before selecting a method or solution.
-
-**Primary source.** GOV.UK Service Manual, [How the discovery phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works). **Claim / limit:** directs teams to interrogate predefined solutions, define scope, understand users and constraints, and decide whether to proceed. It is public-service delivery guidance; its full discovery-phase duration should not be transplanted mechanically into everyday decisions.
 
 **Adapt the execution:** Restate consequential options in equivalent ways to check whether wording silently determines the answer. Distinguish new facts from new labels and the affected person's difficulty from a preferred solution.
 
@@ -34,9 +41,13 @@ Counterexample: A known hazardous condition is held open for a framing workshop 
 
 ## Combinations and next move
 
-Related alternatives: [L11](L11-perspective.md), [L16](L16-goal-design.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Perspective and evidence check (L11)](L11-perspective.md), [Performance and learning goal design (L16)](L16-goal-design.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** GOV.UK Service Manual, [How the discovery phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works). **Claim / limit:** directs teams to interrogate predefined solutions, define scope, understand users and constraints, and decide whether to proceed. It is public-service delivery guidance; its full discovery-phase duration should not be transplanted mechanically into everyday decisions.
 
 ## Deeper knowledge and evidence
 

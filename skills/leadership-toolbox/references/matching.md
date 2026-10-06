@@ -28,9 +28,11 @@ Start from the immediate job in [catalog](catalog.md), not from a favourite fram
 
 A profile's fit list means “this context makes the stated job plausible”; caution means “inspect this limitation”. Neither overrules the card's prerequisites. Dimensions omitted from a profile are not assumed safe or irrelevant to global gates.
 
-## Step 3: Compare visibly
+## Step 3: Compare proportionately
 
-For each serious candidate, record:
+Use the criteria below to make the choice defensible; they are not a required response template. In ordinary conversation, show one move, one reason and the decisive condition. Show a compact comparison only when the tradeoff is consequential or the user asks for it. Do not output a six-column table just because several candidates were considered.
+
+For a detailed comparison when needed, consider:
 
 | Criterion | Allowed judgment | Required explanation |
 |---|---|---|
@@ -47,7 +49,7 @@ If the user asks for “a metric”, explain the relevant anchored profile and c
 
 ## Step 4: Select, challenge, and test sensitivity
 
-Recommend one primary next move and the strongest alternative. State:
+Recommend one primary next move. Explain the strongest alternative if it could materially change the decision or the user requests a comparison. In a detailed explanation, state:
 - The few facts doing the most work in the choice
 - The consequential unknowns
 - A plausible fact that would reverse the choice

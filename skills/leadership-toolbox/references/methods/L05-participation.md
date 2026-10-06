@@ -1,6 +1,6 @@
 # L05 · 1-2-4-All
 
-Version: 0.2.0 · Licence: CC-BY-SA-4.0
+Version: 0.2.1 · Licence: CC-BY-SA-4.0
 
 **Job:** Hear ideas beyond dominant voices.
 
@@ -49,7 +49,7 @@ Adapted from **1-2-4-All**, Henri Lipmanowicz and Keith McCandless, Liberating S
 
 A group is asked to disclose allegations in public; use an appropriate private or independent route.
 
-Related alternatives: [L18](L18-nominal-group.md), [L30](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Nominal group prioritisation (L18)](L18-nominal-group.md), [Structured listening interview (L30)](L30-structured-listening.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

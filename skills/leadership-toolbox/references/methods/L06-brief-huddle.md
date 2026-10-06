@@ -1,6 +1,6 @@
 # L06 · Brief and huddle
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Establish or reset a shared plan.
 
@@ -45,7 +45,7 @@ A delivery date changes. Run a short reset on what moved, who is affected and wh
 
 A huddle is used to decide whether an unsafe system is safe; technical clearance remains with the qualified process.
 
-Related alternatives: [L15](L15-team-charter.md), [L14](L14-handoff.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Team charter and working agreements (L15)](L15-team-charter.md), [Closed-loop handoff (L14)](L14-handoff.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 For changed conditions and resetting the current plan, [AHRQ Huddle guidance](https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/huddle.html) is the direct supporting source alongside Brief guidance for initial planning. Both originate in healthcare teamwork; the general-work application remains editorial.
 

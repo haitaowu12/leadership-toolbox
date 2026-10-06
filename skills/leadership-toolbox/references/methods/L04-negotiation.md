@@ -1,6 +1,6 @@
 # L04 · Interest-based negotiation
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Explore incompatible legitimate interests and decide whether an agreement is worth making.
 

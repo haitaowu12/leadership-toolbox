@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "package_version": "0.2.0",
+  "package_version": "0.2.1",
   "methods": [
     {
       "id": "L01",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Outcome delegation agreement",
       "job": "Transfer a bounded responsibility",
       "file": "references/methods/L01-delegation.md",
@@ -73,11 +73,12 @@
         "B60"
       ],
       "evidence_map": "references/evidence-map.md#l01",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L01-delegation.md#try-it"
     },
     {
       "id": "L02",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "GROW coaching",
       "job": "Help someone choose their own next step",
       "file": "references/methods/L02-grow.md",
@@ -145,11 +146,12 @@
         "B02"
       ],
       "evidence_map": "references/evidence-map.md#l02",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L02-grow.md#try-it"
     },
     {
       "id": "L03",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Specific feedback with intent inquiry",
       "job": "Discuss observed behaviour and its effect",
       "file": "references/methods/L03-feedback.md",
@@ -213,11 +215,12 @@
         "E26"
       ],
       "evidence_map": "references/evidence-map.md#l03",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L03-feedback.md#try-it"
     },
     {
       "id": "L04",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Interest-based negotiation",
       "job": "Resolve incompatible demands",
       "file": "references/methods/L04-negotiation.md",
@@ -285,11 +288,12 @@
         "B61"
       ],
       "evidence_map": "references/evidence-map.md#l04",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L04-negotiation.md#try-it"
     },
     {
       "id": "L05",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "1-2-4-All",
       "job": "Hear ideas beyond dominant voices",
       "file": "references/methods/L05-participation.md",
@@ -355,11 +359,12 @@
         "B62"
       ],
       "evidence_map": "references/evidence-map.md#l05",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L05-participation.md#try-it"
     },
     {
       "id": "L06",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Brief and huddle",
       "job": "Establish or reset a shared plan",
       "file": "references/methods/L06-brief-huddle.md",
@@ -430,11 +435,12 @@
         "B60"
       ],
       "evidence_map": "references/evidence-map.md#l06",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L06-brief-huddle.md#try-it"
     },
     {
       "id": "L07",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Structured debrief",
       "job": "Learn from a completed episode",
       "file": "references/methods/L07-debrief.md",
@@ -500,11 +506,12 @@
         "B60"
       ],
       "evidence_map": "references/evidence-map.md#l07",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L07-debrief.md#try-it"
     },
     {
       "id": "L08",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "PDSA bounded test",
       "job": "Test an uncertain process change",
       "file": "references/methods/L08-pdsa.md",
@@ -572,11 +579,12 @@
         "B42"
       ],
       "evidence_map": "references/evidence-map.md#l08",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L08-pdsa.md#try-it"
     },
     {
       "id": "L09",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Capacity tradeoff",
       "job": "Resolve work that exceeds available capacity",
       "file": "references/methods/L09-capacity.md",
@@ -642,11 +650,12 @@
         "E03"
       ],
       "evidence_map": "references/evidence-map.md#l09",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L09-capacity.md#try-it"
     },
     {
       "id": "L10",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Evidence and consultation",
       "job": "Obtain cooperation across boundaries",
       "file": "references/methods/L10-consultation.md",
@@ -710,11 +719,12 @@
         "E61"
       ],
       "evidence_map": "references/evidence-map.md#l10",
-      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L10-consultation.md#try-it"
     },
     {
       "id": "L11",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Perspective and evidence check",
       "job": "Check a framing before acting",
       "file": "references/methods/L11-perspective.md",
@@ -777,11 +787,12 @@
         "E60"
       ],
       "evidence_map": "references/evidence-map.md#l11",
-      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L11-perspective.md#try-it"
     },
     {
       "id": "L12",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Teach–Practice–Check-back",
       "job": "Develop a missing task skill",
       "file": "references/methods/L12-teach-practice.md",
@@ -849,11 +860,12 @@
         "B02"
       ],
       "evidence_map": "references/evidence-map.md#l12",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L12-teach-practice.md#try-it"
     },
     {
       "id": "L13",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Premortem",
       "job": "Surface failure risks before commitment",
       "file": "references/methods/L13-premortem.md",
@@ -917,11 +929,12 @@
         "E44"
       ],
       "evidence_map": "references/evidence-map.md#l13",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L13-premortem.md#try-it"
     },
     {
       "id": "L14",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Closed-loop handoff",
       "job": "Transfer live work with checked receipt",
       "file": "references/methods/L14-handoff.md",
@@ -989,11 +1002,12 @@
         "B60"
       ],
       "evidence_map": "references/evidence-map.md#l14",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L14-handoff.md#try-it"
     },
     {
       "id": "L15",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Team charter and working agreements",
       "job": "Agree ongoing team purpose and operating norms",
       "file": "references/methods/L15-team-charter.md",
@@ -1063,11 +1077,12 @@
         "B62"
       ],
       "evidence_map": "references/evidence-map.md#l15",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L15-team-charter.md"
     },
     {
       "id": "L16",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Performance and learning goal design",
       "job": "Set a result or learning goal with feedback",
       "file": "references/methods/L16-goal-design.md",
@@ -1134,11 +1149,12 @@
         "B41"
       ],
       "evidence_map": "references/evidence-map.md#l16",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L16-goal-design.md"
     },
     {
       "id": "L17",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Stakeholder map and listening round",
       "job": "Find affected perspectives and plan meaningful involvement",
       "file": "references/methods/L17-stakeholders.md",
@@ -1201,11 +1217,12 @@
         "B60"
       ],
       "evidence_map": "references/evidence-map.md#l17",
-      "knowledge_file": "references/knowledge/inquiry-coordination.md"
+      "knowledge_file": "references/knowledge/inquiry-coordination.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L17-stakeholders.md"
     },
     {
       "id": "L18",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Nominal group prioritisation",
       "job": "Produce a traceable group preference ranking",
       "file": "references/methods/L18-nominal-group.md",
@@ -1270,11 +1287,12 @@
         "E22"
       ],
       "evidence_map": "references/evidence-map.md#l18",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L18-nominal-group.md"
     },
     {
       "id": "L19",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Driver diagram",
       "job": "Connect an aim to a testable improvement theory",
       "file": "references/methods/L19-driver-diagram.md",
@@ -1339,11 +1357,12 @@
         "B40"
       ],
       "evidence_map": "references/evidence-map.md#l19",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L19-driver-diagram.md"
     },
     {
       "id": "L20",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Fishbone causal-hypothesis map",
       "job": "Organise and investigate possible contributors",
       "file": "references/methods/L20-fishbone.md",
@@ -1407,11 +1426,12 @@
         "B40"
       ],
       "evidence_map": "references/evidence-map.md#l20",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L20-fishbone.md"
     },
     {
       "id": "L21",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Current-state process map",
       "job": "Understand actual steps, waits and rework loops",
       "file": "references/methods/L21-process-map.md",
@@ -1473,11 +1493,12 @@
         "B42"
       ],
       "evidence_map": "references/evidence-map.md#l21",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L21-process-map.md"
     },
     {
       "id": "L22",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Force-field change diagnosis",
       "job": "Identify present enablers and constraints to change",
       "file": "references/methods/L22-force-field.md",
@@ -1544,11 +1565,12 @@
         "B41"
       ],
       "evidence_map": "references/evidence-map.md#l22",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L22-force-field.md"
     },
     {
       "id": "L23",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "If–then implementation plan",
       "job": "Link a chosen action to a predictable cue",
       "file": "references/methods/L23-if-then.md",
@@ -1614,11 +1636,12 @@
         "E41"
       ],
       "evidence_map": "references/evidence-map.md#l23",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L23-if-then.md"
     },
     {
       "id": "L24",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Assumption map",
       "job": "Prioritise consequential uncertainty before testing",
       "file": "references/methods/L24-assumptions.md",
@@ -1685,11 +1708,12 @@
         "B40"
       ],
       "evidence_map": "references/evidence-map.md#l24",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L24-assumptions.md"
     },
     {
       "id": "L25",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Positive deviance inquiry",
       "job": "Learn from verified better outcomes under comparable constraints",
       "file": "references/methods/L25-positive-deviance.md",
@@ -1753,11 +1777,12 @@
         "B42"
       ],
       "evidence_map": "references/evidence-map.md#l25",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L25-positive-deviance.md"
     },
     {
       "id": "L26",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Problem framing",
       "job": "Turn a requested solution into a bounded evidence-based problem",
       "file": "references/methods/L26-problem-framing.md",
@@ -1820,11 +1845,12 @@
         "B41"
       ],
       "evidence_map": "references/evidence-map.md#l26",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L26-problem-framing.md"
     },
     {
       "id": "L27",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Troika peer consultation",
       "job": "Use rotating peer perspectives for owner-chosen action",
       "file": "references/methods/L27-troika.md",
@@ -1887,11 +1913,12 @@
         "B01"
       ],
       "evidence_map": "references/evidence-map.md#l27",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L27-troika.md"
     },
     {
       "id": "L28",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Individual development plan",
       "job": "Coordinate a supported longer-term growth pathway",
       "file": "references/methods/L28-development-plan.md",
@@ -1961,11 +1988,12 @@
         "B02"
       ],
       "evidence_map": "references/evidence-map.md#l28",
-      "knowledge_file": "references/knowledge/coaching-development.md"
+      "knowledge_file": "references/knowledge/coaching-development.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L28-development-plan.md"
     },
     {
       "id": "L29",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Options and criteria trade-off review",
       "job": "Compare feasible alternatives before a significant decision",
       "file": "references/methods/L29-decision-analysis.md",
@@ -2030,11 +2058,12 @@
         "B41"
       ],
       "evidence_map": "references/evidence-map.md#l29",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L29-decision-analysis.md"
     },
     {
       "id": "L30",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Structured listening interview",
       "job": "Understand and correct another person's account",
       "file": "references/methods/L30-structured-listening.md",
@@ -2101,11 +2130,12 @@
         "B20"
       ],
       "evidence_map": "references/evidence-map.md#l30",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L30-structured-listening.md"
     },
     {
       "id": "L31",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Change impact and support planning",
       "job": "Turn a defined change into a feasible transition",
       "file": "references/methods/L31-change-support.md",
@@ -2171,11 +2201,12 @@
         "B42"
       ],
       "evidence_map": "references/evidence-map.md#l31",
-      "knowledge_file": "references/knowledge/decisions-learning.md"
+      "knowledge_file": "references/knowledge/decisions-learning.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L31-change-support.md"
     },
     {
       "id": "L32",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "title": "Accountable repair after one's own mistake",
       "job": "Acknowledge an established mistake and fulfil repair commitments",
       "file": "references/methods/L32-accountable-repair.md",
@@ -2239,7 +2270,8 @@
         "E27"
       ],
       "evidence_map": "references/evidence-map.md#l32",
-      "knowledge_file": "references/knowledge/teams-feedback.md"
+      "knowledge_file": "references/knowledge/teams-feedback.md",
+      "guide_url": "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L32-accountable-repair.md"
     }
   ],
   "matching_schema_version": 1,

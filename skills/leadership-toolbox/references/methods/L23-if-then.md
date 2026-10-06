@@ -1,6 +1,6 @@
 # L23 · If–then implementation plan
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Link a chosen action to a predictable cue.
 
@@ -12,11 +12,19 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when someone genuinely intends to act but misses a predictable opportunity, forgets, or is derailed by a recurring obstacle. Avoid using it to compensate for unavailable time, missing skills, conflicting authority, or an unwanted goal.
 
-**Run.** Confirm the chosen goal. Identify one observable cue likely to arise in the real work setting. Select a small, feasible response under the person's control. Write an if–then statement linking that cue directly to the response. For example: if a meeting ends with an unresolved dependency, then record its owner and next check before leaving. Rehearse the cue and response once. Arrange needed materials. After the next few relevant occasions, check whether the cue occurred, whether action followed, and whether it helped. Adjust or retire an ineffective rule.
+## Try it
+
+1. Confirm the chosen goal.
+2. Identify one observable cue likely to arise in the real work setting.
+3. Select a small, feasible response under the person's control.
+4. Write an if–then statement linking that cue directly to the response.
+5. For example: if a meeting ends with an unresolved dependency, then record its owner and next check before leaving.
+6. Rehearse the cue and response once.
+7. Arrange needed materials.
+8. After the next few relevant occasions, check whether the cue occurred, whether action followed, and whether it helped.
+9. Adjust or retire an ineffective rule.
 
 **Output / distinction.** A specific cue–action commitment and a review trigger. Goal setting chooses the destination; implementation intentions pre-decide a response at the moment action is needed.
-
-**Primary source.** Peter M. Gollwitzer, [Implementation Intentions: Strong Effects of Simple Plans](https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf), 1999. **Claim / limit:** reviews cue-linked planning and underlying processes; it does not establish one universal effect size for workplace leadership or make every repeated behavior appropriate to automate.
 
 **Adapt the execution:** Trace whether the cue arose, was noticed, the response was possible, it occurred and it helped. Missing cues suggest cue revision; impossible responses require authority/resources, rather than more reminders.
 
@@ -34,9 +42,13 @@ Counterexample: A person is told to use willpower cues to meet work that cannot 
 
 ## Combinations and next move
 
-Related alternatives: [L16](L16-goal-design.md), [L09](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Performance and learning goal design (L16)](L16-goal-design.md), [Capacity tradeoff (L09)](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** Peter M. Gollwitzer, [Implementation Intentions: Strong Effects of Simple Plans](https://bpb-us-e1.wpmucdn.com/wp.nyu.edu/dist/c/6235/files/2019/02/gollwitzer-1999-implementation-intentions.pdf), 1999. **Claim / limit:** reviews cue-linked planning and underlying processes; it does not establish one universal effect size for workplace leadership or make every repeated behavior appropriate to automate.
 
 ## Deeper knowledge and evidence
 

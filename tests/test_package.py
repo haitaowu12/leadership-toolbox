@@ -1,6 +1,9 @@
 import hashlib
 import importlib.util
 import json
+import io
+import subprocess
+import sys
 from pathlib import Path
 import tempfile
 import unittest
@@ -128,6 +131,120 @@ class PackageTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             state.private_path(PACKAGE / "private")
 
+    def test_nested_state_inside_another_skill_is_refused(self):
+        other = self.base / "host" / "skills" / "another-skill"
+        other.mkdir(parents=True)
+        (other / "SKILL.md").write_text("# Other installed skill\n")
+        for destination in (other, other / "references" / "private"):
+            with self.subTest(destination=destination.name):
+                with self.assertRaisesRegex(ValueError, "outside the installed skill"):
+                    state.private_path(destination)
+                self.assertFalse((destination / "profile.json").exists())
+
+    def test_nonobject_profiles_fail_cleanly_without_mutation(self):
+        for raw in (b"[]", b"null", b'"profile"', b"7", b"true"):
+            with self.subTest(raw=raw):
+                (self.data / "profile.json").write_bytes(raw)
+                for operation in (state.validate, state.migrate):
+                    with self.assertRaisesRegex(ValueError, "expected object"):
+                        operation(self.data)
+                stderr = io.StringIO()
+                with mock.patch.object(sys, "argv", ["state.py", "validate", "--data-dir", str(self.data)]), \
+                        mock.patch.object(state, "private_path", return_value=self.data), \
+                        mock.patch.object(sys, "stderr", stderr):
+                    with self.assertRaises(SystemExit) as error:
+                        state.main()
+                self.assertEqual(error.exception.code, 1)
+                self.assertIn("State error: profile: expected object", stderr.getvalue())
+                self.assertNotIn("Traceback", stderr.getvalue())
+                self.assertEqual((self.data / "profile.json").read_bytes(), raw)
+                self.assertFalse((self.data / "backups").exists())
+                self.assertFalse((self.data / ".state-mutation.lock").exists())
+
+    def test_migration_refuses_edit_after_validation(self):
+        self.legacy()
+        newer = state.encode({"schema_version": 1, "goals": ["Newer user edit"]})
+        real_validate = state.validate
+
+        def edit_after_validation(data):
+            result = real_validate(data)
+            (data / "profile.json").write_bytes(newer)
+            return result
+
+        with mock.patch.object(state, "validate", side_effect=edit_after_validation):
+            with self.assertRaisesRegex(ValueError, "profile changed"):
+                state.migrate(self.data)
+        self.assertEqual((self.data / "profile.json").read_bytes(), newer)
+        self.assertFalse((self.data / "backups").exists())
+        self.assertFalse((self.data / ".state-mutation.lock").exists())
+
+    def test_migration_rechecks_after_writing_backup_receipt(self):
+        _, before, history = self.legacy()
+        newer = state.encode({"schema_version": 1, "goals": ["Edit during backup"]})
+        real_write = state.atomic_write
+
+        def edit_after_receipt(path, raw, **kwargs):
+            result = real_write(path, raw, **kwargs)
+            if path.name.endswith(".receipt.json"):
+                (self.data / "profile.json").write_bytes(newer)
+            return result
+
+        with mock.patch.object(state, "atomic_write", side_effect=edit_after_receipt):
+            with self.assertRaisesRegex(ValueError, "profile changed"):
+                state.migrate(self.data)
+        self.assertEqual((self.data / "profile.json").read_bytes(), newer)
+        self.assertEqual((self.data / "practice.jsonl").read_bytes(), history)
+        backups = [p for p in (self.data / "backups").glob("*.json") if ".receipt." not in p.name]
+        self.assertEqual(len(backups), 1)
+        self.assertEqual(backups[0].read_bytes(), before)
+        self.assertFalse(list(self.data.glob(".state-*")))
+
+    def test_rollback_refuses_edit_during_validation(self):
+        self.legacy()
+        backup = state.migrate(self.data)
+        newer = state.encode({"schema_version": 2, "goals": ["Edit during rollback"], "preferences": {}})
+        real_validate = state.validate
+
+        def edit_during_validation(data):
+            result = real_validate(data)
+            (data / "profile.json").write_bytes(newer)
+            return result
+
+        with mock.patch.object(state, "validate", side_effect=edit_during_validation):
+            with self.assertRaisesRegex(ValueError, "profile changed"):
+                state.rollback(self.data, backup)
+        self.assertEqual((self.data / "profile.json").read_bytes(), newer)
+        self.assertFalse(list(self.data.glob(".state-*")))
+
+    def test_exclusive_lock_refuses_all_mutations_and_another_process(self):
+        _, before, history = self.legacy()
+        with state.mutation_lock(self.data):
+            for operation in (lambda: state.initialise(self.data), lambda: state.migrate(self.data),
+                              lambda: state.rollback(self.data, self.data / "backups" / "unused.json")):
+                with self.assertRaisesRegex(ValueError, "already locked"):
+                    operation()
+            code = ("import importlib.util, pathlib, sys; "
+                    "s=importlib.util.spec_from_file_location('state',sys.argv[1]); "
+                    "m=importlib.util.module_from_spec(s); s.loader.exec_module(m); "
+                    "m.migrate(pathlib.Path(sys.argv[2]))")
+            result = subprocess.run([sys.executable, "-c", code, str(PACKAGE / "scripts/state.py"), str(self.data)],
+                                    capture_output=True, text=True, timeout=10)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("already locked", result.stderr)
+            self.assertEqual((self.data / "profile.json").read_bytes(), before)
+            self.assertEqual((self.data / "practice.jsonl").read_bytes(), history)
+        self.assertFalse((self.data / ".state-mutation.lock").exists())
+        self.assertIsNotNone(state.migrate(self.data))
+
+    def test_preexisting_lock_is_never_stolen(self):
+        _, before, _ = self.legacy()
+        lock = self.data / ".state-mutation.lock"
+        lock.write_bytes(b"other or interrupted writer\n")
+        with self.assertRaisesRegex(ValueError, "already locked"):
+            state.migrate(self.data)
+        self.assertEqual(lock.read_bytes(), b"other or interrupted writer\n")
+        self.assertEqual((self.data / "profile.json").read_bytes(), before)
+
     def test_fresh_install_is_complete_and_external_state_survives_updates(self):
         _, raw, history = self.legacy()
         dest = self.base / "host" / "leadership-toolbox"
@@ -194,7 +311,7 @@ class PackageTests(unittest.TestCase):
         self.assertGreater(files, 30)
         self.assertEqual(methods, len(catalog["methods"]))
         self.assertEqual(methods, catalog["method_count"])
-        self.assertEqual(catalog["package_version"], "0.2.0")
+        self.assertEqual(catalog["package_version"], "0.2.1")
     def catalog_fixture(self):
         catalog = json.loads((PACKAGE / "references/catalog.json").read_text(encoding="utf-8"))
         dimensions = json.loads((PACKAGE / "references/dimensions.json").read_text(encoding="utf-8"))
@@ -207,6 +324,7 @@ class PackageTests(unittest.TestCase):
         previous_id, previous_file = method["id"], method["file"]
         method["id"] = f"L{max(int(item['id'][1:]) for item in catalog['methods']) + 1:02}"
         method["file"] = f"references/methods/{method['id']}-fixture.md"
+        method["guide_url"] = "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/" + method["file"] + "#try-it"
         files[method["file"]] = files[previous_file].replace(f"# {previous_id} · ", f"# {method['id']} · ", 1)
         files["references/catalog.md"] += f"\n[Fixture](methods/{method['id']}-fixture.md)\n"
         catalog["methods"].append(method)

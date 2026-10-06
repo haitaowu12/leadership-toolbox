@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-05",
+  "scope": "Nine native-model responses in three fresh skill-reading contexts; not Microsoft 365 execution or human effectiveness evidence. Later turns in each context retain earlier turns.",
+  "protocol": "Load the frozen SKILL.md and needed supporting files; no prior evaluations, desired responses, or test rubric supplied. User turns revealed sequentially. Return the response and read-file list, without self-evaluation. Only fictional cases; no external mutations.",
+  "contexts": [
+    {
+      "id": "dialogue",
+      "turns": [
+        {
+          "user": "My team keeps missing deadlines. What should I do? Keep it short.",
+          "assistant": "For the most recent missed deadline, what happened, and what did the team say got in the way?\n\nREAD_FILES: SKILL.md; references/interview.md; references/workflow.md"
+        },
+        {
+          "user": "In the last example, an experienced analyst waited three days for my approval. They’ve told me that happens repeatedly.",
+          "assistant": "Your approval step delayed that work, and the analyst reports a recurring pattern. What decision needed your sign-off, and are you allowed to delegate it?\n\nREAD_FILES: references/knowledge/README.md; references/knowledge/coaching-development.md"
+        },
+        {
+          "user": "Correction: the approval belongs to finance, and I can’t delegate it. I coordinate the project; the analyst can prepare it but finance must sign. Our next item is due Friday, and we haven’t agreed a submission cutoff with finance. Enough questions for now; give me a practical next step.",
+          "assistant": "Finance owns the sign-off; I misread that. Your next step is to agree Friday’s handoff with finance and the analyst.\n\nTry: “For Friday’s deadline, can we confirm the required materials, submission cutoff, named finance reviewer, decision time, and whom to contact if either step slips?”\n\nHave both parties confirm they can meet those timings. A sent request isn’t an accepted commitment. If they can’t, raise the deadline risk with the project’s decision owner now.\n\nOn Friday, check whether approval arrived in time and compare the wait with the earlier three-day episode, a rough benchmark. If the plan requires rushed checks or unplanned overtime, ask the decision owner to replan.\n\nREAD_FILES: references/dimensions.json; references/matching.md; references/catalog.md; references/catalog.json (L01, L06, L14); references/knowledge/teams-feedback.md; references/measurement.md; references/methods/L01-delegation.md; references/methods/L06-brief-huddle.md; references/methods/L14-handoff.md; references/evidence-map.md (L01, L06, L14)."
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "turns": [
+        {
+          "user": "Explain closed-loop handoffs for our software support team, with a practical example.",
+          "assistant": "A closed-loop handoff means work changes hands only after the receiver understands the next step and explicitly accepts responsibility. Sending a ticket or tagging someone isn’t enough.\n\nUse four steps:\n1. State the status: what’s happening, what you’ve tried, and what remains open.\n2. Explain the next action, deadline, dependencies, warning signs, and escalation contact.\n3. Ask the receiver to restate the critical action. Correct any gaps.\n4. Confirm acceptance and record who now owns the work.\n\nPractical example: a support ticket crossing shifts\n\nOutgoing agent:\n“Ticket #482 concerns intermittent login failures for one customer. We’ve reproduced the issue and attached logs; engineering is investigating. The customer’s next update is due at 3 p.m., even if there’s no fix. Check the engineering thread at 2:30. If failures spread to other customers, escalate to the incident lead. Can you take ownership?”\n\nIncoming agent:\n“I’ll check engineering at 2:30 and update the customer by 3 regardless of progress. If other customers are affected, I’ll contact the incident lead. I’ve reviewed the ticket and can take ownership.”\n\nOutgoing agent:\n“Correct. I’ve recorded you as the owner, with those next steps.”\n\nThe handoff is complete; the customer issue is still open.\n\nPractical limit: acceptance requires capacity, access, and authority. If the receiver can’t take it, the sender retains ownership or uses the established escalation route until an appropriate person accepts. A completed checklist doesn’t fix understaffing.\n\n[Closed-loop handoff guide](https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/references/methods/L14-handoff.md#try-it)\n\nREAD_FILES:\n- SKILL.md\n- references/catalog.md\n- references/catalog.json\n- references/methods/L14-handoff.md\n- references/reference-policy.md"
+        },
+        {
+          "user": "Can I say this will reduce our incidents by 23%?",
+          "assistant": "No. That would overstate what the evidence supports.\n\nThe roughly 23% figure comes from a study of the multicomponent I-PASS handoff program across nine pediatric training programs: medical errors fell from 24.5 to 18.8 per 100 admissions. It was a nonrandomized before-and-after study, and it didn’t isolate closed-loop confirmation from the rest of the program. It cannot predict a 23% reduction in your software incidents. [Starmer et al., 2014](https://www.nejm.org/doi/full/10.1056/NEJMsa1405556)\n\nFor a proposal, you could say:\n“Closed-loop handoffs make ownership and next steps explicit. We propose testing whether they reduce missed actions and handoff-related incidents in our support team; the size of any improvement is currently unknown.”\n\nIf you mention 23%, label it as the observed medical-error reduction in that clinical program, not an expected result for your team.\n\nREAD_FILES:\n- references/evidence-map.md, L14\n- references/knowledge/teams-feedback.md, including E23\n- references/sources.md\n- references/sources.json, E23"
+        }
+      ]
+    },
+    {
+      "id": "exceptions",
+      "turns": [
+        {
+          "user": "Six people attend our optional weekly check-in. Everyone says it’s useful, decisions are clear, and follow-through is reliable. I’m considering a new participation exercise simply to modernize it. What would you recommend?",
+          "assistant": "I’d keep the check-in as it is. From your description, people find it useful, decisions are clear, and commitments get followed through. Modernizing alone doesn’t give a participation exercise a useful job to do, and it would take time from what’s already working.\n\nYou could say: “This format seems to be serving us well, so let’s keep it. If there’s something it isn’t helping us do, we can change it for that purpose.”\n\nRevisit the format if a concrete need emerges, such as missed perspectives or unclear decisions.\n\nREAD_FILES\n- SKILL.md\n- references/workflow.md\n- references/interview.md"
+        },
+        {
+          "user": "I have 30 seconds before a check-in about a missed date. No questions. Give me one opening line.",
+          "assistant": "“I’d like to understand what led to the missed date and agree on a realistic next step.”\n\nREAD_FILES\n- SKILL.md\n- references/workflow.md\n- references/interview.md"
+        },
+        {
+          "user": "I’m the team lead. An experienced colleague has agreed to own our weekly status report and has protected time and access. I can delegate the report; finance approvals stay with finance. We’ve agreed the Friday deadline and audience. Help me open tomorrow’s handover conversation briefly.",
+          "assistant": "“Thanks for taking ownership of the weekly status report. We’ve agreed Friday and the audience; finance approvals stay with finance. Let’s walk through what’s outstanding, clarify the decisions you can make, and agree when you’d bring me in.”\n\nREAD_FILES\n- SKILL.md\n- references/workflow.md\n- references/interview.md\n- references/catalog.md\n- references/catalog.json (L01, L14)\n- references/matching.md\n- references/dimensions.json\n- references/methods/L01-delegation.md\n- references/methods/L14-handoff.md"
+        },
+        {
+          "user": "People stay silent in meetings. The last person who disagreed says their manager threatened their job. Should I run 1-2-4-All?",
+          "assistant": "No, not while that threat is unresolved. The report of a job threat creates a credible retaliation concern. 1-2-4-All gives people turns but cannot protect them from consequences of speaking.\n\nPause the exercise and use an established route outside the implicated manager’s control, such as an independent ombuds or appropriate HR/ethics contact, to arrange protection and qualified handling. Don’t ask the team to air the allegation or promise anonymity or confidentiality you cannot guarantee.\n\nPrivately, you could say: “Thank you for telling me. I take this seriously. Before you share more, let’s clarify who may need to know and what options exist to protect you.”\n\nReconsider participation exercises only when credible protection is in place and participation is voluntary.\n\nREAD_FILES\n- SKILL.md\n- references/workflow.md\n- references/interview.md\n- references/matching.md\n- references/dimensions.json\n- references/methods/L05-participation.md\n- references/knowledge/README.md\n- references/knowledge/teams-feedback.md"
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "LICENSE": "9498b739f0bb7ed731ef0f362f26ce6b2d27f7367d6a6d003e577d730aa2c30d",
+    "SKILL.md": "784619638fc8c425cfafa05b21f8edabdc54c9fa699bd098be27c576d1af9185",
+    "THIRD_PARTY_NOTICES.md": "523022f45a709c864e55241340823571f4da0b7a2115f04d0be47e65ae128721",
+    "agents/openai.yaml": "9936ba3bdd71b79bd029babcfcbb479ebe934cf4261a47d29e6ab3e43a306cee",
+    "references/books.md": "9e9ad3d232ff6370cace442749ef47fc56c85453131536dfe7c3717deab5c305",
+    "references/catalog.json": "9dfcfc159068ee9ecdb7110ee207fb0b30dfad41826d44438d22b2a5b4888c09",
+    "references/catalog.md": "f905592aefd5ac6b366f9e08a80e16fcc9e1756e86bd326b467a42aaf5a7ccbc",
+    "references/combinations.md": "dc4f30c6270c66f4ab7d3fa2ab4119a27cf757287c6147fe4068ce02c40d5fd8",
+    "references/dimensions.json": "2092737fc8099d12b77b9ce2820f6e392cd148be76cc563be1b7249d8a45674c",
+    "references/evidence-map.json": "4489453cce4ba883bcdcc76c01edc3fdfcf714d688221ad4599eefb59b0190ab",
+    "references/evidence-map.md": "3bbfaadc989eae4bcd7c8ab1efe122f7d40752dcba14179aa24b2480540ef956",
+    "references/examples.md": "d3a928dec9b835bfdde59d2148f58dba66c963184d941130bae29f3784555d02",
+    "references/framework-choices.md": "a37b84c8bd807862b55dfbbd7b822998b5aa3dca0f3e08edd07ce0fff2d208e6",
+    "references/guides.md": "b551dc07d316a818a87cbbf33f4129dfcbbe4c394920424b7fa45823d5fdb870",
+    "references/interview.md": "d06ee325cbbb62daf837f7d24c518adf21085b935b0fab2c7b281f95f9d18abf",
+    "references/knowledge/README.md": "0726d551c0996729fd4f44e7c12c579f7452848b30b849695ae8d77e509591b0",
+    "references/knowledge/coaching-development.md": "16c7c1e2fed1cd18465242befa5a8cdb20e926dbb9f787c84c76e2169ae1c730",
+    "references/knowledge/decisions-learning.md": "8de39e60da09726465bf60995b79c4d30dcd038a99aca390e06260fd254ef6f8",
+    "references/knowledge/inquiry-coordination.md": "b9bc28e324798b677bc037adbda41c19d6a5d943ec2cd198d122a5ccc13ceacb",
+    "references/knowledge/teams-feedback.md": "09c7f4676696188a587a35b8bca603c6e3df85f14fb058b137c0851d2b9fe07c",
+    "references/matching.md": "62dc5735e2800d8400c20c74f9d653f801b50b427ac7403e529d4feb6843fcda",
+    "references/measurement.md": "d4fa3a8802a631f2aa4f10f676ad1617e801df4eae5b4277d37df860a3196c54",
+    "references/methods/L01-delegation.md": "aff850e258930ed25d0cb1191e8225cf7e9a91d83fdd3038c371ae0fb3cbf497",
+    "references/methods/L02-grow.md": "fcac7d143c98800640b2603cedefe3c6410470d2b51bad77a6c6428cf8c6b76a",
+    "references/methods/L03-feedback.md": "ff8201fd93013941f174b8b515931ffc369cb8ebd55c9251a534e907c9e282bb",
+    "references/methods/L04-negotiation.md": "b718637412bddcb0298fe5a10e55146f8ab6d31596199265d8e03184115c4c55",
+    "references/methods/L05-participation.md": "cb8fed4a3d9b0a68ff8969ec48322001e8d129b55a7261012d209a0c86dfff0f",
+    "references/methods/L06-brief-huddle.md": "b08394dbb75fdb0fd251425144898c47cd47586407db764cf0fa1d794e2d0ba6",
+    "references/methods/L07-debrief.md": "44ce165c474ca68c01d205cfcf2e5883780e8b142dc120547283bc76e8600a39",
+    "references/methods/L08-pdsa.md": "96ed93a81cdd5f28069b4b7a85b437ef4157b7fb3459a8ddc6fc55caf290e82d",
+    "references/methods/L09-capacity.md": "9fdd9be01827e0c88f4f50ac06b0cf8854f922f9c78ea8dce84763f67377c848",
+    "references/methods/L10-consultation.md": "2ceafc5453085627c43e21908b1563736ec16d55a24d3ee38f0f6376f6d78bdc",
+    "references/methods/L11-perspective.md": "359b5a49dae4ec8d2df5c0f940673f109c4cba560407a3a625b19ee293d212a5",
+    "references/methods/L12-teach-practice.md": "4599085064aaeb0aadb6632f184b8b17146f631d9274a93e33a28e367a8edd3a",
+    "references/methods/L13-premortem.md": "a52699ec8da141c5be71fcbe8ee532c4afd9872bdd3b600600b53aa9ceb4a55b",
+    "references/methods/L14-handoff.md": "0586aba208893e7f4ec2c2fa5dfcf2315b4f65b55ced1531a1c49a7bbaf15bfc",
+    "references/methods/L15-team-charter.md": "32eaa0124c98477db917c8091afbe80c64f2e851fa7d88f7d9e2787a9994533e",
+    "references/methods/L16-goal-design.md": "801e98770574326c52436dd64dff817fb495cc1d7f36488908ad1063d0671635",
+    "references/methods/L17-stakeholders.md": "225dfe59e28f4a7cd501a504783dbe2152943df546f276afcb3abf10ec022dd0",
+    "references/methods/L18-nominal-group.md": "b12c966c5a01460420d0315c8db59029362825dd9d67a3f9cc14f5a4d6360955",
+    "references/methods/L19-driver-diagram.md": "6109ca6e2a87c57b164853f5e2a46b45173530fd7458e7d8e906c06b9c9da463",
+    "references/methods/L20-fishbone.md": "74675ff099204b7b36919390fddb2252ab3ab76221fd3296aa260c83d4b2749c",
+    "references/methods/L21-process-map.md": "e930b39820da6f1d51166a6290b2be41e30c32a8da971e7f008c9de7fe2c0bfe",
+    "references/methods/L22-force-field.md": "e390c93638105e82268c6b28ef6c229e1b6bcba5c9f12b834167180a57f1a5b2",
+    "references/methods/L23-if-then.md": "77d2505b1bd8e542ec8af3ca5582b5ea5cb922874ae9f7b48be85539e20a923b",
+    "references/methods/L24-assumptions.md": "2ceba4a643f0755957a80cc7e2271d6805f0238c3a553f1f3f2e625c75099380",
+    "references/methods/L25-positive-deviance.md": "07b3974331c5e27c7d0757913413dd3054e68a0a0d5efa1e829c1a02eac14dbf",
+    "references/methods/L26-problem-framing.md": "9aaa1c917110c703d3357f77b434c0ab67c25531bda1167feb156c7884a7c924",
+    "references/methods/L27-troika.md": "d84fc9efb9a97b1e7ff3d5875333e7edba8fc7e519177729924fd615cf4ad765",
+    "references/methods/L28-development-plan.md": "f823a26f97adf4b85420da589413facad3841f55e5229f828923f4c577c090d0",
+    "references/methods/L29-decision-analysis.md": "dc5fe4cbca520cb0a2184ac169ccde235b57963c41180e451362ee6622c2ebdb",
+    "references/methods/L30-structured-listening.md": "18f81e20ae0291c0e9c626f1d178452afa18c93e85cb126c9c7634642cc4af78",
+    "references/methods/L31-change-support.md": "de7342400a76451feb95d3ca6c851614ccc8c29e26389169f02af210ffff205c",
+    "references/methods/L32-accountable-repair.md": "4538e8d2641601f857055ffdc17c1f520a21da269d2ec342c81ee70d94e14a2f",
+    "references/provenance.md": "10add1d76ae22eba8612acc8923424e025e8d322bb6651e60fdf088f76f6a31a",
+    "references/reference-policy.md": "8182af2e1dcddf8014ba5b3b55e5ae97b4955cd4d78eea68de45758836c68cdc",
+    "references/sources.json": "1858524a3bc0936ea072cfa1558e3c2ea62ee3a6ecca027f4a2353a53b9d51ef",
+    "references/sources.md": "0da616917a3c895e01062056392733013de653f3e94fcef62ff320683ef132d2",
+    "references/user-data.md": "f37a702a896cbfc8a47ce005f4b9c0f01ac1a6ee611cc4de72de8c3ba691f0c2",
+    "references/workflow.md": "1746fcc32ef5fee067654de81dc4737f8383050ca9610a83b597a174e4f2fe40",
+    "schemas/practice-v1.schema.json": "5ade8bd1c2983e4897bbc6a1df7b083d85b27202360032c562948704ef40344f",
+    "schemas/profile-v1.schema.json": "f93f5e475c76b50551a5760432e7c2bbf19b57646ede2777ba96129f9faa562e",
+    "schemas/profile-v2.schema.json": "45248e41a6770dd6c523c7a123b2b54cb9854d3a82ac46261b1d80029a9a3b3a",
+    "schemas/situation-v1.schema.json": "e0298792fc53d9b3d1f4b0aca28af7a59ef01f5a12d2d2b9b83aeba94279ce68",
+    "scripts/__pycache__/state.cpython-312.pyc": "b33b2da75a2b21a247e7bf8c9bcfa80985517edcedef549197e1b278abb2ac61",
+    "scripts/state.py": "a96e81358cc60d68179a2c7fc9339680b201900febf914aae3b812aace1d4917",
+    "templates/conversation.md": "737b6f4f521fdc8b7de6a079dc6feffc8ae67976a331fce2a066a4440b55cab0",
+    "templates/decision-record.md": "3307ca95c406a4a7961b4e69d0b88efa015b0f4ec2aab5e9b88863c1d523f59d",
+    "templates/method-card.md": "d9b259bf99978f8073ed05d853518ea0e979f123408217a807ba38e4ecbce772",
+    "templates/practice-record.md": "e9931ce0b8d48bdddaeda84abe4f99becaaede85df4c4d64034595d6319f2a22",
+    "templates/role-review.md": "e4fbbe40e001f88486a5e2ccc62f3a7d317988bc298c7933ba47f44418a1160c",
+    "templates/situation-profile.md": "539ab21d407b0d11ffe1d071fe2f6d0934e6676480c20b7b7edc0c6a5c2f86af"
+  },
+  "limits": [
+    "One generation per prompt; no repeatability or cross-model estimate. Exact model build and sampling settings were not recorded.",
+    "Manual skill loading differs from automatic discovery and Agent Builder selection. No new M365 import or tenant behavior was tested.",
+    "Three contexts were fresh relative to each other, not every prompt; four unrelated exception requests shared one context.",
+    "Sources were read from the existing inspected-scope records; this execution did not independently re-audit external papers.",
+    "Structural tests do not execute a model. Author assessment is separate from generation but is not blinded.",
+    "After this snapshot, navigation labels, catalog task-entry links and card formatting/provenance order were improved; core SKILL/interview/workflow/matching bytes are unchanged. These display edits were structurally reviewed, not regenerated in all nine cases."
+  ]
+}

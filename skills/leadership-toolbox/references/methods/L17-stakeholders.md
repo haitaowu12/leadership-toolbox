@@ -1,6 +1,6 @@
 # L17 · Stakeholder map and listening round
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Find affected perspectives and plan meaningful involvement.
 
@@ -12,11 +12,18 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use before a cross-boundary change or when affected people are missing from planning. Avoid treating influence rankings as a ranking of whose needs matter, or labeling disagreement as obstruction without asking why.
 
-**Run.** List people who deliver, use, fund, enable, or bear consequences of the work. Check the list with frontline colleagues and affected users. Map both influence and degree of impact. Mark every claim about a group's interests as confirmed or assumed. Ask representatives what they need, what could be lost, what constraints they see, and how they want involvement. Record differences within groups. Agree a specific next conversation, responsible colleague, and date; tell participants what changed because of their input. Revisit the map as the project changes.
+## Try it
+
+1. List people who deliver, use, fund, enable, or bear consequences of the work.
+2. Check the list with frontline colleagues and affected users.
+3. Map both influence and degree of impact.
+4. Mark every claim about a group's interests as confirmed or assumed.
+5. Ask representatives what they need, what could be lost, what constraints they see, and how they want involvement.
+6. Record differences within groups.
+7. Agree a specific next conversation, responsible colleague, and date; tell participants what changed because of their input.
+8. Revisit the map as the project changes.
 
 **Output / distinction.** A stakeholder and engagement plan grounded in actual conversations. Unlike decision ownership, this finds whose experience and participation the change requires before defining consultation rights.
-
-**Primary source.** NHS England and NHS Improvement, [Stakeholder analysis](https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf), pp. 2–7, covers identification, power and impact, understanding, trust, and engagement. **Limit:** classifications are provisional judgments, not validated predictions of behavior; the guide is implementation guidance, not an effectiveness trial.
 
 **Adapt the execution:** Tag consequential beliefs with the specific account/source and date; one person's account does not establish a whole group's position. Tag consequential perspectives as directly heard, reported by someone else or unknown. Find who bears a cost but lacks influence. Let affected people correct their entry; a stakeholder map is provisional planning, not an inferred motive.
 
@@ -34,9 +41,13 @@ Counterexample: A power-interest grid is used to dismiss people who cannot veto 
 
 ## Combinations and next move
 
-Related alternatives: [L10](L10-consultation.md), [L11](L11-perspective.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Evidence and consultation (L10)](L10-consultation.md), [Perspective and evidence check (L11)](L11-perspective.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** NHS England and NHS Improvement, [Stakeholder analysis](https://aqua.nhs.uk/wp-content/uploads/2023/07/qsir-stakeholder-analysis.pdf), pp. 2–7, covers identification, power and impact, understanding, trust, and engagement. **Limit:** classifications are provisional judgments, not validated predictions of behavior; the guide is implementation guidance, not an effectiveness trial.
 
 ## Deeper knowledge and evidence
 

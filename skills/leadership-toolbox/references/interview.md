@@ -1,12 +1,15 @@
-# Context interview: quick help or “grill me”
+# Context interview: probe before advising
 
 Use this only for a situation. Answer direct method questions directly. “Grill me” means candid, adaptive inquiry that tests the framing, not an interrogation or a demand for private disclosures.
 
 ## Set the pace
 
-If the user already says “grill me”, start deep mode without another permission ritual: “I'll pressure-test the situation and our assumptions. You can skip anything or ask for a recommendation at any point.” Otherwise offer quick help or a deeper exploration when that choice matters. If they need immediate help, make the smallest safe useful move first.
+For an underspecified situation, begin with the highest-value missing fact without asking permission to ask questions. Prefer one question at a time, with at most three focused questions per turn. Then wait. A short framing may explain why the distinction matters, but do not give a full recommendation, method shortlist or plan in the same turn. The user does not need to say “probe” or “grill me”. Reuse facts already supplied; no ritual intake is required for a sufficiently specified situation.
 
-- **Quick:** establish the desired result and whichever one or two facts could change the next action. Reuse facts already provided. Give a conditional recommendation if important information remains unknown. Keep the first answer to the primary action, decisive condition and checkpoint; do not unload the whole profile, interview menu or card. Respect the user's requested length.
+An explicit “grill me” invites a more searching challenge. “Keep it short” changes length, not the need for a decisive question. An explicit “quick answer”, “no questions”, “skip” or “recommend on what you have” switches to conditional advice. Urgent protection or a qualified incident response comes first; do not delay it to finish the interview.
+
+- **Default inquiry:** identify the desired result and whichever missing fact could change the next action. Ask, wait, and update the framing from the answer; stop when further questions would not change the route.
+- **Explicit quick/provisional mode:** reuse facts already provided. Give a conditional recommendation if important information remains unknown. Keep the first answer to the primary action, decisive condition and checkpoint; do not unload the whole profile, interview menu or card. Respect the user's requested length.
 - **Deep:** work through short rounds of one to three related questions, reflecting what changed between rounds. Explore more only while answers could change the route or make action safer and more feasible.
 - **Pause/stop:** respect “enough”, a pass, uncertainty, distress, or a request to act on current information. Missing data stays missing. Immediate protection or an established specialist process takes precedence over either mode.
 
@@ -40,6 +43,8 @@ After a useful round, provide a brief correction-friendly synthesis:
 
 Example: “You have observed repeated approval requests. We do not yet know whether the cause is unclear authority, missing skill or an unrealistic workload. What happened the last time you explicitly handed over that decision?”
 
+If a diagram is requested or would clarify several interfaces, use [visual modelling](visual-modelling.md) for one small provisional context/process view. A request to show understanding does not bypass inquiry or authorise a full solution. Let the user correct the visible relationships, and update the model and advice together. Keep a plain-text equivalent when rendering is unavailable.
+
 Ask the user to correct consequential interpretations. You need not ask them to approve every ordinary summary. When accounts conflict, retain both and their sources; do not average them into false certainty.
 
 ## Build only the needed situation profile
@@ -52,7 +57,7 @@ For deep mode, show the few dimensions that actually affect the choice and invit
 
 Stop when there is enough context for a safe useful next step, additional answers are unlikely to change the shortlist, the user wants to stop, or a required answer is unavailable. Offer a conditional path rather than exhausting the menu.
 
-Before switching modes say what you can now recommend and what still prevents commitment. Deliver one primary method, a serious alternative and the fact that would switch them. If several methods are needed, use an explicit sequence with an exit condition; do not prescribe a toolbox dump.
+Before switching modes say what you can now recommend and what still prevents commitment. Deliver one primary next move and its decisive condition; show a serious alternative when it could change the decision or the user asks. If several methods are needed, use an explicit sequence with an exit condition; do not prescribe a toolbox dump.
 
 After action, ask only the agreed output/outcome/guardrail questions. “Unknown”, “declined”, “mixed” and “nothing needed” are legitimate results. Save context or corrections only with explicit permission in a separate private location; otherwise keep them in the current conversation.
 

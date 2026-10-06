@@ -1,6 +1,6 @@
 # L20 · Fishbone causal-hypothesis map
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Organise and investigate possible contributors.
 
@@ -12,11 +12,18 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when a recurring, well-defined problem has several plausible contributors and the conversation jumps prematurely to individual blame. Avoid treating brainstormed causes, or the most popular branch, as established root causes.
 
-**Run.** Write an observable problem including where and when it occurs. Invite people who perform the work. Generate possible contributors across locally useful categories such as process, information, tools, environment, and staffing; do not force every issue into a standard category. Ask what conditions could produce each contributor and draw nested branches. Mark known facts separately from hypotheses. Select a small number of consequential, testable explanations. Assign each a verification step using records, observation, interviews, or a safe experiment. Update the map with contradictory evidence.
+## Try it
+
+1. Write an observable problem including where and when it occurs.
+2. Invite people who perform the work.
+3. Generate possible contributors across locally useful categories such as process, information, tools, environment, and staffing; do not force every issue into a standard category.
+4. Ask what conditions could produce each contributor and draw nested branches.
+5. Mark known facts separately from hypotheses.
+6. Select a small number of consequential, testable explanations.
+7. Assign each a verification step using records, observation, interviews, or a safe experiment.
+8. Update the map with contradictory evidence.
 
 **Output / distinction.** A structured set of causal hypotheses and an investigation plan. A debrief examines an episode; a fishbone organizes alternative explanations for an effect, including recurring patterns.
-
-**Primary source.** Institute for Healthcare Improvement, [Cause and Effect Diagram](https://www.ihi.org/library/tools/cause-and-effect-diagram). **Claim / limit:** describes classic and process-type diagrams for displaying possible causes and relationships. Its stated scope is exploration; the diagram cannot establish causal direction, quantify effects, or replace rigorous investigation of serious harm.
 
 **Adapt the execution:** Choose two rival explanations and one observation on which their predictions differ. Assign collection ownership before selecting remedies. Observe/map disputed workflow before explaining its causes.
 
@@ -34,9 +41,13 @@ Counterexample: The largest fishbone branch is called the proven root cause beca
 
 ## Combinations and next move
 
-Related alternatives: [L07](L07-debrief.md), [L21](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Structured debrief (L07)](L07-debrief.md), [Current-state process map (L21)](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** Institute for Healthcare Improvement, [Cause and Effect Diagram](https://www.ihi.org/library/tools/cause-and-effect-diagram). **Claim / limit:** describes classic and process-type diagrams for displaying possible causes and relationships. Its stated scope is exploration; the diagram cannot establish causal direction, quantify effects, or replace rigorous investigation of serious harm.
 
 ## Deeper knowledge and evidence
 
