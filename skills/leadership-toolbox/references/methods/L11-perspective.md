@@ -1,6 +1,6 @@
 # L11 · Perspective and evidence check
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Check a framing before acting.
 
@@ -46,7 +46,7 @@ Two colleagues disagree about a delay. Compare what each knew when they made the
 
 The assistant imagines what another person must feel and calls it perspective-taking evidence; ask for an actual account.
 
-Related alternatives: [L30](L30-structured-listening.md), [L26](L26-problem-framing.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Structured listening interview (L30)](L30-structured-listening.md), [Problem framing (L26)](L26-problem-framing.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

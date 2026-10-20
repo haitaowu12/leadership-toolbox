@@ -1,6 +1,6 @@
 # L28 · Individual development plan
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Coordinate a supported longer-term growth pathway.
 
@@ -12,11 +12,17 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when someone wants growth beyond immediate task delivery and the manager can help secure suitable experiences. Avoid presenting it as a promotion promise, disguised disciplinary plan, or list of courses disconnected from practice.
 
-**Run.** Ask the employee about near- and longer-term aspirations. Compare current strengths and demonstrated gaps with capabilities needed for plausible future work. Choose one or two development objectives. Select an experience that makes the capability observable: shadowing, a bounded stretch assignment, guided practice, or a rotation, with training where useful. Agree support, time, resources, and what successful learning would look like. Record the employee's action and the manager's enabling commitment. Review actual work evidence and revise the plan as interests or opportunities change.
+## Try it
+
+1. Ask the employee about near- and longer-term aspirations.
+2. Compare current strengths and demonstrated gaps with capabilities needed for plausible future work.
+3. Choose one or two development objectives.
+4. Select an experience that makes the capability observable: shadowing, a bounded stretch assignment, guided practice, or a rotation, with training where useful.
+5. Agree support, time, resources, and what successful learning would look like.
+6. Record the employee's action and the manager's enabling commitment.
+7. Review actual work evidence and revise the plan as interests or opportunities change.
 
 **Output / distinction.** A jointly owned development plan with objectives, experiences, support, dates, and demonstration criteria. Teaching addresses a particular skill episode; this coordinates a longer development pathway and access to opportunities.
-
-**Primary source.** U.S. Office of Personnel Management, [Career Development](https://www.opm.gov/policy-data-oversight/training-and-development/career-development/). **Claim / limit:** describes employee–supervisor partnership, specific objectives, developmental activities, and continuous feedback; explicitly distinguishes IDPs from performance evaluation. This is practice guidance, not evidence that completing a form creates capability or career advancement.
 
 **Adapt the execution:** Track access to the promised experience separately from learning demonstrated. For stretch work, name a sign that challenge exceeds support and who can reduce scope or give feedback. Delivery success and learning can diverge.
 
@@ -34,13 +40,17 @@ Counterexample: A development plan lists courses but no opportunity to practise 
 
 ## Combinations and next move
 
-Related alternatives: [L12](L12-teach-practice.md), [L16](L16-goal-design.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Teach–Practice–Check-back (L12)](L12-teach-practice.md), [Performance and learning goal design (L16)](L16-goal-design.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
 
 ## Design a bounded development assignment
 
 Separate the capability to develop from the work deliverable. Jointly check task difficulty, capacity, access and willingness. Agree the person's actual decision authority, mentoring, recovery limits and checkpoints before starting. Observe skill application in relevant work; completion alone is not proof of learning. Review hidden workload and fair access to opportunities. Do not disguise unsupported critical delivery or unpaid overwork as a stretch assignment. [CCL on on-the-job learning](https://www.ccl.org/articles/leading-effectively-articles/develop-strong-leaders-with-on-the-job-learning/) is practitioner guidance; do not turn a percentage mnemonic into a universal development allocation.
+
+## Supporting provenance
+
+**Primary source.** U.S. Office of Personnel Management, [Career Development](https://www.opm.gov/policy-data-oversight/training-and-development/career-development/). **Claim / limit:** describes employee–supervisor partnership, specific objectives, developmental activities, and continuous feedback; explicitly distinguishes IDPs from performance evaluation. This is practice guidance, not evidence that completing a form creates capability or career advancement.
 
 ## Deeper knowledge and evidence
 

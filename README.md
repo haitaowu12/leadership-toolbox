@@ -10,14 +10,20 @@ Practical help for your next conversation, decision, handoff or team improvement
 
 Try: “Use leadership-toolbox. Help me prepare for a missed-deadline conversation. Keep it short.”
 
+Questions come first when a missing fact could change the advice, even without asking to be challenged. An explicit quick answer or method lookup stays direct.
+
 For deeper help: “Use leadership-toolbox. Grill me about our recurring handoff problems. Challenge my explanation before choosing a method.”
+
+To make understanding visible: “Show your current understanding as a small context diagram. Mark assumptions and unknowns so I can correct it before we explore options.” See the [visual examples](skills/leadership-toolbox/references/visual-examples.md).
 
 For a lookup: “Explain GROW, its practical limits, and what the evidence actually supports.”
 
 ## What you get
 
 - 32 distinct methods with steps, words to try, examples, prerequisites, guardrails and sources
-- Quick advice or adaptive probing, with corrections and an explicit option to make no change
+- Adaptive probing by default for unclear situations, with explicit quick-answer and direct-lookup routes
+- Correctable situation models: context, stakeholders/authority, process/dependencies, problem hypotheses and conditional options, with a portable text fallback
+- A practical method wiki as the first link; primary evidence and sector limits when the claim needs them
 - Eight situation dimensions for explainable comparisons, without scoring people or predicting success percentages
 - Four knowledge topics that distinguish plausible explanations and guide what to observe next
 - 25 paper/review records, 10 scoped book/preview records, and an evidence/gap map for every method
@@ -36,4 +42,4 @@ Original project material is MIT except explicitly marked CC BY-SA 4.0 adaptatio
 
 The skill cannot create authority or consent. It does not send messages, make staffing decisions, resolve serious allegations or replace qualified processes. Personal profiles are optional and are never required to begin.
 
-Version: 0.2.0. No website, background service or paid API is required.
+Version: 0.2.1. No website, background service or paid API is required.

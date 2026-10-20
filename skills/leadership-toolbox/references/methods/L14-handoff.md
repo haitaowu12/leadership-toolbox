@@ -1,6 +1,6 @@
 # L14 · Closed-loop handoff
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Transfer live work with checked receipt.
 
@@ -45,7 +45,7 @@ A recurring support task moves to another colleague. Confirm the open issue, nex
 
 A sent message is treated as acceptance while the recipient is off duty; current ownership remains unresolved.
 
-Related alternatives: [L06](L06-brief-huddle.md), [L21](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Brief and huddle (L06)](L06-brief-huddle.md), [Current-state process map (L21)](L21-process-map.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

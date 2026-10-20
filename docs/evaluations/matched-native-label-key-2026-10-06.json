@@ -1,0 +1,34 @@
+{
+  "H01": {
+    "X": "toolbox",
+    "Y": "plain"
+  },
+  "H02": {
+    "X": "toolbox",
+    "Y": "plain"
+  },
+  "H03": {
+    "X": "plain",
+    "Y": "toolbox"
+  },
+  "H04": {
+    "X": "toolbox",
+    "Y": "plain"
+  },
+  "H05": {
+    "X": "plain",
+    "Y": "toolbox"
+  },
+  "H06": {
+    "X": "plain",
+    "Y": "toolbox"
+  },
+  "H07": {
+    "X": "plain",
+    "Y": "toolbox"
+  },
+  "H08": {
+    "X": "plain",
+    "Y": "toolbox"
+  }
+}

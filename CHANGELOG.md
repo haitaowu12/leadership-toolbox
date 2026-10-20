@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.1 review follow-up · 2026-10-20
+
+- Complete the separate substantive PR review, verify the frozen comparison record, and run the required Python 3.10/3.12 checks locally. Retain host-activation and human-use limits separately from repository merge readiness.
+- Reject a dangling profile/history symlink before optional-state initialisation creates either file; preserve the existing link and leave no partial profile or helper lock.
+- Clarify L23's cue/response distinction in the method card and catalog: an external cue is valid when the chosen response is feasible and within the person's authority and control. No cue still means not tested.
+
+## 0.2.1 draft · inquiry, practical references and correctable models · 2026-10-05
+
+- Audit the frozen candidate against matched no-toolbox conversations; retain selective benefits, verbosity/loading costs and explicit rollout limits.
+- Repair optional-state concurrent helper mutations and intervening-edit detection, nested copied-skill privacy paths, non-object profile errors, and incoming installer entrypoint validation. Add non-destructive regression tests and document the cooperative-lock boundary.
+
+- Ask decision-relevant questions by default for underspecified leadership situations, wait before prescribing, and preserve direct lookup, sufficient-context, explicit quick/skip and urgent-protection routes.
+- Use the existing plain-language method pages as the practical wiki front door; retain primary citations for empirical claims, research requests, attribution and healthcare/regulatory transfer limits.
+- Keep normal recommendations compact; reserve candidate matrices and measurement contracts for decisions/trials that need them. Add task-based navigation, descriptive method links and scannable steps before deeper provenance.
+- Add exact public guide links and routing/citation regression cases. Keep new conversational checks separate from actual tenant behavior; no new Copilot package or tenant validation is claimed.
+
+- Add optional visual situation modelling with context/authority, process/dependency, problem-hypothesis and solution-option views; stable IDs, evidence statuses, unknown/conflicting accounts, and correction propagation to narrative and method choice. Include portable text templates and original fictional examples; Mermaid remains optional and host rendering is not assumed.
+
 ## 0.2.0 · completion · 2026-10-05
 
 - Add a cloud-upload single-skill ZIP, deterministic archive metadata, checksums, downloadable CI artifacts and exact non-Codex use instructions.

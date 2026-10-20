@@ -1,6 +1,6 @@
 # L27 · Troika peer consultation
 
-Version: 0.2.0 · Licence: CC-BY-SA-4.0
+Version: 0.2.1 · Licence: CC-BY-SA-4.0
 
 **Job:** Use rotating peer perspectives for owner-chosen action.
 
@@ -12,11 +12,18 @@ Version: 0.2.0 · Licence: CC-BY-SA-4.0
 
 **Use / avoid.** Use when colleagues need diverse practical perspectives on a real challenge and can choose their own next action. Avoid confidential personnel cases, unwilling disclosure, or decisions requiring licensed expertise or formal accountability.
 
-**Run.** Form willing trios, state actual privacy limits and agree a shareable challenge; offer a pass or different format without penalty. Each person prepares a challenge and the help wanted. In the first round, one person describes the challenge for one to two minutes. The other two ask clarifying questions for one to two minutes, without advice. The client then listens silently while the consultants explore possibilities for four to five minutes. The client identifies useful insights and one next step. Rotate so everyone receives help. Arrange a later check on the chosen action; no one must accept the advice.
+## Try it
+
+1. Form willing trios, state actual privacy limits and agree a shareable challenge; offer a pass or different format without penalty.
+2. Each person prepares a challenge and the help wanted.
+3. In the first round, one person describes the challenge for one to two minutes.
+4. The other two ask clarifying questions for one to two minutes, without advice.
+5. The client then listens silently while the consultants explore possibilities for four to five minutes.
+6. The client identifies useful insights and one next step.
+7. Rotate so everyone receives help.
+8. Arrange a later check on the chosen action; no one must accept the advice.
 
 **Output / distinction.** Three owner-chosen next actions and new perspectives. Unlike GROW, this is a rotating peer-consultation format; unlike 1-2-4-All, it does not build one collective answer.
-
-**Primary source.** Henri Lipmanowicz and Keith McCandless, [Troika Consulting](https://www.liberatingstructures.com/troika-consulting). **Claim / limit:** the creators specify the roles, questioning, silent consultation, and rotation. The page supplies facilitation guidance, not comparative trial evidence. Its materials carry CC BY-SA 4.0; check attribution and share-alike duties before reproducing them.
 
 **Adapt the execution:** After consultation, distinguish an option to test, an assumption requiring evidence and a specialist question. Choose an action to review; agreement among peers does not establish accuracy.
 
@@ -34,11 +41,15 @@ Counterexample: A manager requires an employee to recount a confidential personn
 
 ## Combinations and next move
 
-Related alternatives: [L02](L02-grow.md), [L11](L11-perspective.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [GROW coaching (L02)](L02-grow.md), [Perspective and evidence check (L11)](L11-perspective.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
 
 This Troika adaptation is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original repertoire: Henri Lipmanowicz and Keith McCandless; 2026 Fieldbook: Keith McCandless and Nancy White. Changes: concise workplace wording, privacy/access safeguards, added outcome/guardrail and fictional examples. [Current source licence](https://www.liberatingstructures.com/cc-license). No endorsement is implied.
+
+## Supporting provenance
+
+**Primary source.** Henri Lipmanowicz and Keith McCandless, [Troika Consulting](https://www.liberatingstructures.com/troika-consulting). **Claim / limit:** the creators specify the roles, questioning, silent consultation, and rotation. The page supplies facilitation guidance, not comparative trial evidence. Its materials carry CC BY-SA 4.0; check attribution and share-alike duties before reproducing them.
 
 ## Deeper knowledge and evidence
 
