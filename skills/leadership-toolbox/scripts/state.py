@@ -121,7 +121,7 @@ def initialise(data):
         _initialise(data)
 
 def _initialise(data):
-    if (data / "profile.json").exists() or (data / "practice.jsonl").exists():
+    if any(safe_file(data / name).exists() for name in ("profile.json", "practice.jsonl")):
         raise ValueError("existing state; init does not overwrite")
     # Exclusive creation, private permissions; no mandatory profile contents.
     for name, raw in [("profile.json", encode({"schema_version": 2, "goals": [], "preferences": {}})), ("practice.jsonl", b"")]:

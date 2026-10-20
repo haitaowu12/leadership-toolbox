@@ -1,5 +1,9 @@
 # Validation and limits · 0.2.1 draft
 
+## Independent review and manual checks · 20 October 2026
+
+The [independent PR review](evaluations/independent-pr-review-2026-10-20.md) completes the separate substantive review left outstanding on 6 October. It records a repaired dangling-link initialization case, a source-backed clarification of L23's external cue versus controlled response, verification of the frozen comparison record, and 77 passing tests on Python 3.10.22 and 3.12.14. Checks were run locally because hosted Actions minutes were unavailable. The report recommends repository merge while retaining the live-host and human-use pilot gates; it does not approve broad rollout. The final PR record identifies the exact published tree and final checks.
+
 ## Robustness audit and matched native comparison
 
 The [6 October audit](evaluations/robustness-audit-2026-10-06.md) separates the frozen 32-reply comparison at ca672dd from subsequent state/installer repairs and their regression tests. It finds selective conversational benefits, a compact-map disadvantage, unknown token/latency/cash costs, and four reproducible software gaps. It does not clear broad rollout or imply that the requested separate Pro review or a live target-tenant test completed. Follow PR 2 for exact-head CI rather than extending historical passes.

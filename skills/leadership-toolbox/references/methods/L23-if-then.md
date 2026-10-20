@@ -4,7 +4,7 @@ Version: 0.2.1 · Licence: MIT
 
 **Job:** Link a chosen action to a predictable cue.
 
-**Prerequisites:** A genuinely chosen goal, feasible action and observable cue under the person's control.
+**Prerequisites:** A genuinely chosen goal, an observable cue, and a feasible response within the person's authority and control. The cue may be an external event; the person need not control whether it occurs. An absent cue leaves the plan not tested.
 
 **Estimated time:** 5–15 minutes for initial preparation/session, not total implementation time. Editorial planning range; adapt to accessibility and complexity.
 
