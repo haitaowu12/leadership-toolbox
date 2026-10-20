@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 review follow-up · 2026-10-20
+
+- Complete the separate substantive PR review, verify the frozen comparison record, and run the required Python 3.10/3.12 checks locally. Retain host-activation and human-use limits separately from repository merge readiness.
+- Reject a dangling profile/history symlink before optional-state initialisation creates either file; preserve the existing link and leave no partial profile or helper lock.
+- Clarify L23's cue/response distinction in the method card and catalog: an external cue is valid when the chosen response is feasible and within the person's authority and control. No cue still means not tested.
+
 ## 0.2.1 draft · inquiry, practical references and correctable models · 2026-10-05
 
 - Audit the frozen candidate against matched no-toolbox conversations; retain selective benefits, verbosity/loading costs and explicit rollout limits.

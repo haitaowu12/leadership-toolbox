@@ -54,6 +54,19 @@ class PackageTests(unittest.TestCase):
             state.initialise(self.data)
         self.assertEqual((self.data / "profile.json").read_bytes(), raw)
 
+    def test_init_refuses_dangling_state_links_before_creating_files(self):
+        for name in ("profile.json", "practice.jsonl"):
+            with self.subTest(name=name):
+                path = self.data / name
+                target = self.base / "absent-state-target"
+                path.symlink_to(target)
+                with self.assertRaisesRegex(ValueError, "must not be a symlink"):
+                    state.initialise(self.data)
+                self.assertTrue(path.is_symlink())
+                self.assertFalse(target.exists())
+                self.assertEqual({item.name for item in self.data.iterdir()}, {name})
+                path.unlink()
+
     def test_migration_preserves_extensions_and_history_and_rollback_bytes(self):
         profile, raw, history = self.legacy()
         backup = state.migrate(self.data)

@@ -1582,7 +1582,7 @@
           "Link a chosen action to a predictable cue"
         ],
         "preconditions": [
-          "A genuinely chosen goal, feasible action and observable cue under the person's control."
+          "A genuinely chosen goal, an observable cue, and a feasible response within the person's authority and control. The cue may be an external event; an absent cue leaves the plan not tested."
         ],
         "avoid": [
           "A person is told to use willpower cues to meet work that cannot fit their available time."
