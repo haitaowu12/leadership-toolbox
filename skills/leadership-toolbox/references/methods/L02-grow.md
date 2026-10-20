@@ -1,6 +1,6 @@
 # L02 · GROW coaching
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Help someone choose their own next step.
 
@@ -45,7 +45,7 @@ An experienced colleague wants to prepare for a new meeting. Explore options and
 
 A manager already decided the answer and uses questions to extract apparent consent; state the directive and its real boundaries instead.
 
-Related alternatives: [L12](L12-teach-practice.md), [L09](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Teach–Practice–Check-back (L12)](L12-teach-practice.md), [Capacity tradeoff (L09)](L09-capacity.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Current provider notice
 

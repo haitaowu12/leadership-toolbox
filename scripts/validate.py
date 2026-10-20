@@ -117,6 +117,13 @@ def validate_catalog(catalog, dimensions, files):
         else:
             referenced.append(name)
             card = files[name]
+            guide = method.get("guide_url")
+            expected_guide = "https://github.com/haitaowu12/leadership-toolbox/blob/main/skills/leadership-toolbox/" + name
+            allowed_guides = {expected_guide}
+            if "## Try it" in card:
+                allowed_guides.add(expected_guide + "#try-it")
+            if guide not in allowed_guides:
+                errors.append(f"invalid practical guide URL: {method_id}")
             if not card.startswith(f"# {method_id} · ") or f"Version: {version} · Licence: {licence}" not in card:
                 errors.append(f"card ID/version/licence mismatch: {method_id}")
             if f"({name.removeprefix('references/')})" not in files.get("references/catalog.md", ""):

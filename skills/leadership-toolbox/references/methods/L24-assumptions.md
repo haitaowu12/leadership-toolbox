@@ -1,6 +1,6 @@
 # L24 · Assumption map
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Prioritise consequential uncertainty before testing.
 
@@ -12,11 +12,17 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use before substantial commitment to a new initiative, especially when a team is testing easy questions rather than consequential uncertainty. Avoid treating confidence, enthusiasm, or many interviews as strong evidence by default.
 
-**Run.** Ask what must be true for the initiative to work. Write separate, specific hypotheses about desirability, feasibility, viability, and relevant contextual risks. For each, record current evidence and what would contradict it. Map importance to success against strength of evidence. Select a critical assumption with weak support. Define the smallest ethical, reversible test that could materially change the decision, including measure, threshold, cost ceiling, stopping rule, and responsible person. Update the map after testing, distinguishing observation from interpretation.
+## Try it
+
+1. Ask what must be true for the initiative to work.
+2. Write separate, specific hypotheses about desirability, feasibility, viability, and relevant contextual risks.
+3. For each, record current evidence and what would contradict it.
+4. Map importance to success against strength of evidence.
+5. Select a critical assumption with weak support.
+6. Define the smallest ethical, reversible test that could materially change the decision, including measure, threshold, cost ceiling, stopping rule, and responsible person.
+7. Update the map after testing, distinguishing observation from interpretation.
 
 **Output / distinction.** A ranked uncertainty register and a test brief. Assumption mapping chooses what must be learned; PDSA supplies an iterative testing cycle. Neither a premortem nor a fishbone performs this importance-versus-evidence prioritization.
-
-**Primary sources.** Strategyzer, [How Assumptions Mapping Can Focus Your Teams On Running Experiments That Matter](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter), and [Validate your ideas with The Test Card](https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card). **Claim / limit:** originator guidance supports prioritizing hypotheses and predefining tests, measures, and thresholds; small tests reduce uncertainty, not prove universal validity or safety.
 
 **Adapt the execution:** State how both supportive and contradictory results would change the decision. If neither changes it, reconsider the test's value. Check existing observations first; justified retention is a legitimate result.
 
@@ -34,9 +40,13 @@ Counterexample: A team chooses the easiest experiment while leaving its critical
 
 ## Combinations and next move
 
-Related alternatives: [L13](L13-premortem.md), [L08](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Premortem (L13)](L13-premortem.md), [PDSA bounded test (L08)](L08-pdsa.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary sources.** Strategyzer, [How Assumptions Mapping Can Focus Your Teams On Running Experiments That Matter](https://www.strategyzer.com/library/how-assumptions-mapping-can-focus-your-teams-on-running-experiments-that-matter), and [Validate your ideas with The Test Card](https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card). **Claim / limit:** originator guidance supports prioritizing hypotheses and predefining tests, measures, and thresholds; small tests reduce uncertainty, not prove universal validity or safety.
 
 ## Deeper knowledge and evidence
 

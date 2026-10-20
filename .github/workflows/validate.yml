@@ -2,7 +2,7 @@ name: Validate leadership package
 on:
   pull_request:
   push:
-    branches: [feat/standalone-leadership-skill, main]
+    branches: [feat/standalone-leadership-skill, fix/default-inquiry-method-wiki, main]
 permissions:
   contents: read
 jobs:
@@ -26,15 +26,16 @@ jobs:
       - name: Exercise package and clean CLI lifecycle
         run: python3 -m unittest discover -s tests -v
       - name: Build source and single-skill archives
+        if: github.ref == 'refs/heads/main'
         run: python3 scripts/build_release.py
       - name: Upload checked packages
-        if: matrix.python == '3.12'
+        if: matrix.python == '3.12' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4, verified 2026-10-05
         with:
           name: leadership-toolbox-${{ github.sha }}
           path: |
-            dist/leadership-toolbox-0.2.0.zip
-            dist/leadership-toolbox-skill-0.2.0.zip
+            dist/leadership-toolbox-0.2.1.zip
+            dist/leadership-toolbox-skill-0.2.1.zip
             dist/SHA256SUMS
           if-no-files-found: error
           retention-days: 30

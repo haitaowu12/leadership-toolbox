@@ -1,6 +1,6 @@
 # L13 · Premortem
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Surface failure risks before commitment.
 
@@ -46,7 +46,7 @@ Before changing a recurring service, invite possible failure mechanisms and deci
 
 A premortem produces a risk list but nobody can change the plan; obtain an authorised disposition rather than claim assurance.
 
-Related alternatives: [L24](L24-assumptions.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [Assumption map (L24)](L24-assumptions.md), [Options and criteria trade-off review (L29)](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 ## Deeper knowledge and evidence
 

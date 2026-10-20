@@ -1,10 +1,11 @@
-# Leadership Toolbox docs · 0.2.0
+# Leadership Toolbox docs · 0.2.1
 
 The companion library and installable skill are versioned together. Use the version recorded in a practice entry when reviewing older decisions.
 
 - [Skill entrypoint](../skills/leadership-toolbox/SKILL.md): start here
 - [32-method catalog](../skills/leadership-toolbox/references/catalog.md): choose the immediate job
-- [Grill-me interview](../skills/leadership-toolbox/references/interview.md): adaptive questions, challenge and correction
+- [Default adaptive interview](../skills/leadership-toolbox/references/interview.md): adaptive questions, challenge and correction
+- [Visual situation modelling](../skills/leadership-toolbox/references/visual-modelling.md), [portable template](../skills/leadership-toolbox/templates/situation-model.md) and [correction examples](../skills/leadership-toolbox/references/visual-examples.md)
 - [Situation dimensions](../skills/leadership-toolbox/references/dimensions.json) and [matching](../skills/leadership-toolbox/references/matching.md): profiles and explainable comparisons
 - [Guides](../skills/leadership-toolbox/references/guides.md), [sequences](../skills/leadership-toolbox/references/combinations.md) and [fictional examples](../skills/leadership-toolbox/references/examples.md)
 - [Installation](installation.md): reviewed source, update and restore

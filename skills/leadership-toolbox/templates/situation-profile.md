@@ -26,3 +26,5 @@ Remaining prerequisites and owner:
 Output / later outcome / guardrail / review / stop condition:
 
 Do not manufacture exact dates, agreement or certainty. Record unknowns explicitly. Do not save unnecessary names, sensitive records or raw third-party conversations.
+
+When relationships or boundaries need a view, use the optional [situation model](situation-model.md). Keep its revision, evidence statuses and authority relationships consistent with this profile and the current recommendation. Neither record is mandatory.

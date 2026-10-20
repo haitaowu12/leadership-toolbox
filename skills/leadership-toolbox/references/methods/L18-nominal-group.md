@@ -1,6 +1,6 @@
 # L18 · Nominal group prioritisation
 
-Version: 0.2.0 · Licence: MIT
+Version: 0.2.1 · Licence: MIT
 
 **Job:** Produce a traceable group preference ranking.
 
@@ -12,11 +12,18 @@ Version: 0.2.0 · Licence: MIT
 
 **Use / avoid.** Use when a small group must produce an explicit ranked set of options and outspoken members could dominate. Avoid when the issue needs extensive exploratory dialogue, expert assessment, or a decision that cannot legitimately be made by group preference.
 
-**Run.** Define one question and the prioritization criteria; explain who ultimately decides. Have everyone generate ideas silently. Collect one idea per person in repeated rounds, recording contributions without debate. Clarify each item without advocacy or merging meaningful differences. Ask people to rank privately, using the same stated scoring rule. Tally visibly. Examine ties, score concentration, minority concerns, and feasibility before selecting actions. Record any decision that differs from the ranking and explain why.
+## Try it
+
+1. Define one question and the prioritization criteria; explain who ultimately decides.
+2. Have everyone generate ideas silently.
+3. Collect one idea per person in repeated rounds, recording contributions without debate.
+4. Clarify each item without advocacy or merging meaningful differences.
+5. Ask people to rank privately, using the same stated scoring rule.
+6. Tally visibly.
+7. Examine ties, score concentration, minority concerns, and feasibility before selecting actions.
+8. Record any decision that differs from the ranking and explain why.
 
 **Output / distinction.** A traceable prioritized list plus the criteria and dissent. Unlike 1-2-4-All or another participation structure, the defining product is independent ranking and aggregation, not simply broader contribution.
-
-**Primary source.** CDC, [Gaining Consensus Among Stakeholders Through the Nominal Group Technique](https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf), Evaluation Briefs No. 7, updated August 2018. **Claim / limit:** describes silent generation, round-robin recording, clarification, and private ranking; it notes preparation demands and restricted discussion. Votes represent these participants' preferences, not objective truth or population consensus.
 
 **Adapt the execution:** Check that options are eligible and participants understand the same criterion. Separate factual uncertainty from preference. Preserve consequential minority concerns and record the decision owner's response.
 
@@ -34,9 +41,13 @@ Counterexample: Participants vote on whether a safety requirement should be foll
 
 ## Combinations and next move
 
-Related alternatives: [L05](L05-participation.md), [L29](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
+Related alternatives: [1-2-4-All (L05)](L05-participation.md), [Options and criteria trade-off review (L29)](L29-decision-analysis.md). Use a sequence only when one method produces a needed prerequisite; name the owner and transition condition.
 
 **Reuse and evidence:** Prompts, examples, time ranges and observation guidance are this project's editorial adaptation. No provider article, diagram, assessment or worksheet is bundled. The cited source documents the method or a bounded research claim, not the effectiveness of this card in every workplace.
+
+## Supporting provenance
+
+**Primary source.** CDC, [Gaining Consensus Among Stakeholders Through the Nominal Group Technique](https://www.cdc.gov/healthy-youth/php/program-evaluation/pdf/brief7.pdf), Evaluation Briefs No. 7, updated August 2018. **Claim / limit:** describes silent generation, round-robin recording, clarification, and private ranking; it notes preparation demands and restricted discussion. Votes represent these participants' preferences, not objective truth or population consensus.
 
 ## Deeper knowledge and evidence
 
