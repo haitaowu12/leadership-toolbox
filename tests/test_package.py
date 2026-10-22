@@ -34,6 +34,31 @@ class PackageTests(unittest.TestCase):
     def tearDown(self):
         self.tmp.cleanup()
 
+    def test_atomic_cleanup_disappearance_preserves_primary_error_and_destination(self):
+        target = self.data / 'fixture.json'
+        target.write_bytes(b'{"before":true}\n')
+        unlink = state.os.unlink
+
+        def concurrently_removed(name, *args, **kwargs):
+            unlink(name, *args, **kwargs)
+            raise FileNotFoundError('synthetic concurrent cleanup')
+
+        with mock.patch.object(state.os, 'replace', side_effect=PermissionError('synthetic replacement denied')), \
+                mock.patch.object(state.os, 'unlink', side_effect=concurrently_removed):
+            with self.assertRaisesRegex(PermissionError, 'synthetic replacement denied'):
+                state.atomic_write(target, b'{"after":true}\n')
+        self.assertEqual(target.read_bytes(), b'{"before":true}\n')
+        self.assertEqual(list(self.data.glob('.state-*')), [])
+
+    def test_atomic_cleanup_does_not_suppress_permission_errors(self):
+        target = self.data / 'fixture.json'
+        target.write_bytes(b'{"before":true}\n')
+        with mock.patch.object(state.os, 'replace', side_effect=OSError('synthetic replacement failed')), \
+                mock.patch.object(state.os, 'unlink', side_effect=PermissionError('synthetic cleanup denied')):
+            with self.assertRaisesRegex(PermissionError, 'synthetic cleanup denied'):
+                state.atomic_write(target, b'{"after":true}\n')
+        self.assertEqual(target.read_bytes(), b'{"before":true}\n')
+
     def legacy(self, extra=None):
         profile = {"schema_version": 1, "goals": ["Develop a specific task skill"], "preferred_name": "", "custom": {"retain": [1, 2]}}
         if extra:
@@ -452,6 +477,20 @@ class PackageTests(unittest.TestCase):
             with self.subTest(name=name), self.assertRaises(ValueError):
                 validator.public_file(public, name)
         self.assertEqual(validator.public_file(public, "safe.txt").read_text(), "public")
+
+    def test_public_file_refuses_symlinked_file_root_and_root_ancestor(self):
+        public = self.base / "container" / "public"
+        public.mkdir(parents=True)
+        (public / "safe.txt").write_text("public")
+        (public / "alias.txt").symlink_to(public / "safe.txt")
+        root_link = self.base / "root-link"
+        root_link.symlink_to(public, target_is_directory=True)
+        ancestor_link = self.base / "ancestor-link"
+        ancestor_link.symlink_to(public.parent, target_is_directory=True)
+        for root, name in ((public, "alias.txt"), (root_link, "safe.txt"),
+                           (ancestor_link / "public", "safe.txt")):
+            with self.subTest(root=root, name=name), self.assertRaises(ValueError):
+                validator.public_file(root, name)
 
     def test_install_staging_and_backups_stay_outside_discovery(self):
         dest = self.base / "host" / "skills" / "leadership-toolbox"

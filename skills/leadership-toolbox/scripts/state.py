@@ -87,8 +87,10 @@ def atomic_write(path, raw, *, expected=None):
             raise ValueError("profile changed during operation; mutation refused")
         os.replace(name, path)
     finally:
-        if os.path.exists(name):
+        try:
             os.unlink(name)
+        except FileNotFoundError:
+            pass
 
 def encode(value):
     return (json.dumps(value, indent=2, ensure_ascii=False) + "\n").encode()

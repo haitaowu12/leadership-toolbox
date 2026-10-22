@@ -1,6 +1,8 @@
 """Distribution and CLI lifecycle checks; these do not activate an assistant host."""
 import hashlib
 import importlib.util
+import contextlib
+import io
 import json
 import os
 from pathlib import Path
@@ -51,6 +53,46 @@ class DistributionTests(unittest.TestCase):
         return Path(shutil.copytree(
             PACKAGE, self.base / "source",
             ignore=shutil.ignore_patterns("__pycache__", "*.pyc")))
+
+    def test_installer_cli_rejects_invalid_arguments_without_writes(self):
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        backups = self.base / "package-backups"
+        cases = [
+            ([], 2, "--dest"),
+            (["--dest", str(dest.parent / "wrong-name")], 1,
+             "destination folder must be named leadership-toolbox"),
+            (["--dest", str(dest), "--backup-dir", str(dest.parent)], 1,
+             "backup directory must be outside"),
+            (["--dest", str(dest), "--backup-dir", str(backups),
+              "--restore", str(self.base / "not-a-backup")], 1,
+             "restore requires a named backup"),
+        ]
+        for arguments, exit_code, message in cases:
+            with self.subTest(arguments=arguments):
+                result = subprocess.run(
+                    [sys.executable, "-B", str(ROOT / "scripts/install.py"), *arguments],
+                    cwd=self.base, text=True, capture_output=True, timeout=30)
+                self.assertEqual(result.returncode, exit_code, result.stderr)
+                self.assertIn(message, result.stderr)
+                self.assertEqual(result.stdout, "")
+                self.assertNotIn("Traceback", result.stderr)
+                self.assertEqual(list(self.base.iterdir()), [])
+
+    def test_installer_cli_reports_os_error_and_preserves_existing_package(self):
+        dest = self.base / "host" / "skills" / "leadership-toolbox"
+        dest.mkdir(parents=True)
+        (dest / "marker.txt").write_bytes(b"existing package\n")
+        previous = snapshot(dest)
+        output, errors = io.StringIO(), io.StringIO()
+        with mock.patch.object(sys, "argv", ["install.py", "--dest", str(dest)]), \
+                mock.patch.object(installer, "install", side_effect=PermissionError("fixture denied")), \
+                contextlib.redirect_stdout(output), contextlib.redirect_stderr(errors):
+            with self.assertRaises(SystemExit) as stopped:
+                installer.main()
+        self.assertEqual(stopped.exception.code, 1)
+        self.assertEqual(errors.getvalue(), "Install error: fixture denied\n")
+        self.assertEqual(output.getvalue(), "")
+        self.assertEqual(snapshot(dest), previous)
 
     def test_skill_zip_has_one_root_complete_resources_and_verified_hashes(self):
         output, count = release.build_skill(self.base / "skill.zip")
