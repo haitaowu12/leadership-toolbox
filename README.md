@@ -43,3 +43,7 @@ Original project material is MIT except explicitly marked CC BY-SA 4.0 adaptatio
 The skill cannot create authority or consent. It does not send messages, make staffing decisions, resolve serious allegations or replace qualified processes. Personal profiles are optional and are never required to begin.
 
 Version: 0.2.1. No website, background service or paid API is required.
+
+## Public method browser
+
+https://haitaowu12.github.io/leadership-toolbox/ provides the reviewed method catalogue and skill/library downloads. `python3 scripts/build_pages.py` generates `build/pages/` from the authoritative catalogue and reviewed archive allowlist. Static branch publication does not change host activation or human outcome evidence.

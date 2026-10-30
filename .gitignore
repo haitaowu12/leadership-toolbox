@@ -7,6 +7,8 @@ profile.json
 practice.jsonl
 backups/
 .DS_Store
+
+build/pages/
 node_modules/
 .codex/
 .openai/
