@@ -1,0 +1,26 @@
+{
+  "source_commit": "de48c46dd25b3e9a43f093a688feeb4a2c430925",
+  "hosting": "GitHub Pages branch publishing",
+  "files": [
+    {
+      "path": "SHA256SUMS",
+      "bytes": 196,
+      "sha256": "d656f2378020710978d5d8a89d32fe9c6d8bebacc09202ccd8e3d2b515316f65"
+    },
+    {
+      "path": "index.html",
+      "bytes": 29222,
+      "sha256": "881e7aa4d1362b900767714f3fdb58fd2ac249f60fbb44948a9f3d2afaa4ada7"
+    },
+    {
+      "path": "leadership-toolbox-0.2.1.zip",
+      "bytes": 437723,
+      "sha256": "e96093df85e8b40abff1320e94d9c6bc7c297e92e4819a6069e9aae62c88ec5b"
+    },
+    {
+      "path": "leadership-toolbox-skill-0.2.1.zip",
+      "bytes": 219135,
+      "sha256": "af665aa021f596fc2ef210055b5c9e377feca775ca6e6bdeba7a43969ab9cca9"
+    }
+  ]
+}
