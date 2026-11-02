@@ -47,3 +47,5 @@ Version: 0.2.1. No website, background service or paid API is required.
 ## Public method browser
 
 https://haitaowu12.github.io/leadership-toolbox/ provides the reviewed method catalogue and skill/library downloads. `python3 scripts/build_pages.py` generates `build/pages/` from the authoritative catalogue and reviewed archive allowlist. Static branch publication does not change host activation or human outcome evidence.
+
+Built by [Tony Wu](https://haitaowu12.github.io/tony-wu-home/) · [More projects](https://haitaowu12.github.io/tony-wu-home/#work).
