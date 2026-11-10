@@ -48,7 +48,7 @@ Version: 0.2.1. No website, background service or paid API is required.
 
 https://leadership-toolbox.web.app/ provides the reviewed method catalogue and skill/library downloads. `python3 scripts/build_pages.py` generates `build/pages/` from the authoritative catalogue and reviewed archive allowlist. Hosting publication does not change host activation or human outcome evidence.
 
-Built by [Tony Wu](https://haitaowu12.github.io/tony-wu-home/) · [More projects](https://haitaowu12.github.io/tony-wu-home/#work).
+Built by [Tony Wu](https://tony-wu-home.web.app/) · [More projects](https://tony-wu-home.web.app/#work).
 
 ## Firebase Hosting
 
